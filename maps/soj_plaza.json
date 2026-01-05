@@ -930,7 +930,7 @@
  "tilesets":[
         {
          "firstgid":1,
-         "source":"..\/..\/parallels\/maps\/PRL_FA_DAY_DOWNHOUSES.json"
+         "source":"..\/..\/parallels\/maps\/SOJ_DAY_DOWNHOUSES.json"
         }, 
         {
          "firstgid":811,
@@ -938,19 +938,19 @@
         }, 
         {
          "firstgid":835,
-         "source":"..\/..\/parallels\/maps\/PRL_FA_DAY_INTERIOR_SHOP.json"
+         "source":"..\/..\/parallels\/maps\/SOJ_DAY_INTERIOR_SHOP.json"
         }, 
         {
          "firstgid":1859,
-         "source":"..\/..\/parallels\/maps\/PRL_FA_DAY_CARS.json"
+         "source":"..\/..\/parallels\/maps\/SOJ_DAY_CARS.json"
         }, 
         {
          "firstgid":2883,
-         "source":"..\/..\/parallels\/maps\/PRL_FA_DAY_EXTERIOR.json"
+         "source":"..\/..\/parallels\/maps\/SOJ_DAY_EXTERIOR.json"
         }, 
         {
          "firstgid":3907,
-         "source":"..\/..\/parallels\/maps\/PRL_FA_DAY_EXTERIOR_2.json"
+         "source":"..\/..\/parallels\/maps\/SOJ_DAY_EXTERIOR_2.json"
         }],
  "tilewidth":32,
  "type":"map",

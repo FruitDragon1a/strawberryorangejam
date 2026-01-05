@@ -777,11 +777,11 @@
         }, 
         {
          "firstgid":25,
-         "source":"..\/..\/parallels\/maps\/PRL_FA_DAY_INTERIOR_CHURCH.json"
+         "source":"..\/..\/parallels\/maps\/SOJ_DAY_INTERIOR_CHURCH.json"
         }, 
         {
          "firstgid":1049,
-         "source":"..\/..\/parallels\/maps\/PRL_FA_DAY_INTERIOR.json"
+         "source":"..\/..\/parallels\/maps\/SOJ_DAY_INTERIOR.json"
         }, 
         {
          "firstgid":2073,
@@ -789,7 +789,7 @@
         }, 
         {
          "firstgid":3097,
-         "source":"..\/..\/parallels\/maps\/PRL_FA_DAY_INTERIOR_2.json"
+         "source":"..\/..\/parallels\/maps\/SOJ_DAY_INTERIOR_2.json"
         }],
  "tilewidth":32,
  "type":"map",

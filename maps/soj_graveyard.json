@@ -798,7 +798,7 @@
         }, 
         {
          "firstgid":1049,
-         "source":"..\/..\/parallels\/maps\/PRL_FA_DAY_INTERIOR_SHOP.json"
+         "source":"..\/..\/parallels\/maps\/SOJ_DAY_INTERIOR_SHOP.json"
         }, 
         {
          "firstgid":2073,
@@ -806,7 +806,7 @@
         }, 
         {
          "firstgid":3097,
-         "source":"..\/..\/parallels\/maps\/PRL_FA_DAY_EXTERIOR.json"
+         "source":"..\/..\/parallels\/maps\/SOJ_DAY_EXTERIOR.json"
         }],
  "tilewidth":32,
  "type":"map",

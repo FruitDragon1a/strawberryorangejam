@@ -740,7 +740,7 @@
  "tilesets":[
         {
          "firstgid":1,
-         "source":"..\/..\/parallels\/maps\/PRL_FA_DAY_DOWNHOUSES.json"
+         "source":"..\/..\/parallels\/maps\/SOJ_DAY_DOWNHOUSES.json"
         }, 
         {
          "firstgid":811,
@@ -748,7 +748,7 @@
         }, 
         {
          "firstgid":835,
-         "source":"..\/..\/parallels\/maps\/PRL_FA_DAY_EXTERIOR.json"
+         "source":"..\/..\/parallels\/maps\/SOJ_DAY_EXTERIOR.json"
         }],
  "tilewidth":32,
  "type":"map",

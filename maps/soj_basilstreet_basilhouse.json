@@ -1214,15 +1214,15 @@
         }, 
         {
          "firstgid":25,
-         "source":"..\/..\/parallels\/maps\/PRL_FA_DAY_INTERIOR.json"
+         "source":"..\/..\/parallels\/maps\/SOJ_DAY_INTERIOR.json"
         }, 
         {
          "firstgid":1049,
-         "source":"..\/..\/parallels\/maps\/PRL_FA_DAY_INTERIOR_SHOP.json"
+         "source":"..\/..\/parallels\/maps\/SOJ_DAY_INTERIOR_SHOP.json"
         }, 
         {
          "firstgid":2073,
-         "source":"..\/..\/parallels\/maps\/PRL_FA_DAY_INTERIOR_2.json"
+         "source":"..\/..\/parallels\/maps\/SOJ_DAY_INTERIOR_2.json"
         }, 
         {
          "firstgid":3097,
@@ -1230,7 +1230,7 @@
         }, 
         {
          "firstgid":4121,
-         "source":"..\/..\/parallels\/maps\/PRL_FA_DAY_INTERIOR_3.json"
+         "source":"..\/..\/parallels\/maps\/SOJ_DAY_INTERIOR_3.json"
         }, 
         {
          "firstgid":5145,
@@ -1238,7 +1238,7 @@
         }, 
         {
          "firstgid":6169,
-         "source":"..\/..\/parallels\/maps\/PRL_FA_DAY_EXTERIOR.json"
+         "source":"..\/..\/parallels\/maps\/SOJ_DAY_EXTERIOR.json"
         }],
  "tilewidth":32,
  "type":"map",
