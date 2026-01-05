@@ -555,27 +555,27 @@
  "tilesets":[
         {
          "firstgid":1,
-         "source":"..\/..\/parallels\/maps\/Tile_Collisions_32x32.json"
+         "source":"Tile_Collisions_32x32.json"
         }, 
         {
          "firstgid":25,
-         "source":"..\/..\/parallels\/maps\/FA_SHOP.json"
+         "source":"FA_SHOP.json"
         }, 
         {
          "firstgid":1049,
-         "source":"..\/..\/parallels\/maps\/general_use.json"
+         "source":"general_use.json"
         }, 
         {
          "firstgid":2073,
-         "source":"..\/..\/parallels\/maps\/DW_Hedges.json"
+         "source":"DW_Hedges.json"
         }, 
         {
          "firstgid":3097,
-         "source":"..\/..\/parallels\/maps\/FA_OUTSIDE_CARS.json"
+         "source":"FA_OUTSIDE_CARS.json"
         }, 
         {
          "firstgid":4121,
-         "source":"..\/..\/parallels\/maps\/FA_Interior2.json"
+         "source":"FA_Interior2.json"
         }],
  "tilewidth":32,
  "type":"map",

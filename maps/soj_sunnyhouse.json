@@ -1332,19 +1332,19 @@
  "tilesets":[
         {
          "firstgid":1,
-         "source":"..\/..\/parallels\/maps\/Tile_Collisions_32x32.json"
+         "source":"Tile_Collisions_32x32.json"
         }, 
         {
          "firstgid":25,
-         "source":"..\/..\/parallels\/maps\/SOJ_DAY_INTERIOR.json"
+         "source":"SOJ_DAY_INTERIOR.json"
         }, 
         {
          "firstgid":1049,
-         "source":"..\/..\/parallels\/maps\/SOJ_DAY_INTERIOR_2.json"
+         "source":"SOJ_DAY_INTERIOR_2.json"
         }, 
         {
          "firstgid":2073,
-         "source":"..\/..\/parallels\/maps\/SOJ_DAY_INTERIOR_3.json"
+         "source":"SOJ_DAY_INTERIOR_3.json"
         }],
  "tilewidth":32,
  "type":"map",

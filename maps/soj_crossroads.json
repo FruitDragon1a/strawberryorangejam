@@ -1131,11 +1131,11 @@
  "tilesets":[
         {
          "firstgid":1,
-         "source":"..\/..\/parallels\/maps\/Tile_Collisions_32x32.json"
+         "source":"Tile_Collisions_32x32.json"
         }, 
         {
          "firstgid":25,
-         "source":"..\/..\/parallels\/maps\/SOJ_DAY_EXTERIOR.json"
+         "source":"SOJ_DAY_EXTERIOR.json"
         }],
  "tilewidth":32,
  "type":"map",

@@ -630,19 +630,19 @@
  "tilesets":[
         {
          "firstgid":1,
-         "source":"..\/..\/parallels\/maps\/SOJ_DAY_UPPERHOUSES.json"
+         "source":"SOJ_DAY_UPPERHOUSES.json"
         }, 
         {
          "firstgid":811,
-         "source":"..\/..\/parallels\/maps\/Tile_Collisions_32x32.json"
+         "source":"Tile_Collisions_32x32.json"
         }, 
         {
          "firstgid":835,
-         "source":"..\/..\/parallels\/maps\/SOJ_DAY_EXTERIOR.json"
+         "source":"SOJ_DAY_EXTERIOR.json"
         }, 
         {
          "firstgid":1859,
-         "source":"..\/..\/parallels\/maps\/PRL_FA_RAIN_EXTERIOR.json"
+         "source":"PRL_FA_RAIN_EXTERIOR.json"
         }],
  "tilewidth":32,
  "type":"map",
