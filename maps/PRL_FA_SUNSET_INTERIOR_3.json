@@ -1,0 +1,14 @@
+{ "columns":32,
+ "image":"..\/img\/tilesets\/PRL_FA_SUNSET_INTERIOR_3.png",
+ "imageheight":1024,
+ "imagewidth":1024,
+ "margin":0,
+ "name":"FA SUNSET INT. 3",
+ "spacing":0,
+ "tilecount":1024,
+ "tiledversion":"1.11.2",
+ "tileheight":32,
+ "tilewidth":32,
+ "type":"tileset",
+ "version":"1.10"
+}

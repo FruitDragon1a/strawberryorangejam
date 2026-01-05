@@ -1,0 +1,14 @@
+{ "columns":30,
+ "image":"..\/img\/tilesets\/PRL_FA_DAY_UPPERHOUSES_2.png",
+ "imageheight":864,
+ "imagewidth":960,
+ "margin":0,
+ "name":"FA DAY UPPER 2",
+ "spacing":0,
+ "tilecount":810,
+ "tiledversion":"1.11.0",
+ "tileheight":32,
+ "tilewidth":32,
+ "type":"tileset",
+ "version":"1.10"
+}
