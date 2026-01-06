@@ -1,0 +1,139 @@
+# Intro Cutscene, outside of basils house
+# There is nobody there, then the door opens and basil steps outside of the house
+# He goes and a few steps out of his front door, polly follows him
+
+intro_0:
+  #faceset: FA_POLLY_DIALOGUE
+  #faceindex
+  text: Oh, BASIL, I forgot to ask.\! Do you have any plans for today?\pol
+
+intro_1:
+  faceset: SOJ_BASIL
+  faceindex: 0
+  text: Not really,\. no.\! I was just going to garden for a while and then head inside.\! Maybe read a book or two,\. call SUNNY later,\. the usual.\! Both KEL and AUBREY said they had plans.\bas
+
+# basil turns away to go to a plant
+# the exclamation bubble
+
+intro_2:
+  faceset: SOJ_BASIL
+  faceindex: 27
+  text: Wait,\. I almost forgot!\! I wanted to leave some flowers at MARI's gravestone.\! Is that okay?\bas
+
+intro_3:
+  faceset: 
+  faceindex: 
+  text: Of course.\! And let me know if you need a ride.\! I’ve got nothing else to do today, haha.\pol
+
+intro_4:
+  faceset: SOJ_BASIL
+  faceindex: 2
+  text: I will!\! Thank you!\bas
+
+#Basil moves over to his plants, watering them one by one. A musical balloon appears as he goes.
+
+intro_5:
+  text: BASILLLLLLL!!\who
+
+#exclamation balloon as basil turns to the left side of the street. Kel runs in, stopping right in front of Basil
+
+intro_6:
+  faceset: SOJ_BASIL
+  faceindex: 33
+  text: KEL?\bas
+
+intro_7:
+  faceset: 
+  faceindex: 
+  text: BASIL!\! Just the person I wanted to see!\! I need your help!\kel
+
+intro_8:
+  faceset: SOJ_BASIL
+  faceindex: 14
+  text: Wait, weren't you busy?\!What do you need help with?\bas
+
+# kel sweat bubble
+
+intro_9:
+  faceset: 
+  faceindex: 
+  text: Well, uh...\kel
+
+intro_10:
+  faceset: 
+  faceindex: 
+  text: It's kinda...\kel
+
+intro_11:
+  faceset: SOJ_BASIL
+  faceindex: 29
+  text: I can't help you unless you tell me what it is, KEL.\bas
+
+intro_12:
+  faceset: 
+  faceindex: 
+  text: ...\kel
+
+intro_13:
+  faceset: SOJ_BASIL
+  faceindex: 0
+  text: What's wrong?\bas
+
+intro_14:
+  faceset: 
+  faceindex: 
+  text: I want to...\| ask...\| AUBREY out...\kel
+
+# total silence for like 80 frames
+
+intro_15:
+  faceset: SOJ_BASIL
+  faceindex: 37
+  text: .\..\..\|\Face[36]What?\bas # confusion expression
+
+intro_16:
+  faceset: 
+  faceindex: 
+  text: See?\! Even you think it's a bad idea!\kel
+
+intro_17:
+  faceset: SOJ_BASIL
+  faceindex: 15
+  text: No no no!\! I kind of knew you liked her,\. it's just...\| I didn't think you'd come to me about it.\bas
+
+intro_18:
+  faceset: 
+  faceindex: 
+  text: You knew AUBREY a lot longer than I did.\! You were friends with her way before I was!\kel
+
+intro_19:
+  faceset: SOJ_BASIL
+  faceindex: 9
+  text: I mean... I guess that's objectively true—\bas
+
+intro_20:
+  faceset: SOJ_BASIL
+  faceindex: 32
+  text: Wait, but how does that help you?\bas
+
+intro_21:
+  faceset: 
+  faceindex: 
+  text: Well, for starters, you can come with me to help pick out a gift!\! Who'd know her better than her oldest friend?\kel
+
+intro_22:
+  faceset: SOJ_BASIL
+  faceindex: 
+  text: Are you sure?\bas
+
+intro_23:
+  faceset: 
+  faceindex: 
+  text: Of course!\! You have a good eye for everything, BASIL!\kel
+
+intro_24:
+  faceset: SOJ_BASIL
+  faceindex: 
+  text: Thanks...\bas
+
+#They leave to the gift shop

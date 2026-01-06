@@ -790,6 +790,10 @@
         {
          "firstgid":3097,
          "source":"SOJ_DAY_INTERIOR_2.json"
+        }, 
+        {
+         "firstgid":4121,
+         "source":"SOJ_DAY_EXTERIOR_2.json"
         }],
  "tilewidth":32,
  "type":"map",
