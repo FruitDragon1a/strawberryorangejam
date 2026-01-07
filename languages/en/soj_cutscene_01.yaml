@@ -21,8 +21,8 @@ intro_2:
   text: Wait,\. I almost forgot!\! I wanted to leave some flowers at MARI's gravestone.\! Is that okay?\bas
 
 intro_3:
-  faceset: 
-  faceindex: 
+  #faceset: 
+  #faceindex: 
   text: Of course.\! And let me know if you need a ride.\! I’ve got nothing else to do today, haha.\pol
 
 intro_4:
@@ -43,8 +43,8 @@ intro_6:
   text: KEL?\bas
 
 intro_7:
-  faceset: 
-  faceindex: 
+  faceset: SOJ_KEL
+  faceindex: 2
   text: BASIL!\! Just the person I wanted to see!\! I need your help!\kel
 
 intro_8:
@@ -55,13 +55,13 @@ intro_8:
 # kel sweat bubble
 
 intro_9:
-  faceset: 
-  faceindex: 
+  faceset: SOJ_KEL
+  faceindex: 4
   text: Well, uh...\kel
 
 intro_10:
-  faceset: 
-  faceindex: 
+  faceset: SOJ_KEL
+  faceindex: 8 #imagine this but kinda blushing a bit
   text: It's kinda...\kel
 
 intro_11:
@@ -70,8 +70,8 @@ intro_11:
   text: I can't help you unless you tell me what it is, KEL.\bas
 
 intro_12:
-  faceset: 
-  faceindex: 
+  faceset: SOJ_KEL
+  faceindex: 15
   text: ...\kel
 
 intro_13:
@@ -80,8 +80,8 @@ intro_13:
   text: What's wrong?\bas
 
 intro_14:
-  faceset: 
-  faceindex: 
+  faceset: SOJ_KEL
+  faceindex: 14
   text: I want to...\| ask...\| AUBREY out...\kel
 
 # total silence for like 80 frames
@@ -92,8 +92,8 @@ intro_15:
   text: .\..\..\|\Face[36]What?\bas # confusion expression
 
 intro_16:
-  faceset: 
-  faceindex: 
+  faceset: SOJ_KEL
+  faceindex: 11
   text: See?\! Even you think it's a bad idea!\kel
 
 intro_17:
@@ -102,8 +102,8 @@ intro_17:
   text: No no no!\! I kind of knew you liked her,\. it's just...\| I didn't think you'd come to me about it.\bas
 
 intro_18:
-  faceset: 
-  faceindex: 
+  faceset: SOJ_KEL
+  faceindex: 5
   text: You knew AUBREY a lot longer than I did.\! You were friends with her way before I was!\kel
 
 intro_19:
@@ -117,23 +117,23 @@ intro_20:
   text: Wait, but how does that help you?\bas
 
 intro_21:
-  faceset: 
-  faceindex: 
+  faceset: SOJ_KEL
+  faceindex: 12
   text: Well, for starters, you can come with me to help pick out a gift!\! Who'd know her better than her oldest friend?\kel
 
 intro_22:
   faceset: SOJ_BASIL
-  faceindex: 
+  faceindex: 0
   text: Are you sure?\bas
 
 intro_23:
-  faceset: 
-  faceindex: 
+  faceset: SOJ_KEL
+  faceindex: 2
   text: Of course!\! You have a good eye for everything, BASIL!\kel
 
 intro_24:
   faceset: SOJ_BASIL
-  faceindex: 
+  faceindex: 41
   text: Thanks...\bas
 
 #They leave to the gift shop
