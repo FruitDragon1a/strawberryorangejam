@@ -33,7 +33,7 @@ intro_4:
 #Basil moves over to his plants, watering them one by one. A musical balloon appears as he goes.
 
 intro_5:
-  text: BASILLLLLLL!!\who
+  text: \{\QUAKE[1]BASILLLLLLL!!\who
 
 #exclamation balloon as basil turns to the left side of the street. Kel runs in, stopping right in front of Basil
 
@@ -50,29 +50,29 @@ intro_7:
 intro_8:
   faceset: SOJ_BASIL
   faceindex: 14
-  text: Wait, weren't you busy?\! What do you need help with?\bas
+  text: Wait,\. weren't you busy?\! What do you need help with?\bas
 
 # kel sweat bubble
 
 intro_9:
   faceset: SOJ_KEL
   faceindex: 4
-  text: Well, uh...\kel
+  text: Well, uh.\..\..\.\kel
 
 intro_10:
   faceset: SOJ_KEL
   faceindex: 3 #imagine this but kinda blushing a bit
-  text: It's kinda...\kel
+  text: It's kinda.\..\..\.\kel
 
 intro_11:
   faceset: SOJ_BASIL
   faceindex: 29
-  text: I can't help you unless you tell me what it is, KEL.\bas
+  text: .\..\..\.I can't help you unless you tell me what it is, KEL.\bas
 
 intro_12:
   faceset: SOJ_KEL
   faceindex: 15
-  text: ...\kel
+  text: .\..\..\.\kel
 
 intro_13:
   faceset: SOJ_BASIL
@@ -99,12 +99,12 @@ intro_16:
 intro_17:
   faceset: SOJ_BASIL
   faceindex: 15
-  text: No no no!\! I kind of knew you liked her,\. it's just...\| I didn't think you'd come to me about it.\bas
+  text: No no no!\! I kind of knew you liked her,\. it's just...\|\face[34] I didn't think you'd come to me about it.\bas
 
 intro_18:
   faceset: SOJ_KEL
-  faceindex: 5
-  text: You knew AUBREY a lot longer than I did.\! You were friends with her way before I was!\kel
+  faceindex: 8
+  text: You knew AUBREY a lot longer than I did.\!\face[0] You were friends with her way before I was!\kel
 
 intro_19:
   faceset: SOJ_BASIL
@@ -119,17 +119,17 @@ intro_20:
 intro_21:
   faceset: SOJ_KEL
   faceindex: 12
-  text: Well, for starters, you can come with me to help pick out a gift!\! Who'd know her better than her oldest friend?\kel
+  text: Well, for starters, you can come with me to help pick out a gift!\!\face[2] Who'd know her better than her oldest friend?\kel
 
 intro_22:
   faceset: SOJ_BASIL
-  faceindex: 0
+  faceindex: 34
   text: Are you sure?\bas
 
 intro_23:
   faceset: SOJ_KEL
-  faceindex: 2
-  text: Of course!\! You have a good eye for everything, BASIL!\kel
+  faceindex: 1
+  text: Of course!\!\face[2] You have a good eye for everything, BASIL!\kel
 
 intro_24:
   faceset: SOJ_BASIL
