@@ -39,7 +39,7 @@ intro_5:
 
 intro_6:
   faceset: SOJ_BASIL
-  faceindex: 33
+  faceindex: 32
   text: KEL?\bas
 
 intro_7:
@@ -50,7 +50,7 @@ intro_7:
 intro_8:
   faceset: SOJ_BASIL
   faceindex: 14
-  text: Wait, weren't you busy?\!What do you need help with?\bas
+  text: Wait, weren't you busy?\! What do you need help with?\bas
 
 # kel sweat bubble
 
@@ -61,7 +61,7 @@ intro_9:
 
 intro_10:
   faceset: SOJ_KEL
-  faceindex: 8 #imagine this but kinda blushing a bit
+  faceindex: 3 #imagine this but kinda blushing a bit
   text: It's kinda...\kel
 
 intro_11:
