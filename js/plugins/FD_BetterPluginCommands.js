@@ -1,13 +1,13 @@
 //=============================================================================
-// ★ FD_BetterPluginCommands ★                                  v1.2.1      
+// ★ FD_BetterPluginCommands ★                                  v1.2.0      
 //=============================================================================
  /*:
- * @plugindesc A variety of plugin commands + better plugin functionality.
+ * @plugindesc v1.2.0 A variety of plugin commands + better plugin functionality.
  * @author FruitDragon
- * @version 1.2.1
+ * @version 1.2.0
  * 
  * @help
- * Special Thanks: bajamaid, FoG, stahl, tomatoradio
+ * Special Thanks: bajamaid, FoG, stahl
  * 
  * Plugin Commands Available:
  * - SelfSwitch
@@ -139,11 +139,8 @@
  * =============================================================================
  * MapFog (TDS Map Fog.js) (edited to include fade transition)
  * =============================================================================
- * Plugin: MapFog set [fogId] [file] [x] [y] [opacity] [blend] [scaleX] [scaleY] [panX] [panY]
- * Plugin: MapFog update [fogId] [file] [x] [y] [opacity] [blend] [scaleX] [scaleY] [panX] [panY]
+ * Plugin: MapFog set [fogId] [file] [x] [y] [opacity] [blend] [scaleX] [scaleY]
  * Plugin: MapFog fade [fogId] [opacity] [time]
- * Plugin: MapFog fadescrollx [fogId] [x] [time]
- * Plugin: MapFog fadescrolly [fogId] [y] [time]
  * Plugin: MapFog clear [fogId]
  * 
  * Plugin command to create the fog that is used in places like Pyrefly Forest.
@@ -153,12 +150,10 @@
  * [x] Speed at which the fog scrolls on horizontal axis
  * [y] Speed at which the fog scrolls on vertical axis
  * [opacity] Opacity of the fog
- * [blend] Blendmode of fog (0 - Normal, 1 - Additive, 2 - Multiply, 3 - Screen) Both word and number are accepted.
- * [scaleX] (optional) Horizontal stretch of image
- * [scaleY] (optional) Vertical stretch of image
- * [panX] (optional) Horizontal scroll speed relative to map. Accepts any number. eg: 1 is the same speed as the map, 0.5 is half, 2 is twice.
- * [panX] (optional) Horizontal scroll speed relative to map.
- * [time] Frames for the fog to fade from original to new opacity/scroll
+ * [blend] Blendmode of fog (typically 0 is used)
+ * [scaleX*] (optional) Horizontal stretch of image
+ * [scaleY*] (optional) Vertical stretch of image
+ * [time] Frames for the fog to fade from original to new opacity
  * 
  * MapFog set fog1 fog 1 0 75 0
  * MapFog set fog2 circle_fog 0 1 0 0 6 4
@@ -233,10 +228,6 @@
  * v1.2.0 Added one new command
  * - BalloonImage
  * 
- * v1.2.1 TomatoRadio added more functionality to the fog command
- * 
- * v1.2.2 FruitDragon bugfixed a minor error that broke base game fog command
- * 
  * 
  * 
  * @param Balloon Image
@@ -280,7 +271,7 @@ function obtainSpriteMapFogClass() {
 	// FoG - Check if the scene is defined, if so create a initialization fog to run the Sprite_MapFog class
 	// FoG - Afterwords we remove the initialization fog.
 	if (SceneManager._scene instanceof Scene_Map && SceneManager._scene._spriteset._mapFogContainer) {
-		Game_Interpreter.prototype.createFogWithoutFade('initialize1', 'PRL_FOG_BASE_1', 0, 0, 0, 0, 0, 0, 1, 1);
+		Game_Interpreter.prototype.createFogWithoutFade('initialize1', 'fog', 0, 0, 0, 0, 0, 0);
 		const Container = SceneManager._scene._spriteset._mapFogContainer;
 		const SpriteInstance = Container._sprites[0];
 		$gameMap.removeMapFog('initialize1')
@@ -317,47 +308,15 @@ function obtainSpriteMapFogClass() {
 				data.opacity += data._fadeStep;
 				this.opacity = data.opacity;
 				if (data._fadeStep > 0) {
-					if (data.opacity >= data.finalOpacity) {
-						data._fadeFlag = false;
-						this._fadeFlag = data._fadeFlag;
-					}
-				} else {
-					if (data.opacity <= data.finalOpacity) {
-						data._fadeFlag = false;
-						this._fadeFlag = data._fadeFlag;
-					}
+				if (data.opacity >= data.finalOpacity) {
+					data._fadeFlag = false;
+					this._fadeFlag = data._fadeFlag;
 				}
-			}
-			this.move.x = data.move.x
-			if (data._fadeScrollXFlag && data._fadeScrollXStep && data.finalScrollX !== 'undefined') {
-				data.move.x += data._fadeScrollXStep;
-				this.move.x = data.move.x
-				if (data._fadeScrollXStep > 0) {
-					if (data.move.x >= data.finalScrollX) {
-						data._fadeScrollXFlag = false;
-						this._fadeScrollXFlag = false;
-					}
 				} else {
-					if (data.move.x <= data.finalScrollX) {
-						data._fadeScrollXFlag = false;
-						this._fadeScrollXFlag = false;
-					}
+				if (data.opacity <= data.finalOpacity) {
+					data._fadeFlag = false;
+					this._fadeFlag = data._fadeFlag;
 				}
-			}
-			this.move.y = data.move.y
-			if (data._fadeScrollYFlag && data._fadeScrollYStep && data.finalScrollY !== 'undefined') {
-				data.move.y += data._fadeScrollYStep;
-				this.move.y = data.move.y
-				if (data._fadeScrollYStep > 0) {
-					if (data.move.y >= data.finalScrollY) {
-						data._fadeScrollYFlag = false;
-						this._fadeScrollYFlag = false;
-					}
-				} else {
-					if (data.move.y <= data.finalScrollY) {
-						data._fadeScrollYFlag = false;
-						this._fadeScrollYFlag = false;
-					}
 				}
 			}
 			this.blendMode = data.blendMode;
@@ -369,15 +328,15 @@ function obtainSpriteMapFogClass() {
 			// If Bitmap width is more than 0
 			if (this.bitmap.width > 0) {
 				// Set Base Origin Position
-				data.origin.x = (data.origin.x + this.move.x) % this.bitmap.width;
-				data.origin.y = (data.origin.y + this.move.y) % this.bitmap.height;
+				data.origin.x = (data.origin.x + data.move.x) % this.bitmap.width;
+				data.origin.y = (data.origin.y + data.move.y) % this.bitmap.height;
 				// Set Origin
 				this.origin.x = data.origin.x;
 				this.origin.y = data.origin.y;
 				// If Fog should be boudn to map
 				if (data.mapBind) {
-				this.origin.x += ($gameMap.displayX() * ($gameMap.tileWidth() * data.parallaxX))
-				this.origin.y += ($gameMap.displayY() * ($gameMap.tileHeight() * data.parallaxY));        
+				this.origin.x += ($gameMap.displayX() * $gameMap.tileWidth())
+				this.origin.y += ($gameMap.displayY() * $gameMap.tileHeight());        
 				};
 			};
 			} else {
@@ -413,7 +372,7 @@ Game_Interpreter.prototype.createMapFog = function(id, fog) {
 	if (container) { container.addFog(id); };
 }; 
 
-Game_Interpreter.prototype.createFogWithoutFade = function(id, name, x_scroll, y_scroll, opacity, blendmode, scaleX, scaleY, parallaxX, parallaxY) {
+Game_Interpreter.prototype.createFogWithoutFade = function(id, name, x_scroll, y_scroll, opacity, blendmode, scaleX, scaleY) {
 		let fog = this.generateMapFog()
 		fog.move.x = x_scroll
 		fog.move.y = y_scroll
@@ -422,51 +381,13 @@ Game_Interpreter.prototype.createFogWithoutFade = function(id, name, x_scroll, y
 		fog.name = name
 		fog.opacity = opacity
 		fog.finalOpacity = opacity
-		blendmode = blendmode.toString()
-		if (blendmode.toLowerCase() == 'normal') {
-			blendmode = 0
-		} else if (blendmode.toLowerCase().startsWith('add')) {
-			blendmode = 1
-		} else if (blendmode.toLowerCase() == 'multiply') {
-			blendmode = 2
-		} else if (blendmode.toLowerCase() == 'screen') {
-			blendmode = 3
-		} else {
-			blendmode = parseInt(blendmode)
-		}
 		fog.blendMode = blendmode
-		fog.parallaxX = parallaxX
-		fog.parallaxY = parallaxY
 
 	//FD.BetterPluginCommands.opacity = opacity
 	//FD.BetterPluginCommands.time = 0
 
 		this.createMapFog(id, fog);
 
-}
-
-Game_Interpreter.prototype.updateFog = function(id, name, x_scroll, y_scroll, opacity, blendmode, scaleX, scaleY, parallaxX = 1, parallaxY = 1) {
-		let fog = $gameMap.getMapFog(id)
-		if (x_scroll !== 'same') {fog.move.x = Number(x_scroll)}
-		if (y_scroll !== 'same') {fog.move.y = Number(y_scroll)}
-		if (scaleX !== 'same') {fog.scaleX = Number(scaleX)}
-		if (scaleY !== 'same') {fog.scaleY = Number(scaleY)}
-		if (name !== 'same') {fog.name = name}
-		if (opacity !== 'same') {fog.opacity = Number(opacity)}
-		if (blendmode.toLowerCase() == 'normal') {
-			blendmode = 0
-		} else if (blendmode.toLowerCase().startsWith('add')) {
-			blendmode = 1
-		} else if (blendmode.toLowerCase() == 'multiply') {
-			blendmode = 2
-		} else if (blendmode.toLowerCase() == 'screen') {
-			blendmode = 3
-		} else if (blendmode !== 'same') {
-			blendmode = Number(blendmode)
-		}
-		if (blendmode !== 'same') {fog.blendMode = blendmode}
-		if (parallaxX !== 'same') {fog.parallaxX = Number(parallaxX)}
-		if (parallaxY !== 'same') {fog.parallaxY = Number(parallaxY)}
 }
 
 Game_Interpreter.prototype.fadeFog = function(id, opacity, time) {
@@ -482,36 +403,6 @@ Game_Interpreter.prototype.fadeFog = function(id, opacity, time) {
 			data._fadeStep = 1;
 		} else {
 			data._fadeStep = -1;
-		}
-	}
-};
-
-Game_Interpreter.prototype.fadeScrollX = function(id, finalScroll, time) {
-	let data = $gameMap.getMapFog(id);
-	let scroll = data.move.x
-	data.finalScrollX = finalScroll
-	data._fadeScrollXFlag = true;
-	data._fadeScrollXStep = (data.finalScrollX - scroll) / time;
-	if (data._fadeScrollXStep === 0) {
-		if (data.finalScrollX - scroll > 0) {
-			data._fadeScrollXStep = 1;
-		} else {
-			data._fadeScrollXStep = -1;
-		}
-	}
-};
-
-Game_Interpreter.prototype.fadeScrollY = function(id, finalScroll, time) {
-	let data = $gameMap.getMapFog(id);
-	let scroll = data.move.y
-	data.finalScrollY = finalScroll
-	data._fadeScrollYFlag = true;
-	data._fadeScrollYStep = (data.finalScrollY - scroll) / time;
-	if (data._fadeScrollYStep === 0) {
-		if (data.finalScrollY - scroll > 0) {
-			data._fadeScrollYStep = 1;
-		} else {
-			data._fadeScrollYStep = -1;
 		}
 	}
 };
@@ -589,16 +480,13 @@ Game_Interpreter.prototype.handleNameInput = function(args) {
 }
 
 Game_Interpreter.prototype.handleMapFog = function(args) {
-	// PluginCommand MapFog set id filename x_scroll y_scroll opacity blendmode scaleX scaleY parallaxX parallaxY
+	// PluginCommand MapFog set id filename x_scroll y_scroll opacity blendmode scaleX scaleY
 	// PluginCommand MapFog fade id opacity time
 	// PluginCommand MapFog clear id
-	// PluginCommand MapFog fadeScrollX id x_scroll time
-	// PluginCommand MapFog fadeScrollY id y_scroll time
-	// PluginCommand MapFog update id filename x_scroll y_scroll opacity blendmode scaleX scaleY parallaxX parallaxY
 	temp = args.shift();
 	switch (temp.toLowerCase()) {
 	case 'set':
-		this.createFogWithoutFade(args[0], args[1], Number(args[2]), Number(args[3]), Number(args[4]), String(args[5]), Number(args[6]) || 1, Number(args[7]) || 1, Number(args[8]) || 1, Number(args[9]) || 1)
+		this.createFogWithoutFade(args[0], args[1], Number(args[2]), Number(args[3]), Number(args[4]), Number(args[5]), Number(args[6]) || 1, Number(args[7]) || 1)
 		return;
 	case 'clear':
 		$gameMap.removeMapFog(args[0])
@@ -606,14 +494,6 @@ Game_Interpreter.prototype.handleMapFog = function(args) {
 	case 'fade':
 		this.fadeFog(args[0], Number(args[1]), Number(args[2]))
 		return;
-	case 'fadescrollx':
-		this.fadeScrollX(args[0],Number(args[1]),Number(args[2]))
-		return;
-	case 'fadescrolly':
-		this.fadeScrollY(args[0],Number(args[1]),Number(args[2]))
-		return;
-	case 'update':
-		this.updateFog(args[0], args[1] || 'same', args[2] || 'same', args[3] || 'same', args[4] || 'same', args[5] || 'same', args[6] || 'same', args[7] || 'same', args[8] || 'same', args[9] || 'same')
 	default:
 		return;
 	}
@@ -651,7 +531,7 @@ Game_Interpreter.prototype.handleCustomPicture = function(args) {
 		return;
 	case 'animate':
 		frames = JSON.parse(args[1]).map(Number)
-		//console.log(args[1], frames)
+		console.log(args[1], frames)
 		//CustomPicture animate pictureId frames delay loops = Infinity wait = true
 		this.setPictureAnimation(Number(args[0]), frames, Number(args[2]), Number(args[3]) || Infinity, eval(args[4]) || true)
 		return;
@@ -696,37 +576,23 @@ Game_Interpreter.prototype.handleBalloonImage = function(args) {
 	//BalloonImage set image
 	//BalloonImage clear
 	//BalloonImage reset
-	//console.log("balloon plugin command")
+	console.log("balloon plugin command")
 	temp = args.shift();
 	switch (temp.toLowerCase()) {
 		case 'set':
 			$gameVariables.setValue(FD.BetterPluginCommands.BalloonImageVar, args[0])
-			//console.log("case set")
-			//console.log(FD.BetterPluginCommands.BalloonImageVar)
+			console.log("case set")
+			console.log(FD.BetterPluginCommands.BalloonImageVar)
 			return;
 		case 'clear':
 			$gameVariables.setValue(FD.BetterPluginCommands.BalloonImageVar, '')
-			//console.log("case clear")
-			//console.log(FD.BetterPluginCommands.BalloonImageVar)
+			console.log("case clear")
+			console.log(FD.BetterPluginCommands.BalloonImageVar)
 			return;
 		case 'reset':
 			$gameVariables.setValue(FD.BetterPluginCommands.BalloonImageVar, FD.BetterPluginCommands.DefaultBalloonImage)
-			//console.log("case reset")
-			//console.log(FD.BetterPluginCommands.BalloonImageVar)
-			return;
-	}
-}
-
-Game_Interpreter.prototype.handleChangeVolume = function(args) {
-	//ChangeVolume bgm volume duration
-	//ChangeVolume bgs volume duration
-	temp = args.shift();
-	switch (temp.toLowerCase()) {
-		case 'bgm':
-			AudioManager.fadeBgmTo(Number(args[0]),Number(args[1]) || 60)
-			return;
-		case 'bgs':
-			AudioManager.fadeBgsTo(Number(args[0]),Number(args[1]) || 60)
+			console.log("case reset")
+			console.log(FD.BetterPluginCommands.BalloonImageVar)
 			return;
 	}
 }
@@ -755,9 +621,6 @@ Game_Interpreter.prototype.pluginCommand = function (command, args) {
 			return;
 		case 'balloonimage': 
 			this.handleBalloonImage(args)
-			return;
-		case 'changevolume':
-			this.handleChangeVolume(args)
 			return;
 		default:
 			FD.BetterPluginCommands.GameInterpreter_pluginCommand.call(this, command, args);

@@ -195,5 +195,6 @@ var $plugins =
 {"name":"DoubleExtendedYAML","status":true,"description":"v03.31.09 Adds increased functionality to YAML messages.\r\ncppensi p ix. c p : pee pee...","parameters":{"macroyaml":"macro","bannedscenes":"[\"Scene_OmoriPhotoAlbum\",\"Scene_OmoriItemShop\"]","reservedwindowskins":"[\"Window\"]","windowskin":"Window","textsound":"[SE]-Text","textvolume":"100","textpitch":"100","textpitchvar":"10","textpan":"0","textpanvar":"10","textinterval":"2","svolume":"90","spitch":"100","span":"0","mvolume":"90","mpitch":"100","mpan":"0","background":"0","facebackgroundcolor":"none","windowx":"null","windowy":"null","windowwidth":"null","windowheight":"null","windowquickname":"false","mirror":"false","positionType":"2","positionTypeCaption":"0","target":"0","time":"60","delay":"0","arrows":"false"}},
 {"name":"FixMessageCommonEvent","status":true,"description":"Fixes the \\com[] message command from erasing the rest of the \r\ncommmands in common events","parameters":{}},
 {"name":"FWD_Eventpoints","status":true,"description":"v1.0.2 Add event points to audio files for event triggering.","parameters":{}},
-{"name":"Geo_MessageFaceChange","status":true,"description":"Adds a message command that allows to switch the facebox image midway through a message.","parameters":{}}
+{"name":"Geo_MessageFaceChange","status":true,"description":"Adds a message command that allows to switch the facebox image midway through a message.","parameters":{}},
+{"name":"SOJ_SLPCompat","status":true,"description":"","parameters":{}}
 ];

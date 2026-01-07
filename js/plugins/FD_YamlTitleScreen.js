@@ -194,53 +194,8 @@ YTS.variable = Number(YTS.System.VariableID) || 444
 // * Initialize Objects
 // Initial setup
 //=============================================================================
-// parallels specific
-Scene_OmoriTitleScreen.prototype.initialize = function () {
-
-    // Set Image reservation Id
-    this._imageReservationId = 'title';
-    // Super Call
-    Scene_BaseEX.prototype.initialize.call(this);
-    // Get Atlas Bitmap
-    //this._atlasBitmap = ImageManager.loadAtlas('Omori_TitleScreen');
-
-    // World Type 0: Normal, 1: Dark space, 2: Red Space
-    // Reads data of title screen images
-
-    if (!DataManager.getParallelsData() || !DataManager.getParallelsData().title || !YTS.allIDS.includes(DataManager.getParallelsData().title)) {
-        DataManager.setTitle(YTS.default)
-    }
-
-    tryTitleData = DataManager.getParallelsData().title
-    this._worldType = tryTitleData;
-
-    
-    // Set Command Active Flag
-    this._commandActive = false;
-    // Options Active Flag
-    this._optionsActive = false;
-    // Set Command Index Flag
-    this._commandIndex = 0;
-    // Instant Intro Flag
-    this._instantIntro = false;
-    // Determine if can continue
-    this._canContinue = false;
-    // Check if Save files exist
-    if (YTS.System.AlwaysContinue) {
-            this._canContinue = true;
-    } else {
-        for (var i = 1; i < 7; i++) {
-            if (StorageManager.exists(i)) {
-                this._canContinue = true;
-                break;
-            }
-        };
-    }
-    this._instantIntro = true;
-};
-
 //every other mod ever specific
-/*Scene_OmoriTitleScreen.prototype.initialize = function () {
+Scene_OmoriTitleScreen.prototype.initialize = function () {
 
     // Set Image reservation Id
     this._imageReservationId = 'title';
@@ -282,7 +237,7 @@ Scene_OmoriTitleScreen.prototype.initialize = function () {
         };
     }
     this._instantIntro = true;
-};*/
+};
 
 Scene_OmoriTitleScreen.prototype.getWorldTypeObject = function() {
     return LanguageManager.getTextData(`${YTS.yaml}`,`${this._worldType}`)
@@ -567,12 +522,12 @@ Scene_OmoriTitleScreen.prototype.createWeatherLayer = function() {
   }
   if (FD.WeatherExtension) {
     args = [`${World.Weather.type}`]
-    console.log(Aries.P003_WCT.LeafImageList)
+    //console.log(Aries.P003_WCT.LeafImageList)
     image = World.Weather.image
     if (image) {
       list = image.split(",").map((x) => x.trim())
       args = args.concat(list)
-      //args)
+      //console.log(args)
     this._weather.handleSetList(args);
     } 
   }
@@ -880,41 +835,8 @@ Scene_OmoriTitleScreen.prototype.encrypt = function(string) {
   return `${string}forfour` // thank you tomato
 };
 
-//parallels specific
-Scene_OmoriFile.prototype.saveGame = function() {
-    // On Before Save
-    $gameSystem.onBeforeSave();
-    // Get Save File ID
-    var saveFileid = this.savefileId();
-    // Get File Window
-    var fileWindow = this._fileWindows[this._saveIndex];
-    // Save Game
-    this._promptWindow.deactivate();
-    this._promptWindow.close();
-    if (this._waitingWindow) {this._waitingWindow.show(); console.log("fuck you omori")} // Show Waiting Window;
-    if (DataManager.saveGame(saveFileid)) {
-    SoundManager.playSave();
-    StorageManager.cleanBackup(saveFileid);
-    var world;
-    world = $gameVariables.value(YTS.variable) || YTS.default
-
-    DataManager.setTitle(world)
-    }
-    //   console.log(world); 
-    else {
-    SoundManager.playBuzzer();
-    // Deactivate Prompt Window
-    this._promptWindow.deactivate();
-    this._promptWindow.close();
-    // Set Can select Flag to false
-    this._canSelect = true;
-    // Update Save Index Cursor
-    this.updateSaveIndexCursor();
-    };
-};
-
 //every other mod ever specific
-/*Scene_OmoriFile.prototype.saveGame = function() {
+Scene_OmoriFile.prototype.saveGame = function() {
     // On Before Save
     $gameSystem.onBeforeSave();
     // Get Save File ID
@@ -953,7 +875,7 @@ Scene_OmoriFile.prototype.saveGame = function() {
     // Update Save Index Cursor
     this.updateSaveIndexCursor();
     };
-};*/
+};
 
 DataManager.forceWriteToFile = function(world = YTS.default) {
 	DataManager.writeToFile(world, YTS.System.TitleDataFileName);
