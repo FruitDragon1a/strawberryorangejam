@@ -3,9 +3,9 @@
 # He goes and a few steps out of his front door, polly follows him
 
 intro_0:
-  #faceset: FA_POLLY_DIALOGUE
-  #faceindex
-  text: Oh, BASIL, I forgot to ask.\! Do you have any plans for today?\pol
+  faceset: SOJ_POLLY
+  faceindex: 17
+  text: Oh,\. BASIL,\. I forgot to ask.\! Do you have any plans for today?\pol
 
 intro_1:
   faceset: SOJ_BASIL
@@ -18,12 +18,12 @@ intro_1:
 intro_2:
   faceset: SOJ_BASIL
   faceindex: 27
-  text: Wait,\. I almost forgot!\! I wanted to leave some flowers at MARI's gravestone.\! Is that okay?\bas
+  text: Wait,\. I almost forgot!\! \face[41]I wanted to leave some flowers at MARI's gravestone.\! Is that okay?\bas
 
 intro_3:
-  #faceset: 
-  #faceindex: 
-  text: Of course.\! And let me know if you need a ride.\! I’ve got nothing else to do today, haha.\pol
+  faceset: SOJ_POLLY
+  faceindex: 0
+  text: Of course.\! \face[4]And let me know if you need a ride.\! \face[18]I’ve got nothing else to do today, haha.\pol
 
 intro_4:
   faceset: SOJ_BASIL
