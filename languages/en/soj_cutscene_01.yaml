@@ -137,3 +137,236 @@ intro_24:
   text: Thanks...\bas
 
 #They leave to the gift shop
+
+gift_shop_0:
+  text: NOT WRITTEN YET
+
+# we need money
+
+Money_0: 
+  faceset: SOJ_KEL
+  faceindex: 7
+  text: Hmmm... How \sinv[2]am\sinv[0] I gonna get that money?\kel
+
+Money_1:
+  faceset: SOJ_BASIL
+  faceindex: 9
+  text: Good question...\!\face[0] Maybe you could look around town?\! Get a job or something?\bas
+
+Money_2:
+  faceset: SOJ_KEL
+  faceindex: 5
+  text: You're right!\! When I hung out with SUNNY, there were a bunch of people that needed help.\! A lot of them even paid him!\kel
+
+Money_3:
+  faceset: SOJ_BASIL
+  faceindex: 34
+  text: Wait,\. really?\! That's kind of crazy.\bas
+
+Money_4:
+  faceset: SOJ_KEL
+  faceindex: 12
+  text: What if I just did that too?\! I bet I could make loads of money like that!\kel
+
+Money_5:
+  faceset: SOJ_KEL
+  faceindex: 2
+  text: Oh! And maybe if I got enough money, I could even take AUBREY somewhere nice!\kel
+
+Money_6:
+  faceset: SOJ_BASIL
+  faceindex: 14
+  text: Oh, I've actually been wondering about that.\bas
+
+Money_7:
+  faceset: SOJ_BASIL
+  faceindex: 0
+  text: Where do you plan on going with AUBREY?\! Once you ask her out,\. that is.\bas
+
+Money_8:
+  faceset: SOJ_KEL
+  faceindex: 4
+  text: Uhh...\! I guess I never really thought about it.\..\..\.?\kel
+
+Money_9:
+  faceset: SOJ_BASIL
+  faceindex: 26
+  text: .\..\..\.\bas # raised eyebrow
+
+Money_10:
+  faceset: SOJ_KEL
+  faceindex: 11
+  text: Look, I'm sorry, okay?\kel
+
+Money_11:
+  faceset: SOJ_KEL
+  faceindex: 7
+  text: I've been so focused on how I'm going to ask Aubrey out that I forgot to think about where I was gonna take her!\kel
+
+Money_12:
+  faceset: SOJ_BASIL
+  faceindex: 0
+  text: Maybe it would be a good idea to talk about it now then, while we're here.\bas
+
+Money_13:
+  faceset: SOJ_BASIL
+  faceindex: 114
+  text: Any ideas?\bas
+
+Money_14:
+  faceset: SOJ_KEL
+  faceindex: 8
+  text: Well, there was that restaurant we passed by on the way to the store.\! It looked really nice for a date.\kel
+
+Money_15:
+  faceset: SOJ_BASIL
+  faceindex: 41
+  text: That's a good idea.\bas
+
+Money_16:
+  faceset: SOJ_KEL
+  faceindex: 13
+  text:  Uh.\..\..\. I don't know.\..\..\.\kel
+
+Money_17:
+  faceset: SOJ_BASIL
+  faceindex: 42
+  text: You two could visit the \c[11]HANGOUT SPOT\c[0] together.\! Maybe have a nice picnic or something.\bas
+
+Money_18:
+  faceset: SOJ_KEL
+  faceindex: 0
+  text: That sounds really fun actually!\! Maybe we could also visit \c[11]GINO'S\c[0] or \c[11]HOBBEEZ\c[0], too...\kel
+
+Money_19:
+  faceset: SOJ_KEL
+  faceindex: 7
+  text: I don't know if that's proper date material though...\kel
+
+Money_20:
+  faceset: SOJ_BASIL
+  faceindex: 2
+  text: I think AUBREY would like going there with you.\! She likes comics and pizza too.\bas
+
+Money_21:
+  faceset: SOJ_BASIL
+  faceindex: 1
+  text: Which idea do you like most?\bas
+
+# kel silence bubble
+# 60 frame wait
+# kel anger bubble
+
+Money_22:
+  faceset: SOJ_KEL
+  faceindex: 9
+  text: .\..\..\.\! I can't decide!\! They all sound great!\kel
+
+Money_23:
+  faceset: SOJ_KEL
+  faceindex: 11
+  text: Why is this so hard?\! All the movies make it look so easy!\kel
+
+Money_24:
+  faceset: SOJ_BASIL
+  faceindex: 15
+  text: You're...\! probably overthinking it...\bas
+
+# basil takes a step toward the sidewalk, still turned toward kel + the house
+
+Money_25:
+  faceset: SOJ_BASIL
+  faceindex: 3
+  text: I—I mean...\! I don't know...\! I've never been on a date before...\bas
+
+# basil takes another backwards step toward the sidewalk, then turns around
+
+Money_26:
+  faceset: SOJ_BASIL
+  faceindex: 14
+  text: Good luck asking AUBREY out,\. I'm gonna head home—\bas
+
+# kel exclamation bubble, jumps and runs to stand in front of basil
+
+Money_27:
+  faceset: SOJ_KEL
+  faceindex: 7
+  text: BASIL!\! You have to help me!\kel
+
+Money_28:
+  faceset: SOJ_KEL
+  faceindex: 11
+  text: You're the only one who can!\kel
+
+Money_29:
+  faceset: SOJ_BASIL
+  faceindex: 7
+  text: KEL, I just said I haven't gone out with anyone before—\bas
+
+Money_30:
+  faceset: SOJ_KEL
+  faceindex: 10
+  text: Yeah, but who else can I ask, AUBREY?\kel
+
+Money_31:
+  faceset: SOJ_BASIL
+  faceindex: 29
+  text: You have...\| other friends...\bas
+
+Money_32:
+  faceset: SOJ_KEL
+  faceindex: 8
+  text: None of them know AUBREY as well as you do!\kel
+
+Money_33:
+  faceset: SOJ_KEL
+  faceindex: 5
+  text: Besides,\. I haven't gone out with anyone before either!\! We'll figure it out together!\kel
+
+Money_34:
+  faceset: SOJ_BASIL
+  faceindex: 19
+  text: I'm still not going to have gone out with anyone after you've gone out with AUBREY,\. KEL.\bas
+
+Money_35:
+  faceset: SOJ_KEL
+  faceindex: 4
+  text: Yeah,\. but...\! uh...\! \face[3]please?\kel
+
+Money_36:
+  faceset: SOJ_BASIL
+  faceindex: 3
+  text: .\..\..\|\bas
+
+Money_37:
+  faceset: SOJ_BASIL
+  faceindex: 7
+  text: .\..\..\|Fine.\bas
+
+Money_38:
+  faceset: SOJ_KEL
+  faceindex: 2
+  text: Thanks,\. BASIL!\kel
+
+Money_39:
+  faceset: SOJ_BASIL
+  faceindex: 0
+  text: I guess we can visit the places you're thinking of taking AUBREY to in between your odd jobs.\! Maybe that'll help you pick.\bas
+
+Money_40:
+  faceset: SOJ_KEL
+  faceindex: 0
+  text: Yeah,\. good idea!\! Let’s go outside and check them out!\! Gotta find some jobs first,\. though...\! Where do we start?\kel
+
+# basil looks around, eventually stopping in the direction of sunnys house
+
+Money_41:
+  faceset: SOJ_BASIL
+  faceindex: 14
+  text: Well,\. what about your new neighbors?\! They look like they could use some help.\bas
+
+Money_42:
+  faceset: SOJ_KEL
+  faceindex: 2
+  text: Only one way to find out!\kel
+#basil and kel walk to the neighbors
