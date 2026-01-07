@@ -210,7 +210,7 @@ Money_12:
 
 Money_13:
   faceset: SOJ_BASIL
-  faceindex: 114
+  faceindex: 14
   text: Any ideas?\bas
 
 Money_14:
@@ -356,7 +356,7 @@ Money_39:
 Money_40:
   faceset: SOJ_KEL
   faceindex: 0
-  text: Yeah,\. good idea!\! Let’s go outside and check them out!\! Gotta find some jobs first,\. though...\! Where do we start?\kel
+  text: Yeah,\. good idea!\! Let’s head out!\!\face[7] Gotta find some jobs first,\. though...\! Where do we start?\kel
 
 # basil looks around, eventually stopping in the direction of sunnys house
 
