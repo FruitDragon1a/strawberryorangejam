@@ -378,67 +378,74 @@ Money_42:
 # aubrey why are you at my house
 
 # cutscene triggers automatically as they walk along the sidewalk and pass into kel's front driveway
-# the door opens and aubrey steps out of kel's house, then turns around
+# the door opens and aubrey steps out of kel's house, bacxkwards
+# kel exclamation mark, both kel and basil turn to aubrey
 
 aub_1:
   faceset: SOJ_AUBREY
-  faceindex: 
-  text: 
+  faceindex: 1
+  text: \{Thank you!\aub
 
 aub_2:
-  text: 
+  text: Of course!\! Come back any time,\. dear.\n<KEL'S MOM>
+
+# aubrey closes the door, then turns forward and catches sight of basil and kel
+# aubrey exclamation bubble
+# aubrey sweat bubble
 
 aub_3:
   faceset: SOJ_AUBREY
   faceindex: 
-  text: 
+  text: ...KEL!\! BASIL!\! How long have you two been standing there?\aub
 
 aub_4:
   faceset: SOJ_KEL
-  faceindex: 
-  text: 
+  faceindex: 10
+  text: What are you doing at my house?\kel
 
 aub_5:
   faceset: SOJ_AUBREY
-  faceindex: 
-  text: 
+  faceindex: 14 # placehgolder
+  text: I— uh— well,\. you see...\. I was...\| in the neighborhood.\! And I...\| saw your plants needed watering.\! So I watered them.\! Yes.\aub
 
 aub_6:
   faceset: SOJ_KEL
-  faceindex: 
-  text: 
+  faceindex: 13
+  text: Uh...\w[30] most of the plants in my house are fake.\! Otherwise HECTOR chews them up.\kel
 
 aub_7:
   faceset: SOJ_AUBREY
-  faceindex: 
-  text: 
+  faceindex: 14 #also placeholder
+  text: ...\| I knew that.\! Because when I went to water them I saw they were fake.\! And then your mom gave me some food.\! And we talked for a while.\aub
 
 aub_8:
   faceset: SOJ_KEL
-  faceindex: 
-  text: 
+  faceindex: 8
+  text: Okay...?\kel
 
 aub_9:
-  faceset: 
-  faceindex: 
-  text: 
+  faceset: SOJ_BASIL
+  faceindex: 43
+  text: \quake[2].\|.\|.\|\bas
 
 aub_10:
   faceset: SOJ_AUBREY
-  faceindex: 
-  text: 
+  faceindex: 14 #placeholder my beloved
+  text: Oh,\. what's that I hear?\! Someone's calling my name!\! Guess I'd better see what's going on!\aub
 
+# kel quuestion mark
 aub_11:
   faceset: SOJ_KEL
-  faceindex: 
-  text: 
+  faceindex: 10
+  text: I don't hear anything—\kel
 
 aub_12:
   faceset: SOJ_AUBREY
   faceindex: 
-  text: 
+  text: \com[2]\{\quake[2]Bye!!!\aub
 
+#she zooms off
 aub_13:
   faceset: SOJ_KEL
-  faceindex: 
-  text: 
+  faceindex: 16
+  text: ...What was that?\kel
