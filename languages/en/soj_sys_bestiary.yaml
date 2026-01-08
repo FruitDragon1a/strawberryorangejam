@@ -1,0 +1,64 @@
+
+# =========================================================================================
+# Bestiary
+template:
+    ID:
+        name:
+        background: {name: 'battlebackname', x: 0, y: 0}
+        position: {x: 160, y: 485}
+        character: {name: 'enemysheetname', index: 0, direction: 2, stepping: true} #Index, Direction, and stepping are optional
+        listIndex: 0
+        pages: 
+            1: 
+                text: |
+                    text goes here! <3
+            2: #Use page 3 for this
+                text: STATS - 
+            3:
+                evalCondition: 1 == 0
+                # if page does not have locked text, then when it fails conditional
+                # it will hide the page and subsequent ones entirely.
+                lockedText: LOCKED!!! DO THINGS!!!
+                text: |
+                    THIS IS PAGE 3
+                    More Lines!
+                    
+                    - YOU
+            4:
+                switchCondition: 1500
+                lockedText: LOCKED!!! UNLOCKS WHEN SWITCH 1500 IS ON!!!
+                text: |
+                    THIS IS PAGE 4
+                    More Lines!
+            
+                    - YOU
+        # Optional, Makes the page not consider if "enemy id is encountered" and assume always true
+        # Useful for having unlock condition be different than usual.
+        ignoreEnemyCondition: true
+        # Optional, display when evaluates to true (also works on page)
+        evalCondition: 1 == 1
+        # Optional, display when switch of specified ID is on (also works on page)
+        switchCondition: 1230
+        # Optional, changes the locked text (also works on page) (default: ------------------------------)
+        lockedText: LOCKED ENTRY!
+        # This is optional, forces enemy to use that id for sprite
+        forceTransformId: 1516
+# =========================================================================================
+EmptyEnemyName: 'WWIOAHu'
+QuickSwitch: "\\oc[6]\\ow[5]\\input[up]\\input[down]: CHANGE ENTRY\n\\oc[6]\\ow[5]\\input[left]\\input[right]: CHANGE PAGE"
+Stats: [HEART,JUICE,ATTACK,DEFENSE,SPEED,LUCK,HIT RATE,EVASION,REWARDS,STARS,EXP,DROPS]
+PageNames: [SYSTEM INFO,CHARLIE'S LOGS,STATISTICAL MAKEUP]
+Information:
+
+# oilien
+    1200:
+        name: NORMAL OUTFIT
+        background: {name: 'battleback_sw_default', x: -150, y: 0}
+        position: {x: 160, y: 480}
+        character: {name: 'jdjddj', index: 2}
+        listIndex: 0
+        pages:
+            1: 
+                text: |
+                    hi
+        

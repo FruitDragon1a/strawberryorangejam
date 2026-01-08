@@ -380,3 +380,65 @@ Money_42:
 # cutscene triggers automatically as they walk along the sidewalk and pass into kel's front driveway
 # the door opens and aubrey steps out of kel's house, then turns around
 
+aub_1:
+  faceset: SOJ_AUBREY
+  faceindex: 
+  text: 
+
+aub_2:
+  text: 
+
+aub_3:
+  faceset: SOJ_AUBREY
+  faceindex: 
+  text: 
+
+aub_4:
+  faceset: SOJ_KEL
+  faceindex: 
+  text: 
+
+aub_5:
+  faceset: SOJ_AUBREY
+  faceindex: 
+  text: 
+
+aub_6:
+  faceset: SOJ_KEL
+  faceindex: 
+  text: 
+
+aub_7:
+  faceset: SOJ_AUBREY
+  faceindex: 
+  text: 
+
+aub_8:
+  faceset: SOJ_KEL
+  faceindex: 
+  text: 
+
+aub_9:
+  faceset: 
+  faceindex: 
+  text: 
+
+aub_10:
+  faceset: SOJ_AUBREY
+  faceindex: 
+  text: 
+
+aub_11:
+  faceset: SOJ_KEL
+  faceindex: 
+  text: 
+
+aub_12:
+  faceset: SOJ_AUBREY
+  faceindex: 
+  text: 
+
+aub_13:
+  faceset: SOJ_KEL
+  faceindex: 
+  text: 
