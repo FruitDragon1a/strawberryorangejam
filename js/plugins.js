@@ -196,5 +196,6 @@ var $plugins =
 {"name":"FixMessageCommonEvent","status":true,"description":"Fixes the \\com[] message command from erasing the rest of the \r\ncommmands in common events","parameters":{}},
 {"name":"FWD_Eventpoints","status":true,"description":"v1.0.2 Add event points to audio files for event triggering.","parameters":{}},
 {"name":"Geo_MessageFaceChange","status":true,"description":"Adds a message command that allows to switch the facebox image midway through a message.","parameters":{}},
-{"name":"SOJ_SLPCompat","status":true,"description":"","parameters":{}}
+{"name":"SOJ_SLPCompat","status":true,"description":"","parameters":{}},
+{"name":"Stahl_BestiaryExtended","status":true,"description":"[v1.0.4] Gives the Bestiary more features.","parameters":{}}
 ];
