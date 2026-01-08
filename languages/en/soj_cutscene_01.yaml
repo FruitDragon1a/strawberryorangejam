@@ -201,7 +201,7 @@ Money_10:
 Money_11:
   faceset: SOJ_KEL
   faceindex: 7
-  text: I've been so focused on how I'm going to ask Aubrey out that I forgot to think about where I was gonna take her!\kel
+  text: I've been so focused on how I'm going to ask AUBREY out that I forgot to think about where I was gonna take her!\kel
 
 Money_12:
   faceset: SOJ_BASIL
@@ -260,7 +260,7 @@ Money_21:
 Money_22:
   faceset: SOJ_KEL
   faceindex: 9
-  text: .\..\..\.\! I can't decide!\! They all sound great!\kel
+  text: .\..\..\.\!I can't decide!\! They all sound great!\kel
 
 Money_23:
   faceset: SOJ_KEL
@@ -284,7 +284,7 @@ Money_25:
 Money_26:
   faceset: SOJ_BASIL
   faceindex: 14
-  text: Good luck asking AUBREY out,\. I'm gonna head home—\bas
+  text: Good luck asking AUBREY out,\. I'm gonna head home...\bas
 
 # kel exclamation bubble, jumps and runs to stand in front of basil
 
