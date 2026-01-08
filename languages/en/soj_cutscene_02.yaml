@@ -1,0 +1,299 @@
+# Othermart
+# snacks for aubrey 
+# triggers once they enter othermart
+# kel enters first, then basil is second
+# kel looks around
+
+om_intro_1:
+  faceset: SOJ_KEL
+  faceindex: 2
+  text: I just had a great idea!\kel
+
+om_intro_2:
+  faceset: SOJ_KEL
+  faceindex: 1
+  text: I should bring AUBREY a snack or something when I ask her out!\! Like a gift!\kel 
+
+om_intro_3:
+  faceset: SOJ_BASIL
+  faceindex: 1
+  text: That's a pretty good idea,\. actually.\bas
+
+om_intro_4:
+  faceset: SOJ_BASIL
+  faceindex: 41
+  text: Do you have something specific in mind?\bas
+
+om_intro_5:
+  faceset: SOJ_KEL
+  faceindex: 7
+  text: Uh...\kel
+
+om_intro_6:
+  faceset: SOJ_BASIL
+  faceindex: 14
+  text: .\..\..\.\bas
+
+# kel sweat bubble
+om_intro_7:
+  faceset: SOJ_KEL
+  faceindex: 0
+  text: Let's look around \c[11]OTHERMART\c[0]!\kel
+
+om_intro_8:
+  faceset: SOJ_BASIL 
+  faceindex: 42
+  text: Alright.\bas
+
+# sparklies show up
+
+# strawberry jam cookies
+om_check_strawberry_1:
+  faceset: SOJ_KEL
+  faceindex: 12
+  text: Oh,\. looks like the \c[11]BAKERY\c[0] has some fresh-baked \c[3]STRAWBERRY JAM COOKIES\c[0]! I bet AUBREY would love those.\kel
+
+om_check_strawberry_2:
+  faceset: SOJ_BASIL 
+  faceindex: 13
+  text: She wouldn't be the only one...\bas # this is a reference to strawberries being basils favorite lol
+
+# brownies
+om_check_brownies_1:
+  faceset: SOJ_BASIL
+  faceindex: 0
+  text: \c[3]BROWNIES\c[0] are kind of a classic date gift,\. I think.\! Maybe.\bas
+
+om_check_brownies_2:
+  faceset: SOJ_KEL
+  faceindex: 3
+  text: I dunno.\! Maybe.\kel
+
+# chocolate
+om_check_chocolate_1:
+  faceset: SOJ_BASIL
+  faceindex: 0
+  text: You can't really get more classic than \c[3]CHOCOLATE\c[0].\bas
+
+om_check_chocolate_2:
+  faceset: SOJ_KEL
+  faceindex: 2
+  text: She'd like \c[3]CHOCOLATE,\c[0]\. I bet.\kel
+
+# watermelon
+om_check_watermelon_1:
+  faceset: SOJ_BASIL
+  faceindex: 1
+  text: Isn't AUBREY's favorite fruit a \c[3]WATERMELON\c[0]?\! You could bring her some of that!\bas
+
+om_check_watermelon_2:
+  faceset: SOJ_KEL
+  faceindex: 10
+  text: How am I supposed to ask her out while lugging around a giant watermelon?\! \face[9]She'd laugh in my face!\kel
+
+om_check_watermelon_3:
+  faceset: SOJ_BASIL 
+  faceindex: 37
+  text: You're supposed to cut it up...\bas
+
+om_check_watermelon_4:
+  faceset: SOJ_KEL
+  faceindex: 5
+  text: Oh, that makes a lot more sense.\kel
+
+# orange joe
+om_check_orangejoe_1:
+  faceset: SOJ_KEL
+  faceindex: 5
+  text: Do you think she'd want \c[3]ORANGE JOE\c[0]?\kel
+
+om_check_orangejoe_2:
+  faceset: SOJ_BASIL
+  faceindex: 37
+  text: I think she would quite literally kill you.\bas
+
+om_check_orangejoe_3:
+  faceset: SOJ_KEL
+  faceindex: 8
+  text: Aww...\kel
+
+
+# try to leave before finding all the sparklies
+om_leave:
+  faceset: SOJ_KEL
+  faceindex: 10
+  text: Where are you going?\! \face[0]We still gotta find the perfect snack for AUBREY?\kel
+
+# after all sparklies have been found
+# basil turns to kel
+om_finish_1:
+  faceset: SOJ_BASIL
+  faceindex: 0
+  text: I think we've probably searched \c[11]OTHERMART\c[0] enough by now.\! \face[2]Time to make your choice!\bas
+
+om_finish_2: 
+  faceset: SOJ_KEL
+  faceindex: 6
+  text: Hmm.\|.\|.\kel
+
+om_finish_3: 
+  faceset: SOJ_KEL
+  faceindex: 0
+  text: BASIL,\. you pick!\kel
+
+om_finish_4: 
+  faceset: SOJ_BASIL
+  faceindex: 32
+  text: Huh?\! Why?\bas
+
+om_finish_5: 
+  faceset: SOJ_KEL
+  faceindex: 2
+  text: I trust your judgement!\kel
+  
+om_finish_6:
+  faceset: SOJ_KEL
+  faceindex: 0
+  text: What should I take as a gift for AUBREY?\kel
+
+strawberryjamcookies:
+  text: STRAWBERRY JAM COOKIES
+
+brownies:
+  text: BROWNIES
+
+chocolate:
+  text: CHOCOLATE
+
+watermelon:
+  text: WATERMELON 
+
+orangejoe: 
+  text: ORANGE JOE
+
+# pick orange joe (loops prev minus the orange joe option if picked)
+om_pick_orangejoe_1: 
+  faceset: SOJ_BASIL
+  faceindex: 0
+  text: What about \c[3]ORANGE JOE\c[0]?
+
+om_pick_orangejoe_2: 
+  faceset: SOJ_KEL
+  faceindex: 4
+  text: AUBREY's going to kill me if I bring that for her,\. remember?\kel
+
+om_pick_orangejoe_3: 
+  faceset: SOJ_BASIL
+  faceindex: 30
+  text: Oh,\. I know.\! I'm making sure you're paying attention, hehe.\bas
+
+om_pick_orangejoe_4:
+  text: What should KEL take as a gift for AUBREY?
+
+# pick strawberry jam cookies
+om_pick_strawberry_1: 
+  faceset: SOJ_BASIL
+  faceindex: 1
+  text: How about the \c[3]STRAWBERRY JAM COOKIES\c[0]?\! They smelled really good...\bas
+
+om_pick_strawberry_2: 
+  faceset: SOJ_KEL
+  faceindex: 2
+  text: They really did!\! Let's go grab some!\kel
+
+om_pick_strawberry_3: 
+  faceset: SOJ_BASIL
+  faceindex: 37
+  text: ...Can we please get some extra?\! I'm kinda hungry...\bas
+
+om_pick_strawberry_4: 
+  faceset: SOJ_KEL
+  faceindex: 12
+  text: Sure!\kel
+
+# pick brownies
+om_pick_brownies_1: 
+  faceset: SOJ_BASIL
+  faceindex: 0
+  text: How about the \c[3]BROWNIES\c[0]?\bas
+
+om_pick_brownies_2: 
+  faceset: SOJ_KEL
+  faceindex: 0
+  text: \c[3]BROWNIES\c[0] it is!\kel
+
+# he turns and starts walking to the brownies for like a step 
+# unless he's already at the brownies, in which case he turns from basil to them
+om_pick_brownies_3: 
+  faceset: SOJ_BASIL
+  faceindex: 32
+  text: That's it?\! You're not even going to question it?\bas
+
+# he turns toward basil
+om_pick_brownies_4: 
+  faceset: SOJ_KEL
+  faceindex: 10
+  text: No?\! Why would I?\kel
+
+om_pick_brownies_5: 
+  faceset: SOJ_BASIL
+  faceindex: 10
+  text: ...Huh.\bas
+
+# pick chocolate
+om_pick_chocolate_1: 
+  faceset: SOJ_BASIL
+  faceindex: 0
+  text: How about the \c[3]CHOCOLATE\c[0]?\bas
+
+om_pick_chocolate_2: 
+  faceset: SOJ_KEL
+  faceindex: 0
+  text: \c[3]CHOCOLATE\c[0] it is!\kel
+
+# he turns and starts walking to the chocolate for like a step 
+# unless he's already at the chocolate, in which case he turns from basil to them
+om_pick_chocolate_3: 
+  faceset: SOJ_BASIL
+  faceindex: 32
+  text: That's it?\! You're not even going to question it?\bas
+
+# he turns toward basil
+om_pick_chocolate_4: 
+  faceset: SOJ_KEL
+  faceindex: 10
+  text: No?\! Why would I?\kel
+
+om_pick_chocolate_5: 
+  faceset: SOJ_BASIL
+  faceindex: 10
+  text: ...Huh.\bas
+
+# pick watermelon
+# adds an additional objective that can be accomplished later, when they return to kels house
+om_pick_watermelon_1: 
+  faceset: SOJ_BASIL
+  faceindex: 42
+  text: The \c[3]WATERMELON\c[0] sounds like a good idea.\bas
+
+om_pick_watermelon_2: 
+  faceset: SOJ_KEL
+  faceindex: 0
+  text: Sure!\! \face[7]Uh,\. how would we get it cut,\. though?\kel
+
+om_pick_watermelon_3: 
+  faceset: SOJ_BASIL
+  faceindex: 0
+  text: At your house,\. I guess...\bas
+
+om_pick_watermelon_4: 
+  faceset: SOJ_KEL
+  faceindex: 2
+  text: Good idea.\! Maybe MAMÁ can help us.\kel
+
+# fadeout screen, newskill sfx
+# set variable 1001 to the thing you picked
+om_yougot:
+  text: You got \c[3]\v[1001]\c[0]!
+
+# set basil and kel near the entrance of othermart, past the cash register
