@@ -416,7 +416,7 @@ aub_6:
 aub_7:
   faceset: SOJ_AUBREY
   faceindex: 14 #also placeholder
-  text: ...\| I knew that.\! Because when I went to water them I saw they were fake.\! And then your mom gave me some food.\! And we talked for a while.\aub
+  text: ...\|I knew that.\! Because when I went to water them I saw they were fake.\! And then your mom gave me some food.\! And we talked for a while.\aub
 
 aub_8:
   faceset: SOJ_KEL
@@ -426,7 +426,7 @@ aub_8:
 aub_9:
   faceset: SOJ_BASIL
   faceindex: 43
-  text: \quake[2].\|.\|.\|\bas
+  text: \*snrk*.\|.\|.\|\bas
 
 aub_10:
   faceset: SOJ_AUBREY
@@ -437,7 +437,7 @@ aub_10:
 aub_11:
   faceset: SOJ_KEL
   faceindex: 10
-  text: I don't hear anything—\kel
+  text: I don't hear anything—\^\kel
 
 aub_12:
   faceset: SOJ_AUBREY
