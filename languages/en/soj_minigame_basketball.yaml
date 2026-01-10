@@ -6,3 +6,18 @@ pre_brent:
 
 pre_jesse:
   text: I don't really feel like running around...\! Hopefully we play something a little more fun later.\n<JESSE> 
+
+bug_brent:
+  text: \com[2]\sinv[2]I'm having so much fun!\n<BRENT>
+
+bug_amy:
+  text: \com[2]I'll get you this time,\. ELLIOT!\n<AMY>
+
+bug_elliot:
+  text: \com[2]You can't catch me,\. AMY!\n<ELLIOT>
+
+bug_raine:
+  text: What are we even playing?\n<RAINE>
+
+bug_oliver:
+  text: I love running!\n<OLIVER>
