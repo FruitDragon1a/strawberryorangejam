@@ -264,3 +264,427 @@ intro_44:
   faceset: SOJ_KEL
   faceindex: 2
   text: You're about to be wowed by my awesome basketball skills!\kel
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+# after the basketball minigame
+# kel and basil are basically standing where they were before, along with joy's dad
+# jay is in the corner of the screen, closer to the hangout spot
+
+
+after_1:
+  text: Thank you so much for helping me.\n<JOY'S DAD>
+
+after_2:
+  text: Here's $20, as promised.\n<JOY'S DAD>
+
+# money sfx
+
+# if success rate high
+after_3_v1:
+  faceset: SOJ_KEL
+  faceindex: 2
+  text: It was a pleasure!\! I think the kids really enjoyed that!\kel
+
+after_4_v1:
+  faceset: SOJ_KEL
+  faceindex: 0
+  text: BASIL,\. how was that?\kel
+
+after_5_v1:
+  faceset: SOJ_BASIL
+  faceindex: 1
+  text: You made a lot of baskets...\! It was cool!\bas
+
+after_6_v1:
+  faceset: SOJ_KEL
+  faceindex: 3
+  text: Thank you!\kel
+
+# if success rate was low
+after_3_v2:
+  faceset: SOJ_KEL
+  faceindex: 3
+  text: Ah,\. that was...\| kind of embarrassing,\. but I'm glad it helped!\kel
+
+after_4_v2:
+  faceset: SOJ_KEL
+  faceindex: 5
+  text: BASIL,\. how was that?\kel
+
+after_5_v2:
+  faceset: SOJ_BASIL
+  faceindex: 37
+  text: Uh...\| well...\| maybe today wasn't your day...\bas
+
+after_6_v2:
+  faceset: SOJ_KEL
+  faceindex: 7
+  text: Guess not...\kel
+
+# not conditional
+after_7:
+  text: Well,\. thanks again!\! See you boys around!\n<JOY'S DAD>
+
+# joys dad walks off, kel turns to basil
+# jay turns to kel
+after_8:
+  faceset: SOJ_KEL
+  faceindex: 5
+  text: Anyway, where are we off to next—\.\^\kel
+
+after_9:
+  text: KEL!\n<JAY>
+
+# jay walks over from where he was standing still visible but out of the way in front of a bush with a blue bow
+after_10:
+  faceset: SOJ_KEL
+  faceindex: 2
+  text: JAY!\! What's up,\. man!\kel
+
+after_11:
+  text: Nothing much!\! Wanted to talk to you,\. got a minute?\n<JAY>
+
+after_12:
+  faceset: SOJ_BASIL
+  faceindex: 0
+  text: Sure!\! I'll be right back,\. BASIL.\kel
+
+after_13:
+  faceset: SOJ_BASIL
+  faceindex: 32
+  text: Okay.\bas
+
+# kel walks off
+# after a moment, camera pans to the bush
+# it shakes for a moment (eventtremble), then aubrey pops out and the bush doesnt have a bow anymore
+# aubrey walks over
+# basil silence bubble
+after_14:
+  faceset: SOJ_BASIL
+  faceindex: 26
+  text: ...Were you just in that bush?\bas
+
+after_15:
+  faceset: SOJ_AUBREY
+  faceindex: 3
+  text: ...\|Let's not talk about that.\! I got a question for you,\. flower boy.\aub
+
+# basil question mark
+after_16:
+  faceset: SOJ_BASIL
+  faceindex: 32
+  text: Flower boy??\bas
+
+after_17:
+  faceset: SOJ_AUBREY
+  faceindex: 0
+  text: I mean...\| you have a flower in your hair—\w[30]\^\aub
+
+after_18:
+  faceset: SOJ_AUBREY
+  faceindex: 13
+  text: Never mind, forget it.\! I've got a flower-related question for you!\aub
+
+after_19:
+  faceset: SOJ_BASIL
+  faceindex: 32
+  text: W-Wait,\. what?\bas
+
+# short pause
+# basil silence bubble
+# basil exclamation bubble
+after_20:
+  faceset: SOJ_BASIL
+  faceindex: 30
+  text: Wait.\! This is about KEL,\. isn't it?\bas
+
+# aubrey blushes furiously
+after_21:
+  faceset: SOJ_AUBREY
+  faceindex: 15
+  text: I— \|I have no idea what you're talking about.\aub
+
+after_22:
+  faceset: SOJ_BASIL
+  faceindex: 33
+  text: It's— \|actually kind of obvious,\. AUBREY.\bas
+
+after_23:
+  faceset: SOJ_BASIL
+  faceindex: 42
+  text: KEL's favorite cake flavor?\bas
+
+after_24:
+  faceset: SOJ_AUBREY
+  faceindex: 5
+  text: I-It was a hypothetical!\aub
+
+after_25:
+  faceset: SOJ_BASIL
+  faceindex: 10
+  text: \sinv[2]\"I was in the neighborhood,\. and I saw your plants needed watering!\"\bas
+
+# if you dont talk to kel's mom
+after_26_v1:
+  faceset: SOJ_BASIL
+  faceindex: 43
+  text: What were you even doing at KEL's house?\bas
+
+# aubrey sweat bubble
+after_27_v1:
+  faceset: SOJ_AUBREY
+  faceindex: 16
+  text: I...\! th-that's not important!\aub
+
+# if you do talk to kels mom
+after_26_v2:
+  faceset: SOJ_BASIL
+  faceindex: 30
+  text: KEL'S MOM said you were asking about KEL...\bas 
+
+# aubrey silence bubble
+after_27_v2:
+  faceset: SOJ_AUBREY
+  faceindex: 17
+  text: ...So much for girl code...\aub
+
+# not conditional
+after_28:
+  faceset: SOJ_BASIL
+  faceindex: 10
+  text: \sinv[2]Admit it...\bas
+
+# aubrey silence bubble
+# short pause
+after_29:
+  faceset: SOJ_AUBREY
+  faceindex: 17
+  text: Fine!\! I knew I was being too obvious...\aub
+
+after_30:
+  faceset: SOJ_BASIL
+  faceindex: 13
+  text: Hehe.\! Anyway.\| What was it you needed?\bas
+
+after_31:
+  faceset: SOJ_AUBREY
+  faceindex: 
+  text: I want to...\| get...\| KEL flowers...\aub
+
+after_32:
+  faceset: SOJ_AUBREY
+  faceindex: 13
+  text: But I don't know what kind.\! \face[0]You always used to talk about flower meanings and stuff,\. so I thought 'why not ask BASIL?'\aub
+
+after_33:
+  faceset: SOJ_BASIL
+  faceindex: 41
+  text: Hmm...\! I can give you a few options,\. I guess.\bas
+
+after_34:
+  faceset: SOJ_BASIL
+  faceindex: 0
+  text: It'll have to be quick,\. though.\! KEL could come back any minute.\bas
+
+after_35:
+  faceset: SOJ_AUBREY
+  faceindex: 10
+  text: Oh,\. don't worry,\. he won't.\aub
+
+after_36:
+  faceset: SOJ_AUBREY
+  faceindex: 11
+  text: I bribed Mister Jock Guy over there with some kind of manga his boyfriend wanted.\! He'll keep KEL away until I leave.\aub
+
+after_37:
+  faceset: SOJ_BASIL
+  faceindex: 43
+  text: What?\bas
+
+after_38:
+  faceset: SOJ_BASIL
+  faceindex: 42
+  text: You have manga?\bas
+
+after_39:
+  faceset: SOJ_AUBREY
+  faceindex: 18
+  text: I've read some,\. but I don't actually have any.\! \face[10]I'll get THE MAVERICK to give me the one JAY's boyfriend wants,\. though.\! He owes me.\aub
+
+after_40:
+  faceset: SOJ_BASIL
+  faceindex: 1
+  text: I see...\bas
+
+after_41:
+  faceset: SOJ_AUBREY
+  faceindex: 3
+  text: Wait,\. we're getting off topic again!\! Ugh!\aub
+
+after_42:
+  faceset: SOJ_AUBREY
+  faceindex: 13
+  text: What flowers do I get?\aub
+
+after_43:
+  faceset: SOJ_BASIL
+  faceindex: 44
+  text: Um...\! I can think of a few flowers that might fit...\bas
+
+after_44:
+  faceset: SOJ_BASIL
+  faceindex: 34
+  text: Right off the bat,\. \c[4]CHRYSANTHEMUM\c[0] might be a good idea...\! Its meanings of joy and cheerfulness fit KEL really well.\! Since it's for a crush,\. red would be good.\bas
+
+after_45:
+  faceset: SOJ_BASIL
+  faceindex: 33
+  text: \c[4]BLUEBELL\c[0] represents loyalty and constancy,\. and it's also used to show gratitude to the person you're giving it to.\bas
+
+after_46:
+  faceset: SOJ_BASIL
+  faceindex: 10
+  text: The \c[4]CAMELLIA\c[0] also represents constancy and steadfastness.\! It's also used to represent excellence.\bas
+
+after_47:
+  faceset: SOJ_BASIL
+  faceindex: 22
+  text: Um...\! If you want something a little more directly 'romance', \c[4]RED CARNATIONS\c[0] are used to show romantic love and admiration...\! Not really much else,\. though.\bas
+
+after_48:
+  faceset: SOJ_AUBREY
+  faceindex: 0
+  text: .\..\..\.\aub
+
+after_49:
+  faceset: SOJ_AUBREY
+  faceindex: 13
+  text: Which flower do you think is best?\aub
+
+after_50:
+  faceset: SOJ_BASIL
+  faceindex: 27
+  text: Oh, you want me to pick?\! Not just give options?\bas
+
+# aubrey sweat
+# embarrassed expression
+after_51:
+  faceset: SOJ_AUBREY
+  faceindex: 21
+  text: I'm...\| not going to remember all those names when I go to the store later...\aub
+
+after_52:
+  faceset: SOJ_BASIL
+  faceindex: 42
+  text: Fair.\! Which flower would be best for KEL?\bas
+
+redchrysanthemum:
+  text: RED CHRYSANTHEMUM
+
+bluebell: 
+  text: BLUEBELL
+
+camellia:
+  text: CAMELLIA
+
+redcarnation:
+  text: RED CARNATIONS
+
+# set variable 1001 to the name of the flower that is picked
+# use LanguageManager.getLanguageData or wtv
+after_53:
+  faceset: SOJ_BASIL
+  faceindex: 1
+  text: Hm...\! I think you should go with the \c[4]\v[1001]\c[0].\bas
+
+after_54:
+  faceset: SOJ_AUBREY
+  faceindex: 18
+  text: \c[4]\v[1001]\c[0]...\! Okay.\| I can remember that.\| Thanks, BASIL!\aub
+
+after_55:
+  faceset: SOJ_BASIL
+  faceindex: 10
+  text: No problem.\bas
+
+after_56:
+  faceset: SOJ_AUBREY
+  faceindex: 10
+  text: Welp,\. that's my cue to leave!\aub
+
+# kel starts walking over
+# aubrey runs off
+after_57:
+  faceset: SOJ_KEL
+  faceindex: 5
+  text: Were you just talking to AUBREY?\kel
+
+# basil turns to face kel
+after_58:
+  faceset: SOJ_BASIL
+  faceindex: 42
+  text: Yeah.\bas
+
+after_59:
+  faceset: SOJ_KEL
+  faceindex: 0
+  text: ...What about?\kel # bros all eager to hear more about aubrey
+
+after_60:
+  faceset: SOJ_BASIL
+  faceindex: 37
+  text: .\|.\|.\bas
+
+after_61:
+  faceset: SOJ_BASIL
+  faceindex: 36
+  text: Flowers.\bas
+
+after_62:
+  faceset: SOJ_KEL
+  faceindex: 4
+  text: Huh.\! \face[5]AUBREY never really struck me as the type of person to be interested in that...\kel
+
+after_63:
+  faceset: SOJ_BASIL
+  faceindex: 37
+  text: Uh...\bas
+
+# brief silence
+# kel lightbulb
+after_64:
+  faceset: SOJ_KEL
+  faceindex: 5
+  text: Wait!\! I should probably get AUBREY flowers!\! I can't believe I didn't think of that!\kel
+
+after_65:
+  faceset: SOJ_KEL
+  faceindex: 3
+  text: BASIL,\. can you please help me pick flowers to get for AUBREY?\kel
+
+after_66:
+  faceset: SOJ_BASIL
+  faceindex: 20
+  text: \}Phew...\! \face[22]<br>\frSure,\. KEL.\! We can go to my house when you want to look at flowers.\bas
+
+after_67:
+  faceset: SOJ_KEL
+  faceindex: 2
+  text: Thanks, BASIL!\kel
