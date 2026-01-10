@@ -1,0 +1,8 @@
+pre_joy:
+  text: \n<JOY>It's BRENT's birthday party today!\! The three of us are hanging out now,\. then school friends will come to the party here later!
+
+pre_brent:
+  text: It's my birthday!\! \sinv[2]I'm so happy!\n<BRENT>
+
+pre_jesse:
+  text: I don't really feel like running around...\! Hopefully we play something a little more fun later.\n<JESSE> 

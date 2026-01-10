@@ -449,3 +449,8 @@ aub_13:
   faceset: SOJ_KEL
   faceindex: 16
   text: ...What was that?\kel
+
+mail_block: 
+  faceset: SOJ_KEL
+  faceindex: 2
+  text: There's no need to go in the park while we're delivering the mail!\kel
