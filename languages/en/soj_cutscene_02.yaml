@@ -297,3 +297,86 @@ om_yougot:
   text: You got \c[3]\v[1001]\c[0]!
 
 # set basil and kel near the entrance of othermart, past the cash register
+
+#mailman needs help 
+#faraway plaza
+#starts after exiting othermart
+
+fp_mailman_0:
+  faceset: SOJ_KEL
+  faceindex: 0
+  text: Well, now that we have the sweets, what should we do next?\kel
+
+fp_mailman_1:
+  faceset: SOJ_BASIL
+  faceindex: 42
+  text: Hmm, how about—\^\bas
+
+fp_mailman_2:
+  text: STUPID JUNK!\who
+
+#loud clang effect
+#Kel and Basil jump, camera pans down
+
+fp_mailman_3:
+  text: Damn thing.\..\..\. Always breaking down on me.\..\..\.\who
+
+#Kel and Basil walk down
+
+fp_mailman_4:
+  faceset: SOJ_KEL
+  faceindex: 7
+  text: What's wrong,\. Mr. Mailman?\kel
+
+#mail man faces towards them
+
+fp_mailman_5:
+  text: Ah, sorry to scare you guys.
+
+fp_mailman_6:
+  text: It's just that this piece \com[1014]\| of \com[1014]\| \quake[2]crap\quake[0] \com[1014]\| doesn't feel like moving!
+
+fp_mailman_7:
+  text: \}I have so many deliveries to do, too.\..\..\. My boss is gonna kill me.\..\..\.
+
+#Kel silence bubble
+
+fp_mailman_8:
+  faceset: SOJ_KEL
+  faceindex: 5
+  text: Hey, those are for FARAWAY, right?\kel
+
+fp_mailman_9:
+  faceset: SOJ_KEL
+  faceindex: 2
+  text: What if we delivered those for you?\! While you try and get your car working.\kel
+
+fp_mailman_10:
+  text: You'd really do that for me?
+
+fp_mailman_11:
+  faceset: SOJ_KEL
+  faceindex: 12
+  text: I mean, why not?\| Seems like you could use the help!\kel
+
+fp_mailman_12:
+  text: Dude, you're a lifesaver!
+
+fp_mailman_13:
+  text: Here, take a couple of these. 
+
+fp_mailman_14:
+  text: You got \c[4]LETTERS\c[0].
+
+fp_mailman_15:
+  text: Come back when they're delivered, and it'll probably be enough time for my car to get up and running.
+
+fp_mailman_16:
+  faceset: SOJ_KEL
+  faceindex: 2
+  text: You got it!\! \face[0]C'mon,\. Basil,\. let's take these to their rightful owners!\kel
+
+fp_mailman_17:
+  faceset: SOJ_BASIL
+  faceindex: 14
+  text: Uh, okay…?\bas
