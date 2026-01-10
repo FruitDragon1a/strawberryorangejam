@@ -21,3 +21,246 @@ bug_raine:
 
 bug_oliver:
   text: I love running!\n<OLIVER>
+
+bug_joy:
+  text: I'm feeling kind of tired...\n<JOY>
+
+bug_jesse:
+  text: I have no idea what they're playing.\n<JESSE>
+
+# she turns up
+bug_stellarose:
+  text: You should go play with everyone,\. CHARLES DANIEL!\n<STELLA ROSE>
+
+bug_charlesdaniel:
+  text: I don't wanna play whatever that game is...\n<CHARLES DANIEL>
+
+bug_darius:
+  text: Man...\! I wish MOM let me stay home instead of making me watch over RAINE.\n<DARIUS>
+
+bug_joydad:
+  text: Kids...\! Slow down...\n<JOY'S DAD>
+
+# character:
+# glasses boy = charles daniel
+# curtsey lookalike = stella rose
+# red haired girl = amy
+# kel lookalike = elliot
+# sunny lookalike = raine
+# olive beanie = oliver
+# raine's brother = darius
+# joy
+# brent
+# jesse
+# joy's dad
+
+  
+# it's brent's birthday and the kids are all running around the playground screaming 
+
+# cutscene starts as soon as basil enters the actual park
+
+
+intro_1:
+  text: \{\sinv[2]AAAAAAAAAAA!\who
+
+# camera pans to the kids on the playground
+# elliot stops moving
+intro_2:
+  text: \{\sinv[2]IS THE FOOD HERE YETTTTT????\n<ELLIOT>
+
+# amy stops
+intro_3:
+  text: \{\quake[2]I'M HUNGRYYYYYYYYYYYY\n<AMY>
+
+# oliver stops
+intro_4:
+  text: \{\quake[2]WHO'S IT? I FORGOT\n<OLIVER>
+
+# amy jumps
+intro_5:
+  text: \{\sinv[2]RAINE IS!\n<AMY>
+
+intro_6:
+  text: \{\{MAAAAARCO!\! POOOOLO!\n<RAINE>
+
+# elliot turns toward raine
+intro_7:
+  text: \com[2]\{YOU IDIOT WE'RE PLAYING TAG\.\^\n<ELLIOT>
+
+# raine turns to the right
+intro_8:
+  text: \com[2]\{\quake[2]MISTER JOY'S DAD ELLIOT CALLED ME AN IDIOT\.\^\n<RAINE>
+
+# elliot turns to the right
+intro_9:
+  text: \com[2]\{\quake[2]I DID NOT!\n<ELLIOT>
+
+# amy turns toward elliot
+intro_10:
+  text: \{YES YOU DIIID~\^\n<AMY>
+
+# elliot turns toward amy
+intro_11:
+  text: \com[2]\{AMY SHUT UP\^\n<ELLIOT>
+
+intro_12:
+  text: \com[2]\{\quake[2]YOU SHUT UP\^\n<AMY>
+
+# joy jumps off the bench
+intro_13:
+  faceset: 
+  faceindex: 
+  text: \com[2]\{\quake[2]STOP FIGHTING ON BRENT'S BIRTHDAY!\n<JOY>
+
+intro_14:
+  faceset: SOJ_KEL
+  faceindex: 5
+  text: Loud, aren't they?\kel
+
+# camera pans back to basil and kel, who have moved closer to the playground
+# brief pause
+intro_15:
+  faceset: SOJ_BASIL
+  faceindex: 22
+  text: It's kinda funny,\. honestly.\! Reminds me of how you and AUBREY would fight when we were kids.\bas
+
+# basil sweat
+intro_16:
+  faceset: SOJ_BASIL
+  faceindex: 37
+  text: I feel bad for whoever's supposed to be watching them.\bas
+
+intro_17:
+  faceset: SOJ_BASIL
+  faceindex: 41
+  text: They'd probably have their hands full.\bas
+
+# joys dad exclamation bubble, he turns toward the boys
+intro_18:
+  text: That'd be me.\! And yes,\. it's exhausting.\n<JOY'S DAD>
+
+intro_19:
+  text: Give me a moment.\n<JOY'S DAD>
+
+# joy's dad moves into the playground and breaks up the fight
+intro_20:
+  text: Break it up, kids.\n<JOY'S DAD>
+
+intro_21:
+  text: JOY'S DAD, I'm hungryyyyy...\n<OLIVE BEANIE>
+
+# joy's dad sweat
+intro_22:
+  text: BRENT'S MOM is on her way with food, OLIVER.\! Can you wait a bit?\n<JOY'S DAD>
+
+# raine moves over to oliver
+intro_23:
+  text: \{TAG!!!\! YOU'RE IT!\n<RAINE>
+
+intro_24:
+  text: \{\{WHAT?\! \quake[2]That's not fair!\n<OLIVER>
+
+# and theyre off again
+# joy's dad backs up
+# joy's dad silence bubble
+# moves back near kel and basil, then facing the playground
+# joy's dad sweat bubble
+# kel and basil face him
+intro_25:
+  text: \quake[2]They're going to get hurt at this rate...\n<JOY'S DAD>
+
+intro_26:
+  text: I just need them to sit down long enough for PAULINE to get back with the cake and pizza.\n<JOY'S DAD>
+
+# they all turn toward the playground
+# brief silence
+intro_27:
+  faceset: SOJ_KEL
+  faceindex: 0
+  text: What if we help?\kel
+
+# joys dad and basil turn to kel
+intro_28:
+  text: What?\n<JOY'S DAD>
+
+intro_29:
+  faceset: SOJ_BASIL
+  faceindex: 26
+  text: Yeah KEL, what?\bas
+
+# kel turns to them
+intro_30:
+  faceset: SOJ_KEL
+  faceindex: 5
+  text: No, think about it!\kel
+
+intro_31:
+  faceset: SOJ_KEL
+  faceindex: 3
+  text: We can probably entertain the kids long enough for BRENT'S MOM to save the day!\kel
+
+intro_32:
+  faceset: SOJ_KEL
+  faceindex: 2
+  text: This is a great idea!\! Right, BASIL?\kel
+
+intro_33:
+  faceset: SOJ_BASIL
+  faceindex: 15
+  text: .\..\..\bas
+
+intro_34:
+  faceset: SOJ_BASIL
+  faceindex: 32
+  text: I dunno how to entertain kids...\bas
+
+intro_35:
+  faceset: SOJ_KEL
+  faceindex: 12
+  text: Maybe we can do basketball tricks or something?\! They seem like they'd be interested in that.\kel
+
+intro_36:
+  faceset: SOJ_BASIL
+  faceindex: 29
+  text: ...\!KEL, I suck at basketball.\bas
+
+intro_37:
+  faceset: SOJ_KEL
+  faceindex: 3
+  text: Oh, right.\kel
+
+intro_38:
+  faceset: SOJ_KEL
+  faceindex: 5
+  text: ...At least I can, I guess?\kel
+
+# joys dad silence bubble
+# joys dad turns to them
+# basil turns to joys dad
+intro_39:
+  text: ...\!If you can get them to sit down in one place for long enough for BRENT'S MOM to get here,\| I'll pay you twenty.\n<JOY'S DAD>
+
+intro_40:
+  faceset: SOJ_KEL
+  faceindex: 2
+  text: Sold!\kel
+
+intro_41:
+  faceset: SOJ_KEL
+  faceindex: 0
+  text: We won't let you down!\kel
+
+intro_42:
+  faceset: SOJ_BASIL
+  faceindex: 37
+  text: I still can't play basketball,\. KEL...\bas
+
+intro_43:
+  faceset: SOJ_KEL
+  faceindex: 1
+  text: That's okay!\! You can watch,\. then!\kel
+
+intro_44:
+  faceset: SOJ_KEL
+  faceindex: 2
+  text: You're about to be wowed by my awesome basketball skills!\kel
