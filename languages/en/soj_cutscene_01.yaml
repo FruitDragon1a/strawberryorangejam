@@ -581,3 +581,34 @@ playerblock_5:
   faceset: SOJ_KEL
   faceindex: 5
   text: Wait a second,\. BASIL!\! While we're here,\. let's check out the \c[11]HANGOUT SPOT\c[0]!\kel
+
+# autoruns when you walk into plaza map
+hungrykel_1:
+  faceset: SOJ_KEL
+  faceindex: 6
+  text: .\|.\|.\kel
+
+hungrykel_2:
+  faceset: SOJ_KEL
+  faceindex: 5
+  text: I'm a little bit hungry...\kel
+
+hungrykel_3:
+  faceset: SOJ_BASIL
+  faceindex: 32
+  text: Didn't you eat breakfast?\bas
+
+hungrykel_4:
+  faceset: SOJ_KEL
+  faceindex: 3
+  text: Yeah,\. but that was hours ago!\kel
+
+hungrykel_5:
+  faceset: SOJ_KEL
+  faceindex: 0
+  text: Do you think we can stop by \c[11]OTHERMART\c[0]?\kel
+
+hungrykel_6:
+  faceset: SOJ_BASIL
+  faceindex: 42
+  text: Sure.\bas
