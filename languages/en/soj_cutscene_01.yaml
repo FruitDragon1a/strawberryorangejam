@@ -507,7 +507,7 @@ kelmom_12:
   text: Hehehe...\bas
 
 kelmom_13:
-  text: Run along now,\| boys.\n<KEL'S MOM>
+  text: Run along now,\. boys.\n<KEL'S MOM>
 
 keldad_1:
   text: Move out of the way,\. boys!\! SALLY and I are watching TV!\n<KEL'S DAD>
@@ -526,22 +526,22 @@ kelmom2_2:
 postkelmom_1:
   faceset: SOJ_KEL
   faceindex: 6
-  text: ...\kel
+  text: .\|.\|.\kel
 
 postkelmom_2:
   faceset: SOJ_KEL
   faceindex: 10
   text: Don't you think AUBREY having girl code with my mom is kinda weird?\kel
 
-#Kel exclamation balloon he is blushing furiously
 postkelmom_3:
   faceset: SOJ_BASIL
   faceindex: 24
   text: I mean...\| If she's gonna join your family...\bas
 
+#Kel exclamation balloon he is blushing furiously
 postkelmom_4:
   faceset: SOJ_KEL
-  faceindex: 5 
+  faceindex: 20
   text: BASIL!\| We aren't even dating!\kel
 
 postkelmom_5:
