@@ -56,7 +56,7 @@ Game_Interpreter.prototype.ballOpenReticle = function() {
     const picture = $gameScreen.picture(52);
     picture._targetScaleY = 100;
     picture._duration = 10;
-    console.log(picture);
+    //sconsole.log(picture);
     this.wait(10);
 };
 
@@ -71,6 +71,7 @@ Game_Interpreter.prototype.ballMoveReticle = function(dur) {
     const picture = $gameScreen.picture(52);
     picture._targetX = picture.x() < 320 ? 486 : 155;
     picture._duration = dur;
+    //console.log(picture);
 };
 
 Math.withinRange = function(value,target,elipson) {
@@ -85,9 +86,16 @@ Game_Interpreter.prototype.ballConfirmReticle = function() {
     picture._targetScaleY = 200;
     picture._targetOpacity = 0;
     picture._duration = 10;
-    var seName = (Math.withinRange(picture.x(),target.x(),45)) ? "soj_ball_good" : "BA_miss";
+    var seName = this.ballHitTarget() ? "soj_ball_good" : "BA_miss";
     AudioManager.playSe({name: seName, volume: 120, pitch: 100, pan: 0});
     this.wait(10);
+    return (seName === "soj_ball_good");
+};
+
+Game_Interpreter.prototype.ballHitTarget = function() {
+    const picture = $gameScreen.picture(52);
+    const target = $gameScreen.picture(51);
+    return (Math.withinRange(picture.x(),target.x(),30))
 };
 
 Game_Interpreter.prototype.ballSetTargetPos = function() {
@@ -97,8 +105,11 @@ Game_Interpreter.prototype.ballSetTargetPos = function() {
         case 6: pos = 240;break;
         case 10: pos = 400;break;
     };
+    //console.log(kel,pos);
+    //console.log(picture);
     const picture = $gameScreen.picture(51);
     picture._x = pos + (Math.randomInt(80)-40);
+    picture._targetX = picture._x;
     picture._scaleY = 0;
     picture._scaleX = 100;
     picture._opacity = 255;
@@ -116,4 +127,51 @@ Game_Interpreter.prototype.ballCloseTarget = function() {
     picture._targetScaleY = 0;
     picture._duration = 10;
     //this.wait(10);
+};
+
+Game_Interpreter.prototype.ballCrowdJump = function() {
+    for (let i = 25; i <= 35; i++) {
+        let event = $gameMap.event(i);
+        var route = { list: [], repeat: false, skippable: true, wait: false };
+        route.list.push({ code: 15, parameters: [Math.randomInt(3)] });
+        route.list.push({ code: 45, parameters: ["this.jump(0, 0)"] });
+        route.list.push({ code: 0, parameters: [] });
+        event.forceMoveRoute(route);
+    };
+};
+
+Game_Interpreter.prototype.ballKelScore = function() {
+    let event = $gameMap.event(38);
+    var route = { list: [], repeat: false, skippable: true, wait: false };
+    route.list.push({ code: 45, parameters: ["this.jump(0, 0)"] });
+    route.list.push({ code: 0, parameters: [] });
+    event.forceMoveRoute(route);
+};
+
+Game_Interpreter.prototype.ballKelMiss = function() {
+    let event = $gameMap.event(38);
+    var route = { list: [], repeat: false, skippable: true, wait: false };
+    route.list.push({ code: 45, parameters: ["this.jump(0, 0)"] });
+    route.list.push({ code: 0, parameters: [] });
+    event.forceMoveRoute(route);
+};
+
+Game_Interpreter.prototype.ballKelMove = function() {
+    let event = $gameMap.event(38);
+    var points = [[6,14],[8,15],[10,14]];
+    var target = points.filter(a => a[0] !== event._x)[Math.randomInt(2)];
+    var route = { list: [], repeat: false, skippable: true, wait: true };
+    route.list.push({ code: 45, parameters: [`MOVE TO: ${target[0]}, ${target[1]}`] });
+    route.list.push({ code: 45, parameters: [`this.setDirection(8)`] });
+    route.list.push({ code: 0, parameters: [] });
+    this._character = event;
+    event.forceMoveRoute(route);
+    this.setWaitMode("route");
+};
+
+Game_Interpreter.prototype.ballAwardPoints = function(val) {
+    var pointsVar = $gameVariables.value(110);
+    var comboMulti = $gameVariables.value(115);
+    $gameVariables.setValue(110,pointsVar+parseInt((130-(val/2))*comboMulti));
+    this.setBallPoints($gameVariables.value(110));
 };
