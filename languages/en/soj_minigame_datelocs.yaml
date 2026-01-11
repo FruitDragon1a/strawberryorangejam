@@ -1,0 +1,132 @@
+# Visiting Hobbeez date location
+
+# autorun as soon as you enter hobbeez
+hobbeez_1:
+  faceset: SOJ_BASIL
+  faceindex: 0
+  text: So... \|What do you think about bringing AUBREY here?\bas
+
+hobbeez_2:
+  faceset: SOJ_KEL
+  faceindex: 6
+  text: Hm...\kel
+
+# kel looks around then looks at the bottom left corner 
+hobbeez_3:
+  faceset: SOJ_KEL
+  faceindex: 5
+  text: We could probably read comics over in that corner like we used to do as kids.\kel 
+
+hobbeez_4:
+  faceset: SOJ_KEL
+  faceindex: 2
+  text: That would be really fun!\kel
+
+hobbeez_5:
+  faceset: SOJ_BASIL
+  faceindex: 33
+  text: So is this the one you want to go with?\bas
+
+hobbeez_6:
+  faceset: SOJ_KEL
+  faceindex: 5
+  text: I dunno yet...\! I still want to keep visiting the other places.\! \face[1]At least I know \c[11]HOBBEEZ\c[0] is a good pick,\. though!\kel
+
+
+# Visiting Gino's
+
+# autorun as soon as you enter gino's 
+ginos_1:
+  faceset: SOJ_BASIL
+  faceindex: 0
+  text: How does \c[11]GINO'S\c[0] feel as a date spot?\bas 
+
+ginos_2:
+  faceset: SOJ_KEL
+  faceindex: 0
+  text: Honestly?\| Pretty good.\kel
+
+ginos_3:
+  faceset: SOJ_KEL
+  faceindex: 2
+  text: Good food,\| good music,\| good vibes...\| The works!\kel
+
+ginos_4:
+  faceset: SOJ_KEL
+  faceindex: 1
+  text: Wow,\. the smell is really making me crave \c[3]PIZZA\c[0] right now.\kel
+
+ginos_5:
+  faceset: SOJ_BASIL
+  faceindex: 10
+  text: Does that mean this is your choice?\bas
+
+ginos_6:
+  faceset: SOJ_KEL
+  faceindex: 5
+  text: Not yet...\| I'd still like to see all the other places.\! But I'd be happy with this one!\kel
+
+ginos_7:
+  faceset: SOJ_KEL
+  faceindex: 6
+  text: It's weirdly empty for a weekend,\. though.\kel
+
+ginos_8:
+  faceset: SOJ_BASIL
+  faceindex: 14
+  text: Maybe people just woke up late?\! It'll probably fill up soon.\bas
+
+ginos_9:
+  faceset: SOJ_KEL
+  faceindex: 0
+  text: Yeah, that's probably it.\kel
+
+
+
+# Visiting the hangout spot
+
+# autorun when you enter
+hangout_1:
+  faceset: SOJ_KEL
+  faceindex: 1
+  text: Wow, it's so quiet in here.\! You can barely hear those kids out there yelling.\kel
+
+hangout_2:
+  faceset: SOJ_BASIL
+  faceindex: 1
+  text: Hehe,\. yeah.\bas
+
+hangout_3:
+  faceset: SOJ_BASIL
+  faceindex: 24
+  text: It's kind of nice.\! We had a lot of memories here...\bas
+
+hangout_4:
+  faceset: SOJ_BASIL
+  faceindex: 0
+  text: What do you think of it as a date spot?\bas
+
+hangout_5:
+  faceset: SOJ_KEL
+  faceindex: 0
+  text: It's a really good spot,\. I think.\! Quiet,\. tucked away,\. and there are loads of memories between me and AUBREY here!\kel
+
+hangout_6:
+  faceset: SOJ_KEL
+  faceindex: 7
+  text: Some good,\. some not so good...\kel
+
+hangout_7:
+  faceset: SOJ_KEL
+  faceindex: 2
+  text: But that's why we gotta make more good memories here!\! This spot is way too cool to waste.\kel
+
+hangout_8:
+  faceset: SOJ_BASIL
+  faceindex: 42
+  text: That's true...\bas
+
+hangout_9:
+  faceset: SOJ_KEL
+  faceindex: 2
+  text: I still want to visit \c[11]THE RESTAURANT\c[0],\. but this is definitely a good option!\kel
