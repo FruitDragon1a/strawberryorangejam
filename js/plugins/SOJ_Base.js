@@ -171,3 +171,14 @@ Sprite_OmoMenuStatusFace.prototype.updateBitmap = function() {
 };
 
 function isTextInCurrentLanguage(text) {return true;};
+
+Scene_Map.prototype.updateCharacterTagInput = function() {
+  // If Input Trigger A
+  if (Input.isTriggered('tag')) {
+    // If Can use Character Tag
+    if (this.canUseCharacterTag()) {  
+      // Get Tag
+      $gameSwitches.setValue(8,true)
+    };
+  };  
+};
