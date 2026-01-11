@@ -9,7 +9,7 @@ intro_0:
 
 intro_1:
   faceset: SOJ_BASIL
-  faceindex: 0
+  faceindex: 42
   text: Not really,\. no.\! I was just going to garden for a while and then head inside.\! Maybe read a book or two,\. call SUNNY later,\. the usual.\! Both KEL and AUBREY said they had plans.\bas
 
 # basil turns away to go to a plant
@@ -123,7 +123,7 @@ intro_21:
 
 intro_22:
   faceset: SOJ_BASIL
-  faceindex: 34
+  faceindex: 3
   text: Are you sure?\bas
 
 intro_23:
@@ -160,7 +160,7 @@ Money_2:
 
 Money_3:
   faceset: SOJ_BASIL
-  faceindex: 34
+  faceindex: 27
   text: Wait,\. really?\! That's kind of crazy.\bas
 
 Money_4:
@@ -205,8 +205,8 @@ Money_11:
 
 Money_12:
   faceset: SOJ_BASIL
-  faceindex: 0
-  text: Maybe it would be a good idea to talk about it now then, while we're here.\bas
+  faceindex: 33
+  text: Maybe it would be a good idea to talk about it now then.\bas
 
 Money_13:
   faceset: SOJ_BASIL
@@ -215,7 +215,7 @@ Money_13:
 
 Money_14:
   faceset: SOJ_KEL
-  faceindex: 8
+  faceindex: 0
   text: Well, there was that restaurant we passed by on the way to the store.\! It looked really nice for a date.\kel
 
 Money_15:
@@ -269,15 +269,15 @@ Money_23:
 
 Money_24:
   faceset: SOJ_BASIL
-  faceindex: 15
-  text: You're...\! probably overthinking it...\bas
+  faceindex: 14
+  text: You're probably overthinking it...\bas
 
 # basil takes a step toward the sidewalk, still turned toward kel + the house
 
 Money_25:
   faceset: SOJ_BASIL
-  faceindex: 3
-  text: I\.—I mean...\! I don't know...\! I've never been on a date before...\bas
+  faceindex: 0
+  text: Well...\| I've never asked anyone out before,\. so I don't think I'd be any more helpful.\bas
 
 # basil takes another backwards step toward the sidewalk, then turns around
 
@@ -301,12 +301,12 @@ Money_28:
 Money_29:
   faceset: SOJ_BASIL
   faceindex: 7
-  text: KEL, I just said I haven't gone out with anyone before—\bas
+  text: KEL, I just said I haven't gone out with anyone before—\.\^\bas
 
 Money_30:
   faceset: SOJ_KEL
   faceindex: 10
-  text: Yeah, but who else can I ask, AUBREY?\kel
+  text: Yeah, but who else can I ask?\! AUBREY?\kel
 
 Money_31:
   faceset: SOJ_BASIL
@@ -356,7 +356,7 @@ Money_39:
 Money_40:
   faceset: SOJ_KEL
   faceindex: 0
-  text: Yeah,\. good idea!\! Let’s head out!\!\face[7] Gotta find some jobs first,\. though...\! Where do we start?\kel
+  text: Yeah,\. good idea!\! Let's head out!\!\face[7] Gotta find some jobs first,\. though...\! Where do we start?\kel
 
 # basil looks around, eventually stopping in the direction of sunnys house
 
