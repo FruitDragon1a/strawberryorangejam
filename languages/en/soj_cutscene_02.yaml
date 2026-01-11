@@ -305,15 +305,15 @@ om_yougot:
 fp_mailman_0:
   faceset: SOJ_KEL
   faceindex: 0
-  text: Well, now that we have the sweets, what should we do next?\kel
+  text: Now that we have the sweets,\. what should we do next?\kel
 
 fp_mailman_1:
   faceset: SOJ_BASIL
   faceindex: 42
-  text: Hmm, how about—\^\bas
+  text: Hmm,\. how about—\^\bas
 
 fp_mailman_2:
-  text: STUPID JUNK!\who
+  text: \quake[2]STUPID JUNK!\who
 
 #loud clang effect
 #Kel and Basil jump, camera pans down
@@ -326,25 +326,25 @@ fp_mailman_3:
 fp_mailman_4:
   faceset: SOJ_KEL
   faceindex: 7
-  text: What's wrong,\. Mr. Mailman?\kel
+  text: What's wrong,\. MR. MAILMAN?\kel
 
 #mail man faces towards them
 
 fp_mailman_5:
-  text: Ah, sorry to scare you guys.
+  text: Ah,\. sorry to scare you guys.\n<MAILMAN>
 
 fp_mailman_6:
-  text: It's just that this piece \com[1014]\| of \com[1014]\| \quake[2]crap\quake[0] \com[1014]\| doesn't feel like moving!
+  text: "It's just that this \\exec<<$gameScreen.startShake(5, 8, 15);AudioManager.playSe({name: 'SE_Barrel_Smash', volume: 90, pitch: 100, pan: 0});>>piece\\| \\exec<<$gameScreen.startShake(5, 8, 15);AudioManager.playSe({name: 'SE_Barrel_Smash', volume: 90, pitch: 100, pan: 0});>>of\\| \\exec<<$gameScreen.startShake(5, 8, 15);AudioManager.playSe({name: 'SE_Barrel_Smash', volume: 90, pitch: 100, pan: 0});>>\\quake[2]crap\\quake[0]\\| doesn't feel like moving!\\n<MAILMAN>"
 
 fp_mailman_7:
-  text: \}I have so many deliveries to do, too.\..\..\. My boss is gonna kill me.\..\..\.
+  text: \}I have so many deliveries to do, too.\..\..\. My boss is gonna kill me.\..\..\.\n<MAILMAN>
 
 #Kel silence bubble
 
 fp_mailman_8:
   faceset: SOJ_KEL
   faceindex: 5
-  text: Hey, those are for FARAWAY, right?\kel
+  text: Hey, those are for \c[11]FARAWAY\c[0], right?\kel
 
 fp_mailman_9:
   faceset: SOJ_KEL
@@ -352,7 +352,7 @@ fp_mailman_9:
   text: What if we delivered those for you?\! While you try and get your car working.\kel
 
 fp_mailman_10:
-  text: You'd really do that for me?
+  text: You'd really do that for me?\n<MAILMAN>
 
 fp_mailman_11:
   faceset: SOJ_KEL
@@ -360,23 +360,27 @@ fp_mailman_11:
   text: I mean, why not?\| Seems like you could use the help!\kel
 
 fp_mailman_12:
-  text: Dude, you're a lifesaver!
+  text: Dude,\. you're a lifesaver!\n<MAILMAN>
 
 fp_mailman_13:
-  text: Here, take a couple of these. 
+  text: Here,\. take a couple of these.\n<MAILMAN>
 
 fp_mailman_14:
   text: You got \c[4]LETTERS\c[0].
 
 fp_mailman_15:
-  text: Come back when they're delivered, and it'll probably be enough time for my car to get up and running.
+  text: Come back when they're delivered, and it'll probably be enough time for my car to get up and running.\n<MAILMAN>
 
 fp_mailman_16:
   faceset: SOJ_KEL
   faceindex: 2
-  text: You got it!\! \face[0]C'mon,\. Basil,\. let's take these to their rightful owners!\kel
+  text: You got it!\! \face[0]C'mon,\. BASIL,\. let's take these to their rightful owners!\kel
 
 fp_mailman_17:
   faceset: SOJ_BASIL
   faceindex: 14
-  text: Uh, okay…?\bas
+  text: Uh,\. okay.\..\..\.?\bas
+
+#if talking again after cutscene
+fp_mailman_18:
+  text: Come back when you get those letters delivered!\n<MAILMAN>

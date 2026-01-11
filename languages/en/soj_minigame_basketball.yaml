@@ -383,8 +383,8 @@ after_14:
 
 after_15:
   faceset: SOJ_AUBREY
-  faceindex: 3
-  text: ...\|Let's not talk about that.\! I got a question for you,\. flower boy.\aub
+  faceindex: 2
+  text: ...\|Let's not talk about that.\!\face[3] I got a question for you,\. flower boy.\aub
 
 # basil question mark
 after_16:
