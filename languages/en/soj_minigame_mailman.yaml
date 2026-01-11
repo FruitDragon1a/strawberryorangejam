@@ -27,7 +27,7 @@ mail_start_4:
 mail_start_5:
   faceset: SOJ_KEL
   faceindex: 12
-  text: A lot of these others are for the outer streets of \c[4]FARAWAY\c[0], so I think I can take my bike and deliver those while you focus on the streets near us.\kel
+  text: A lot of these others are for the outer streets of \c[4]FARAWAY\c[0],\| so I think I can take my bike and deliver those while you focus on the streets near us.\kel
 
 mail_start_6:
   faceset: SOJ_KEL
@@ -42,7 +42,7 @@ mail_start_7:
 mail_start_8:
   faceset: SOJ_KEL
   faceindex: 0
-  text: Alrighty!\! We can drop this one off at my house and then split up.\kel
+  text: Alrighty!\! We can drop this off at my house and then split up.\kel
 
 mail_start_9:
   faceset: SOJ_BASIL
