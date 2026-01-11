@@ -384,3 +384,208 @@ fp_mailman_17:
 #if talking again after cutscene
 fp_mailman_18:
   text: Come back when you get those letters delivered!\n<MAILMAN>
+
+# faraway park, cake for kel!
+# At faraway park, on completion of postal delivery minigame
+# next to tree at vending machine
+#begins right after passing said tree
+
+aub_0:
+  text: Pssst... BASIL.\who
+
+aub_1:
+  faceset: SOJ_BASIL
+  faceindex: 0
+  text: Huh?
+
+# aubrey sticks her head out from behind the tree
+# basil exclamation bubble
+
+aub_2:
+  faceset: SOJ_AUBREY
+  faceindex: 0
+  text: .\..\..\.I need your help with something.
+
+aub_3:
+  faceset: SOJ_BASIL
+  faceindex: 15
+  text: Uh...
+
+# kel comes back to basil after leaving him behind, aubrey shuffles back behind the tree.
+
+aub_4:
+  faceset: SOJ_KEL
+  faceindex: 5
+  text: BASIL!\! You coming?
+
+aub_5:
+  faceset: SOJ_BASIL
+  faceindex: 36
+  text: Y\.-Yeah, you go on ahead! I just need to do something really quick!
+
+aub_6:
+  faceset: SOJ_KEL
+  faceindex: 2
+  text: Suit yourself, but be fast!
+
+# Kel runs towards the plaza
+# Aubrey gets out from behind the tree, stepping on the sidewalk next to Basil
+
+aub_7:
+  faceset: SOJ_AUBREY
+  faceindex: 2
+  text: Phew, thank goodness he's gone. \{My legs were starting to kill me...
+
+aub_8:
+  faceset: SOJ_BASIL
+  faceindex: 26
+  text: .\..\..\.Just how long were you waiting behind that tree?
+
+aub_9:
+  faceset: SOJ_AUBREY
+  faceindex: 13
+  text: Um.\..\..\. \face[3]Look, that doesn't matter. All you need to know is that I need your help with something.
+
+aub_10:
+  faceset: SOJ_BASIL
+  faceindex: 0
+  text: And that is?
+
+aub_11:
+  faceset: SOJ_AUBREY
+  faceindex: 
+  text: "Uh,\\. envision this: Hypothetically, if someone were to want to bake a cake for KEL—just a hypothetical, by the way—what flavor would he like the best?"
+
+aub_12:
+  faceset: SOJ_BASIL
+  faceindex: 44
+  text: Well—
+
+aub_13:
+  faceset: SOJ_AUBREY
+  faceindex: 3
+  text: This isn't me asking, by the way, BUT, out of curiosity, I'm asking you for your opinion.
+
+aub_14:
+  faceset: SOJ_BASIL
+  faceindex: 9
+  text: Hm.\..\..\. If I had to guess, I'd say...
+
+VANILLA:
+  text: VANILLA
+
+RED_VELVET:
+  text: RED VELVET
+
+CHOCOLATE:
+  text: CHOCOLATE
+
+STRAWHBERRY:
+  text: STRAWBERRY
+
+#vanilla
+
+aub_15:
+  faceset: SOJ_BASIL
+  faceindex: 2
+  text: Vanilla!
+
+aub_16:
+  faceset: SOJ_AUBREY
+  faceindex: 13
+  text: Vanilla? You sure he'd like that?
+
+aub_17:
+  faceset: SOJ_BASIL
+  faceindex: 10
+  text: Of course! I mean, this is a hypothetical after all, right? Who doesn’t like vanilla?
+
+# red velvet
+
+aub_18:
+  faceset: SOJ_BASIL
+  faceindex: 2
+  text: Red velvet!
+
+aub_19:
+  faceset: SOJ_AUBREY
+  faceindex: 13
+  text: Red velvet? You sure he'd like that?
+
+aub_20:
+  faceset: SOJ_BASIL
+  faceindex: 10
+  text: Of course! I mean, this is a hypothetical after all, right? Red velvet’s super good!
+
+# Chocolate
+
+aub_21:
+  faceset: SOJ_BASIL
+  faceindex: 2
+  text: Chocolate!
+
+aub_22:
+  faceset: SOJ_BASIL
+  faceindex: 13
+  text: Chocolate? You sure he'd like that?
+
+aub_23:
+  faceset: SOJ_BASIL
+  faceindex: 10
+  text: Of course! I mean, this is a hypothetical after all, right? Chocolate sounds great!
+
+# Strawberry
+
+aub_24:
+  faceset: SOJ_BASIL
+  faceindex: 2
+  text: Strawberry!
+
+aub_25:
+  faceset: SOJ_AUBREY
+  faceindex: 2
+  text: .\..\..\.\face[19]You're sure that isn't from your own bias?
+
+aub_26:
+  faceset: SOJ_BASIL
+  faceindex: 36
+  text: W-What could you possibly mean? I just think Kel would like strawberry, that's all!
+
+aub_27:
+  faceset: SOJ_BASIL
+  faceindex: 30
+  text: I mean, this is a hypothetical after all, right?
+
+# the rest
+
+aub_28:
+  faceset: SOJ_AUBREY
+  faceindex: 13
+  text: Oh!\|\face[2] Yeah, of course it is. I was just wondering is all.
+
+aub_29:
+  faceset: SOJ_BASIL
+  faceindex: 42
+  text: Kel will eat just about anything, so I'm sure he'd \sinv[1]love\sinv[0] a homemade cake! #wavy text on love
+
+aub_30:
+  faceset: SOJ_AUBREY
+  faceindex: 19
+  text: I see...
+
+aub_31:
+  faceset: SOJ_BASIL
+  faceindex: 33
+  text: Well, I better get going. You know Kel, after all!
+
+aub_32:
+  faceset: SOJ_AUBREY
+  faceindex: 0
+  text: Ah, yes.\..\..\. See you around, Basil.
+
+aub_33:
+  faceset: SOJ_AUBREY
+  faceindex: 1
+  text: .\..\..\|Thank you.
+
+# Aubrey walks away
