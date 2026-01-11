@@ -199,6 +199,5 @@ var $plugins =
 {"name":"SOJ_SLPCompat","status":true,"description":"","parameters":{}},
 {"name":"SOJ_Base","status":true,"description":"v1.0","parameters":{}},
 {"name":"TRain_TextEval","status":true,"description":"Execute between text & Centering","parameters":{}},
-{"name":"SOJ_BasketballWindows","status":true,"description":"","parameters":{}},
-{"name":"RS_DevanagariSimplify","status":true,"description":"This plugin is possible to show up Devanagari text simplify. <RS_DevanagariSimplify>","parameters":{"Message Mode":"normal","Devanagari Font":"Poppins, Hind"}}
+{"name":"SOJ_BasketballWindows","status":true,"description":"","parameters":{}}
 ];
