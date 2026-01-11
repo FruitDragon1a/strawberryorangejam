@@ -1,0 +1,56 @@
+# upon entering the crossroads map
+
+mail_start_1:
+  faceset: SOJ_KEL
+  faceindex: 0
+  text: Okay,\. let me look at the \c[4]LETTERS\c[0] the mailman gave us.\kel
+
+# riffling paper sfx
+# kel silence balloon
+# kel exclamation balloon
+mail_start_2:
+  faceset: SOJ_KEL
+  faceindex: 5
+  text: Hey,\. one of these letters is for me!\! \face[3]Well,\. my dad anyway.\kel
+
+mail_start_3:
+  faceset: SOJ_BASIL
+  faceindex: 42
+  text: That's a coincidence.\bas
+
+mail_start_4:
+  faceset: SOJ_KEL
+  faceindex: 1
+  text: I know,\. right?\kel
+
+# another pause, more riffling paper sfx
+mail_start_5:
+  faceset: SOJ_KEL
+  faceindex: 12
+  text: A lot of these others are for the outer streets of \c[4]FARAWAY\c[0], so I think I can take my bike and deliver those while you focus on the streets near us.\kel
+
+mail_start_6:
+  faceset: SOJ_KEL
+  faceindex: 5
+  text: I mean,\. unless you have a bike?\kel
+
+mail_start_7:
+  faceset: SOJ_BASIL
+  faceindex: 15
+  text: No...\! I never really learned.\bas
+
+mail_start_8:
+  faceset: SOJ_KEL
+  faceindex: 0
+  text: Alrighty!\! We can drop this one off at my house and then split up.\kel
+
+mail_start_9:
+  faceset: SOJ_BASIL
+  faceindex: 41
+  text: Sounds like a plan.\bas
+
+mail_start_10:
+  text: Press \DII[tag] to check who you're delivering a letter to!
+
+tag:
+  text: This letter is for \v[1965].
