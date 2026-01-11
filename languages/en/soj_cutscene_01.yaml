@@ -521,6 +521,7 @@ kelmom2_1:
 kelmom2_2:
   text: \sinv[2]Buh...\n<SALLY>
 
+
 # after leaving, autorun
 postkelmom_1:
   faceset: SOJ_KEL
@@ -554,3 +555,29 @@ mail_block:
   faceset: SOJ_KEL
   faceindex: 2
   text: There's no need to go in the park while we're delivering the mail!\kel
+
+
+playerblock_1:
+  faceset: SOJ_KEL
+  faceindex: 5
+  text: Wait a second,\. BASIL!\! While we're here,\. let's check out \c[11]HOBBEEZ\c[0] and \c[11]GINO'S\c[0]!\kel
+
+playerblock_2:
+  faceset: SOJ_KEL
+  faceindex: 5
+  text: Wait a second,\. BASIL!\! While we're here,\. let's check out \c[11]HOBBEEZ\c[0]!\kel
+
+playerblock_3:
+  faceset: SOJ_KEL
+  faceindex: 5
+  text: Wait a second,\. BASIL!\! While we're here,\. let's check out \c[11]GINO'S\c[0]!\kel
+
+playerblock_4:
+  faceset: SOJ_KEL
+  faceindex: 1
+  text: I'm feeling kind of hungry...\! \face[0]Let's go see if there's anything good at \c[11]OTHERMART\c[0].\kel
+
+playerblock_5:
+  faceset: SOJ_KEL
+  faceindex: 5
+  text: Wait a second,\. BASIL!\! While we're here,\. let's check out the \c[11]HANGOUT SPOT\c[0]!\kel
