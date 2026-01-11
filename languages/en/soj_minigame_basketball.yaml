@@ -7,6 +7,12 @@ pre_brent:
 pre_jesse:
   text: I don't really feel like running around...\! Hopefully we play something a little more fun later.\n<JESSE> 
 
+pre_joydad:
+  text: They look like they're having fun.\n<JOY'S DAD>
+
+pre_brentmom:
+  text: I was surprised BRENT wanted his party at the \c[11]PARK\c[0],\. but it turned out to be a great idea!\! Less cleanup for me!\n<BRENT'S MOM>
+
 bug_brent:
   text: \com[2]\sinv[2]I'm having so much fun!\n<BRENT>
 
@@ -40,6 +46,9 @@ bug_darius:
 
 bug_joydad:
   text: Kids...\! Slow down...\n<JOY'S DAD>
+
+bug_brentmom:
+  text: I'm going to need to pick up food for the kids soon...\n<BRENT'S MOM>
 
 # character:
 # glasses boy = charles daniel
