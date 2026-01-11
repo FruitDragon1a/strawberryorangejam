@@ -371,7 +371,10 @@ Money_42:
   text: Only one way to find out!\kel
 #basil and kel walk to the neighbors
 
-
+NeighborBlock:
+  faceset: SOJ_KEL
+  faceindex: 5
+  text: Where are you going,\. BASIL?\! Let's go talk to the new neighbors!
 
 
 
@@ -450,91 +453,100 @@ aub_13:
   faceindex: 16
   text: ...What was that?\kel
 
+# if the player goes in kels house after
 kelmom_1:
-  faceset: 
-  faceindex: 
+  faceset: SOJ_KEL
+  faceindex: 10
   text: MAMÁ,\. why was AUBREY here?\kel
 
 kelmom_2:
   text: She just came to talk,\. dear.\n<KEL'S MOM>
 
 kelmom_3:
-  faceset: 
-  faceindex: 
+  faceset: SOJ_KEL
+  faceindex: 5
   text: About what?\kel
 
 kelmom_4:
-  faceset: 
-  faceindex: 
   text: About...\| you,\. actually.\n<KEL'S MOM>
 
-# kels mom sweat
 kelmom_5:
-  faceset: 
-  faceindex: 
-  text: Wait, what?
+  faceset: SOJ_KEL
+  faceindex: 4
+  text: Wait, what?\kel
 
-# kels mom angry bubble
 kelmom_6:
-  faceset: 
-  faceindex: 
-  text: ...\bas # trying not to laugh
+  faceset: SOJ_BASIL
+  faceindex: 43
+  text: .\|.\|.\bas # trying not to laugh
 
+# kels mom sweat
 kelmom_7:
-  faceset: 
-  faceindex: 
   text: I— I mean,\. you and HERO!\! She came to ask how you two were doing.\n<KEL'S MOM>
 
+# kels mom angry bubble
 kelmom_8:
-  faceset: 
-  faceindex: 
   text: I didn't have much to say about HERO,\. though...\! He still barely returns my calls!\! He's so busy.\n<KEL'S MOM>
 
 kelmom_9:
-  faceset: 
-  faceindex: 
+  faceset: SOJ_KEL
+  faceindex: 10
   text: But...\| why?\kel
 
 kelmom_10:
-  faceset: 
-  faceindex: 
   text: I...\| can't say.\! Girl code,\. KEL.\! Shouldn't have even said that much.\n<KEL'S MOM>
 
 kelmom_11:
-  faceset: 
-  faceindex: 
+  faceset: SOJ_KEL
+  faceindex: 11
   text: What??\kel
 
 kelmom_12:
-  faceset: 
-  faceindex: 
-  text: Run along now,\| boys.\n<KEL'S MOM>
+  faceset: SOJ_BASIL
+  faceindex: 1
+  text: Hehehe...\bas
 
 kelmom_13:
-  faceset: 
-  faceindex: 
   text: Run along now,\| boys.\n<KEL'S MOM>
+
+keldad_1:
+  text: Move out of the way,\. boys!\! SALLY and I are watching TV!\n<KEL'S DAD>
+
+sally_1:
+  text: A-buh!\n<SALLY>
+
+kelmom2_1:
+  text: Ah...\| so many chores to do...<br>\!Do you want to do chores,\| SALLY?\n<KEL'S MOM>
+
+kelmom2_2:
+  text: \sinv[2]Buh...\n<SALLY>
 
 # after leaving, autorun
 postkelmom_1:
-  faceset: 
-  faceindex: 
-  text: 
+  faceset: SOJ_KEL
+  faceindex: 6
+  text: ...\kel
 
 postkelmom_2:
-  faceset: 
-  faceindex: 
-  text: 
+  faceset: SOJ_KEL
+  faceindex: 10
+  text: Don't you think AUBREY having girl code with my mom is kinda weird?\kel
 
+#Kel exclamation balloon he is blushing furiously
 postkelmom_3:
-  faceset: 
-  faceindex: 
-  text: 
+  faceset: SOJ_BASIL
+  faceindex: 24
+  text: I mean...\| If she's gonna join your family...\bas
 
 postkelmom_4:
-  faceset: 
-  faceindex: 
-  text: 
+  faceset: SOJ_KEL
+  faceindex: 5 
+  text: BASIL!\| We aren't even dating!\kel
+
+postkelmom_5:
+  faceset: SOJ_BASIL
+  faceindex: 30
+  text: Yet.\..\..\.\bas
 
 
 
