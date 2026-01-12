@@ -129,12 +129,12 @@ intro_22:
 intro_23:
   faceset: SOJ_KEL
   faceindex: 1
-  text: Of course!\!\face[2] You have a good eye for everything, BASIL!\kel
+  text: Of course!\!\face[2] You have a good eye for everything, BASIL!<br><br><br>\quake[1]\face[14]Also I suck at gift giving...\! I almost gave HERO medicine when he came back from college...\kel
 
 intro_24:
   faceset: SOJ_BASIL
-  faceindex: 41
-  text: Thanks...\bas
+  faceindex: 35
+  text: Wow...\! \face[42]Okay.\| I'll come along.\bas
 
 #They leave to the gift shop
 
