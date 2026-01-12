@@ -4,6 +4,10 @@ SOJ.MM.EH = LanguageManager.getTextData("soj_minigame_mailman","EligibleHouses")
 SOJ.MM.PickedHouses = []
 
 Game_Interpreter.prototype.pickHouse = function() {
+    if ($gameVariables.value(1964) == 4) {
+        if (!SOJ.MM.PickedHouses.contains(1)) {SOJ.MM.PickedHouses.push(1)}
+        if (!SOJ.MM.PickedHouses.contains(2)) {SOJ.MM.PickedHouses.push(2)}
+    }
     num = Math.randomInt(13) + 1
     while (SOJ.MM.PickedHouses.contains(num)) {
         num = Math.randomInt(13) + 1
