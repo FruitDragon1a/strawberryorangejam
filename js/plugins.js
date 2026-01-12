@@ -199,5 +199,6 @@ var $plugins =
 {"name":"SOJ_SLPCompat","status":true,"description":"","parameters":{}},
 {"name":"SOJ_Base","status":true,"description":"v1.0","parameters":{}},
 {"name":"TRain_TextEval","status":true,"description":"Execute between text & Centering","parameters":{}},
-{"name":"SOJ_BasketballWindows","status":true,"description":"","parameters":{}}
+{"name":"SOJ_BasketballWindows","status":true,"description":"","parameters":{}},
+{"name":"SOJ_MailMinigame","status":true,"description":"","parameters":{}}
 ];

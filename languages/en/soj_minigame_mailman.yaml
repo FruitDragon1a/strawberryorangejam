@@ -1,5 +1,121 @@
 # upon entering the crossroads map
 
+EligibleHouses:
+  1: # maya
+    1: 
+      recipient: VIKRAM
+      sender: MOVING COMPANY
+      what: LETTER
+    2:
+      recipient: NISHA
+      sender: MOVING COMPANY
+      what: LETTER
+  2: # cris
+    1: 
+      recipient: BOB
+      sender: NATIONAL FOOTBALL LEAGUE
+      what: MAGAZINE
+    2: 
+      recipient: LINDA
+      sender: FARAWAY COUNTY EVENT BOARD
+      what: NEWSLETTER
+  3: # brent
+    1: 
+      recipient: PAULINE
+      sender: SCHOOL BOARD
+      what: LETTER
+    2: 
+      recipient: TIM
+      sender: PHARMACEUTICAL INC.
+      what: LETTER
+  4: # kim's mom
+    1: 
+      recipient: VANESSA
+      sender: BONSAI GROWER'S ASSOCIATION
+      what: MAGAZINE
+  5: # joy
+    1: 
+      recipient: JUN
+      sender: MICHAEL
+      what: LETTER
+    2: 
+      recipient: MICHAEL
+      sender: MUSICIAN'S UNITED
+      what: LETTER
+    3: 
+      recipient: JOY
+      sender: MICHAEL
+      what: PACKAGE
+    4: 
+      recipient: AYEE
+      sender: WORLDWIDE FISH LOVERS' ASSOCIATION
+      what: LETTER
+
+  6: # charlie's house
+    1: 
+      recipient: TUCKER
+      sender: PHILOSOPHERS OF AMERICA
+      what: LETTER
+    2: 
+      recipient: GERTRUDE
+      sender: SENIOR ASSISTANCE ORGANIZATION
+      what: PACKAGE
+
+  7: # vance's dad
+    1: 
+      recipient: MASON
+      sender: PLUMBERS, INC.
+      what: PACKAGE
+  8: # sean and karen
+    1: 
+      recipient: SEAN
+      sender: HOME DECOR INC.
+      what: MAGAZINE
+    2: 
+      recipient: KAREN
+      sender: HOME DECOR INC.
+      what: MAGAZINE
+  9: # sarah
+    1: 
+      recipient: SARAH
+      sender: MANGA WHOLESALE
+      what: PACKAGE
+    2: 
+      recipient: ELLEN
+      sender: HEALTHY LIVING
+      what: MAGAZINE
+  10: # basil
+    1: 
+      recipient: POLLY
+      sender: FARAWAY HIGH STAFF MANAGEMENT
+      what: LETTER
+  11: # jesse
+    1: # jesse dad
+      recipient: BARTHOLOMEW
+      sender: RECYCULT RECRUITMENT
+      what: LETTER
+  12: # bebe
+    1: 
+      recipient: BILLY
+      sender: CULT OF LITTERING
+      what: PACKAGE
+    2: 
+      recipient: BRANDI
+      sender: FASHION MAGAZINE
+      what: MAGAZINE
+    3: 
+      recipient: BEBE'S MOM
+  13: # amber and angel
+    1: 
+      recipient: AMBER
+      sender: FARAWAY COUNTY MUSEUM OF ART
+      what: LETTER
+    2: 
+      recipient: AMBER
+      sender: ART COMMISSION SERVICE
+      what: LETTER
+    
+
 mail_start_1:
   faceset: SOJ_KEL
   faceindex: 0
