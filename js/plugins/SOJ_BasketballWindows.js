@@ -11,6 +11,13 @@ Game_Interpreter.prototype.createBasketballPointsWindow = function() {
         this.contents.fontSize = 36;
         this.drawText(`POINTS: ${parseInt(num)}`, 0, -10, this.contents.width, "center");
     };
+    scene._ballPointWindow.close = function() {
+        this.update = function() {
+            Window_Base.prototype.update.call(this);
+            this.openness -= 13;
+            if (this.openness <= 0) {scene.removeChild(this);};
+        };
+    };
     SceneManager._scene.addChild(scene._ballPointWindow);
 };
 
@@ -26,6 +33,13 @@ Game_Interpreter.prototype.createBasketballTimerWindow = function() {
         this.contents.clear();
         this.contents.fontSize = 36;
         this.drawText(`TIME: ${min.padZero(2)}:${sec.padZero(2)}`, 0, -10, this.contents.width, "center");
+    };
+    scene._ballTimerWindow.close = function() {
+        this.update = function() {
+            Window_Base.prototype.update.call(this);
+            this.openness -= 13;
+            if (this.openness <= 0) {scene.removeChild(this);};
+        };
     };
     SceneManager._scene.addChild(scene._ballTimerWindow);
 };
