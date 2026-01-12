@@ -1,2 +1,105 @@
-test: 
-  text: 
+#moving minigame
+#begins after getting close enough to the house
+
+moving_0:
+  text: You got this,\. VIKRAM!\n<MAYA'S MOM>
+
+moving_1:
+  text: Yeah,\. DAD!\n<MAYA>
+
+# maya's dad sweat bubble
+# he drops the box
+
+moving_2: 
+  text: "\\ow[0]\\fn<NotoSansDevanagari-Regular>\\fs[20]\u098A \u098Bम\\fn<GameFont>\\fs[24],\\fn<NotoSansDevanagari-Regular>\\fs[20]\\. \u098C\u098D मदद क\u098E\\fn<GameFont>\\fs[24] instead of just standing there...\\n<MAYA'S DAD>"
+
+# he goes and tries to lift it up again
+
+#kel and basil walk up to mayas mom and maya
+
+moving_3:
+  faceset: SOJ_KEL
+  faceindex: 0
+  text: Hello, new neighbors!\! You guys must be MAYA's parents!\kel
+
+# maya's mom exclamation bubble
+
+moving_4:
+  text: Ah,\. hello!\! You must be KEL!\n<MAYA'S MOM>
+
+moving_5:
+  text: Your mom came by the other day and said hello.\! She brought us a nice plant,\. too!\n<MAYA'S MOM>
+
+moving_6:
+  text: Hi,\. KEL!\n<MAYA>
+
+moving_7:
+  faceset: SOJ_KEL
+  faceindex: 12
+  text: Oh, cool!\!\face[2] Hi, MAYA!\kel
+
+moving_8:
+  faceset: SOJ_KEL
+  faceindex: 3
+  text: Anyway,\. my friend BASIL and I wanted to come by and see if you guys needed some help!\kel
+
+moving_9:
+  text: Oh?\! You mean with moving the stuff inside?\n<MAYA'S MOM>
+
+moving_10:
+  text: I appreciate the thought,\. but...\n<MAYA'S MOM>
+
+#they look up to mayas dad struggling
+
+moving_11:
+  text: Huff.\..\..\. Huff.\..\..\.\n<MAYA'S DAD>
+
+moving_12:
+  text: .\..\..\.It may be too much of a hassle.\n<MAYA'S MOM>
+
+moving_13:
+  text: My dad's pretty strong, so these boxes must be really heavy.\n<MAYA>
+
+moving_14:
+  faceset: SOJ_KEL
+  faceindex: 0
+  text: Don't worry!\! Me and Basil are more than strong enough to move this stuff together!\kel
+
+moving_15:
+  faceset: SOJ_BASIL
+  faceindex: 15
+  text: U-\.Us?\bas
+
+moving_16:
+  faceset: SOJ_KEL
+  faceindex: 2
+  text: Of course! You and I can take on the world! I'm sure of it!\kel
+
+moving_17:
+  faceset: SOJ_KEL
+  faceindex: 0
+  text: Just follow my lead and we'll have this done in no time!\kel
+
+moving_18:
+  text: If you're sure... Thank you, boys...\n<MAYA'S MOM>
+
+moving_19:
+  text: VIKRAM! You can take a break! These young men said they'll help!\n<MAYA'S MOM>
+
+moving_20:
+  text: Really? Oh, thank god... \[My back's killing me...\n<MAYA'S DAD>
+
+#Maya's dad walks over
+
+moving_21:
+  text: I won't let you do it for free,\. though. I'll give you some spending money as thanks.\n<MAYA'S DAD>
+
+moving_21:
+  faceset: SOJ_KEL
+  faceindex: 5
+  text: Really?\! Wow,\. thanks!\kel
+
+moving_21:
+  text: Thank you for helping out.\! Here,\. I'll show you where to put the stuff.\n<MAYA'S DAD>
+
+#cue moving tutorial
