@@ -182,3 +182,16 @@ Scene_Map.prototype.updateCharacterTagInput = function() {
     };
   };  
 };
+
+Scene_Map.prototype.canUseCharacterTag = function() { 
+  // If Event is running return false
+  if ($gameMap.isEventRunning()) { return false; };
+  // If Party size is 1 or less
+  // If Disable Switch is on return false
+  if ($gameSwitches.value(_TDS_.MapCharacterTag.params.disableSwitchID)) { return false; }
+  let scene = SceneManager._scene;
+  let isProcessingAnyMovement = !!$gamePlayer.isMoving() || !!$gamePlayer.followers().areMoving() || Input.isPressed("left") || Input.isPressed("right") || Input.isPressed("up") || Input.isPressed("down");
+  if (!!isProcessingAnyMovement) {return false;}
+  // Return true by default
+  return true;
+};
