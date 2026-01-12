@@ -18,4 +18,6 @@ Game_Interpreter.prototype.pickRecipient = function(HouseData) {
     $gameVariables.setValue(1965,RecipientData.recipient)
     $gameVariables.setValue(1966,RecipientData.sender)
     $gameVariables.setValue(1967,RecipientData.what)
+    $gameVariables.setValue(1969,RecipientData.id)
+    
 }

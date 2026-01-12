@@ -4,54 +4,65 @@ EligibleHouses:
   1: # maya
     length: 2
     1: 
+      id: 1
       recipient: VIKRAM
       sender: MOVING COMPANY
       what: LETTER
     2:
+      id: 1
       recipient: NISHA
       sender: MOVING COMPANY
       what: LETTER
   2: # cris
     length: 2
     1: 
+      id: 2
       recipient: BOB
       sender: NATIONAL FOOTBALL LEAGUE
       what: MAGAZINE
     2: 
+      id: 2
       recipient: LINDA
       sender: FARAWAY COUNTY EVENT BOARD
       what: NEWSLETTER
   3: # brent
     length: 2
     1: 
+      id: 3
       recipient: PAULINE
       sender: SCHOOL BOARD
       what: LETTER
     2: 
+      id: 3
       recipient: TIM
       sender: PHARMACEUTICAL INC
       what: LETTER
   4: # kim's mom
     length: 1
     1: 
+      id: 4
       recipient: VANESSA
       sender: BONSAI GROWER'S ASSOCIATION
       what: MAGAZINE
   5: # joy
     length: 4
     1: 
+      id: 5
       recipient: JUN
       sender: MICHAEL
       what: LETTER
     2: 
+      id: 5
       recipient: MICHAEL
       sender: MUSICIAN'S UNITED
       what: LETTER
     3: 
+      id: 5
       recipient: JOY
       sender: MICHAEL
       what: PACKAGE
     4: 
+      id: 5
       recipient: AYEE
       sender: WORLDWIDE FISH LOVERS' ASSOCIATION
       what: LETTER
@@ -59,10 +70,12 @@ EligibleHouses:
   6: # charlie's house
     length: 2
     1: 
+      id: 6
       recipient: TUCKER
       sender: PHILOSOPHERS OF AMERICA
       what: LETTER
     2: 
+      id: 6
       recipient: GERTRUDE
       sender: SENIOR ASSISTANCE ORGANIZATION
       what: PACKAGE
@@ -70,62 +83,74 @@ EligibleHouses:
   7: # vance's dad
     length: 1
     1: 
+      id: 7
       recipient: MASON
       sender: PLUMBERS, INC
       what: PACKAGE
   8: # sean and karen
     length: 2
     1: 
+      id: 8
       recipient: SEAN
       sender: HOME DECOR INC
       what: MAGAZINE
     2: 
+      id: 8
       recipient: KAREN
       sender: HOME DECOR INC
       what: MAGAZINE
   9: # sarah
     length: 2
     1: 
+      id: 9
       recipient: SARAH
       sender: MANGA WHOLESALE
       what: PACKAGE
     2: 
+      id: 9
       recipient: ELLEN
       sender: HEALTHY LIVING
       what: MAGAZINE
   10: # basil
     length: 1
     1: 
+      id: 10
       recipient: POLLY
       sender: FARAWAY HIGH STAFF MANAGEMENT
       what: LETTER
   11: # jesse
     length: 1
     1: # jesse dad
+      id: 11
       recipient: BARTHOLOMEW
       sender: RECYCULT RECRUITMENT
       what: LETTER
   12: # bebe
     length: 3
     1: 
+      id: 12
       recipient: BILLY
       sender: CULT OF LITTERING
       what: PACKAGE
     2: 
+      id: 12
       recipient: BRANDI
       sender: FASHION MAGAZINE
       what: MAGAZINE
     3: 
+      id: 12
       recipient: BRYONY
       sender: BRANDI
       what: LETTER
   13: # amber and angel
     length: 2
     1: 
+      id: 13
       recipient: AMBER
       sender: FARAWAY COUNTY MUSEUM OF ART
       what: LETTER
     2: 
+      id: 13
       recipient: AMBER
       sender: ART COMMISSION SERVICE
       what: LETTER
@@ -184,7 +209,7 @@ mail_start_10:
   text: Press \DII[tag] to check who you're delivering a letter to!
 
 tag:
-  text: A \c[4]\v[1967]\c[0] for \v[1965] from \v[1966].
+  text: The next \c[4]\v[1967]\c[0] you have to deliver is for \v[1965], from \v[1966].
 
 # if you interact with kel's door
 doorblock:
@@ -253,3 +278,12 @@ mail_tutorialend_7:
   faceindex: 12
   text: Alright!\! See you in a bit!\kel
 # kel pedals off into the sunset
+
+placeprompt:
+  text: Do you want to put the \c[4]\v[1967]\c[0] in this mailbox?
+
+# xx_system.message_11
+# xx_system.message_12
+
+placeconfirm:
+  text: You put the \c[4]\v[1967]\c[0] in the mailbox.
