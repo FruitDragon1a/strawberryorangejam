@@ -195,3 +195,23 @@ Scene_Map.prototype.canUseCharacterTag = function() {
   // Return true by default
   return true;
 };
+
+Game_Interpreter.prototype.forceKelMove = function(idA,x,y,wait) {
+    // Create Move Route Object
+    var route = { list: [], repeat: false, skippable: true, wait: true };
+    // Get Direction
+
+    // Add Script call to move route
+    route.list.push({ code: 45, parameters: [`MOVE TO: ${x}, ${y}`] });
+    // Add Wait command to move route
+    route.list.push({ code: 0, parameters: [] });
+            
+    // Get Event (Using argument for ID)
+    var event = $gameMap.event(idA)
+        // Force event to follow move route
+    event.forceMoveRoute(route);
+    // Set Character for wait tracking
+    this._character = event;
+    // Set Wait mode so it waits until character is done moving before running other commands
+    if (wait) {this.setWaitMode('route')};
+}

@@ -85,7 +85,7 @@ EligibleHouses:
     1: 
       id: 7
       recipient: MASON
-      sender: PLUMBERS, INC
+      sender: PLUMBING TIPS, INC
       what: PACKAGE
   8: # sean and karen
     length: 2
@@ -287,3 +287,75 @@ placeprompt:
 
 placeconfirm:
   text: You put the \c[4]\v[1967]\c[0] in the mailbox.
+
+
+
+
+
+# after delivering five letters successfully (including kels)
+
+# kel pedals in
+# he stops below basil
+# the version of this for every street except mavericks
+end_1:
+  faceset: SOJ_KEL
+  faceindex: 2
+  text: \{\sinv[2]Yo,\. BASIL!\!\sinv[0]\fr There you are!\kel
+
+end_2:
+  faceset: SOJ_KEL
+  faceindex: 0 
+  text: I dropped off the rest of my \c[4]LETTERS\c[0].\! How about you?\kel
+
+end_3:
+  faceset: SOJ_BASIL
+  faceindex: 42
+  text: I've got one \c[4]LETTER\c[0] left.\bas
+
+end_4:
+  faceset: SOJ_KEL
+  faceindex: 5
+  text: Who's it for?\kel
+
+end_5:
+  faceset: SOJ_BASIL
+  faceindex: 34
+  text: ...For MIKHAEL,\. from BEBE.\bas
+
+end_6:
+  faceset: SOJ_KEL
+  faceindex: 2
+  text: Oh,\. he lives two houses down from me!<br>\!\face[5]Wait,\. isn't BEBE his girlfriend?\kel
+
+end_7:
+  faceset: SOJ_BASIL
+  faceindex: 0
+  text: I think so.\bas
+
+end_8:
+  faceset: SOJ_KEL
+  faceindex: 12
+  text: I bet it's a love letter!\kel
+
+end_9:
+  faceset: SOJ_KEL
+  faceindex: 1
+  text: \sinv[1]Wow...\! Now I'm imagining exchanging love letters with AUBREY...\kel
+
+end_10:
+  faceset: SOJ_BASIL
+  faceindex: 43
+  text: .\..\..\bas # trying not to laugh
+
+# kel sweat bubble
+end_11:
+  faceset: SOJ_KEL
+  faceindex: 2
+  text: Anyway,\. let's go drop it off!\! Meet you there!\kel
+  # kel leaves
+
+notmavbox:
+  text: This isn't MIKHAEL's mailbox.
+
+prompt_talktokel:
+  text: Maybe you should talk to KEL.
