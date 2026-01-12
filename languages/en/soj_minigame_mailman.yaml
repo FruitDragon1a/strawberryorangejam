@@ -2,6 +2,7 @@
 
 EligibleHouses:
   1: # maya
+    length: 2
     1: 
       recipient: VIKRAM
       sender: MOVING COMPANY
@@ -11,6 +12,7 @@ EligibleHouses:
       sender: MOVING COMPANY
       what: LETTER
   2: # cris
+    length: 2
     1: 
       recipient: BOB
       sender: NATIONAL FOOTBALL LEAGUE
@@ -20,20 +22,23 @@ EligibleHouses:
       sender: FARAWAY COUNTY EVENT BOARD
       what: NEWSLETTER
   3: # brent
+    length: 2
     1: 
       recipient: PAULINE
       sender: SCHOOL BOARD
       what: LETTER
     2: 
       recipient: TIM
-      sender: PHARMACEUTICAL INC.
+      sender: PHARMACEUTICAL INC
       what: LETTER
   4: # kim's mom
+    length: 1
     1: 
       recipient: VANESSA
       sender: BONSAI GROWER'S ASSOCIATION
       what: MAGAZINE
   5: # joy
+    length: 4
     1: 
       recipient: JUN
       sender: MICHAEL
@@ -52,6 +57,7 @@ EligibleHouses:
       what: LETTER
 
   6: # charlie's house
+    length: 2
     1: 
       recipient: TUCKER
       sender: PHILOSOPHERS OF AMERICA
@@ -62,20 +68,23 @@ EligibleHouses:
       what: PACKAGE
 
   7: # vance's dad
+    length: 1
     1: 
       recipient: MASON
-      sender: PLUMBERS, INC.
+      sender: PLUMBERS, INC
       what: PACKAGE
   8: # sean and karen
+    length: 2
     1: 
       recipient: SEAN
-      sender: HOME DECOR INC.
+      sender: HOME DECOR INC
       what: MAGAZINE
     2: 
       recipient: KAREN
-      sender: HOME DECOR INC.
+      sender: HOME DECOR INC
       what: MAGAZINE
   9: # sarah
+    length: 2
     1: 
       recipient: SARAH
       sender: MANGA WHOLESALE
@@ -85,16 +94,19 @@ EligibleHouses:
       sender: HEALTHY LIVING
       what: MAGAZINE
   10: # basil
+    length: 1
     1: 
       recipient: POLLY
       sender: FARAWAY HIGH STAFF MANAGEMENT
       what: LETTER
   11: # jesse
+    length: 1
     1: # jesse dad
       recipient: BARTHOLOMEW
       sender: RECYCULT RECRUITMENT
       what: LETTER
   12: # bebe
+    length: 3
     1: 
       recipient: BILLY
       sender: CULT OF LITTERING
@@ -104,8 +116,11 @@ EligibleHouses:
       sender: FASHION MAGAZINE
       what: MAGAZINE
     3: 
-      recipient: BEBE'S MOM
+      recipient: BRYONY
+      sender: BRANDI
+      what: LETTER
   13: # amber and angel
+    length: 2
     1: 
       recipient: AMBER
       sender: FARAWAY COUNTY MUSEUM OF ART
@@ -169,4 +184,72 @@ mail_start_10:
   text: Press \DII[tag] to check who you're delivering a letter to!
 
 tag:
-  text: This letter is for \v[1965].
+  text: A \c[4]\v[1967]\c[0] for \v[1965] from \v[1966].
+
+# if you interact with kel's door
+doorblock:
+  faceset: SOJ_KEL
+  faceindex: 0
+  text: Let's just put it in the mailbox for now.\kel
+
+streetblock:
+  faceset: SOJ_KEL
+  faceindex: 0
+  text: That isn't my street,\. BASIL!\kel
+
+houseblock:
+  faceset: SOJ_KEL
+  faceindex: 0
+  text: That isn't my house,\. BASIL!\kel
+
+boxblock:
+  faceset: SOJ_KEL
+  faceindex: 0
+  text: That isn't my mailbox,\. BASIL!\kel
+
+doorblock2:
+  text: You should put the \c[4]\v[1967]\c[0] in the mailbox.
+
+plazablock:
+  text: You should deliver all of the mail first.
+
+streetblock2:
+  text: You don't have any mail to deliver in that direction.
+
+# when you reach kel's mailbox
+mail_tutorialend_1:
+  faceset: SOJ_KEL
+  faceindex: 5
+  text: Okay,\. let's put it in.\kel
+
+mail_tutorialend_2:
+  text: You put the \c[4]\v[1967]\c[0] in the mailbox.
+
+mail_tutorialend_3:
+  faceset: SOJ_KEL
+  faceindex: 2
+  text: Great!\! \face[0]I'm going to go grab my bike.\! Give me a moment.\kel
+
+mail_tutorialend_4:
+  faceset: SOJ_BASIL
+  faceindex: 1
+  text: Okay.\bas
+
+# kel goes to grab his bike
+# garagedoor opens, he disappears, reappears with his bike, garagedoor closes
+
+mail_tutorialend_5:
+  faceset: SOJ_KEL
+  faceindex: 6
+  text: Here are the letters for these streets.\! Do you know where everyone lives?\kel
+
+mail_tutorialend_6:
+  faceset: SOJ_BASIL
+  faceindex: 0
+  text: I can probably figure it out...\bas
+
+mail_tutorialend_7:
+  faceset: SOJ_KEL
+  faceindex: 12
+  text: Alright!\! See you in a bit!\kel
+# kel pedals off into the sunset
