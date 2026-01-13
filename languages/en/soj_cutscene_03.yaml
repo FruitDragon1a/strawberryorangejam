@@ -1,0 +1,532 @@
+# Get Kel some flowers
+
+# Autorun when you walk into basils front yard
+
+yard_front_1:
+  faceset: SOJ_BASIL
+  faceindex: 1
+  text: So,\| uh,\| remember my backyard?\bas
+
+yard_front_2:
+  faceset: SOJ_KEL
+  faceindex: 3
+  text: It's been a while,\. but I think so?\kel
+
+yard_front_3:
+  faceset: SOJ_BASIL
+  faceindex: 2
+  text: I've got a bunch of flowers growing there that you can take.\! We can go through on the left side of my house.\bas
+
+yard_front_4:
+  faceset: SOJ_KEL
+  faceindex: 0
+  text: Okay!\kel
+
+# player free to move
+# if player tries to leave
+
+
+
+# autorun upon entering the backyard map
+yard_intro_1:
+  faceset: SOJ_KEL
+  faceindex: 5
+  text: Wow,\. that's a lot of pink flowers!\kel
+
+yard_intro_2:
+  faceset: SOJ_KEL
+  faceindex: 10
+  text: Wait,\. why are you only growing pink flowers?\kel
+
+yard_intro_3:
+  faceset: SOJ_BASIL
+  faceindex: 37
+  text: Uh...\. long story.\! Basically,\. POLLY's friend asked me to grow pink flowers for an event she's having.\bas
+
+yard_intro_4:
+  faceset: SOJ_BASIL
+  faceindex: 2
+  text: Don't worry,\. POLLY's friend is paying me for the flowers.\!<br>\}Pretty sure it's still less than she'd pay to an actual florist,\. though...\bas
+
+yard_intro_5:
+  faceset: SOJ_KEL
+  faceindex: 12
+  text: Huh,\. interesting.\kel
+
+yard_intro_6:
+  faceset: SOJ_BASIL
+  faceindex: 42
+  text: Anyway,\. I don't mind you taking a couple for AUBREY.\! POLLY's friend probably won't notice anyway.\! Also,\. she never cared about the floriographic meanings,\. only the color.\bas
+
+yard_intro_7:
+  faceset: SOJ_KEL
+  faceindex: 0
+  text: Alright!\kel
+
+# player control returns, you have to interact with each planter
+yard_spiderlily_1:
+  faceset: SOJ_BASIL
+  faceindex: 10
+  text: These are \c[4]PINK SPIDER LILIES\c[0].\! They represent love,\. beauty,\. and passion.\bas
+
+yard_spiderlily_2:
+  faceset: SOJ_KEL
+  faceindex: 5
+  text: Woah,\. they're so spiky!\kel
+
+yard_spiderlily_3:
+  faceset: SOJ_BASIL
+  faceindex: 15
+  text: I mean,\. spiky is one way to describe it...\bas
+
+yard_primrose_1:
+  faceset: SOJ_BASIL
+  faceindex: 10
+  text: These are \c[4]PINK PRIMROSES\c[0].\! The color doesn't affect the meaning much,\. aside from pink usually meaning peace and young love.<br><br>The \c[4]PRIMROSE\c[0] represents childhood and eternal love,\. and it also means \"I can't live without you.\"\bas
+
+yard_primrose_2:
+  faceset: SOJ_KEL
+  faceindex: 4
+  text: Wow,\. that's deep.\! \face[2]I didn't know flowers could say that much.\kel
+
+yard_primrose_3:
+  faceset: SOJ_BASIL
+  faceindex: 2
+  text: You can say a lot with flower language if you know what you're doing,\. hehe.\bas
+
+yard_gardenia_1:
+  faceset: SOJ_BASIL
+  faceindex: 10
+  text: This is a \c[4]PINK GARDENIA\c[0]. The color means about what you'd expect—\| peace and young love—\| while the actual flower represents secret love, joy, purity, and good luck.<br><br>It's also used to call someone lovely.\bas
+
+yard_gardenia_2:
+  faceset: SOJ_KEL
+  faceindex: 0
+  text: Wow,\. it has so many petals!\kel
+
+yard_gardenia_3:
+  faceset: SOJ_BASIL
+  faceindex: 1
+  text: Yeah,\. these ones are one of the varieties with more petals than usual.\bas
+
+yard_lily_1:
+  faceset: SOJ_BASIL
+  faceindex: 10
+  text: These are \c[4]PINK LILIES\c[0],\. not to be confused with the \c[4]SPIDER LILY\c[0] over there.\! They mean love and femininity,\| and are also used to show admiration.\bas
+
+yard_lily_2:
+  faceset: SOJ_KEL
+  faceindex: 1
+  text: They're so pretty...\| and smell good,\. too!\kel
+
+yard_lily_3:
+  faceset: SOJ_BASIL
+  faceindex: 2
+  text: \c[4]LILIES\c[0] are some of the nicest-smelling flowers out there!\bas
+
+# after learning about all four flowers
+yard_final_1:
+  faceset: SOJ_BASIL
+  faceindex: 42
+  text: Ready to make your choice?\bas
+
+yard_final_2:
+  faceset: SOJ_KEL
+  faceindex: 0
+  text: Okay.\kel
+
+yard_final_3:
+  faceset: SOJ_BASIL
+  faceindex: 1
+  text: \c[4]SPIDER LILIES\c[0],\. \c[4]GARDENIAS\c[0],\. \c[4]LILIES\c[0],\. or \c[4]PRIMROSES\c[0]?
+
+yard_final_4:
+  faceset: SOJ_KEL
+  faceindex: 6
+  text: Uh...\kel
+
+# brief pause
+# kel sweat balloon
+yard_final_5:
+  faceset: SOJ_KEL
+  faceindex: 14
+  text: Can you pick for me again?\kel
+
+yard_final_6:
+  faceset: SOJ_BASIL
+  faceindex: 29
+  text: KEL,\. really?\bas
+
+yard_final_7:
+  faceset: SOJ_BASIL
+  faceindex: 0
+  text: This is your date with AUBREY,\. not mine.\bas
+
+yard_final_8:
+  faceset: SOJ_KEL
+  faceindex: 8
+  text: But you're the flower expert...\kel
+
+yard_final_9:
+  faceset: SOJ_BASIL
+  faceindex: 
+  text: .\w[30].\w[30].\bas
+
+yard_final_10:
+  faceset: SOJ_KEL
+  faceindex: 7
+  text: I just don't want to accidentally give her the wrong flower or something!\kel
+
+yard_final_11:
+  faceset: SOJ_BASIL
+  faceindex: 7
+  text: You can just pick from the ones I told you about!\bas
+
+yard_final_12:
+  faceset: SOJ_KEL
+  faceindex: 3
+  text: ...Please?\kel
+
+yard_final_13:
+  faceset: SOJ_BASIL
+  faceindex: 29
+  text: .\|.\|.\bas
+
+yard_final_14:
+  faceset: SOJ_BASIL
+  faceindex: 34
+  text: Fine.\bas
+
+yard_final_15:
+  faceset: SOJ_KEL
+  faceindex: 2
+  text: Thanks,\. BASIL!\! I know you'll pick a good flower— you've got quite the eye for them!\kel
+
+yard_final_16:
+  faceset: SOJ_BASIL
+  faceindex: 33
+  text: Thanks, I guess...\bas
+
+yard_final_17:
+  faceset: SOJ_BASIL
+  faceindex: 34
+  text: Which flower do I pick...?\bas
+
+spiderlily:
+  text: PINK SPIDER LILY
+  plural: PINK SPIDER LILIES
+
+gardenia:
+  plural: PINK GARDENIAS
+  text: PINK GARDENIA
+
+lily: 
+  plural: PINK LILIES
+  text: PINK LILY
+
+primrose: 
+  plural: PINK PRIMROSES
+  text: PINK PRIMROSE
+
+# put it in v101
+yard_final_18:
+  faceset: SOJ_KEL
+  faceindex: 2
+  text: \v[101]?\! Great choice!\kel
+
+yard_final_19:
+  faceset: SOJ_BASIL
+  faceindex: 42
+  text: Let me just grab some and put them in a bouquet for you.\bas
+
+
+# fadeout screen
+# set variable to plural version of name
+
+yard_final_20:
+  text: You got \c[4]BOUQUET OF \v[101]\c[0]!
+
+# fade in screen
+
+yard_final_21:
+  faceset: SOJ_BASIL
+  faceindex: 33
+  text: Okay,\. what's next?\bas
+
+yard_final_22:
+  faceset: SOJ_KEL
+  faceindex: 0
+  text: We need to visit the \c[11]RESTAURANT\c[0],\. but we'll need someone to drive us there.\kel
+
+# brief pause
+# basil idea bubble
+yard_final_23:
+  faceset: SOJ_BASIL
+  faceindex: 27
+  text: Wait,\. we can ask POLLY!\! \face[1]Because she got another job as a health nurse at \c[11]FARAWAY HIGH SCHOOL\c[0] now,\. she has weekends off.\bas
+
+yard_final_24:
+  faceset: SOJ_BASIL
+  faceindex: 10
+  text: She already offered to drive me to the \c[11]CHURCH\c[0].\bas
+
+# basil exclamation bubble
+yard_final_25:
+  faceset: SOJ_BASIL
+  faceindex: 35 
+  text: Wait,\. I totally forgot!\! I meant to drop a flower off at MARI's grave.\bas
+
+yard_final_26:
+  faceset: SOJ_BASIL
+  faceindex: 41
+  text: Can we also do that?\bas
+
+yard_final_27:
+  faceset: SOJ_KEL
+  faceindex: 2
+  text: POLLY can drop us off at the \c[11]CHURCH\c[0] after we visit the \c[11]RESTAURANT\c[0], maybe?
+
+yard_final_28:
+  faceset: SOJ_BASIL
+  faceindex: 2
+  text: Great idea!\! Let's go ask her.\bas
+
+yard_final_29:
+  faceset: SOJ_BASIL
+  faceindex: 1
+  text: And we can pick the flower up from my room.\bas
+
+
+# polly's inside the house watching tv
+# you have to interact with her
+
+house_polly_1:
+  faceset: SOJ_BASIL
+  faceindex: 1
+  text: Hey, POLLY.\bas
+
+house_polly_2:
+  faceset: SOJ_POLLY
+  faceindex: 0
+  text: Hi,\. BASIL!\! Looks like you found something to do today after all!\pol
+
+house_polly_3:
+  faceset: SOJ_POLLY
+  faceindex: 18
+  text: And KEL!\! I thought you were busy?\pol
+
+house_polly_4:
+  faceset: SOJ_KEL
+  faceindex: 3
+  text: Heh,\. turned out I needed BASIL's help with my plans.\kel
+
+house_polly_5:
+  faceset: SOJ_POLLY
+  faceindex: 4
+  text: Makes sense.\! BASIL is very helpful.\pol
+
+# basil sweat bubble
+house_polly_6:
+  faceset: SOJ_BASIL
+  faceindex: 25
+  text: POLLY...\bas
+
+house_polly_7:
+  faceset: SOJ_POLLY
+  faceindex: 0
+  text: Hehe!\! Anyway!\! What's up?\| Need me to drive you two somewhere?\pol
+
+house_polly_8:
+  faceset: SOJ_BASIL
+  faceindex: 2
+  text: Yeah,\. actually,\. if you don't mind.\bas
+
+house_polly_9:
+  faceset: SOJ_KEL
+  faceindex: 0
+  text: There's a fancy restaurant on the way to the \c[11]MALL\c[0] that we need to visit.\kel
+
+house_polly_10:
+  faceset: SOJ_POLLY
+  faceindex: 16
+  text: Huh?\! What for?\pol
+
+house_polly_11:
+  faceset: SOJ_KEL
+  faceindex: 3
+  text: Heh...\kel
+
+house_polly_12:
+  faceset: SOJ_BASIL
+  faceindex: 30
+  text: KEL wants to take AUBREY there on a date.\bas
+
+# kel sweat bubble
+house_polly_13:
+  faceset: SOJ_KEL
+  faceindex: 21
+  text: BASIL!\kel
+
+# polly exclamation bubble
+house_polly_14:
+  faceset: SOJ_POLLY
+  faceindex: 18
+  text: Oh!\! That's so sweet!\pol
+
+house_polly_15:
+  faceset: SOJ_POLLY
+  faceindex: 0
+  text: I'd love to drive you there!\pol
+
+house_polly_16:
+  faceset: SOJ_BASIL
+  faceindex: 10
+  text: Thanks,\. POLLY!\bas
+
+house_polly_17:
+  faceset: SOJ_BASIL
+  faceindex: 1
+  text: Do you think you can drop us at the \c[11]CHURCH\c[0] after?\bas
+
+house_polly_18:
+  faceset: SOJ_POLLY
+  faceindex: 
+  text: Of course.\pol
+
+# tv clicks off
+# polly jumps up and walks to the door
+house_polly_19:
+  faceset: SOJ_POLLY
+  faceindex: 0
+  text: I'll be waiting outside with the car!\pol
+
+house_polly_20v1:
+  faceset: SOJ_BASIL
+  faceindex: 14
+  text: Let's grab the flower I want to give MARI from my room.\bas
+
+house_polly_20v2:
+  faceset: SOJ_BASIL
+  faceindex: 22
+  text: Let's head outside now.\bas
+
+# polly leaves
+
+
+# autorun once you enter basils room
+house_room_1:
+  faceset: SOJ_KEL
+  faceindex: 5
+  text: Woah...\! So many plants...\kel
+
+house_room_2:
+  faceset: SOJ_KEL
+  faceindex: 1
+  text: It's like an indoor garden in here!\kel
+
+house_room_3:
+  faceset: SOJ_BASIL
+  faceindex: 25
+  text: Hehe,\. thanks...\bas
+
+house_room_4:
+  faceset: SOJ_KEL
+  faceindex: 2
+  text: You've even got plants hanging from the ceiling!\kel
+
+house_room_5:
+  faceset: SOJ_KEL
+  faceindex: 0
+  text: Your room wasn't like this before,\. when did you decorate?\kel
+
+house_room_6:
+  faceset: SOJ_BASIL
+  faceindex: 1
+  text: POLLY helped me a couple weeks ago.\. I really like how it turned out...\bas
+
+house_room_7:
+  faceset: SOJ_BASIL
+  faceindex: 2
+  text: It took forever to convince her to let me,\. but I'm glad she said yes!\bas
+
+house_room_8:
+  faceset: SOJ_KEL
+  faceindex: 2
+  text: You should be!\. Wow, I should hire you and her to decorate my room!\kel
+
+# basil sweat emoji
+house_room_9:
+  faceset: SOJ_BASIL
+  faceindex: 41
+  text: Th-Thanks...\bas
+
+house_room_10:
+  faceset: SOJ_KEL
+  faceindex: 5
+  text: Anyway.\. Which one of these was the one you grew for MARI?\kel
+
+house_room_11:
+  faceset: SOJ_BASIL
+  faceindex: 34
+  text: Here.\bas
+
+# basil takes the egret orchid off the desk
+house_room_12:
+  faceset: SOJ_BASIL
+  faceindex: 32
+  text: A \c[4]WHITE EGRET ORCHID\c[0].\! \"My thoughts will follow you into your dreams.\"\bas
+
+house_room_13:
+  faceset: SOJ_BASIL
+  faceindex: 33
+  text: They don't really sell these at \c[11]FIX-IT\c[0], so I've been growing my own.\bas
+
+house_room_14:
+  faceset: SOJ_KEL
+  faceindex: 5
+  text: I've seen those at the \c[11]HANGOUT SPOT\c[0] too!\kel
+
+house_room_15:
+  faceset: SOJ_BASIL
+  faceindex: 14
+  text: That was also me.\bas
+
+house_room_16:
+  faceset: SOJ_BASIL
+  faceindex: 20
+  text: It's like a memorial to our childhood.\bas
+
+house_room_17:
+  faceset: SOJ_KEL
+  faceindex: 12
+  text: Aww...\kel
+
+house_room_18:
+  text: You got \c[4]POTTED EGRET ORCHID\c[0]!
+
+house_room_19:
+  faceset: SOJ_BASIL
+  faceindex: 10
+  text: Anyway, we can head out now.\bas
+
+house_room_20:
+  faceset: SOJ_KEL
+  faceindex: 12
+  text: Alright!\kel
+
+### BLOCKS
+
+block_yard:
+  faceset: SOJ_KEL
+  faceindex: 5
+  text: BASIL,\. where are you going?\! I thought we were looking at flowers?\kel
+
+block_yard2:
+  faceset: SOJ_KEL
+  faceindex: 5
+  text: BASIL,\. where are you going?\! Aren't we going to see POLLY?\kel
+
+block_door1:
+  faceset: SOJ_KEL
+  faceindex: 10
+  text: Wait,\. didn't we have to grab flowers from your room?\kel

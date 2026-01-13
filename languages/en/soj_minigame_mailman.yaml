@@ -130,7 +130,7 @@ EligibleHouses:
     1: 
       id: 12
       recipient: BILLY
-      sender: CULT OF LITTERING
+      sender: THE LITTER RING
       what: PACKAGE
     2: 
       id: 12
@@ -270,7 +270,7 @@ mail_tutorialend_5:
 
 mail_tutorialend_6:
   faceset: SOJ_BASIL
-  faceindex: 0
+  faceindex: 15
   text: I can probably figure it out...\bas
 
 mail_tutorialend_7:
@@ -358,4 +358,53 @@ notmavbox:
   text: This isn't MIKHAEL's mailbox.
 
 prompt_talktokel:
-  text: Maybe you should talk to KEL.
+  text: Maybe you should talk to KEL first.
+
+mavmail_1:
+  faceset: SOJ_KEL
+  faceindex: 5
+  text: Okay,\. let's put the letter in.\kel
+
+# basil turns right
+mavmail_2:
+  text: You put the \c[4]LETTER\c[0] in the mailbox.
+
+mavmail_3:
+  faceset: SOJ_KEL
+  faceindex: 0
+  text: Let me go put my bike back and I'll meet you here!\! Then we can go talk to the mailman.\kel
+
+# kel bikes off
+# short pause
+# loud thud
+# dog barking
+# high pitched cat meow
+# loud crash
+# a ball bounces into the player view
+# kel jogs back
+
+mavmail_4:
+  faceset: SOJ_KEL
+  faceindex: 2
+  text: Alright,\. let's go!\kel
+
+mavmail_5:
+  faceset: SOJ_BASIL
+  faceindex: 37
+  text: ...\|What just happened?\bas
+
+mavmail_6:
+  faceset: SOJ_KEL
+  faceindex: 0
+  text: Absolutely nothing.\kel
+
+doorblock3:
+  text: You should go talk to KEL first.
+
+doorblock4:
+  text: You should go talk to the mailman first.
+
+streetblock3:
+  faceset: SOJ_KEL
+  faceindex: 5
+  text: Where are you going?\! We gotta talk to the mailman!\kel
