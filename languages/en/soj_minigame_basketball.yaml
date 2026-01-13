@@ -371,7 +371,7 @@ after_11:
   text: Nothing much!\! Wanted to talk to you,\. got a minute?\n<JAY>
 
 after_12:
-  faceset: SOJ_BASIL
+  faceset: SOJ_KEL
   faceindex: 0
   text: Sure!\! I'll be right back,\. BASIL.\kel
 
@@ -393,7 +393,7 @@ after_14:
 after_15:
   faceset: SOJ_AUBREY
   faceindex: 2
-  text: ...\|Let's not talk about that.\!\face[3] I got a question for you,\. flower boy.\aub
+  text: .\|.\|.\|Let's not talk about that.\!\face[3] I got a question for you,\. flower boy.\aub
 
 # basil question mark
 after_16:
@@ -438,7 +438,7 @@ after_22:
 after_23:
   faceset: SOJ_BASIL
   faceindex: 42
-  text: KEL's favorite cake flavor?\bas
+  text: I mean,\. KEL's favorite cake flavor?\bas
 
 after_24:
   faceset: SOJ_AUBREY
@@ -448,28 +448,28 @@ after_24:
 after_25:
   faceset: SOJ_BASIL
   faceindex: 10
-  text: \sinv[2]\"I was in the neighborhood,\. and I saw your plants needed watering!\"\bas
+  text: \sinv[1]\"I was in the neighborhood,\. and I saw your plants needed watering!\"\bas
 
 # if you dont talk to kel's mom
-after_26_v1:
+after_26_v2:
   faceset: SOJ_BASIL
   faceindex: 43
   text: What were you even doing at KEL's house?\bas
 
 # aubrey sweat bubble
-after_27_v1:
+after_27_v2:
   faceset: SOJ_AUBREY
   faceindex: 16
   text: I...\! th-that's not important!\aub
 
 # if you do talk to kels mom
-after_26_v2:
+after_26_v1:
   faceset: SOJ_BASIL
   faceindex: 30
   text: KEL'S MOM said you were asking about KEL...\bas 
 
 # aubrey silence bubble
-after_27_v2:
+after_27_v1:
   faceset: SOJ_AUBREY
   faceindex: 17
   text: ...So much for girl code...\aub
@@ -478,7 +478,7 @@ after_27_v2:
 after_28:
   faceset: SOJ_BASIL
   faceindex: 10
-  text: \sinv[2]Admit it...\bas
+  text: \sinv[1]Admit it...\bas
 
 # aubrey silence bubble
 # short pause
@@ -520,7 +520,7 @@ after_35:
 after_36:
   faceset: SOJ_AUBREY
   faceindex: 11
-  text: I bribed Mister Jock Guy over there with some kind of manga his boyfriend wanted.\! He'll keep KEL away until I leave.\aub
+  text: I bribed MISTER JOCK GUY over there with some kind of manga his boyfriend wanted.\! He'll keep KEL away until I leave.\aub
 
 after_37:
   faceset: SOJ_BASIL
@@ -530,7 +530,7 @@ after_37:
 after_38:
   faceset: SOJ_BASIL
   faceindex: 42
-  text: You have manga?\bas
+  text: I didn't know you read manga.\bas
 
 after_39:
   faceset: SOJ_AUBREY
@@ -555,7 +555,7 @@ after_42:
 after_43:
   faceset: SOJ_BASIL
   faceindex: 44
-  text: Um...\! I can think of a few flowers that might fit...\bas
+  text: Um...\| I can think of a few flowers that might fit...\bas
 
 after_44:
   faceset: SOJ_BASIL
@@ -590,7 +590,7 @@ after_49:
 after_50:
   faceset: SOJ_BASIL
   faceindex: 27
-  text: Oh, you want me to pick?\! Not just give options?\bas
+  text: Oh,\. you want me to pick?\! Not just give options?\bas
 
 # aubrey sweat
 # embarrassed expression
@@ -600,9 +600,9 @@ after_51:
   text: I'm...\| not going to remember all those names when I go to the store later...\aub
 
 after_52:
-  faceset: SOJ_BASIL
-  faceindex: 42
-  text: Fair.\! Which flower would be best for KEL?\bas
+  faceset: SOJ_AUBREY
+  faceindex: 13
+  text: So,\. which flower do you think is best?\aub
 
 redchrysanthemum:
   text: RED CHRYSANTHEMUM
@@ -614,7 +614,7 @@ camellia:
   text: CAMELLIA
 
 redcarnation:
-  text: RED CARNATIONS
+  text: RED CARNATION
 
 # set variable 1001 to the name of the flower that is picked
 # use LanguageManager.getLanguageData or wtv
