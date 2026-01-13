@@ -498,7 +498,7 @@ aub_16:
 aub_17:
   faceset: SOJ_BASIL
   faceindex: 10
-  text: Of course! I mean, this is a hypothetical after all, right? Who doesn’t like vanilla?
+  text: Of course! I mean, this is a hypothetical after all, right? Who doesn't like vanilla?
 
 # red velvet
 
@@ -515,7 +515,7 @@ aub_19:
 aub_20:
   faceset: SOJ_BASIL
   faceindex: 10
-  text: Of course! I mean, this is a hypothetical after all, right? Red velvet’s super good!
+  text: Of course! I mean, this is a hypothetical after all, right? Red velvet's super good!
 
 # Chocolate
 
@@ -576,7 +576,7 @@ aub_30:
 aub_31:
   faceset: SOJ_BASIL
   faceindex: 33
-  text: Well, I better get going. You know Kel, after all!
+  text: Well, I better get going.\! You know Kel, after all!
 
 aub_32:
   faceset: SOJ_AUBREY
