@@ -516,6 +516,7 @@ house_room_20:
 
 ### BLOCKS
 
+# maybe not use this one 
 block_yard:
   faceset: SOJ_KEL
   faceindex: 5
