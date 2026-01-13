@@ -403,3 +403,8 @@ doorblock3:
 
 doorblock4:
   text: You should go talk to the mailman first.
+
+streetblock3:
+  faceset: SOJ_KEL
+  faceindex: 5
+  text: Where are you going?\! We gotta talk to the mailman!\kel
