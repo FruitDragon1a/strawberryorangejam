@@ -41,12 +41,12 @@ yard_intro_2:
 yard_intro_3:
   faceset: SOJ_BASIL
   faceindex: 37
-  text: Uh...\. long story.\! Basically,\. POLLY's friend asked me to grow pink flowers for an event she's having.\bas
+  text: Uh...\. long story.\! In short,\. POLLY's friend asked me to grow pink flowers for an event she's having.\bas
 
 yard_intro_4:
   faceset: SOJ_BASIL
   faceindex: 2
-  text: Don't worry,\. POLLY's friend is paying me for the flowers.\!<br>\}Pretty sure it's still less than she'd pay to an actual florist,\. though...\bas
+  text: Don't worry,\. POLLY's friend is paying me for the flowers.\!<br>\}\face[0]Pretty sure it's still less than she'd pay to an actual florist,\. though...\bas
 
 yard_intro_5:
   faceset: SOJ_KEL
@@ -56,7 +56,7 @@ yard_intro_5:
 yard_intro_6:
   faceset: SOJ_BASIL
   faceindex: 42
-  text: Anyway,\. I don't mind you taking a couple for AUBREY.\! POLLY's friend probably won't notice anyway.\! Also,\. she never cared about the floriographic meanings,\. only the color.\bas
+  text: Anyway,\. I don't mind you taking a couple for AUBREY.\! \face[0]POLLY's friend probably won't notice anyway.\! She never cared about the floriographic meanings,\. only the color.\bas
 
 yard_intro_7:
   faceset: SOJ_KEL
@@ -82,7 +82,7 @@ yard_spiderlily_3:
 yard_primrose_1:
   faceset: SOJ_BASIL
   faceindex: 10
-  text: These are \c[4]PINK PRIMROSES\c[0].\! The color doesn't affect the meaning much,\. aside from pink usually meaning peace and young love.<br><br>The \c[4]PRIMROSE\c[0] represents childhood and eternal love,\. and it also means \"I can't live without you.\"\bas
+  text: These are \c[4]PINK PRIMROSES\c[0].\! The color doesn't affect the meaning much,\. aside from pink usually meaning peace and young love.<br>The \c[4]PRIMROSE\c[0] represents childhood and eternal love,\. and it also means \"I can't live without you.\"\bas
 
 yard_primrose_2:
   faceset: SOJ_KEL
@@ -97,7 +97,7 @@ yard_primrose_3:
 yard_gardenia_1:
   faceset: SOJ_BASIL
   faceindex: 10
-  text: This is a \c[4]PINK GARDENIA\c[0]. The color means about what you'd expect—\| peace and young love—\| while the actual flower represents secret love, joy, purity, and good luck.<br><br>It's also used to call someone lovely.\bas
+  text: This is a \c[4]PINK GARDENIA\c[0]. The color means about what you'd expect—\| peace and young love—\| while the actual flower represents secret love, joy, purity, and good luck.<br>It's also used to call someone lovely.\bas
 
 yard_gardenia_2:
   faceset: SOJ_KEL
@@ -123,6 +123,11 @@ yard_lily_3:
   faceset: SOJ_BASIL
   faceindex: 2
   text: \c[4]LILIES\c[0] are some of the nicest-smelling flowers out there!\bas
+
+yard_done:
+  faceset: SOJ_BASIL
+  faceindex: 10
+  text: I think I've explained all the flowers now.\bas
 
 # after learning about all four flowers
 yard_final_1:
@@ -169,7 +174,7 @@ yard_final_8:
 
 yard_final_9:
   faceset: SOJ_BASIL
-  faceindex: 
+  faceindex: 29
   text: .\w[30].\w[30].\bas
 
 yard_final_10:
@@ -208,31 +213,31 @@ yard_final_16:
   text: Thanks, I guess...\bas
 
 yard_final_17:
-  faceset: SOJ_BASIL
-  faceindex: 34
-  text: Which flower do I pick...?\bas
+  faceset: SOJ_KEL
+  faceindex: 0
+  text: So which flower do I take?\kel
 
 spiderlily:
-  text: PINK SPIDER LILY
-  plural: PINK SPIDER LILIES
+  plural: SPIDER LILIES
+  text: SPIDER LILY
 
 gardenia:
-  plural: PINK GARDENIAS
-  text: PINK GARDENIA
+  plural: GARDENIAS
+  text: GARDENIA
 
 lily: 
-  plural: PINK LILIES
-  text: PINK LILY
+  plural: LILIES
+  text: LILY
 
 primrose: 
-  plural: PINK PRIMROSES
-  text: PINK PRIMROSE
+  plural: PRIMROSES
+  text: PRIMROSE
 
-# put it in v101
+# put it in v1001
 yard_final_18:
   faceset: SOJ_KEL
   faceindex: 2
-  text: \v[101]?\! Great choice!\kel
+  text: \c[4]\v[1001]\c[0]?\! Great choice!\kel
 
 yard_final_19:
   faceset: SOJ_BASIL
@@ -244,7 +249,7 @@ yard_final_19:
 # set variable to plural version of name
 
 yard_final_20:
-  text: You got \c[4]BOUQUET OF \v[101]\c[0]!
+  text: You got \c[4]BOUQUET OF \v[1001]\c[0]!
 
 # fade in screen
 
@@ -263,7 +268,7 @@ yard_final_22:
 yard_final_23:
   faceset: SOJ_BASIL
   faceindex: 27
-  text: Wait,\. we can ask POLLY!\! \face[1]Because she got another job as a health nurse at \c[11]FARAWAY HIGH SCHOOL\c[0] now,\. she has weekends off.\bas
+  text: We can ask POLLY!\! \face[1]Because she got another job as a health nurse at \c[11]FARAWAY HIGH SCHOOL\c[0] now,\. she has weekends off.\bas
 
 yard_final_24:
   faceset: SOJ_BASIL
@@ -278,13 +283,13 @@ yard_final_25:
 
 yard_final_26:
   faceset: SOJ_BASIL
-  faceindex: 41
+  faceindex: 14
   text: Can we also do that?\bas
 
 yard_final_27:
   faceset: SOJ_KEL
   faceindex: 2
-  text: POLLY can drop us off at the \c[11]CHURCH\c[0] after we visit the \c[11]RESTAURANT\c[0], maybe?
+  text: POLLY can drop us off at the \c[11]CHURCH\c[0] after we visit the \c[11]RESTAURANT\c[0], maybe?\kel
 
 yard_final_28:
   faceset: SOJ_BASIL
@@ -364,7 +369,7 @@ house_polly_12:
 # kel sweat bubble
 house_polly_13:
   faceset: SOJ_KEL
-  faceindex: 21
+  faceindex: 20
   text: BASIL!\kel
 
 # polly exclamation bubble
@@ -400,12 +405,12 @@ house_polly_19:
   faceindex: 0
   text: I'll be waiting outside with the car!\pol
 
-house_polly_20v1:
+house_polly_20_v1:
   faceset: SOJ_BASIL
   faceindex: 14
   text: Let's grab the flower I want to give MARI from my room.\bas
 
-house_polly_20v2:
+house_polly_20_v2:
   faceset: SOJ_BASIL
   faceindex: 22
   text: Let's head outside now.\bas
@@ -504,7 +509,12 @@ house_room_17:
 house_room_18:
   text: You got \c[4]POTTED EGRET ORCHID\c[0]!
 
-house_room_19:
+house_room_19_v1:
+  faceset: SOJ_BASIL
+  faceindex: 10
+  text: Anyway, we should go talk to POLLY.\bas
+
+house_room_19_v2:
   faceset: SOJ_BASIL
   faceindex: 10
   text: Anyway, we can head out now.\bas
@@ -516,6 +526,7 @@ house_room_20:
 
 ### BLOCKS
 
+# maybe not use this one 
 block_yard:
   faceset: SOJ_KEL
   faceindex: 5
