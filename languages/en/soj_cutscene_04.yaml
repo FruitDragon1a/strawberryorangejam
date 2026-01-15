@@ -12,7 +12,7 @@ outfit_picker_0:
 outfit_picker_1:
   faceset: SOJ_BASIL
   faceindex: 0
-  text: Isn’t that the same outfit?\bas
+  text: Isn't that the same outfit?\bas
 
 outfit_picker_2:
   faceset: SOJ_KEL
@@ -27,13 +27,13 @@ outfit_picker_3:
 outfit_picker_4:
   faceset: SOJ_BASIL
   faceindex: 0
-  text: Anyway, What should we do now? You’ve already made a (pretty good amount $80/a lot $120/a ton $180) of money.\..\..\.\bas
+  text: Anyway, What should we do now? You've already made a (pretty good amount $80/a lot $120/a ton $180) of money.\..\..\.\bas
 #reminder to do the caseeval stuff
 
 outfit_picker_5:
   faceset: SOJ_KEL
   faceindex: 7
-  text: Hm,\. you’re right.\..\..\! What else could we do?\kel
+  text: Hm,\. you're right.\..\..\! What else could we do?\kel
 
 #60 frame wait
 # idea bubble from kel
@@ -47,7 +47,7 @@ outfit_picker_6:
 outfit_picker_7:
   faceset: SOJ_BASIL
   faceindex: 27
-  text: Already?\! But you haven’t even asked her yet!\bas
+  text: Already?\! But you haven't even asked her yet!\bas
 
 
 outfit_picker_8:
@@ -59,13 +59,13 @@ outfit_picker_8:
 outfit_picker_9:
   faceset: SOJ_BASIL
   faceindex: 26
-  text: Do you even have more outfits?\! I only ever see you in the one you’re wearing.\bas
+  text: Do you even have more outfits?\! I only ever see you in the one you're wearing.\bas
 
 
 outfit_picker_10:
   faceset: SOJ_KEL
   faceindex: 11
-  text: Of course I do!\| C’mon,\. do I look that bland?\kel
+  text: Of course I do!\| C'mon,\. do I look that bland?\kel
 
 
 outfit_picker_11:
@@ -219,7 +219,7 @@ outfit_picker_34:
 outfit_picker_35:
   faceset: SOJ_BASIL
   faceindex: 14
-  text: What’s wrong?\! Those outfits looked good.\bas
+  text: What's wrong?\! Those outfits looked good.\bas
 
 
 outfit_picker_36:
@@ -231,7 +231,7 @@ outfit_picker_36:
 outfit_picker_37:
   faceset: SOJ_KEL
   faceindex: 10
-  text: I can’t help but want something more.\..\..\. fancy.\kel
+  text: I can't help but want something more.\..\..\. fancy.\kel
 
 
 outfit_picker_38:
@@ -293,7 +293,7 @@ outfit_picker_46:
 outfit_picker_47:
   faceset: SOJ_KEL
   faceindex: 0
-  text: Let’s go call him downstairs!\kel
+  text: Let's go call him downstairs!\kel
 
 outfit_picker_48:
   faceset: SOJ_BASIL
@@ -312,13 +312,13 @@ outfit_picker_49:
 outfit_picker_50:
   faceset: SOJ_KEL
   faceindex: 2
-  text: HERO!\! How’ve you been?\kel
+  text: HERO!\! How've you been?\kel
 
 outfit_picker_51:
-  text: KEL?\! It’s good to hear from you again!\her
+  text: KEL?\! It's good to hear from you again!\her
 
 outfit_picker_52:
-  text: I’ve been doing good!\! How about you?\her
+  text: I've been doing good!\! How about you?\her
 
 outfit_picker_53:
   faceset: SOJ_KEL
@@ -328,11 +328,11 @@ outfit_picker_53:
 outfit_picker_54:
   faceset: SOJ_KEL
   faceindex: 6
-  text: I’m with BASIL,\. and we’re trying to get an outfit.\! I remembered you had one,\. and was wondering if I could borrow it!\kel
+  text: I'm with BASIL,\. and we're trying to get an outfit.\! I remembered you had one,\. and was wondering if I could borrow it!\kel
 
 
 outfit_picker_55:
-  text: Wait, BASIL’s here too?\. Hey, BASIL!\her
+  text: Wait, BASIL's here too?\. Hey, BASIL!\her
 
 outfit_picker_56:
   faceset: SOJ_BASIL
@@ -355,7 +355,7 @@ outfit_picker_59:
 outfit_picker_60:
   faceset: SOJ_KEL
   faceindex: 20
-  text: What?!\| How’d you know!?\kel
+  text: What?!\| How'd you know!?\kel
 
 #very brief wait
 
@@ -365,7 +365,7 @@ outfit_picker_61:
   text: Wait,\. I meant-\kel
 
 outfit_picker_62:
-  text: I knew it!\| No way you’d be asking me for my clothes if it weren’t for something special!\her
+  text: I knew it!\| No way you'd be asking me for my clothes if it weren't for something special!\her
 
 outfit_picker_63:
   faceset: SOJ_KEL
@@ -376,7 +376,7 @@ outfit_picker_64:
   text: So.\..\..\.\her
 
 outfit_picker_65:
-  text: \sinv[1]Who’s the girl~\her
+  text: \sinv[1]Who's the girl~\her
 
 outfit_picker_66:
   faceset: SOJ_KEL
@@ -386,7 +386,7 @@ outfit_picker_66:
 outfit_picker_67:
   faceset: SOJ_KEL
   faceindex: 16
-  text: I-\.It’s.\..\..\.\kel
+  text: I-\.It's.\..\..\.\kel
 
 #silence bubble from kel
 
@@ -441,7 +441,7 @@ outfit_picker_78:
   text: Phew!\| I thought I was in some weird parallel dimension!\her
 
 outfit_picker_79:
-  text: So,\. it’s this serious,\. huh.\..\..\.\her
+  text: So,\. it's this serious,\. huh.\..\..\.\her
 
 outfit_picker_80:
   text: I should have my old \c[11]CHURCH\c[0] clothes somewhere in my closet.\! It's the same outfit I wear in the family photo,\. so if you guys are calling from the living room you can see it.\her
@@ -467,7 +467,7 @@ outfit_picker_84:
 outfit_picker_85:
   faceset: SOJ_KEL
   faceindex: 0
-  text: Let’s go raid HERO’s closet!\kel
+  text: Let's go raid HERO's closet!\kel
 
 #outfit selection and visual novel time
 #fade out back to kels room
@@ -487,12 +487,12 @@ outfit_picker_87:
 outfit_picker_88:
   faceset: SOJ_BASIL
   faceindex: 34
-  text: .\..\..\.HERO’s tie is orange?\! I thought he had a blue tie in the photo?\bas
+  text: .\..\..\.HERO's tie is orange?\! I thought he had a blue tie in the photo?\bas
 
 outfit_picker_89:
   faceset: SOJ_KEL
   faceindex: 2 #edit
-  text: That’s because this is a KEL original!\kel
+  text: That's because this is a KEL original!\kel
 
 outfit_picker_90:
   faceset: SOJ_BASIL
@@ -507,22 +507,22 @@ outfit_picker_91:
 outfit_picker_92:
   faceset: SOJ_KEL
   faceindex: 0
-  text: Well,\. I’ll leave the final choice to you!\| If you think those other outfits I showed you were better,\. just let me know!\kel
+  text: Well,\. I'll leave the final choice to you!\| If you think those other outfits I showed you were better,\. just let me know!\kel
 
 outfit_picker_93:
   faceset: SOJ_BASIL
   faceindex: 32
-  text: You’re leaving me with the final say again?\bas
+  text: You're leaving me with the final say again?\bas
 
 outfit_picker_94:
   faceset: SOJ_KEL
   faceindex: 0
-  text: Yeah!\| You’ve been helping me out the entire day!\| \face[3]Without you,\. I probably wouldn’t have even picked a gift by now!\kel
+  text: Yeah!\| You've been helping me out the entire day!\| \face[3]Without you,\. I probably wouldn't have even picked a gift by now!\kel
 
 outfit_picker_95:
   faceset: SOJ_KEL
   faceindex: 0
-  text: I’m gonna change back, so think about it real quick.\kel
+  text: I'm gonna change back, so think about it real quick.\kel
 
 # fadeout, clothes rustle, fade in, they're standing in the center of the room now
 
@@ -537,7 +537,7 @@ outfit_picker_96:
 outfit_picker_97:
   faceset: SOJ_KEL
   faceindex: 10
-  text: Seriously?\| But I thought you didn’t like how much orange I wear!\kel
+  text: Seriously?\| But I thought you didn't like how much orange I wear!\kel
 
 outfit_picker_98:
   faceset: SOJ_BASIL
@@ -564,39 +564,39 @@ outfit_picker_101:
 outfit_picker_102:
   faceset: SOJ_KEL
   faceindex: 5
-  text: You think the hoodie’s the right move?\kel
+  text: You think the hoodie's the right move?\kel
 
 outfit_picker_104:
   faceset: SOJ_BASIL
   faceindex: 34
-  text: More than anything,\. I’m curious to see what AUBREY would think of you in red.\bas
+  text: More than anything,\. I'm curious to see what AUBREY would think of you in red.\bas
 
 outfit_picker_105:
   faceset: SOJ_KEL
   faceindex: 3
-  text: That’s true.\..\..\.\kel
+  text: That's true.\..\..\.\kel
 
 outfit_picker_106:
   faceset: SOJ_KEL
   faceindex: 2
-  text: Alright then,\. let’s do it!\kel
+  text: Alright then,\. let's do it!\kel
 
 #cool
 
 outfit_picker_107:
   faceset: SOJ_KEL
   faceindex: 5
-  text: The Orange Joe shirt? That’s the one I should go with?\kel
+  text: The Orange Joe shirt? That's the one I should go with?\kel
 
 outfit_picker_108:
   faceset: SOJ_BASIL
   faceindex: 2
-  text: Yeah!\| It’s different enough that it’ll leave an impression,\. but orange enough to still be you!\bas
+  text: Yeah!\| It's different enough that it'll leave an impression,\. but orange enough to still be you!\bas
 
 outfit_picker_109:
   faceset: SOJ_KEL
   faceindex: 2
-  text: That’s a good point!\! Let’s go with that, then!\kel
+  text: That's a good point!\! Let's go with that, then!\kel
 
 #formal
 
@@ -642,7 +642,7 @@ outfit_picker_116:
 outfit_picker_117:
   faceset: SOJ_KEL
   faceindex: 12
-  text: Well, now I know what to wear,\. I think all that’s left is to.\..\..\.\kel
+  text: Well, now I know what to wear,\. I think all that's left is to.\..\..\.\kel
 
 outfit_picker_118:
   faceset: SOJ_KEL
@@ -700,17 +700,17 @@ outfit_picker_128:
 outfit_picker_129:
   faceset: SOJ_KEL
   faceindex: 2
-  text: Just think about it!\! If I can practice my lines with you,\. I’ll know what to say to AUBREY!\kel
+  text: Just think about it!\! If I can practice my lines with you,\. I'll know what to say to AUBREY!\kel
 
 outfit_picker_130:
   faceset: SOJ_BASIL
   faceindex: 0
-  text: Couldn’t you just practice in the mirror?\bas
+  text: Couldn't you just practice in the mirror?\bas
 
 outfit_picker_131:
   faceset: SOJ_KEL
   faceindex: 10
-  text: Of course not!\| It wouldn’t be an authentic experience!\kel
+  text: Of course not!\| It wouldn't be an authentic experience!\kel
 
 outfit_picker_132:
   faceset: SOJ_BASIL
@@ -740,12 +740,12 @@ outfit_picker_136:
 outfit_picker_137:
   faceset: SOJ_KEL
   faceindex: 2
-  text: See?\| You’re already in character!\kel
+  text: See?\| You're already in character!\kel
 
 outfit_picker_138:
   faceset: SOJ_BASIL
   faceindex: 29
-  text: .\..\..\.Let’s just get this over with.\bas
+  text: .\..\..\.Let's just get this over with.\bas
 
 outfit_picker_139:
   faceset: SOJ_KEL
@@ -909,7 +909,7 @@ visual_novel_35:
 visual_novel_36:
   faceset: SOJ_BASIL
   faceindex: 0
-  text: Oh.\..\..\. \face[14]I don’t think so?\! You said you wanted more time to decide.\bas
+  text: Oh.\..\..\. \face[14]I don't think so?\! You said you wanted more time to decide.\bas
 
 visual_novel_37:
   faceset: SOJ_KEL
@@ -965,7 +965,7 @@ visual_novel_45:
 visual_novel_46:
   faceset: SOJ_BASIL
   faceindex: 15
-  text: Well,\. I didn’t really try, so.\..\..\. I guess that’s a compliment?\bas
+  text: Well,\. I didn't really try, so.\..\..\. I guess that's a compliment?\bas
 
 #after all
 
@@ -979,7 +979,7 @@ date_spot_0:
 date_spot_1:
   faceset: SOJ_KEL
   faceindex: 6
-  text: The \c[11]RESTAURANT\c[0],\. \c[11]HOBBEEZ\c[0],\. \c[11]GINO’S\c[0],\. and.\..\..\. What was it again?\kel
+  text: The \c[11]RESTAURANT\c[0],\. \c[11]HOBBEEZ\c[0],\. \c[11]GINO'S\c[0],\. and.\..\..\. What was it again?\kel
 
 date_spot_2:
   faceset: SOJ_BASIL
@@ -999,7 +999,7 @@ date_spot_4:
 date_spot_5:
   faceset: SOJ_BASIL
   faceindex: 29
-  text: You’re just messing with me now,\. aren’t you?\bas
+  text: You're just messing with me now,\. aren't you?\bas
 
 date_spot_6:
   faceset: SOJ_KEL
@@ -1085,14 +1085,14 @@ date_spot_20:
 date_spot_21:
   faceset: SOJ_KEL
   faceindex: 1
-  text: Reading comics,\. playing CAPTAIN SPACEBOY’S SPACE ADVENTURE,\. maybe we could even hang around the PLAZA afterwards!\kel
+  text: Reading comics,\. playing CAPTAIN SPACEBOY'S SPACE ADVENTURE,\. maybe we could even hang around the PLAZA afterwards!\kel
 
 # pick ginos
 
 date_spot_22:
   faceset: SOJ_KEL
   faceindex: 5
-  text: GINO’S? \face[2]I like that idea!\kel
+  text: GINO'S? \face[2]I like that idea!\kel
 
 date_spot_23:
   faceset: SOJ_KEL
@@ -1104,7 +1104,7 @@ date_spot_23:
 date_spot_24:
   faceset: SOJ_KEL
   faceindex: 2
-  text: Okay!\| Let’s do it!\kel
+  text: Okay!\| Let's do it!\kel
 
 date_spot_25:
   faceset: SOJ_BASIL
@@ -1129,14 +1129,14 @@ date_spot_28:
 date_spot_29:
   faceset: SOJ_BASIL
   faceindex: 30
-  text: You’ve been thinking of confessing to her since \."a long time ago"?\bas
+  text: You've been thinking of confessing to her since \."a long time ago"?\bas
 
 #kel sweat bubble
 
 date_spot_30:
   faceset: SOJ_KEL
   faceindex: 16
-  text: T-\.That’s against the point!\! I’m gonna tell her there and that’s that!\kel
+  text: T-\.That's against the point!\! I'm gonna tell her there and that's that!\kel
 
 date_spot_31:
   faceset: SOJ_KEL
@@ -1163,7 +1163,7 @@ date_spot_34:
 date_spot_35:
   faceset: SOJ_BASIL
   faceindex: 0
-  text: How do you even know she’s still outside?\! What if she went home?\bas
+  text: How do you even know she's still outside?\! What if she went home?\bas
 
 date_spot_36:
   faceset: SOJ_KEL
@@ -1187,4 +1187,4 @@ date_spot_39:
   faceindex: 12
   text: Alright, KEL!\! You got this!\kel
 
-#fade out to outside Kel’s housez`
+#fade out to outside Kel's housez`

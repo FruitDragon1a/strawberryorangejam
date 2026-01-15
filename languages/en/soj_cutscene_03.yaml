@@ -541,3 +541,22 @@ block_door1:
   faceset: SOJ_KEL
   faceindex: 10
   text: Wait,\. didn't we have to grab flowers from your room?\kel
+
+
+
+church_outside_1:
+  faceset: SOJ_POLLY
+  faceindex: 4
+  text: Do you two need me to stay and give you a ride back when you're done?\pol
+
+church_outside_2:
+  faceset: SOJ_BASIL
+  faceindex: 2
+  text: I think we're okay,\. but thank you!\bas
+
+church_outside_3:
+  faceset: SOJ_POLLY
+  faceindex: 0
+  text: Alright then!\! See you at home!\pol
+
+# and polly drives off into the sunset, never to be seen again (until basil gets home)
