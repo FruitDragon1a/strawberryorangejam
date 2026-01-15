@@ -1282,7 +1282,7 @@
                  "value":"20"
                 }],
          "type":"tilelayer",
-         "visible":true,
+         "visible":false,
          "width":54,
          "x":0,
          "y":0
@@ -1300,7 +1300,7 @@
         }, 
         {
          "firstgid":25,
-         "source":"SOJ_DAY_INTERIOR_SHOP.json"
+         "source":"SOJ_SUNSET_INTERIOR_SHOP.json"
         }, 
         {
          "firstgid":1049,
@@ -1308,11 +1308,11 @@
         }, 
         {
          "firstgid":1177,
-         "source":"SOJ_DAY_EXTERIOR.json"
+         "source":"SOJ_SUNSET_EXTERIOR.json"
         }, 
         {
          "firstgid":2201,
-         "source":"SOJ_DAY_EXTERIOR_2.json"
+         "source":"SOJ_SUNSET_EXTERIOR_2.json"
         }],
  "tilewidth":32,
  "type":"map",
