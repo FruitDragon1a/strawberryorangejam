@@ -1,0 +1,1190 @@
+#What should Kel wear?
+#begins after rake minigame
+#basil in kels bedroom
+#kel walks in
+
+
+outfit_picker_0:
+  faceset: SOJ_KEL
+  faceindex: 2
+  text: Phew!\! I feel so refreshed!\kel
+
+outfit_picker_1:
+  faceset: SOJ_BASIL
+  faceindex: 0
+  text: Isn’t that the same outfit?\bas
+
+outfit_picker_2:
+  faceset: SOJ_KEL
+  faceindex: 6
+  text: What do you mean?\| Look at how clean it is!\! I just got it from the dryer!\kel
+
+outfit_picker_3:
+  faceset: SOJ_BASIL
+  faceindex: 29
+  text: .\..\..\.Right.\bas
+
+outfit_picker_4:
+  faceset: SOJ_BASIL
+  faceindex: 0
+  text: Anyway, What should we do now? You’ve already made a (pretty good amount $80/a lot $120/a ton $180) of money.\..\..\.\bas
+#reminder to do the caseeval stuff
+
+outfit_picker_5:
+  faceset: SOJ_KEL
+  faceindex: 7
+  text: Hm,\. you’re right.\..\..\! What else could we do?\kel
+
+#60 frame wait
+# idea bubble from kel
+
+outfit_picker_6:
+  faceset: SOJ_KEL
+  faceindex: 5
+  text: Oh!\| You know what?\! \face[2]You can help me pick an outfit out for the date!\kel
+
+
+outfit_picker_7:
+  faceset: SOJ_BASIL
+  faceindex: 27
+  text: Already?\! But you haven’t even asked her yet!\bas
+
+
+outfit_picker_8:
+  faceset: SOJ_KEL
+  faceindex: 3
+  text: A man can dream!\kel
+
+
+outfit_picker_9:
+  faceset: SOJ_BASIL
+  faceindex: 26
+  text: Do you even have more outfits?\! I only ever see you in the one you’re wearing.\bas
+
+
+outfit_picker_10:
+  faceset: SOJ_KEL
+  faceindex: 11
+  text: Of course I do!\| C’mon,\. do I look that bland?\kel
+
+
+outfit_picker_11:
+  faceset: SOJ_BASIL
+  faceindex: 29
+  text: .\..\..\.\bas
+
+# kel sweat bubble
+
+outfit_picker_12:
+  faceset: SOJ_KEL
+  faceindex: 9
+  text: I'll prove it! Don't look!\kel
+
+# basil turns away
+# kel runs to his closet
+
+# screen fade out,
+# clothes rustle sfx
+
+outfit_picker_13:
+  text: You can look now!\kel
+
+# screen fades in
+# kel is wearing cool outfit
+
+outfit_picker_14:
+  faceset: SOJ_KEL
+  faceindex: 2 #outfit edit
+  text: Voila!\! How do I look?\kel
+
+outfit_picker_15:
+  faceset: SOJ_BASIL
+  faceindex: 14
+  text: .\..\..\.\bas
+
+outfit_picker_16:
+  faceset: SOJ_BASIL
+  faceindex: 32
+  text: It's still orange.\bas
+
+outfit_picker_17:
+  faceset: SOJ_KEL
+  faceindex: 10
+  text: I mean,\. yeah,\. that's my favorite color!\kel
+
+outfit_picker_18:
+  faceset: SOJ_BASIL
+  faceindex: 3
+  text: Is your entire closet made of orange?\bas
+
+outfit_picker_19:
+  faceset: SOJ_KEL
+  faceindex: 4
+  text: Um.\..\..\. \face[0]no,\. actually!\! I have other colors too.\kel
+
+outfit_picker_20:
+  faceset: SOJ_BASIL
+  faceindex: 30
+  text: Prove it.\bas
+
+outfit_picker_21:
+  faceset: SOJ_KEL
+  faceindex: 2
+  text: You're on!\kel
+
+# bro runs back to his closet
+# basil turns away
+# fade out
+
+outfit_picker_22:
+  text: You can look now!\kel
+
+# fade in
+# he's wearing the casual outfit
+
+outfit_picker_23:
+  faceset: SOJ_BASIL
+  faceindex: 34
+  text: Wow, it's not orange.\bas
+
+
+outfit_picker_24:
+  faceset: SOJ_KEL
+  faceindex: 12 #outfit edit
+  text: Told ya!\kel
+
+
+outfit_picker_25:
+  faceset: SOJ_BASIL
+  faceindex: 42
+  text: Do you have anything else?\bas
+
+
+outfit_picker_26:
+  faceset: SOJ_KEL
+  faceindex: 8
+  text: Uh.\..\..\. no.\. Not really.\kel
+
+
+outfit_picker_27:
+  faceset: SOJ_KEL
+  faceindex: 13
+  text: Other than pajamas,\. I mean.\kel
+
+
+outfit_picker_28:
+  faceset: SOJ_BASIL
+  faceindex: 26
+  text: So your only not-orange shirts are this hoodie and your pajamas?\bas
+
+
+outfit_picker_29:
+  faceset: SOJ_KEL
+  faceindex: 1
+  text: Yup!\kel
+
+
+outfit_picker_30:
+  faceset: SOJ_BASIL
+  faceindex: 0
+  text: Wow.\bas
+
+
+outfit_picker_31:
+  faceset: SOJ_KEL
+  faceindex: 10
+  text: Not like you're much better with green.\kel
+
+
+outfit_picker_32:
+  faceset: SOJ_BASIL
+  faceindex: 15
+  text: Fair.\..\..\.\bas
+
+
+outfit_picker_33:
+  faceset: SOJ_KEL
+  faceindex: 0
+  text: Lemme change back.\kel
+
+#fade out
+# back to normal clothes
+
+outfit_picker_34:
+  faceset: SOJ_KEL
+  faceindex: 8
+  text: Hmm.\..\..\.\kel
+
+
+outfit_picker_35:
+  faceset: SOJ_BASIL
+  faceindex: 14
+  text: What’s wrong?\! Those outfits looked good.\bas
+
+
+outfit_picker_36:
+  faceset: SOJ_KEL
+  faceindex: 7
+  text: I know, but.\..\..\.\kel
+
+
+outfit_picker_37:
+  faceset: SOJ_KEL
+  faceindex: 10
+  text: I can’t help but want something more.\..\..\. fancy.\kel
+
+
+outfit_picker_38:
+  faceset: SOJ_BASIL
+  faceindex: 0
+  text: Fancy?\! Do you mean formal?\bas
+
+
+outfit_picker_39:
+  faceset: SOJ_KEL
+  faceindex: 2
+  text: Yeah,\! that's the word!\kel
+
+
+outfit_picker_40:
+  faceset: SOJ_BASIL
+  faceindex: 14
+  text: Do you have a,\. um...\| a suit?\! Or a button-down?\bas
+
+
+outfit_picker_41:
+  faceset: SOJ_BASIL
+  faceindex: 0
+  text: Like the kind of thing you'd wear to \c[11]CHURCH\c[0].\bas
+
+
+outfit_picker_42:
+  faceset: SOJ_KEL
+  faceindex: 8
+  text: I haven't worn a suit in ages...\! I've definitely outgrown it by now.\kel
+
+
+outfit_picker_43:
+  faceset: SOJ_KEL
+  faceindex: 6
+  text: Still have the tie,\. though.\kel
+
+#60 frame wait
+#idea bubble from kel
+
+outfit_picker_44:
+  faceset: SOJ_KEL
+  faceindex: 5
+  text: You know who does have a suit, though? HERO!\kel
+
+
+outfit_picker_45:
+  faceset: SOJ_BASIL
+  faceindex: 32
+  text: HERO? What does he have to do with this?\bas
+
+
+outfit_picker_46:
+  faceset: SOJ_KEL
+  faceindex: 2
+  text: Me and HERO are like, the same size! He probably has his old clothes somewhere here!\kel
+
+
+outfit_picker_47:
+  faceset: SOJ_KEL
+  faceindex: 0
+  text: Let’s go call him downstairs!\kel
+
+outfit_picker_48:
+  faceset: SOJ_BASIL
+  faceindex: 15
+  text: Okay.\..\..\.\bas
+
+#callin hero
+
+#fadeout to living room
+#kel at the phone, ringing hero
+#after like 5 seconds
+
+outfit_picker_49:
+  text: Hello?\her
+
+outfit_picker_50:
+  faceset: SOJ_KEL
+  faceindex: 2
+  text: HERO!\! How’ve you been?\kel
+
+outfit_picker_51:
+  text: KEL?\! It’s good to hear from you again!\her
+
+outfit_picker_52:
+  text: I’ve been doing good!\! How about you?\her
+
+outfit_picker_53:
+  faceset: SOJ_KEL
+  faceindex: 3
+  text: Pretty alright!\! \face[0]Listen,\, I have a question for you.\kel
+
+outfit_picker_54:
+  faceset: SOJ_KEL
+  faceindex: 6
+  text: I’m with BASIL,\. and we’re trying to get an outfit.\! I remembered you had one,\. and was wondering if I could borrow it!\kel
+
+
+outfit_picker_55:
+  text: Wait, BASIL’s here too?\. Hey, BASIL!\her
+
+outfit_picker_56:
+  faceset: SOJ_BASIL
+  faceindex: 2
+  text: Hi!\bas
+
+outfit_picker_57:
+  text: Anyway, my old outfit, huh? Hmm.\..\..\.\her
+
+#silence bubble from hero
+
+outfit_picker_58:
+  text: Wait a minute.\..\..\.\her
+
+outfit_picker_59:
+  text: Are you going on a date?\her
+
+#silence bubble on kel and 60 frame wait
+
+outfit_picker_60:
+  faceset: SOJ_KEL
+  faceindex: 20
+  text: What?!\| How’d you know!?\kel
+
+#very brief wait
+
+outfit_picker_61:
+  faceset: SOJ_KEL
+  faceindex: 11
+  text: Wait,\. I meant-\kel
+
+outfit_picker_62:
+  text: I knew it!\| No way you’d be asking me for my clothes if it weren’t for something special!\her
+
+outfit_picker_63:
+  faceset: SOJ_KEL
+  faceindex: 15
+  text: .\..\..\.\face[14]Fine.\| You got me.\kel
+
+outfit_picker_64:
+  text: So.\..\..\.\her
+
+outfit_picker_65:
+  text: \sinv[1]Who’s the girl~\her
+
+outfit_picker_66:
+  faceset: SOJ_KEL
+  faceindex: 9
+  text: Urgh.\..\..\.\kel
+
+outfit_picker_67:
+  faceset: SOJ_KEL
+  faceindex: 16
+  text: I-\.It’s.\..\..\.\kel
+
+#silence bubble from kel
+
+outfit_picker_68:
+  faceset: SOJ_KEL
+  faceindex: 14
+  text: .\..\..\.Aubrey.\kel
+
+#silence bubble from hero
+#wait
+
+outfit_picker_69:
+  text: What?\her
+
+outfit_picker_70:
+  faceset: SOJ_KEL
+  faceindex: 11
+  text: Why is everyone so surprised??\kel
+
+outfit_picker_71:
+  faceset: SOJ_BASIL
+  faceindex: 29
+  text: That part wasn't the part I was surprised by,\. for the record.\bas
+
+outfit_picker_72:
+  text: I guess I am surprised by it,\. honestly.\..\..\.\her
+
+outfit_picker_73:
+  text: I've broken up way too many of your petty arguments to not be.\her
+
+outfit_picker_74:
+  faceset: SOJ_KEL
+  faceindex: 9
+  text: Hey!\kel
+
+outfit_picker_75:
+  faceset: SOJ_BASIL
+  faceindex: 30
+  text: They still fight all the time,\. by the way.\! It's just like, uh...\| flirt-fighting now.\bas
+
+outfit_picker_76:
+  faceset: SOJ_KEL
+  faceindex: 10
+  text: What?\. \face[11]No!\| We don't flirt!\kel
+
+outfit_picker_77:
+  faceset: SOJ_BASIL
+  faceindex: 23
+  text: .\..\..\.\bas
+
+outfit_picker_78:
+  text: Phew!\| I thought I was in some weird parallel dimension!\her
+
+outfit_picker_79:
+  text: So,\. it’s this serious,\. huh.\..\..\.\her
+
+outfit_picker_80:
+  text: I should have my old \c[11]CHURCH\c[0] clothes somewhere in my closet.\! It's the same outfit I wear in the family photo,\. so if you guys are calling from the living room you can see it.\her
+
+outfit_picker_81:
+  text: Use it wisely.\her
+
+outfit_picker_82:
+  faceset: SOJ_KEL
+  faceindex: 2
+  text: Sweet! Thanks, bro!\kel
+
+outfit_picker_83:
+  text: No problem! Good luck!\her
+
+#phone hangs up
+
+outfit_picker_84:
+  faceset: SOJ_KEL
+  faceindex: 3
+  text: Well, that was embarrassing, but also useful!\kel
+
+outfit_picker_85:
+  faceset: SOJ_KEL
+  faceindex: 0
+  text: Let’s go raid HERO’s closet!\kel
+
+#outfit selection and visual novel time
+#fade out back to kels room
+#brief wait
+#clothes sfx
+
+outfit_picker_86:
+  text: This jacket's kinda tight... I'm just gonna take it off!\kel
+
+# clothes sfx
+
+outfit_picker_87:
+  text: You can look now!\kel
+
+#fade in to kel looking tuff af
+
+outfit_picker_88:
+  faceset: SOJ_BASIL
+  faceindex: 34
+  text: .\..\..\.HERO’s tie is orange?\! I thought he had a blue tie in the photo?\bas
+
+outfit_picker_89:
+  faceset: SOJ_KEL
+  faceindex: 2 #edit
+  text: That’s because this is a KEL original!\kel
+
+outfit_picker_90:
+  faceset: SOJ_BASIL
+  faceindex: 14
+  text: At least it still looks good.\..\..\.\bas
+
+outfit_picker_91:
+  faceset: SOJ_KEL
+  faceindex: 2
+  text: Yeah,\! you get it!\kel
+
+outfit_picker_92:
+  faceset: SOJ_KEL
+  faceindex: 0
+  text: Well,\. I’ll leave the final choice to you!\| If you think those other outfits I showed you were better,\. just let me know!\kel
+
+outfit_picker_93:
+  faceset: SOJ_BASIL
+  faceindex: 32
+  text: You’re leaving me with the final say again?\bas
+
+outfit_picker_94:
+  faceset: SOJ_KEL
+  faceindex: 0
+  text: Yeah!\| You’ve been helping me out the entire day!\| \face[3]Without you,\. I probably wouldn’t have even picked a gift by now!\kel
+
+outfit_picker_95:
+  faceset: SOJ_KEL
+  faceindex: 0
+  text: I’m gonna change back, so think about it real quick.\kel
+
+# fadeout, clothes rustle, fade in, they're standing in the center of the room now
+
+outfit_picker_96:
+  faceset: SOJ_KEL
+  faceindex: 5
+  text: So, what should I wear?\kel
+
+#clothes popup
+#OL RELIABLE
+
+outfit_picker_97:
+  faceset: SOJ_KEL
+  faceindex: 10
+  text: Seriously?\| But I thought you didn’t like how much orange I wear!\kel
+
+outfit_picker_98:
+  faceset: SOJ_BASIL
+  faceindex: 14
+  text: I know,\. but.\..\..\.\bas
+
+outfit_picker_99:
+  faceset: SOJ_BASIL
+  faceindex: 10
+  text: This feels the most like you!\! Like the KEL that Aubrey knows!\bas
+
+outfit_picker_100:
+  faceset: SOJ_KEL
+  faceindex: 9
+  text: You just had to bring up AUBREY.\..\..\.\kel
+
+outfit_picker_101:
+  faceset: SOJ_KEL
+  faceindex: 7
+  text: .\..\..\.Fine.\kel
+
+#casual
+
+outfit_picker_102:
+  faceset: SOJ_KEL
+  faceindex: 5
+  text: You think the hoodie’s the right move?\kel
+
+outfit_picker_104:
+  faceset: SOJ_BASIL
+  faceindex: 34
+  text: More than anything,\. I’m curious to see what AUBREY would think of you in red.\bas
+
+outfit_picker_105:
+  faceset: SOJ_KEL
+  faceindex: 3
+  text: That’s true.\..\..\.\kel
+
+outfit_picker_106:
+  faceset: SOJ_KEL
+  faceindex: 2
+  text: Alright then,\. let’s do it!\kel
+
+#cool
+
+outfit_picker_107:
+  faceset: SOJ_KEL
+  faceindex: 5
+  text: The Orange Joe shirt? That’s the one I should go with?\kel
+
+outfit_picker_108:
+  faceset: SOJ_BASIL
+  faceindex: 2
+  text: Yeah!\| It’s different enough that it’ll leave an impression,\. but orange enough to still be you!\bas
+
+outfit_picker_109:
+  faceset: SOJ_KEL
+  faceindex: 2
+  text: That’s a good point!\! Let’s go with that, then!\kel
+
+#formal
+
+outfit_picker_110:
+  faceset: SOJ_KEL
+  faceindex: 5
+  text: You think the button-down's the right choice?\kel
+
+outfit_picker_111:
+  faceset: SOJ_BASIL
+  faceindex: 0
+  text: Yeah,\. honestly.\! It's not a super 'you' thing to wear,\. but it'll definitely show AUBREY that you're taking this seriously.\bas
+
+outfit_picker_112:
+  faceset: SOJ_KEL
+  faceindex: 8
+  text: That's true.\! \face[0]Okay,\. button-down it is!\kel
+
+#pajamas
+
+outfit_picker_113:
+  faceset: SOJ_KEL
+  faceindex: 11
+  text: Seriously?\! That wasn't even an option!\kel
+
+outfit_picker_114:
+  faceset: SOJ_BASIL
+  faceindex: 1
+  text: I know,\. but it'd be funny...\bas
+
+outfit_picker_115:
+  faceset: SOJ_KEL
+  faceindex: 9
+  text: Be serious!\kel
+
+outfit_picker_116:
+  faceset: SOJ_BASIL
+  faceindex: 37
+  text: Okay,\. okay.\..\..\.\bas
+
+#after any
+
+outfit_picker_117:
+  faceset: SOJ_KEL
+  faceindex: 12
+  text: Well, now I know what to wear,\. I think all that’s left is to.\..\..\.\kel
+
+outfit_picker_118:
+  faceset: SOJ_KEL
+  faceindex: 8
+  text: Wait a moment.\..\..\.\kel
+
+outfit_picker_119:
+  faceset: SOJ_BASIL
+  faceindex: 14
+  text: .\..\..\.?\bas
+
+outfit_picker_120:
+  faceset: SOJ_KEL
+  faceindex: 4
+  text: I have no idea what to say to Aubrey!\kel
+
+outfit_picker_121:
+  faceset: SOJ_BASIL
+  faceindex: 29
+  text: .\..\..\.\bas
+
+outfit_picker_122:
+  faceset: SOJ_BASIL
+  faceindex:  29
+  text: You set aside the entirety of today to confess to AUBREY,\. and you didn't even think about what to say to her?\bas
+
+outfit_picker_123:
+  faceset: SOJ_KEL
+  faceindex: 3
+  text: Heh.\..\..\. I guess that slipped my mind.\..\..\.\kel
+
+outfit_picker_124:
+  faceset: SOJ_BASIL
+  faceindex: 0
+  text: Wow.\! Anyway,\. how am I supposed to help you with that?\bas
+
+outfit_picker_125:
+  faceset: SOJ_KEL
+  faceindex: 7
+  text: I don't know.\..\..\.\kel
+
+# silence
+# kel idea bubble
+
+outfit_picker_127:
+  faceset: SOJ_KEL
+  faceindex: 12
+  text: What if you pretend to be AUBREY?\kel
+
+outfit_picker_128:
+  faceset: SOJ_BASIL
+  faceindex: 35
+  text: .\..\..\.What?\bas
+
+outfit_picker_129:
+  faceset: SOJ_KEL
+  faceindex: 2
+  text: Just think about it!\! If I can practice my lines with you,\. I’ll know what to say to AUBREY!\kel
+
+outfit_picker_130:
+  faceset: SOJ_BASIL
+  faceindex: 0
+  text: Couldn’t you just practice in the mirror?\bas
+
+outfit_picker_131:
+  faceset: SOJ_KEL
+  faceindex: 10
+  text: Of course not!\| It wouldn’t be an authentic experience!\kel
+
+outfit_picker_132:
+  faceset: SOJ_BASIL
+  faceindex: 26
+  text: And me pretending to be AUBREY is authentic?\bas
+
+outfit_picker_133:
+  faceset: SOJ_KEL
+  faceindex: 11
+  text: More authentic than me making up both sides of the conversation!\kel
+
+outfit_picker_134:
+  faceset: SOJ_BASIL
+  faceindex: 14
+  text: .\..\..\.\face[15]I'll give you that.\bas
+
+outfit_picker_135:
+  faceset: SOJ_KEL
+  faceindex: 7
+  text: \sinv[2]Pleaseee?\kel
+
+outfit_picker_136:
+  faceset: SOJ_BASIL
+  faceindex: 7
+  text: Ugh,\. fine!\bas
+
+outfit_picker_137:
+  faceset: SOJ_KEL
+  faceindex: 2
+  text: See?\| You’re already in character!\kel
+
+outfit_picker_138:
+  faceset: SOJ_BASIL
+  faceindex: 29
+  text: .\..\..\.Let’s just get this over with.\bas
+
+outfit_picker_139:
+  faceset: SOJ_KEL
+  faceindex: 0
+  text: Alright!\kel
+
+#THE PART WITH THE VISUAL NOVEL (pt 1)
+#black screen
+
+visual_novel_0:
+  faceset: SOJ_KEL
+  faceindex: 8
+  text: So,\. uh...\! BASIL,\. how do I start?\! This is awkward!\kel
+
+visual_novel_1:
+  faceset: SOJ_BASIL
+  faceindex: 7
+  text: How am I supposed to know?\! Just say something!\bas
+ 
+visual_novel_2:
+  faceset: SOJ_KEL
+  faceindex: 9
+  text: Okay, okay!\kel
+ 
+visual_novel_3:
+  faceset: SOJ_KEL
+  faceindex: 13
+  text: Uhh..\..\..\.\kel
+ 
+#funny transition to the room or whatever
+
+visual_novel_4:
+  text: Hey, AUBREY!\! What's up?\kel
+ 
+visual_novel_5:
+  faceset: SOJ_BASIL
+  faceindex: 3
+  text: Why do you even have this ribbon?\bas
+ 
+visual_novel_6:
+  faceset: SOJ_KEL
+  faceindex: 11
+  text: Dude, get in character!\kel
+ 
+visual_novel_7:
+  faceset: SOJ_BASIL
+  faceindex: 14
+  text: Sorry.\bas
+ 
+visual_novel_8:
+  faceset: SOJ_BASIL
+  faceindex: 15
+  text: Um.\..\..\.\bas
+ 
+visual_novel_9_choice:
+  text: "What do you want?"
+ 
+visual_novel_10_choice:
+  text: "Hi, KEL!"
+ 
+# HI KEL
+
+visual_novel_11:
+  text: Hi, KEL!\! How are you?\n<AUBREY?>
+
+# What do you want?
+
+visual_novel_12:
+  text: What do you want, KEL?\n<AUBREY?>
+ 
+visual_novel_13:
+  text: Uh.\..\..\.\kel
+ 
+visual_novel_14:
+  text: I,\. uh,\. wanted to ask.\..\..\. hmm.\..\..\.\kel
+ 
+visual_novel_15_choice:
+  text: "Spit it out!"
+ 
+visual_novel_16_choice:
+  text: "What is it?"
+
+#What is it
+
+visual_novel_17:
+  text: What is it, KEL? Is something the matter?\n<AUBREY?>
+
+# Spit it out
+
+visual_novel_18:
+  text: Spit it out, KEL.\! We can't stand here all day,\. you know.\bas
+ 
+visual_novel_19:
+  faceset: SOJ_KEL
+  faceindex: 13
+  text: She would NOT say that.\kel # for both options
+ 
+visual_novel_20:
+  faceset: SOJ_BASIL
+  faceindex: 7
+  text: Just go with it!\bas
+ 
+visual_novel_21:
+  faceset: SOJ_BASIL
+  faceindex: 7
+  text: Keep going!\bas
+ 
+visual_novel_22:
+  faceset: SOJ_KEL
+  faceindex: 8
+  text: Fine, jeez.\..\..\.\kel
+ 
+visual_novel_23:
+  text: Well, I just wanted to ask if.\..\..\.\kel
+
+visual_novel_24:
+  text: \*gulp\*\kel
+
+visual_novel_25:
+  text: If you wanted to go on a date with me!\kel
+
+visual_novel_26_choice:
+  text: "What!?"
+
+visual_novel_27_choice:
+  text: "What the hell?"
+
+#what
+
+visual_novel_28:
+  text: W-What!?\! What do you mean?!\n<AUBREY?>
+
+visual_novel_29:
+  text: I-\.I like you,\, AUBREY!\| And I really want to know if you wanted to go with me to.\..\..\.\kel
+
+# what the hell
+
+visual_novel_30:
+  text: What the hell? Are you playing a joke on me?\n<AUBREY?>
+
+#dont darken screen for this interjection
+visual_novel_31:
+  text: .\..\..\.\kel # squinting suspiciously at basil
+
+visual_novel_32:
+  text: No, I'm serious!\| I.\..\..\. I like you, AUBREY. As— as more than a friend.\kel
+
+visual_novel_33:
+  text: No way.\..\..\.\n<AUBREY?>
+
+visual_novel_34:
+  text: A-\.And I was wondering if you wanted to go to the.\..\..\. uh.\..\..\.\kel
+
+# visual novel background disappears as we go back to kels bedroom
+
+visual_novel_35:
+  faceset: SOJ_KEL
+  faceindex: 4
+  text: Wait.\! did we ever even decide on where I was gonna take her?\kel
+
+visual_novel_36:
+  faceset: SOJ_BASIL
+  faceindex: 0
+  text: Oh.\..\..\. \face[14]I don’t think so?\! You said you wanted more time to decide.\bas
+
+visual_novel_37:
+  faceset: SOJ_KEL
+  faceindex: 8
+  text: Hmm.\..\..\. \face[0]We better decide it now then!\kel
+
+#if basil did good acting as aubrey
+
+visual_novel_38:
+  faceset: SOJ_KEL
+  faceindex: 2
+  text: Also, you did a pretty good job acting like AUBREY!\kel
+
+visual_novel_39:
+  faceset: SOJ_KEL
+  faceindex: 3
+  text: For the most part, I think.\kel
+
+visual_novel_40:
+  faceset: SOJ_BASIL
+  faceindex: 15
+  text: Thanks.\..\..\.?\bas
+
+# if basil literally just acted like himself
+
+visual_novel_41:
+  faceset: SOJ_KEL
+  faceindex: 13
+  text: Also.\..\..\. You were really,\. really bad at acting like AUBREY.\kel
+
+visual_novel_42:
+  faceset: SOJ_KEL
+  faceindex: 13
+  text: It felt more like I was talking to you.\kel
+
+visual_novel_43:
+  faceset: SOJ_BASIL
+  faceindex: 15
+  text: I tried.\..\..\.\bas
+
+# if basil did a mixed run
+
+visual_novel_44:
+  faceset: SOJ_KEL
+  faceindex: 5
+  text: Also,\. you did pretty okay acting like AUBREY.\kel
+
+visual_novel_45:
+  faceset: SOJ_KEL
+  faceindex: 0
+  text: You probably shouldn't be auditioning for a play anytime soon,\. but it was a decent enough job.\kel
+
+visual_novel_46:
+  faceset: SOJ_BASIL
+  faceindex: 15
+  text: Well,\. I didn’t really try, so.\..\..\. I guess that’s a compliment?\bas
+
+#after all
+
+#Where should the date happen?
+
+date_spot_0:
+  faceset: SOJ_KEL
+  faceindex: 5
+  text: Anyway,\. what were the places we talked about again?\kel
+
+date_spot_1:
+  faceset: SOJ_KEL
+  faceindex: 6
+  text: The \c[11]RESTAURANT\c[0],\. \c[11]HOBBEEZ\c[0],\. \c[11]GINO’S\c[0],\. and.\..\..\. What was it again?\kel
+
+date_spot_2:
+  faceset: SOJ_BASIL
+  faceindex: 0
+  text: The \c[11]HANGOUT SPOT\c[0]?\bas
+
+date_spot_3:
+  faceset: SOJ_KEL
+  faceindex: 0
+  text: Yeah!\kel
+
+date_spot_4:
+  faceset: SOJ_KEL
+  faceindex: 3
+  text: .\..\..\.\!<br>\sinv[1]Oh, BASIL, I just can't decide...\kel
+
+date_spot_5:
+  faceset: SOJ_BASIL
+  faceindex: 29
+  text: You’re just messing with me now,\. aren’t you?\bas
+
+date_spot_6:
+  faceset: SOJ_KEL
+  faceindex: 1
+  text: Okay,\. a bit,\. but I'm serious.\| \face[5]I can't decide!\kel
+
+date_spot_7:
+  faceset: SOJ_KEL
+  faceindex: 0
+  text: Which one should I go to?\kel
+
+date_spot_8:
+  text: HANGOUT SPOT
+
+date_spot_9:
+  text: FANCY RESTAURANT
+
+date_spot_10:
+  text: HOBBEEZ
+
+date_spot_11:
+  text: GINO'S
+
+# pick the hangout spot
+
+date_spot_12:
+  faceset: SOJ_KEL
+  faceindex: 5
+  text: You know what,\. sure.\! Classic \c[11]HANGOUT SPOT\c[0] it is.\kel
+
+date_spot_13:
+  faceset: SOJ_KEL
+  faceindex: 8
+  text: We could have like...\| a nice picnic maybe?\! Put some candles around,\. watch the sunset...\kel
+
+date_spot_14:
+  faceset: SOJ_KEL
+  faceindex: 12
+  text: .\..\..\.That sounds really nice actually!\! Good pick,\. BASIL!\kel
+
+# pick the fancy restaurant
+
+date_spot_15:
+  faceset: SOJ_KEL
+  faceindex: 5
+  text: Wow,\. really going all out for the first date!\kel
+
+# if you have nearly enough money to buy a meal (does not have to be the exact amount, maybe 20 below)
+
+date_spot_16:
+  faceset: SOJ_KEL
+  faceindex: 8
+  text: I think we earned enough money to fund it.\..\..\.\kel
+
+# otherwise
+
+date_spot_17:
+  faceset: SOJ_KEL
+  faceindex: 8
+  text: I'm not sure if we earned enough money to fund it,\. \face[0]but I guess there's no harm in trying!\kel
+
+# if you picked formal outfit
+
+date_spot_18:
+  faceset: SOJ_KEL
+  faceindex: 2
+  text: Either way,\. we're sure going to be dressed the part!\kel
+
+# if you didn't pick formal outfit
+
+date_spot_19:
+  faceset: SOJ_KEL
+  faceindex: 7
+  text: Hmm.\..\..\. I don't know if we picked the right outfit for their dress code...\! \face[2]Eh.\| Screw it.\| We're gonna have fun on the first date,\. even if that means not wearing stuffy suits!\kel
+
+# pick hobbeez
+
+date_spot_20:
+  faceset: SOJ_KEL
+  faceindex: 5
+  text: HOBBEEZ? Yeah, that does sound pretty nice.\kel
+
+date_spot_21:
+  faceset: SOJ_KEL
+  faceindex: 1
+  text: Reading comics,\. playing CAPTAIN SPACEBOY’S SPACE ADVENTURE,\. maybe we could even hang around the PLAZA afterwards!\kel
+
+# pick ginos
+
+date_spot_22:
+  faceset: SOJ_KEL
+  faceindex: 5
+  text: GINO’S? \face[2]I like that idea!\kel
+
+date_spot_23:
+  faceset: SOJ_KEL
+  faceindex: 1
+  text: Enjoying a nice hot pizza alongside AUBREY.\..\..\. What a life.\..\..\.\kel
+
+#after allat
+
+date_spot_24:
+  faceset: SOJ_KEL
+  faceindex: 2
+  text: Okay!\| Let’s do it!\kel
+
+date_spot_25:
+  faceset: SOJ_BASIL
+  faceindex: 0
+  text: Where are you gonna confess to her at?\bas
+
+date_spot_26:
+  faceset: SOJ_BASIL
+  faceindex: 29
+  text: Or do you need me to pick that too?\bas
+
+date_spot_27:
+  faceset: SOJ_KEL
+  faceindex: 0
+  text: Of course not!\! I thought of the place a long time ago!\kel
+
+date_spot_28:
+  faceset: SOJ_KEL
+  faceindex: 2
+  text: The HANGOUT SPOT!\| Not a better place to tell her than that!\kel
+
+date_spot_29:
+  faceset: SOJ_BASIL
+  faceindex: 30
+  text: You’ve been thinking of confessing to her since \."a long time ago"?\bas
+
+#kel sweat bubble
+
+date_spot_30:
+  faceset: SOJ_KEL
+  faceindex: 16
+  text: T-\.That’s against the point!\! I’m gonna tell her there and that’s that!\kel
+
+date_spot_31:
+  faceset: SOJ_KEL
+  faceindex: 18
+  text: Now to just figure out how to get her there.\..\..\.\kel
+
+#60 frame wait
+
+date_spot_32:
+  faceset: SOJ_KEL
+  faceindex: 5
+  text: Oh!\| Basil,\. \face[2]how about you go get her for me!\kel
+
+date_spot_33:
+  faceset: SOJ_BASIL
+  faceindex: 34
+  text: Huh?\bas
+
+date_spot_34:
+  faceset: SOJ_KEL
+  faceindex: 0
+  text: Just go find AUBREY,\. and tell her to meet me at the HANGOUT SPOT!\! Easy!\kel
+
+date_spot_35:
+  faceset: SOJ_BASIL
+  faceindex: 0
+  text: How do you even know she’s still outside?\! What if she went home?\bas
+
+date_spot_36:
+  faceset: SOJ_KEL
+  faceindex: 8
+  text: .\..\..\.I-\.I just know,\. okay?\kel
+
+date_spot_37:
+  faceset: SOJ_KEL
+  faceindex: 0
+  text: Now go!\| I need to hype myself up!\kel
+
+date_spot_38:
+  faceset: SOJ_BASIL
+  faceindex: 15
+  text: Okay.\..\..\.\bas
+
+#Basil walks out
+
+date_spot_39:
+  faceset: SOJ_KEL
+  faceindex: 12
+  text: Alright, KEL!\! You got this!\kel
+
+#fade out to outside Kel’s housez`

@@ -130,3 +130,88 @@ hangout_9:
   faceset: SOJ_KEL
   faceindex: 2
   text: I still want to visit the \c[11]RESTAURANT\c[0],\. but this is definitely a good option!\kel
+
+
+
+
+# the restaurant
+
+# basil pops into the restaurant first
+# kel is second, then third polly
+
+# kel exclamation bubble
+restaurant_1:
+  faceset: SOJ_KEL
+  faceindex: 4
+  text: Woah...\| This place is so fancy.\! \face[5]I feel underdressed.\kel
+
+restaurant_2:
+  faceset: SOJ_BASIL
+  faceindex: 42
+  text: I know right?\bas
+
+restaurant_3:
+  faceset: SOJ_KEL
+  faceindex: 3
+  text: This is like...\| the kind of place you'd have to make a reservation.\kel
+
+restaurant_4:
+  faceset: SOJ_POLLY
+  faceindex: 0
+  text: It's probably best to do that anyway,\. if they'd let you.\pol
+
+restaurant_5:
+  faceset: SOJ_KEL
+  faceindex: 0
+  text: You're right.\kel
+
+# kel moves to the reception lady
+restaurant_6:
+  faceset: SOJ_KEL
+  faceindex: 0
+  text: Excuse me!\! I was wondering how soon I would need to make a reservation to have dinner with a date tomorrow night?\kel
+
+restaurant_7:
+  name: RECEPTIONIST
+  text: Let me check my book.\! It looks like you'll need to make a reservation tomorrow morning for a guaranteed spot.
+
+restaurant_8:
+  faceset: SOJ_KEL
+  faceindex: 2
+  text: Alright,\. that works perfectly!\! Thank you!\kel
+
+restaurant_9:
+  name: RECEPTIONIST
+  text: Of course.\! Please let me know if there's anything else I can help with.
+
+restaurant_10:
+  faceset: SOJ_KEL
+  faceindex: 12
+  text: I'll be right back!\! I'm gonna do a quick lap of the place.\! Wanna take it all in!\kel
+
+restaurant_11:
+  name: RECEPTIONIST
+  text: Wait,\. that's not—\^
+
+# kel zooms off
+restaurant_12:
+  name: RECEPTIONIST
+  text: —allowed.
+
+# receptionist silence bubble
+restaurant_13:
+  faceset: SOJ_BASIL
+  faceindex: 15
+  text: Uh...\| sorry about that...\| He's just excited.\bas
+
+restaurant_14:
+  name: RECEPTIONIST
+  text: I can see that.\n<RECEPTIONIST>
+
+# Kel returns
+restaurant_15:
+  faceset: SOJ_KEL
+  faceindex: 2
+  text: I think I've learned all I need to know!\! Let's get outta here.\kel
+
+# they leave
