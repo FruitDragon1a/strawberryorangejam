@@ -87,12 +87,12 @@ moving_19:
   text: VIKRAM! You can take a break! These young men said they'll help!\n<MAYA'S MOM>
 
 moving_20:
-  text: Really? Oh, thank god... \[My back's killing me...\n<MAYA'S DAD>
+  text: Really? Oh, thank god.\..\..\. \}My back's killing me...\n<MAYA'S DAD>
 
 #Maya's dad walks over
 
 moving_21:
-  text: I won't let you do it for free,\. though. I'll give you some spending money as thanks.\n<MAYA'S DAD>
+  text: I won't let you do it for free,\. though.\! I'll give you some spending money as thanks.\n<MAYA'S DAD>
 
 moving_22:
   faceset: SOJ_KEL
