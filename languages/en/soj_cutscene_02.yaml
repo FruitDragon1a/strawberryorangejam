@@ -454,7 +454,7 @@ aub_10:
 aub_11:
   faceset: SOJ_AUBREY
   faceindex: 
-  text: Uh,\. hypothetically speaking,\. if someone were to want to bake a cake for KEL—\.just a hypothetical, by the way—\|what flavor would he like the best?\aub
+  text: Uh,\. hypothetically speaking,\. if someone were to want to bake a cake for KEL— \.just a hypothetical, by the way— \|what flavor would he like the best?\aub
 
 aub_12:
   faceset: SOJ_BASIL
@@ -464,7 +464,7 @@ aub_12:
 aub_13:
   faceset: SOJ_AUBREY
   faceindex: 3
-  text: This isn't me asking,\. by the way,\. BUT,\. out of curiosity,\. I'm asking you for your opinion.\aub
+  text: This isn't me asking,\. by the way.\! BUT,\. out of curiosity,\. I'm asking you for your opinion.\aub
 
 aub_14:
   faceset: SOJ_BASIL
@@ -544,12 +544,12 @@ aub_24:
 aub_25:
   faceset: SOJ_AUBREY
   faceindex: 2
-  text: .\..\..\.\face[3]]You're sure that isn't from your own bias?\aub
+  text: .\..\..\.\face[3]You're sure that isn't because strawberry is your favorite?\aub
 
 aub_26:
   faceset: SOJ_BASIL
   faceindex: 36
-  text: W-What could you possibly mean?\! I just think Kel would like strawberry,\. that's all!\bas
+  text: W-What could you possibly mean?\! I just think KEL would like strawberry,\. that's all!\bas
 
 aub_27:
   faceset: SOJ_BASIL
@@ -566,7 +566,7 @@ aub_28:
 aub_29:
   faceset: SOJ_BASIL
   faceindex: 42
-  text: Kel will eat just about anything,\. so I'm sure he'd \sinv[1]love\sinv[0] a homemade cake!\bas #wavy text on love
+  text: KEL will eat just about anything,\. so I'm sure he'd \sinv[1]love\sinv[0] a homemade cake!\bas #wavy text on love
 
 aub_30:
   faceset: SOJ_AUBREY
@@ -576,12 +576,12 @@ aub_30:
 aub_31:
   faceset: SOJ_BASIL
   faceindex: 33
-  text: Well,\. I better get going.\! You know Kel,\. after all!\bas
+  text: Well,\. I better get going.\! You know KEL,\. after all!\bas
 
 aub_32:
   faceset: SOJ_AUBREY
   faceindex: 0
-  text: Ah, yes.\..\..\. See you around, Basil.\aub
+  text: Ah, yes.\..\..\. See you around, BASIL.\aub
 
 aub_33:
   faceset: SOJ_AUBREY
