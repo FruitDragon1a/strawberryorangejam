@@ -149,7 +149,7 @@ tut_2:
 
 tut_3:
   name: PREACHER
-  text: When you feel like you've picked up enough leaves,\. just let me know.\! I'll look at how many leaves you've cleared from the \c[4]CEMETERY\c[0] and pay you accordingly.
+  text: When you feel like you've picked up enough leaves,\. just let me know.\! I'll look at how many leaves you've cleared from the \c[11]CEMETERY\c[0] and pay you accordingly.
 
 tut_4:
   name: PREACHER
@@ -263,7 +263,7 @@ five_3:
 
 five_4:
   name: PREACHER
-  text: I see.\! Thank you for helping us clean the \c[4]CEMETERY\c[0].\! Here's $5 for your effort.
+  text: I see.\! Thank you for helping us clean the \c[11]CEMETERY\c[0].\! Here's $5 for your effort.
 
 # money sfx
 five_5:
@@ -310,7 +310,7 @@ ten_3:
 
 ten_4:
   name: PREACHER
-  text: Excellent job.\! Thank you for helping us clean the \c[4]CEMETERY\c[0]!\! Here's $10 for your effort.
+  text: Excellent job.\! Thank you for helping us clean the \c[11]CEMETERY\c[0]!\! Here's $10 for your effort.
 
 # money sfx
 ten_5:
@@ -353,7 +353,7 @@ twenty_3:
 
 twenty_4:
   name: PREACHER
-  text: Wonderful!\! Thank you for helping us clean the \c[4]CEMETERY\c[0].\! Here's $20 for your efforts.
+  text: Wonderful!\! Thank you for helping us clean the \c[11]CEMETERY\c[0].\! Here's $20 for your efforts.
 
 # money sfx
 twenty_5:
@@ -403,7 +403,7 @@ thirty_4:
 
 thirty_5:
   name: PREACHER 
-  text: Thank you for helping us clean the \c[4]CEMETERY\c[0].\! Here's $30 for your effort.
+  text: Thank you for helping us clean the \c[11]CEMETERY\c[0].\! Here's $30 for your effort.
 
 # money sfx
 thirty_6:
@@ -454,7 +454,7 @@ forty_4:
 
 forty_5:
   name: PREACHER
-  text: Thank you for helping us clean the \c[4]CEMETERY\c[0].\! Here's $40 for your commendable effort.
+  text: Thank you for helping us clean the \c[11]CEMETERY\c[0].\! Here's $40 for your commendable effort.
 
 # money sfx
 forty_6:
@@ -464,9 +464,15 @@ forty_6:
 
 forty_7:
   name: PREACHER
-  text: And of course you can visit your friend.\! I suppose there's no reason to keep the \c[4]CEMETERY\c[0] closed now,\. after all.
+  text: And of course you can visit your friend.\! I suppose there's no reason to keep the \c[11]CEMETERY\c[0] closed now,\. after all.
 
 forty_8:
   faceset: SOJ_BASIL
   faceindex: 2
   text: Thank you!\bas
+
+
+finish_1:
+  faceset: SOJ_BASIL
+  faceindex: 27
+  text: I think we've run out of leaves to collect.\bas
