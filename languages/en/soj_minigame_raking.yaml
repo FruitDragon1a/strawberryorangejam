@@ -1,0 +1,151 @@
+# autorun as soon as players are in the graveyard sunset map
+
+# they walk in
+# kel exclamation bubble
+
+start_1:
+  faceset: SOJ_KEL
+  faceindex: 10
+  text: Why are there so many leaf piles everywhere?\kel
+
+start_2:
+  faceset: SOJ_KEL
+  faceindex: 8
+  text: The wind didn't feel that strong.\..\..\.\kel
+
+start_3:
+  faceset: SOJ_BASIL
+  faceindex: 3
+  text: It definitely wasn't enough to do this much.\bas
+
+start_4:
+  faceset: SOJ_KEL
+  faceindex: 5
+  text: What happened?\kel
+
+# preacher hops off the bench
+start_5:
+  name: PREACHER 
+  text: Hello there.
+
+start_6:
+  name: PREACHER 
+  text: I'm afraid the \c[11]CEMETERY\c[0] is closed for the time being,\. until our little.\..\..\.\| leaf problem is fixed.
+
+start_7:
+  faceset: SOJ_KEL
+  faceindex: 10
+  text: How did it get this bad?\| Don't you guys normally have like,\. uh.\..\..\.\| a groundskeeper or something?\kel
+
+start_8:
+  name: PREACHER 
+  text: Yes,\. a landscaper comes to maintain the \c[11]CEMETERY\c[0] regularly,\. but he has recently fallen ill.
+
+start_9:
+  name: OLD BEARDY 
+  text: HEH!\! The work of tricky spirits,\. no doubt!
+
+start_10:
+  name: PREACHER 
+  text: I was visiting family in another town,\. and SAMUEL here is not quite in a state to clean up the entire \c[11]CEMETERY\c[0]
+
+start_11:
+  name: OLD BEARDY 
+  text: If I tried,\. I'd fall over and never get up!
+
+start_12:
+  name: PREACHER 
+  text: As late into AUTUMN as we are,\. the fallen leaf problem has built up faster than it could decompose.
+
+start_13:
+  name: PREACHER 
+  text: Hence,\. closing the \c[11]CEMETERY\c[0] until we can get another landscaper to help us with the issue.
+
+start_14:
+  name: PREACHER 
+  text: Or I decide to do it myself—a fate I would rather avoid due to inexperience,\. but it seems I must resign myself to.
+
+start_15:
+  faceset: SOJ_BASIL
+  faceindex: 14
+  text: Oh,\. I see.\bas
+
+start_16:
+  faceset: SOJ_KEL
+  faceindex: 0
+  text: What if we help?\kel
+
+start_17:
+  name: PREACHER 
+  text: You would do that?
+
+start_18:
+  faceset: SOJ_KEL
+  faceindex: 2
+  text: Yeah,\. why not!\kel
+
+start_19:
+  faceset: SOJ_KEL
+  faceindex: 12
+  text: BASIL here wants to visit a friend of ours,\. and what's the point of leaf-ing when we can make the leaves leaf instead!\kel
+
+# preacher and basil silence bubbles
+# old beardy exclamation
+# old beardy laugh
+start_20:
+  name: OLD BEARDY 
+  text: \SINV[2]\Com[2]GWA\{HAH\{AHA\{HAHA\{HAHA!!\SINV[0]
+
+start_21:
+  name: OLD BEARDY 
+  text: Good one!
+
+start_22:
+  faceset: SOJ_KEL
+  faceindex: 2
+  text: Thanks!\kel
+
+start_23:
+  faceset: SOJ_BASIL
+  faceindex: 15
+  text: .\..\..\.\bas
+
+start_24:
+  faceset: SOJ_BASIL
+  faceindex: 32
+  text: We can't spend that long,\. though.\! We're running out of daylight.\bas
+
+start_25:
+  faceset: SOJ_KEL
+  faceindex: 7
+  text: True.\..\..\.\kel
+
+# preacher exclamation bubble
+start_26:
+  name: PREACHER 
+  text: You can do as much as you're able to!\n<PREACHER>
+
+start_27:
+  name: PREACHER 
+  text: Though I will have to pay you accordingly,\. as I will need to give the rest of the payment to the landscaper whenever we find one.
+
+start_28:
+  faceset: SOJ_KEL
+  faceindex: 0
+  text: That's fine!\! I wasn't even expecting to get paid,\. honestly.
+
+start_29:
+  name: PREACHER 
+  text: I wouldn't make you two work for free.\! Anyway,\. let me explain how this will work.
+
+
+hands_full_announcement:
+  faceset: SOJ_KEL
+  faceindex: 5
+  text: Our hands are full!\! Let's go drop this off!\kel
+
+notenoughspace: 
+  text: You don't have enough space to pick this pile up!
+
+hands_notfull:
+  text: Your hands aren't full yet!
