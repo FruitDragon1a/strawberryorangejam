@@ -104,11 +104,11 @@ EligibleHouses:
     1: 
       id: 9
       recipient: SARAH
-      sender: MANGA WHOLESALE
+      sender: FARAWAY COUNTY BOOKSTORE
       what: PACKAGE
     2: 
       id: 9
-      recipient: ELLEN
+      recipient: SUSAN
       sender: HEALTHY LIVING
       what: MAGAZINE
   10: # basil

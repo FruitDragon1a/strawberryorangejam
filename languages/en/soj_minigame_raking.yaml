@@ -187,3 +187,286 @@ tired_2:
   faceset: SOJ_KEL
   faceindex: 0
   text: Alright!\! Let's go tell the PREACHER.\kel
+
+
+
+
+
+
+# +$0: Did not rake at all (0 bags, no leaves in hand): 
+
+# fadeout screen
+
+# fade in to standing beside the preacher
+
+# preacher looks around
+
+# preacher question bubble
+
+zero_1:
+  name: PREACHER
+  text: Hm.\|.\|.\! Did you two clean.\|.\|.\| any of the leaves?
+
+zero_2:
+  faceset: SOJ_KEL
+  faceindex: 8
+  text: About that.\..\..\kel
+
+zero_3:
+  faceset: SOJ_BASIL
+  faceindex: 15
+  text: .\|.\|.\|\bas
+
+zero_4:
+  name: PREACHER
+  text: Ah.\! I see.\! I can't pay you for not doing any work,\. though.
+
+zero_5:
+  faceset: SOJ_KEL
+  faceindex: 5
+  text: That's alright!\| We wouldn't ask you to.\kel
+
+zero_6:
+  name: PREACHER
+  text: I suppose you may still visit your friend,\. though.
+
+zero_7:
+  faceset: SOJ_BASIL
+  faceindex: 42
+  text: Thank you.\bas
+
+
+
+
+# +$5: up to 2 bags
+
+# fadeout screen
+
+# fade in to standing beside the preacher
+
+# preacher looks around
+
+five_1:
+  name: PREACHER
+  text: I can see that you have cleaned up some of the leaves.
+
+five_2:
+  faceset: SOJ_KEL
+  faceindex: 0
+  text: Yup!\kel
+
+# no line three if number of bags is 0
+five_3:
+  faceset: SOJ_KEL
+  faceindex: 12
+  text: \caseEval{$gameVariables.value(1972) > 1?We managed to fill two bags!:We managed to fill a bag to the top! }
+
+five_4:
+  name: PREACHER
+  text: I see.\! Thank you for helping us clean the \c[4]CEMETERY\c[0].\! Here's $5 for your effort.
+
+# money sfx
+five_5:
+  faceset: SOJ_KEL
+  faceindex: 2
+  text: Thank you!\kel
+
+five_6:
+  name: PREACHER
+  text: And of course you can visit your friend.
+
+five_7:
+  faceset: SOJ_BASIL
+  faceindex: 2
+  text: Thank you!\bas
+
+
+
+
+
+
+
+# +$10: up to 5 bags
+
+# fadeout screen
+
+# fade in to standing beside the preacher
+
+# preacher looks around
+
+ten_1:
+  name: PREACHER
+  text: I can see that you have cleaned up some of the leaves.
+
+ten_2:
+  faceset: SOJ_KEL
+  faceindex: 0
+  text: Yup!\kel
+
+ten_3:
+  faceset: SOJ_KEL
+  faceindex: 12
+  text: We managed to fill \v[1972] bags!\kel
+
+ten_4:
+  name: PREACHER
+  text: Excellent job.\! Thank you for helping us clean the \c[4]CEMETERY\c[0]!\! Here's $10 for your effort.
+
+# money sfx
+ten_5:
+  faceset: SOJ_KEL
+  faceindex: 2
+  text: Thank you!\kel
+
+ten_6:
+  name: PREACHER
+  text: And of course you can visit your friend.
+
+ten_7:
+  faceset: SOJ_BASIL
+  faceindex: 2
+  text: Thank you!\bas
+
+
+
+# +$20: up to 9 bags
+
+# fadeout screen
+
+# fade in to standing beside the preacher
+
+# preacher looks around
+
+twenty_1:
+  name: PREACHER
+  text: I can see that you have cleaned up a good portion of the leaves.
+
+twenty_2:
+  faceset: SOJ_KEL
+  faceindex: 0
+  text: Yup!\kel
+
+twenty_3:
+  faceset: SOJ_KEL
+  faceindex: 12
+  text: We managed to fill \v[1972] bags!\kel
+
+twenty_4:
+  name: PREACHER
+  text: Wonderful!\! Thank you for helping us clean the \c[4]CEMETERY\c[0].\! Here's $20 for your efforts.
+
+# money sfx
+twenty_5:
+  faceset: SOJ_KEL
+  faceindex: 2
+  text: Thank you!\kel
+
+twenty_6:
+  name: PREACHER
+  text: And of course you can visit your friend.
+
+twenty_7:
+  faceset: SOJ_BASIL
+  faceindex: 2
+  text: Thank you!\bas
+
+
+
+
+
+
+# +$30: up to 13 bags
+
+# fadeout screen
+
+# fade in to standing beside the preacher
+
+# preacher looks around
+
+thirty_1:
+  name: PREACHER
+  text: I can see that you have cleaned up most of the leaves.
+
+thirty_2:
+  name: PREACHER
+  text: Well done!
+
+thirty_3:
+  faceset: SOJ_KEL
+  faceindex: 0
+  text: Yup!\kel
+
+thirty_4:
+  faceset: SOJ_KEL
+  faceindex: 12
+  text: We managed to fill \v[1972] bags!\kel
+
+thirty_5:
+  name: PREACHER 
+  text: Thank you for helping us clean the \c[4]CEMETERY\c[0].\! Here's $30 for your effort.
+
+# money sfx
+thirty_6:
+  faceset: SOJ_KEL
+  faceindex: 2
+  text: Thank you!\kel
+
+thirty_7:
+  name: PREACHER
+  text: And of course you can visit your friend.\! It's the least I could allow.
+
+thirty_8:
+  faceset: SOJ_BASIL
+  faceindex: 2
+  text: Thank you!\bas
+
+
+
+
+
+# +$40: 14 bags
+
+# fadeout screen
+
+# fade in to standing beside the preacher
+
+# preacher looks around
+
+# preacher exclamation bubble
+
+forty_1:
+  name: PREACHER
+  text: Did you clean up.\..\..\.\| all of the leaves?
+
+forty_2:
+  faceset: SOJ_KEL
+  faceindex: 0
+  text: Yup!\kel
+
+forty_3:
+  faceset: SOJ_KEL
+  faceindex: 12
+  text: We managed to fill fourteen bags!\kel
+
+forty_4:
+  name: PREACHER
+  text: That's very impressive.\! In such a short amount of time,\. too.\..\..\.
+
+forty_5:
+  name: PREACHER
+  text: Thank you for helping us clean the \c[4]CEMETERY\c[0].\! Here's $40 for your commendable effort.
+
+# money sfx
+forty_6:
+  faceset: SOJ_KEL
+  faceindex: 2
+  text: Thank you!\kel
+
+forty_7:
+  name: PREACHER
+  text: And of course you can visit your friend.\! I suppose there's no reason to keep the \c[4]CEMETERY\c[0] closed now,\. after all.
+
+forty_8:
+  faceset: SOJ_BASIL
+  faceindex: 2
+  text: Thank you!\bas
