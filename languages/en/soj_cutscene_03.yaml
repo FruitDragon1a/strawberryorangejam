@@ -651,3 +651,49 @@ heymari_15:
   faceset: SOJ_KEL
   faceindex: 12
   text: Alright,\. I'm done.\! Let's head out.\kel
+
+late_1:
+  faceset: SOJ_KEL
+  faceindex: 5
+  text: Wow...\! It really is getting late.\kel
+
+late_2:
+  faceset: SOJ_KEL
+  faceindex: 0
+  text: I think I need to head home and shower.\kel
+
+late_3:
+  faceset: SOJ_KEL
+  faceindex: 3
+  text: I want to look my best for AUBREY,\. not like I've been going around town and doing chores!\kel
+
+late_4:
+  faceset: SOJ_BASIL
+  faceindex: 10
+  text: That's fair.\! I guess I'll head home then—\^\bas
+
+late_5:
+  faceset: SOJ_KEL
+  faceindex: 0
+  text: Oh no you don't!\! You're coming with me.\kel
+
+late_6:
+  faceset: SOJ_BASIL
+  faceindex: 29
+  text: Fine.\|.\|.\|\bas
+
+late_7:
+  faceset: SOJ_KEL
+  faceindex: 1
+  text: \sinv[1]There is no escape...\kel
+
+# basil silence bubble
+late_8:
+  faceset: SOJ_KEL
+  faceindex: 3
+  text: I'm kidding,\. I'm kidding!\! \face[5]But seriously though,\. I don't know what I'd do without you helping me.\! And I might still need your help.\kel
+
+late_9:
+  faceset: SOJ_BASIL
+  faceindex: 1
+  text: Alright,\. alright.\! I'll come along.\bas
