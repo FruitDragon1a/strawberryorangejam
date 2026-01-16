@@ -444,14 +444,14 @@ aub_11:
 
 aub_12:
   faceset: SOJ_AUBREY
-  faceindex: 0
-  text: \com[2]\{\quake[2]Bye!!!\|^\aub
+  faceindex: 6
+  text: \com[2]\{\quake[2]Bye!!!\|\^\aub
 
 #she zooms off
 aub_13:
   faceset: SOJ_KEL
   faceindex: 16
-  text: ...What was that?\kel
+  text: .\..\..\.What's her problem??\kel
 
 # if the player goes in kels house after
 kelmom_1:
@@ -468,12 +468,12 @@ kelmom_3:
   text: About what?\kel
 
 kelmom_4:
-  text: About...\| you,\. actually.\n<KEL'S MOM>
+  text: About.\..\..\| you,\. actually.\n<KEL'S MOM>
 
 kelmom_5:
   faceset: SOJ_KEL
   faceindex: 4
-  text: Wait, what?\kel
+  text: Wait,\. what?\kel
 
 kelmom_6:
   faceset: SOJ_BASIL
