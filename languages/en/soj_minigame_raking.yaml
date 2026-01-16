@@ -189,7 +189,10 @@ tired_2:
   text: Alright!\! Let's go tell the PREACHER.\kel
 
 
-
+block_1:
+  faceset: SOJ_KEL
+  faceindex: 5
+  text: Where are you going?\! We've got to keep raking!
 
 
 

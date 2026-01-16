@@ -560,3 +560,94 @@ church_outside_3:
   text: Alright then!\! See you at home!\pol
 
 # and polly drives off into the sunset, never to be seen again (until basil gets home)
+
+mari_block:
+  faceset: SOJ_BASIL
+  faceindex: 32
+  text: We can't leave yet.\! We need to go see MARI.\bas
+
+
+# hey mari
+
+# basil moves to the front of the grave, kel moves to the spot behind him
+heymari_1:
+  faceset: SOJ_BASIL
+  faceindex: 1
+  text: Hey,\. MARI.\bas
+
+heymari_2:
+  faceset: SOJ_BASIL
+  faceindex: 10
+  text: I've—\| I've brought another \c[4]EGRET ORCHID\c[0] for you.\bas
+
+heymari_3:
+  faceset: SOJ_BASIL
+  faceindex: 41
+  text: Let me put it down.\bas
+
+# he moves and places it down, kel is still standing where he is
+# then he returns to his spot
+heymari_4:
+  faceset: SOJ_BASIL
+  faceindex: 2
+  text: A-Anyway,\. I just wanted to say that all of us are doing well right now.\bas
+
+heymari_5:
+  faceset: SOJ_BASIL
+  faceindex: 1
+  text: Yes,\. even SUNNY.\! We've been talking a lot.\! \caseEval{ImageManager.isGirlmoriActive()?She:He} told me a few days ago that \caseEval{ImageManager.isGirlmoriActive()?she's:he's} found a therapist \caseEval{ImageManager.isGirlmoriActive()?she:he} trusts now.\bas
+
+heymari_6:
+  faceset: SOJ_BASIL
+  faceindex: 2
+  text: I'll visit again soon.\bas
+
+# basil turns around
+heymari_7:
+  faceset: SOJ_BASIL
+  faceindex: 10
+  text: Do you want to say something?\bas
+
+heymari_8:
+  faceset: SOJ_KEL
+  faceindex: 7
+  text: Uh...\kel
+
+# basil steps aside
+# kel moves forward
+heymari_9:
+  faceset: SOJ_KEL
+  faceindex: 5
+  text: Hi,\. MARI.\! Uh,\. guess what?\kel
+
+# long pause
+heymari_10:
+  faceset: SOJ_KEL
+  faceindex: 0
+  text: I'm going to ask AUBREY out on a date.\kel
+
+heymari_11:
+  faceset: SOJ_KEL
+  faceindex: 3
+  text: Now,\. I know what you're thinking,\. but don't worry,\. I won't mess it up!\kel
+
+heymari_12:
+  faceset: SOJ_KEL
+  faceindex: 1
+  text: BASIL's been helping me out all day.\kel
+
+heymari_13:
+  faceset: SOJ_KEL
+  faceindex: 2
+  text: Anyway.\! Just thought that was cool to share.\kel
+
+heymari_14:
+  faceset: SOJ_KEL
+  faceindex: 0
+  text: See you later,\. MARI.\kel
+
+# kel turns to basil
+heymari_15:
+  faceset: SOJ_KEL
+  faceindex: 12
+  text: Alright,\. I'm done.\! Let's head out.\kel
