@@ -398,7 +398,7 @@ aub_2:
 
 aub_3:
   faceset: SOJ_AUBREY
-  faceindex: 
+  faceindex: 15
   text: ...KEL!\! BASIL!\! How long have you two been standing there?\aub
 
 aub_4:
@@ -408,7 +408,7 @@ aub_4:
 
 aub_5:
   faceset: SOJ_AUBREY
-  faceindex: 14 # placehgolder
+  faceindex: 22
   text: I— uh— well,\. you see...\. I was...\| in the neighborhood.\! And I...\| saw your plants needed watering.\! So I watered them.\! Yes.\aub
 
 aub_6:
@@ -418,7 +418,7 @@ aub_6:
 
 aub_7:
   faceset: SOJ_AUBREY
-  faceindex: 14 #also placeholder
+  faceindex: 21
   text: ...\|I knew that.\! Because when I went to water them I saw they were fake.\! And then your mom gave me some food.\! And we talked for a while.\aub
 
 aub_8:
@@ -433,7 +433,7 @@ aub_9:
 
 aub_10:
   faceset: SOJ_AUBREY
-  faceindex: 14 #placeholder my beloved
+  faceindex: 16
   text: Oh,\. what's that I hear?\! Someone's calling my name!\! Guess I'd better see what's going on!\aub
 
 # kel quuestion mark
@@ -444,14 +444,14 @@ aub_11:
 
 aub_12:
   faceset: SOJ_AUBREY
-  faceindex: 
-  text: \com[2]\{\quake[2]Bye!!!\aub
+  faceindex: 6
+  text: \com[2]\{\quake[2]Bye!!!\|\^\aub
 
 #she zooms off
 aub_13:
   faceset: SOJ_KEL
   faceindex: 16
-  text: ...What was that?\kel
+  text: .\..\..\.What's her problem??\kel
 
 # if the player goes in kels house after
 kelmom_1:
@@ -468,12 +468,12 @@ kelmom_3:
   text: About what?\kel
 
 kelmom_4:
-  text: About...\| you,\. actually.\n<KEL'S MOM>
+  text: About.\..\..\| you,\. actually.\n<KEL'S MOM>
 
 kelmom_5:
   faceset: SOJ_KEL
   faceindex: 4
-  text: Wait, what?\kel
+  text: Wait,\. what?\kel
 
 kelmom_6:
   faceset: SOJ_BASIL
