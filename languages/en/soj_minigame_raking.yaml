@@ -11,17 +11,17 @@ start_1:
 start_2:
   faceset: SOJ_KEL
   faceindex: 8
-  text: The wind didn't feel that strong.\..\..\.\kel
+  text: The wind doesn't feel that strong.\..\..\.\kel
 
 start_3:
   faceset: SOJ_BASIL
   faceindex: 3
-  text: It definitely wasn't enough to do this much.\bas
+  text: It definitely isn't enough to do this much.\bas
 
 start_4:
   faceset: SOJ_KEL
   faceindex: 5
-  text: What happened?\kel
+  text: So what happened?\kel
 
 # preacher hops off the bench
 start_5:
@@ -47,7 +47,7 @@ start_9:
 
 start_10:
   name: PREACHER 
-  text: I was visiting family in another town,\. and SAMUEL here is not quite in a state to clean up the entire \c[11]CEMETERY\c[0]
+  text: I was visiting family in another town,\. and SAMUEL here is not quite in a state to clean up the entire \c[11]CEMETERY\c[0].
 
 start_11:
   name: OLD BEARDY 
@@ -68,7 +68,7 @@ start_14:
 start_15:
   faceset: SOJ_BASIL
   faceindex: 14
-  text: Oh,\. I see.\bas
+  text: Oh,\. I see.\! I suppose we'd better head out then—\^\bas
 
 start_16:
   faceset: SOJ_KEL
@@ -86,7 +86,7 @@ start_18:
 
 start_19:
   faceset: SOJ_KEL
-  faceindex: 12
+  faceindex: 0
   text: BASIL here wants to visit a friend of ours,\. and what's the point of leaf-ing when we can make the leaves leaf instead!\kel
 
 # preacher and basil silence bubbles
@@ -138,14 +138,52 @@ start_29:
   name: PREACHER 
   text: I wouldn't make you two work for free.\! Anyway,\. let me explain how this will work.
 
+# standing by the trash bags
+tut_1:
+  name: PREACHER
+  text: Here's the organic waste bin.\! All you'll need to do is fill these \c[4]TRASH BAGS\c[0] with leaves.
+
+tut_2:
+  name: PREACHER
+  text: When you've filled a bag to the brim,\. drop it off at this waste bin.
+
+tut_3:
+  name: PREACHER
+  text: When you feel like you've picked up enough leaves,\. just let me know.\! I'll look at how many leaves you've cleared from the \c[4]CEMETERY\c[0] and pay you accordingly.
+
+tut_4:
+  name: PREACHER
+  text: How does that sound?
+
+tut_5:
+  faceset: SOJ_KEL
+  faceindex: 2
+  text: Sounds great,\. MISTER PREACHER!\! Let us know when to start!\kel
+
+tut_6:
+  name: PREACHER
+  text: Oh,\. you can start now if you'd like!
+
+tut_7:
+  text: \{\{\quake[2]START COLLECTING!
 
 hands_full_announcement:
   faceset: SOJ_KEL
   faceindex: 5
-  text: Our hands are full!\! Let's go drop this off!\kel
+  text: This bag is full!\! Let's go drop it off!\kel
 
 notenoughspace: 
-  text: You don't have enough space to pick this pile up!
+  text: You don't have enough space in the \c[4]TRASH BAG\c[0] to pick this pile up!
 
 hands_notfull:
-  text: Your hands aren't full yet!
+  text: The bag isn't full yet!
+
+tired_1:
+  faceset: SOJ_BASIL
+  faceindex: 15
+  text: KEL...\! I think I'm done.\bas
+
+tired_2:
+  faceset: SOJ_KEL
+  faceindex: 0
+  text: Alright!\! Let's go tell the PREACHER.\kel
