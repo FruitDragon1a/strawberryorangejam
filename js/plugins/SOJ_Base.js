@@ -215,3 +215,18 @@ Game_Interpreter.prototype.forceKelMove = function(idA,x,y,wait) {
     // Set Wait mode so it waits until character is done moving before running other commands
     if (wait) {this.setWaitMode('route')};
 }
+
+//Draws icons aligned with the actual text
+Window_Base.prototype.processDrawInputIcon = function(input, textState) {
+  // Get Key
+  const offset_data = LanguageManager.getMessageData("XX_BLUE.Window_Base").processDrawInputIconOffset
+  var key = Input.inputKeyCode(input);
+  // Get Rect
+  var rect = this.contents.keyIconRects(key).up;
+  // Add Padding Space
+  textState.x += 4;
+  // Draw Key Icon
+  this.contents.drawAlginedKeyIcon(key, textState.x + offset_data[0], textState.y + offset_data[1] + 10, rect.width, textState.height);
+  // Increase Texstate X position
+  textState.x += rect.width + 4;
+};
