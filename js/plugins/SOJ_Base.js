@@ -288,7 +288,6 @@ Window_MenuCommand.prototype.makeCommandList = function () {
 
 Window_MenuCommand.prototype.spacing = function () {  return 20; };
 
-
 Game_System.prototype.addJukeboxItem = function(songID) {
     this._jukeboxList.push(this._jukeboxListFull[songID]);
     $gameParty.gainItem($dataItems[songID], -1)
@@ -299,3 +298,19 @@ Game_System.prototype.addJukeboxItem = function(songID) {
         //$gameSystem.unlockAchievement("MUSIC_CONNOISSEUR_OF_SORTS")
     }
 }
+
+SOJ.vnFrame = function(kel,basil,open) {
+  const shadow = $gameScreen.picture(50);
+  if (open === true) {
+    shadow._targetOpacity = 255;
+  } else if (open === false) {
+    shadow._targetOpacity = 0;
+  };
+  shadow._duration = 10;
+  if (kel >= 0) {
+    $gameMap._interpreter.setPictureFrameIndex(40, kel);
+  };
+  if (basil >= 0) {
+    $gameMap._interpreter.setPictureFrameIndex(41, basil);
+  };
+};

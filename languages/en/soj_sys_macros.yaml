@@ -1,0 +1,7 @@
+VN:
+  background: 2
+  font: NotoSans_Regular
+  openexec: SOJ.vnFrame(-1,-1,true)
+  #endexec: SOJ.vnFrame(-1,-1,false)
+  type: battle
+  prefix: \oc[6]

@@ -778,12 +778,14 @@ visual_novel_3:
 #funny transition to the room or whatever
 
 visual_novel_4:
-  text: Hey, AUBREY!\! What's up?\kel
+  macro: VN
+  name: KEL
+  text: Hey, AUBREY!\! What's up?
  
 visual_novel_5:
-  faceset: SOJ_BASIL
-  faceindex: 3
-  text: Why do you even have this ribbon?\bas
+  macro: VN
+  name: BASIL
+  text: Why do you even have this ribbon?
  
 visual_novel_6:
   faceset: SOJ_KEL
@@ -809,18 +811,29 @@ visual_novel_10_choice:
 # HI KEL
 
 visual_novel_11:
-  text: Hi, KEL!\! How are you?\n<AUBREY?>
+  macro: VN
+  name: AUBREY?
+  openexec: SOJ.vnFrame(-1,1,true)
+  text: Hi, KEL!\! How are you?
 
 # What do you want?
 
 visual_novel_12:
-  text: What do you want, KEL?\n<AUBREY?>
+  macro: VN
+  name: AUBREY?
+  openexec: SOJ.vnFrame(-1,2,true)
+  text: What do you want,\. KEL?
  
 visual_novel_13:
-  text: Uh.\..\..\.\kel
+  macro: VN
+  name: KEL
+  openexec: SOJ.vnFrame(4,-1,true)
+  text: Uh.\..\..\.
  
 visual_novel_14:
-  text: I,\. uh,\. wanted to ask.\..\..\. hmm.\..\..\.\kel
+  macro: VN
+  name: KEL
+  text: I,\. uh,\. wanted to ask.\..\..\. hmm.\..\..\.
  
 visual_novel_15_choice:
   text: "Spit it out!"
@@ -831,19 +844,25 @@ visual_novel_16_choice:
 #What is it
 
 visual_novel_17:
-  text: What is it, KEL? Is something the matter?\n<AUBREY?>
+  macro: VN
+  name: AUBREY?
+  openexec: SOJ.vnFrame(-1,3,true)
+  text: What is it, KEL? Is something the matter?
 
 # Spit it out
 
 visual_novel_18:
-  text: Spit it out, KEL.\! We can't stand here all day,\. you know.\bas
+  macro: VN
+  name: AUBREY?
+  openexec: SOJ.vnFrame(-1,4,true)
+  text: Spit it out, KEL.\! We can't stand here all day,\. you know.
  
 #interjection
 
 visual_novel_19:
   faceset: SOJ_KEL
   faceindex: 13
-  text: She would NOT say that.\kel # for both options
+  text: She would \.\{NOT\}\. say that.\kel # for both options
  
 visual_novel_20:
   faceset: SOJ_BASIL
@@ -863,13 +882,20 @@ visual_novel_22:
 #restore VN
 
 visual_novel_23:
-  text: Well, I just wanted to ask if.\..\..\.\kel
+  macro: VN
+  name: KEL
+  text: Well, I just wanted to ask if.\..\..\.
 
 visual_novel_24:
-  text: \*gulp\*\kel
+  macro: VN
+  name: KEL
+  text: \*gulp\*
 
 visual_novel_25:
-  text: If you wanted to go on a date with me!\kel
+  macro: VN
+  name: KEL
+  openexec: SOJ.vnFrame(6,-1,true)
+  text: If you wanted to go on a date with me!
 
 visual_novel_26_choice:
   text: "What!?"
@@ -880,28 +906,50 @@ visual_novel_27_choice:
 #what
 
 visual_novel_28:
-  text: W-What!?\! What do you mean?!\n<AUBREY?>
+  macro: VN
+  name: AUBREY?
+  openexec: SOJ.vnFrame(-1,5,true)
+  text: W-What!?\! What do you mean?!
 
 visual_novel_29:
-  text: I-\.I like you,\, AUBREY!\| And I really want to know if you wanted to go with me to.\..\..\.\kel
+  macro: VN
+  name: KEL
+  openexec: SOJ.vnFrame(7,-1,true)
+  text: I-\.I like you,\, AUBREY!\| And I really want to know if you wanted to go with me to.\..\..\.
 
 # what the hell
 
 visual_novel_30:
-  text: What the hell? Are you playing a joke on me?\n<AUBREY?>
+  macro: VN
+  name: AUBREY?
+  openexec: SOJ.vnFrame(-1,5,true)
+  text: What the hell? Are you playing a joke on me?
 
 #dont darken screen for this interjection
 visual_novel_31:
-  text: .\..\..\.\kel # squinting suspiciously at basil
+  macro: VN
+  name: KEL
+  openexec: SOJ.vnFrame(2,-1,true)
+  textvolume: 0
+  text: .\..\..\. # squinting suspiciously at basil
 
 visual_novel_32:
-  text: No, I'm serious!\| I.\..\..\. I like you, AUBREY. As— as more than a friend.\kel
+  macro: VN
+  name: KEL
+  openexec: SOJ.vnFrame(7,-1,true)
+  text: No, I'm serious!\| I.\..\..\. I like you, AUBREY. As— as more than a friend.
 
 visual_novel_33:
-  text: No way.\..\..\.\n<AUBREY?>
+  macro: VN
+  name: AUBREY?
+  openexec: SOJ.vnFrame(-1,6,true)
+  text: No way.\..\..\.
 
 visual_novel_34:
-  text: A-\.And I was wondering if you wanted to go to the.\..\..\. uh.\..\..\.\kel
+  macro: VN
+  name: KEL
+  openexec: SOJ.vnFrame(4,-1,true)
+  text: A-\.And I was wondering if you wanted to go to the.\..\..\. uh.\..\..\.
 
 # visual novel background disappears as we go back to kels bedroom
 

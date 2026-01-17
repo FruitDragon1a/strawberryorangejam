@@ -109,6 +109,11 @@
  * battle - `\>NAME: \<`
  * caption - `NAME: `
  * 
+ * =========== FONT ===========
+ * 
+ * name: string ~ NotoSans-Regular
+ * This will set the rest of the message to that font. Identical to \fn<fontName>
+ * 
  * =========== SHOW MONEY ===========
  * 
  * showmoney: boolean ~ true
@@ -157,6 +162,11 @@
  * windowskin: string ~ Window_FemboyKenway
  * Sets the windowskin to the listed image. Must be in img/system. Reccomended that all Windowskins be placed in the reservedwindowskins Parameter
  *
+ * =========== EXTRA FACES : REQUIRES Geo_RestoredGroupFaceboxes OR TRain_ExtraFaces ===========
+ * 
+ * extraFaces: object
+ * Read the documentation of these plugins.
+ * 
  * =========== MIRRORED TEXT : REQUIRES DGT_MirrorTextOrder ===========
  * 
  * mirror: boolean ~ true
@@ -402,7 +412,7 @@
 
 //Import info
 var Imported = Imported || {};
-Imported.DoubleExtenedYAML = true;
+Imported.DoubleExtendedYAML = true;
 
 (function() {
 
@@ -489,15 +499,12 @@ TR.NullCoal = function(operators, fallback = null) {
 
 Game_Message.prototype.showLanguageMessage = function(code) {
   // CHECK FOR ALL PLUGINS SUPPORTED
-  var Plugins = []
-  for (i=0;i<$plugins.length;i++) {
-    Plugins.push($plugins[i].name)
-  }
-  var HimeWindowSkin = Plugins.includes('HIME_WindowskinChange')
-  var TRainEval = Plugins.includes('TRain_TextEval')
-  var TRainMsgShape = Plugins.includes('TRain_WinMsgShape')
-  var DGTMirror = Plugins.includes('DGT_MirrorTextOrder')
-  var GalvCaptions = Plugins.includes('GALV_TimedMessagePopups')
+  var Plugins = $plugins.map(n=>n.name.toLowerCase());
+  var HimeWindowSkin = Plugins.includes('hime_windowskinchange')
+  var TRainEval = Plugins.includes('train_texteval')
+  var TRainMsgShape = Plugins.includes('train_winmsgshape')
+  var DGTMirror = Plugins.includes('dgt_mirrortextorder')
+  var GalvCaptions = Plugins.includes('galv_timedmessagepopups')
 
   // ALL THE DATA FILES
   var data = LanguageManager.getMessageData(code);
@@ -514,6 +521,9 @@ Game_Message.prototype.showLanguageMessage = function(code) {
     ImageManager.loadSystem(windowskin);
     $gameSystem.setWindowskin(windowskin);
   };
+
+  // PREFIX
+  var prefix = TR.NullCoal([data.prefix,macro.prefix],"");
 
   // TEXT SOUNDS
   var textsound = TR.NullCoal([data.textsound,macro.textsound,base.textsound],"[SE]-TEXT");  
@@ -593,6 +603,22 @@ Game_Message.prototype.showLanguageMessage = function(code) {
   // FACE BACKGROUND COLOR (I THINK THIS IS BROKEN BUT IDK)
   var facebackgroundcolor = TR.NullCoal([data.facebackgroundcolor,macro.facebackgroundcolor,base.facebackgroundcolor],"rgba(0,0,0,0)");
   this._faceBackgroundColor = this.makeFaceBackgroundColor(facebackgroundcolor, faceset, faceindex);
+
+  // EXTRA FACES
+  var extraFaces = TR.NullCoal([data.extraFaces,macro.extraFaces],false);
+  // If Data has Extra Faces
+  if (extraFaces) {
+    // Go Through Extra Fraces
+    for (var i = 0; i < extraFaces.length; i++) {
+      // Get Face Data
+      var face = extraFaces[i];
+      // Set Extra Face
+      this.setExtraFace(i, face.faceset, face.faceindex, this.makeFaceBackgroundColor(face.faceBackgroundColor,face.faceset, face.faceindex));
+    };
+  };
+
+  // FONT
+  var font = TR.NullCoal([data.font,macro.font],false) ? `\\fn<${TR.NullCoal([data.font,macro.font],false)}>` : "";
 
   // TROPHIC RAIN EXEC FUNCTIONS
   if (TRainEval) {
@@ -700,7 +726,7 @@ Game_Message.prototype.showLanguageMessage = function(code) {
     $gameSwitches.setValue(6,arrows);
   } 
   // COMPLETED MESSAGE
-  var message = `${mirror[0]}${openexec}${showmoney}${name}${text}${endexec}${mirror[1]}`
+  var message = `${mirror[0]}${openexec}${showmoney}${font}${prefix}${name}${text}${endexec}${mirror[1]}`
   if (Imported && Imported.YEP_MessageCore) {
     this.addText(message);
   } else {
