@@ -230,3 +230,21 @@ Window_Base.prototype.processDrawInputIcon = function(input, textState) {
   // Increase Texstate X position
   textState.x += rect.width + 4;
 };
+/*
+//Dumb stupid code
+Sprite_Balloon.prototype.initMembers = function() {
+    this._balloonId = 0;
+    this._duration = 0;
+    this.anchor.x = 0.5;
+    this.anchor.y = 1;
+    if (this.parent) {
+      var event = this.parent._character instanceof Game_Player ? $gamePlayer : this.parent._character.event();
+      var anchorX = event && event.meta && event.meta.BalloonX ? Number(event.meta.BalloonX) : 0.5;
+      var anchorY = event && event.meta && event.meta.BalloonY ? Number(event.meta.BalloonY) : 1;
+      if (typeof event._balloonX === "number") anchorX = event._balloonX;
+      if (typeof event._balloonY === "number") anchorY = event._balloonY;
+      this.anchor.x = anchorX;
+      this.anchor.y = anchorY;
+    };
+    this.z = 7;
+};*/

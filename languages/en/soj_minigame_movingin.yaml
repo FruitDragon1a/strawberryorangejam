@@ -110,7 +110,7 @@ tutorial_0:
 
 tutorial_1:
   name: MAYA'S DAD
-  text: First one is here in the living room, then the side room, the kitchen, and then the closet.
+  text: First one is here in the \c[11]LIVING ROOM\c[0], then the \c[11]SIDE ROOM\c[0], the \c[11]KITCHEN\c[0], and then the \c[11]CLOSET\c[0].
 
 tutorial_2:
   name: MAYA'S DAD
@@ -127,3 +127,83 @@ tutorial_4:
 fail_0:
   name: MAYA'S DAD
   text: \com[2]\{WHAT WAS THAT?!
+
+box_0:
+  name: KEL
+  faceset: SOJ_KEL
+  faceindex: 2
+  text: See?\! It wasn't that bad!
+
+box_1:
+  name: BASIL
+  faceset: SOJ_BASIL
+  faceindex: 17
+  text: \}\}Yeah...\! My arms are...\! totally not going to fall off...
+
+doorframe:
+  text: You're not fitting through that.
+
+closet_box_0:
+  name: BASIL
+  faceset: SOJ_BASIL
+  faceindex: 39
+  text: \quake[1].\..\..
+
+closet_box_1:
+  name: KEL
+  faceset: SOJ_KEL
+  faceindex: 18
+  text: Er.\..\..\! How about I take this one to the closet myself?
+
+closet_box_2:
+  name: BASIL
+  faceset: SOJ_BASIL
+  faceindex: 14
+  textvolume: 40
+  text: \}\}Thank you...
+
+closet_box_3:
+  name: KEL
+  faceset: SOJ_KEL
+  faceindex: 12
+  text: See?\! You're alright.
+
+outro_0:
+  name: MAYA'S DAD
+  text: Ah!\! You moved all the boxes to their correct spots.\! How lovely!
+
+outro_1:
+  name: KEL
+  faceset: SOJ_KEL
+  faceindex: 2
+  text: Of course!\! Didn't break a sweat!
+
+outro_2:
+  name: BASIL
+  faceset: SOJ_BASIL
+  faceindex: 29
+  text: Easy for you to say.
+
+outro_3:
+  name: MAYA'S DAD
+  text: Oh and of course,\. here's your twenty dollars.
+
+outro_4:
+  name: KEL
+  faceset: SOJ_KEL
+  faceindex: 12
+  text: Thanks MR...\|\face[18] wait what's your last name?
+
+outro_5:
+  name: MAYA'S DAD
+  text: \sinv[2]Hahaha!\!\sinv[0] SHARMA would be the name.
+
+outro_6:
+  name: KEL
+  faceset: SOJ_KEL
+  faceindex: 2
+  text: Okay!\! Thank you MR. SHARMA!\! See you around!
+
+outro_7:
+  name: MR. SHARMA
+  text: Same to you.
