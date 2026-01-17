@@ -1,0 +1,55 @@
+# when you annoy kel's dad too much
+
+keldad_1:
+  text: \n<KEL'S DAD>KEL,\. BASIL,\. can you please stop walking in front of the TV?
+
+keldad_2:
+  text: \n<KEL'S DAD>I'm being serious.
+
+keldad_3:
+  text: \n<KEL'S DAD>Okay,\. if you block the TV one more time,\. you're grounded.
+
+keldad_3_1:
+  text: \n<SALLY>\{\{\quake[2]BAH!
+
+keldad_3_2:
+  text: \n<KEL'S DAD>See?\! Even SALLY agrees!
+
+keldad_3_3:
+  faceset: SOJ_KEL
+  faceindex: 3
+  text: Sorry,\. DAD...\! It was funny.\kel
+
+keldad_3_4:
+  text: \n<KEL'S DAD>Ah,\. it's okay,\. champ.\! Just don't do it again!
+
+hector_bark:
+  text: \n<HECTOR>\quake[1]Bark! \{Bark! \{Bark!\}\} Bark!\! \{Bark! \}Bark! \}Bark!\quake[0]
+
+hector_bark2:
+  faceset: SOJ_KEL
+  faceindex: 2
+  text: Say hi to BASIL,\. HECTOR!\kel
+
+hector_bark3:
+  text: \n<HECTOR>\quake[1]Bark! \{Bark! \}Bark!
+
+pethector:
+  text: Would you like to pet HECTOR?
+
+pethector_no:
+  text: You didn't pet HECTOR...\| Now he looks sad.
+
+pethector_yes:
+  text: You pet HECTOR!
+
+pethector_yes_2:
+  faceset: SOJ_KEL
+  faceindex: 2
+  text: Isn't HECTOR so cute?\kel
+
+cemetery_locked_1:
+  text: The door is locked.
+
+cemetery_locked_2:
+  text: \n<PREACHER>I'm sorry,\. but the \c[11]CEMETERY\c[0] is closed right now.\! Please come back later!

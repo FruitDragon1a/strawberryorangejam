@@ -612,3 +612,147 @@ hungrykel_6:
   faceset: SOJ_BASIL
   faceindex: 42
   text: Sure.\bas
+
+
+hungrykelblock:
+  faceset: SOJ_KEL
+  faceindex: 5
+  text: Wait,\. BASIL!\! We still haven't found something for us to eat!\kel
+
+mavblock:
+  name: THE MAVERICK
+  text: Hey!\! You're not allowed there!
+
+# the maverick is on duty at the bakery counter
+mav_1:
+  faceset: SOJ_KEL
+  faceindex: 2
+  text: Well,\. if it isn't MIKHAEL himself!\kel
+
+mav_2:
+  name: THE MAVERICK
+  text: KEL.\! What do you want.
+
+mav_3:
+  faceset: SOJ_KEL
+  faceindex: 0
+  text: Your family is full of talented bakers.\! \sinv[1]Surely\sinv[0] you've got something to share with little ol' BASIL and me.\kel
+
+mav_4:
+  name: THE MAVERICK
+  text: .\..\..\.
+
+mav_5:
+  faceset: SOJ_KEL
+  faceindex: 0
+  text: The two of us are hungry,\. you know.\kel
+
+# short pause
+mav_6:
+  faceset: SOJ_BASIL
+  faceindex: 34
+  text: No,\. just him.\bas
+
+mav_7:
+  faceset: SOJ_KEL
+  faceindex: 
+  text: I'm hungry,\. you know!\kel
+
+mav_8:
+  name: THE MAVERICK
+  text: I'm not giving you food for free,\. KEL.
+
+# kel jump
+# jump sfx
+mav_9:
+  faceset: SOJ_KEL
+  faceindex: 11
+  text: But you owe me!\! You gotta!\kel
+
+mav_10:
+  name: THE MAVERICK
+  text: Dude,\. I'm on the clock!\! Go away!
+
+# long pause
+# bro has morbid curiosity
+mav_11:
+  name: THE MAVERICK
+  text: .\|.\|.\|What do I even owe you for,\. anyway?
+
+mav_12:
+  faceset: SOJ_KEL
+  faceindex: 9
+  text: For all those times you and your friends graffitied my driveway!\kel
+
+# jump + sfx
+# the maverick exclamation bubble
+mav_13:
+  name: THE MAVERICK
+  text: I don't owe you for that!
+
+# short pause
+# the maverick silence bubble
+mav_14:
+  name: THE MAVERICK
+  text: Also, you said it was fine as long as we kept it to chalk.
+
+mav_15:
+  faceset: SOJ_KEL
+  faceindex: 11
+  text: Yeah, and last week you guys wrote 'KEL SMELLS LIKE CHEESE' in rainbow letters and all caps,\. but my dad saw it before I could clean it.\kel
+
+mav_16:
+  faceset: SOJ_KEL
+  faceindex: 18
+  text: He ended up having a very uncomfortable conversation with me where he repeatedly asked me if I was being bullied.\kel
+
+mav_17:
+  faceset: SOJ_KEL
+  faceindex: 9
+  text: Soo...\| you all owe me for putting me through that.\kel
+
+mav_18:
+  name: THE MAVERICK
+  text: .\|.\|.\|Wooooow.\! That sucks.
+
+mav_19:
+  name: THE MAVERICK
+  text: .\..\..\.
+
+# the maverick silence bubble
+mav_20:
+  name: THE MAVERICK
+  text: If I give you a loaf of bread,\. will you leave me alone?
+
+mav_21:
+  faceset: SOJ_KEL
+  faceindex: 0
+  text: Yup.\kel
+
+mav_22:
+  name: THE MAVERICK
+  text: Okay.\| Here.
+
+mav_23:
+  text: You got \c[3]FRESH-BAKED BREAD\c[0].
+
+# swipe sfx
+mav_24:
+  text: KEL instantly grabbed it from you.
+
+mav_25:
+  faceset: SOJ_KEL 
+  faceindex: 1
+  text: Yum!\kel
+
+mav_26:
+  name: THE MAVERICK
+  text: Now go away.
+
+mav_27:
+  faceset: SOJ_KEL
+  faceindex: 2
+  text: See ya!\kel
+
+mav_loop:
+  text: I'm not giving you more bread,\. KEL.\n<THE MAVERICK>
