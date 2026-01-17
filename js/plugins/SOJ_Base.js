@@ -248,3 +248,42 @@ Sprite_Balloon.prototype.initMembers = function() {
     };
     this.z = 7;
 };*/
+
+// MENU ALTERATIONS
+Scene_Menu.prototype.createCommandWindow = function() {
+  // If Command Window Does Not Exist
+  if (!this._commandWindow) {
+    // Create Command Window
+    this._commandWindow = new Window_MenuCommand(10, 10);
+  } else {
+    this._commandWindow.refresh();
+  };
+  this._commandWindow.activate();
+  this._commandWindow.setHandler('save',      this.commandSave.bind(this));
+  this._commandWindow.setHandler('item',      this.onPersonalOk.bind(this));
+  this._commandWindow.setHandler('badge',     this.commandBadge.bind(this));
+  this._commandWindow.setHandler('options',   this.commandOptions.bind(this));
+  this._commandWindow.setHandler('cancel',    this.popScene.bind(this));
+  this.addWindow(this._commandWindow);
+};
+
+Scene_Menu.prototype.commandSave = function() {
+  SceneManager.push(Scene_OmoriFile);
+  SceneManager._nextScene.setup(!$gameSwitches.value(2088), true);
+};
+
+Scene_Menu.prototype.commandBadge = function() {
+  SceneManager.push(DGT.BadgeScene);
+};
+
+Window_MenuCommand.prototype.makeCommandList = function () {
+  // Get Command Text
+  var text = $gameSwitches.value(2088) ? ["LOAD","POCKET","BADGES","OPTIONS"] : ["SAVE","POCKET","BADGES","OPTIONS"];
+
+  this.addCommand(text[0], 'save');
+  this.addCommand(text[1], 'item', $gameParty.hasValidPocketItems());
+  this.addCommand(text[2], 'badge');
+  this.addCommand(text[3], 'options');
+};
+
+Window_MenuCommand.prototype.spacing = function () {  return 20; };
