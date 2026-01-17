@@ -53,3 +53,22 @@ cemetery_locked_1:
 
 cemetery_locked_2:
   text: \n<PREACHER>I'm sorry,\. but the \c[11]CEMETERY\c[0] is closed right now.\! Please come back later!
+
+katie: 
+  text: I wanted to go to \c[11]HOBBEEZ\c[0] again today,\. but the SHOPKEEP kicked me out.\! Apparently there's some kind of inspection happening that he needs to clean the store for.\n<KATIE>
+
+katie_loop:
+  text: Sigh...\| How long does cleaning for an inspection take?\n<KATIE>
+
+minigame_placeholder:
+  text: MINIGAME will be added in the full release!
+
+sproutmoleeater:
+  faceset: SOJ_KEL
+  faceindex: 3
+  text: As tempting as it is,\. we probably shouldn't spend all our money on SPROUT MOLE EATER.\kel
+
+captainspaceboy:
+  faceset: SOJ_KEL
+  faceindex: 3
+  text: As tempting as it is,\. we probably shouldn't spend all our money on CAPTAIN SPACEBOY'S SPACE ADVENTURE.\kel

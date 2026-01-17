@@ -287,3 +287,15 @@ Window_MenuCommand.prototype.makeCommandList = function () {
 };
 
 Window_MenuCommand.prototype.spacing = function () {  return 20; };
+
+
+Game_System.prototype.addJukeboxItem = function(songID) {
+    this._jukeboxList.push(this._jukeboxListFull[songID]);
+    $gameParty.gainItem($dataItems[songID], -1)
+    var jukeboxCDs = [ // IDs of CD items (in the database)
+        198, 199, 200, 201, 202, 203, 204, 205, 206, 207, 208, 209, 210
+    ];
+    if (this._jukeboxList.length >= jukeboxCDs.length){
+        //$gameSystem.unlockAchievement("MUSIC_CONNOISSEUR_OF_SORTS")
+    }
+}
