@@ -838,6 +838,8 @@ visual_novel_17:
 visual_novel_18:
   text: Spit it out, KEL.\! We can't stand here all day,\. you know.\bas
  
+#interjection
+
 visual_novel_19:
   faceset: SOJ_KEL
   faceindex: 13
@@ -858,6 +860,8 @@ visual_novel_22:
   faceindex: 8
   text: Fine, jeez.\..\..\.\kel
  
+#restore VN
+
 visual_novel_23:
   text: Well, I just wanted to ask if.\..\..\.\kel
 
