@@ -27,7 +27,7 @@ outfit_picker_3:
 outfit_picker_4:
   faceset: SOJ_BASIL
   faceindex: 0
-  text: Anyway, What should we do now? You've already made a (pretty good amount $80/a lot $120/a ton $180) of money.\..\..\.\bas
+  text: Anyway, What should we do now? You've already made a \eval<<$gameParty.gold()>=180?'ton':$gameParty.gold()>=120?'lot':'decent amount'>> of money.\..\..\.\bas
 #reminder to do the caseeval stuff
 
 outfit_picker_5:
@@ -52,8 +52,8 @@ outfit_picker_7:
 
 outfit_picker_8:
   faceset: SOJ_KEL
-  faceindex: 3
-  text: A man can dream!\kel
+  faceindex: 1
+  text: A man can dream...\kel
 
 
 outfit_picker_9:
@@ -65,7 +65,7 @@ outfit_picker_9:
 outfit_picker_10:
   faceset: SOJ_KEL
   faceindex: 11
-  text: Of course I do!\| C'mon,\. do I look that bland?\kel
+  text: Of course I do!\! C'mon,\. do I look that bland?\kel
 
 
 outfit_picker_11:
@@ -87,6 +87,8 @@ outfit_picker_12:
 # clothes rustle sfx
 
 outfit_picker_13:
+  faceset: SOJ_KEL
+  faceindex: 2
   text: You can look now!\kel
 
 # screen fades in
@@ -95,7 +97,7 @@ outfit_picker_13:
 outfit_picker_14:
   faceset: SOJ_KEL
   faceindex: 2 #outfit edit
-  text: Voila!\! How do I look?\kel
+  text: \sinv[2]Voila!\sinv[0]\! How do I look?\kel
 
 outfit_picker_15:
   faceset: SOJ_BASIL
@@ -137,6 +139,8 @@ outfit_picker_21:
 # fade out
 
 outfit_picker_22:
+  faceset: SOJ_KEL
+  faceindex: 2
   text: You can look now!\kel
 
 # fade in
@@ -275,19 +279,19 @@ outfit_picker_43:
 outfit_picker_44:
   faceset: SOJ_KEL
   faceindex: 5
-  text: You know who does have a suit, though? HERO!\kel
+  text: You know who does have a suit, though?\! HERO!\kel
 
 
 outfit_picker_45:
   faceset: SOJ_BASIL
   faceindex: 32
-  text: HERO? What does he have to do with this?\bas
+  text: HERO?\! What does he have to do with this?\bas
 
 
 outfit_picker_46:
   faceset: SOJ_KEL
   faceindex: 2
-  text: Me and HERO are like, the same size! He probably has his old clothes somewhere here!\kel
+  text: Me and HERO are like,\. the same size!\! He probably has his old clothes somewhere here!\kel
 
 
 outfit_picker_47:
@@ -307,6 +311,7 @@ outfit_picker_48:
 #after like 5 seconds
 
 outfit_picker_49:
+  windowskin: Window_Radio
   text: Hello?\her
 
 outfit_picker_50:
@@ -315,9 +320,11 @@ outfit_picker_50:
   text: HERO!\! How've you been?\kel
 
 outfit_picker_51:
+  windowskin: Window_Radio
   text: KEL?\! It's good to hear from you again!\her
 
 outfit_picker_52:
+  windowskin: Window_Radio
   text: I've been doing good!\! How about you?\her
 
 outfit_picker_53:
@@ -332,6 +339,7 @@ outfit_picker_54:
 
 
 outfit_picker_55:
+  windowskin: Window_Radio
   text: Wait, BASIL's here too?\. Hey, BASIL!\her
 
 outfit_picker_56:
@@ -340,14 +348,17 @@ outfit_picker_56:
   text: Hi!\bas
 
 outfit_picker_57:
+  windowskin: Window_Radio
   text: Anyway, my old outfit, huh? Hmm.\..\..\.\her
 
 #silence bubble from hero
 
 outfit_picker_58:
+  windowskin: Window_Radio
   text: Wait a minute.\..\..\.\her
 
 outfit_picker_59:
+  windowskin: Window_Radio
   text: Are you going on a date?\her
 
 #silence bubble on kel and 60 frame wait
@@ -365,6 +376,7 @@ outfit_picker_61:
   text: Wait,\. I meant-\kel
 
 outfit_picker_62:
+  windowskin: Window_Radio
   text: I knew it!\| No way you'd be asking me for my clothes if it weren't for something special!\her
 
 outfit_picker_63:
@@ -373,9 +385,11 @@ outfit_picker_63:
   text: .\..\..\.\face[14]Fine.\| You got me.\kel
 
 outfit_picker_64:
+  windowskin: Window_Radio
   text: So.\..\..\.\her
 
 outfit_picker_65:
+  windowskin: Window_Radio
   text: \sinv[1]Who's the girl~\her
 
 outfit_picker_66:
@@ -393,12 +407,13 @@ outfit_picker_67:
 outfit_picker_68:
   faceset: SOJ_KEL
   faceindex: 14
-  text: .\..\..\.Aubrey.\kel
+  text: .\..\..\.AUBREY.\kel
 
 #silence bubble from hero
 #wait
 
 outfit_picker_69:
+  windowskin: Window_Radio
   text: What?\her
 
 outfit_picker_70:
@@ -412,9 +427,11 @@ outfit_picker_71:
   text: That part wasn't the part I was surprised by,\. for the record.\bas
 
 outfit_picker_72:
+  windowskin: Window_Radio
   text: I guess I am surprised by it,\. honestly.\..\..\.\her
 
 outfit_picker_73:
+  windowskin: Window_Radio
   text: I've broken up way too many of your petty arguments to not be.\her
 
 outfit_picker_74:
@@ -438,31 +455,37 @@ outfit_picker_77:
   text: .\..\..\.\bas
 
 outfit_picker_78:
+  windowskin: Window_Radio
+  endexec: SOJ.printStupidText()
   text: Phew!\| I thought I was in some weird parallel dimension!\her
 
 outfit_picker_79:
+  windowskin: Window_Radio
   text: So,\. it's this serious,\. huh.\..\..\.\her
 
 outfit_picker_80:
+  windowskin: Window_Radio
   text: I should have my old \c[11]CHURCH\c[0] clothes somewhere in my closet.\! It's the same outfit I wear in the family photo,\. so if you guys are calling from the living room you can see it.\her
 
 outfit_picker_81:
+  windowskin: Window_Radio
   text: Use it wisely.\her
 
 outfit_picker_82:
   faceset: SOJ_KEL
   faceindex: 2
-  text: Sweet! Thanks, bro!\kel
+  text: Sweet!\! Thanks, bro!\kel
 
 outfit_picker_83:
-  text: No problem! Good luck!\her
+  windowskin: Window_Radio
+  text: No problem!\! Good luck!\her
 
 #phone hangs up
 
 outfit_picker_84:
   faceset: SOJ_KEL
   faceindex: 3
-  text: Well, that was embarrassing, but also useful!\kel
+  text: Well,\. that was embarrassing,\. but also useful!\kel
 
 outfit_picker_85:
   faceset: SOJ_KEL
@@ -480,6 +503,8 @@ outfit_picker_86:
 # clothes sfx
 
 outfit_picker_87:
+  faceset: SOJ_KEL
+  faceindex: 2
   text: You can look now!\kel
 
 #fade in to kel looking tuff af
@@ -547,7 +572,7 @@ outfit_picker_98:
 outfit_picker_99:
   faceset: SOJ_BASIL
   faceindex: 10
-  text: This feels the most like you!\! Like the KEL that Aubrey knows!\bas
+  text: This feels the most like you!\! Like the KEL that AUBREY knows!\bas
 
 outfit_picker_100:
   faceset: SOJ_KEL
@@ -657,7 +682,7 @@ outfit_picker_119:
 outfit_picker_120:
   faceset: SOJ_KEL
   faceindex: 4
-  text: I have no idea what to say to Aubrey!\kel
+  text: I have no idea what to say to AUBREY!\kel
 
 outfit_picker_121:
   faceset: SOJ_BASIL
@@ -915,7 +940,7 @@ visual_novel_29:
   macro: VN
   name: KEL
   openexec: SOJ.vnFrame(7,-1,true)
-  text: I-\.I like you,\, AUBREY!\| And I really want to know if you wanted to go with me to.\..\..\.
+  text: I-\.I like you,\. AUBREY!\| And I really want to know if you wanted to go with me to.\..\..\.
 
 # what the hell
 
@@ -1046,7 +1071,7 @@ date_spot_3:
 date_spot_4:
   faceset: SOJ_KEL
   faceindex: 3
-  text: .\..\..\.\!<br>\sinv[1]Oh, BASIL, I just can't decide...\kel
+  text: .\..\..\.\!<br>\sinv[1]Oh,\. BASIL,\. I just can't decide...\kel
 
 date_spot_5:
   faceset: SOJ_BASIL
@@ -1132,24 +1157,31 @@ date_spot_19:
 date_spot_20:
   faceset: SOJ_KEL
   faceindex: 5
-  text: HOBBEEZ? Yeah, that does sound pretty nice.\kel
+  text: \c[11]HOBBEEZ\c[0]? Yeah, that does sound pretty nice.\kel
 
 date_spot_21:
   faceset: SOJ_KEL
   faceindex: 1
-  text: Reading comics,\. playing CAPTAIN SPACEBOY'S SPACE ADVENTURE,\. maybe we could even hang around the PLAZA afterwards!\kel
+  text: Reading comics,\. playing CAPTAIN SPACEBOY'S SPACE ADVENTURE,\. maybe we could even hang around the \c[11]PLAZA\c[0] afterwards!\kel
 
 # pick ginos
 
 date_spot_22:
   faceset: SOJ_KEL
   faceindex: 5
-  text: GINO'S? \face[2]I like that idea!\kel
+  text: \c[11]GINO'S\c[0]? \face[2]I like that idea!\kel
 
 date_spot_23:
   faceset: SOJ_KEL
   faceindex: 1
   text: Enjoying a nice hot pizza alongside AUBREY.\..\..\. What a life.\..\..\.\kel
+
+#If fancy outfit in not restaurant
+date_spot_bad_fancy:
+  faceset: SOJ_BASIL
+  faceindex: 26
+  name: BASIL
+  text: Maybe wearing a suit there would be a bit of odd choice,\. but it's whatever.
 
 #after allat
 
@@ -1176,12 +1208,12 @@ date_spot_27:
 date_spot_28:
   faceset: SOJ_KEL
   faceindex: 2
-  text: The HANGOUT SPOT!\| Not a better place to tell her than that!\kel
+  text: The \c[11]HANGOUT SPOT\c[0]!\| Not a better place to tell her than that!\kel
 
 date_spot_29:
   faceset: SOJ_BASIL
   faceindex: 30
-  text: You've been thinking of confessing to her since \."a long time ago"?\bas
+  text: You've been thinking of confessing to her since \.\"a long time ago\"?\bas
 
 #kel sweat bubble
 
@@ -1200,7 +1232,7 @@ date_spot_31:
 date_spot_32:
   faceset: SOJ_KEL
   faceindex: 5
-  text: Oh!\| Basil,\. \face[2]how about you go get her for me!\kel
+  text: Oh!\| BASIL,\. \face[2]how about you go get her for me!\kel
 
 date_spot_33:
   faceset: SOJ_BASIL
@@ -1210,7 +1242,7 @@ date_spot_33:
 date_spot_34:
   faceset: SOJ_KEL
   faceindex: 0
-  text: Just go find AUBREY,\. and tell her to meet me at the HANGOUT SPOT!\! Easy!\kel
+  text: Just go find AUBREY,\. and tell her to meet me at the \c[11]HANGOUT SPOT\c[0]!\! Easy!\kel
 
 date_spot_35:
   faceset: SOJ_BASIL
