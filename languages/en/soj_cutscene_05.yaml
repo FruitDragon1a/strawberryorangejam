@@ -1,0 +1,637 @@
+#hey aubrey
+#right outside basils house
+#aubrey is talking to polly at the door
+
+hey_aub_0:
+  faceset: SOJ_AUBREY
+  faceindex: 13
+  text: Do you know where he could be?\! I really need to ask him something.\aub
+
+hey_aub_1:
+  faceset: SOJ_POLLY
+  faceindex: 7
+  text: Last I saw,\. he was with KEL at the \c[11]CHURCH\c[0].\! I don't know if they're still there though.\pol
+
+hey_aub_2:
+  faceset: SOJ_AUBREY
+  faceindex: 2
+  text: I see.\..\..\.\face[0] Thanks anyways.\aub
+
+hey_aub_3:
+  faceset: SOJ_POLLY
+  faceindex: 4
+  text: No problem.\! Have a good evening,\. AUBREY.\pol
+
+hey_aub_4:
+  faceset: SOJ_POLLY
+  faceindex: 0
+  text: If you'd like,\. you can wait in here for him?\! I don't know how urgently you need to find him.\pol
+
+hey_aub_5:
+  faceset: SOJ_BASIL
+  faceindex: 27
+  text: AUBREY?\| What are you doing here?\bas
+
+#aub exclamation bubble
+
+hey_aub_6:
+  faceset: SOJ_AUBREY
+  faceindex: 0
+  text: BASIL!\| I was just looking for you!\aub
+
+hey_aub_7:
+  faceset: SOJ_BASIL
+  faceindex: 15
+  text: S-So was I!\| Looking for you,\. I mean!\bas # what he's saying isnt unclear but he's the type to clarify anyway lol
+
+#to polly
+hey_aub_8:
+  faceset: SOJ_BASIL
+  faceindex: 14
+  text: Do you think we can talk alone, POLLY?\bas
+
+hey_aub_9:
+  faceset: SOJ_POLLY
+  faceindex: 0
+  text: Of course! I’ll be in here if you need me.\pol
+
+hey_aub_10:
+  faceset: SOJ_BASIL
+  faceindex: 10
+  text: Thank you!\bas
+
+#door closes
+#basil and aub walk over to the driveway
+
+hey_aub_11:
+  faceset: SOJ_BASIL
+  faceindex: 0
+  text: So,\. what did you need from me?\bas
+
+hey_aub_12:
+  faceset: SOJ_AUBREY
+  faceindex: 0
+  text: Ah,\. right.\aub
+
+hey_aub_13:
+  faceset: SOJ_AUBREY
+  faceindex: 13
+  text: I-\.I wanted to ask you for a favor.\aub
+
+hey_aub_14:
+  faceset: SOJ_BASIL
+  faceindex: 32
+  text: Really?\! What is it?\bas
+
+hey_aub_15:
+  faceset: SOJ_AUBREY
+  faceindex: 22
+  text: I was wondering.\..\..\. if you would mind helping me.\..\..\. with uh.\..\..\.\aub
+
+hey_aub_16:
+  faceset: SOJ_BASIL
+  faceindex: 26
+  text: Huh?\| With what?\bas
+
+hey_aub_17:
+  faceset: SOJ_AUBREY
+  faceindex: 17
+  text: Well,\. I wanted to tell KEL how I feel,\. but I have no idea what I should say.\aub
+
+hey_aub_18:
+  faceset: SOJ_AUBREY
+  faceindex: 21
+  text: So I was wondering if you would mind letting me practice on you by.\..\..\. p-\.pretending\| to be KEL.\aub
+
+hey_aub_19:
+  faceset: SOJ_BASIL
+  faceindex: 34
+  text: .\..\..\.\bas
+
+hey_aub_20:
+  faceset: SOJ_AUBREY
+  faceindex: 13
+  text: .\..\..\.Sorry.\! I know that’s a bit outlandish.\| I j-just thought,\. since you know him really well,\. and you already know I want to ask him out...\| but\| I-I’ll think of someth–\.\^\aub
+
+hey_aub_21:
+  faceset: SOJ_BASIL
+  faceindex: 14
+  text: No, no!\| I-It’s just that this sounds very.\..\..\.\face[15] familiar.\bas
+
+hey_aub_22:
+  faceset: SOJ_AUBREY
+  faceindex: 3
+  text: Familiar?\aub
+
+hey_aub_23:
+  faceset: SOJ_BASIL
+  faceindex: 9
+  text: .\..\..\.Never mind.\| I probably just read it in a book once.\bas
+
+hey_aub_24:
+  faceset: SOJ_AUBREY
+  faceindex: 0
+  text: That's really coincidental,\. actually.\aub
+
+hey_aub_25:
+  faceset: SOJ_BASIL
+  faceindex: 0
+  text: I mean,\. you'd be surprised at how much random stuff happens in books...\bas
+
+hey_aub_26:
+  faceset: SOJ_BASIL
+  faceindex: 14
+  text: But anyway.\|\face[15] Uh.\|\face[0] Sure,\. I guess.\bas
+
+hey_aub_27:
+  faceset: SOJ_AUBREY
+  faceindex: 18
+  text: Really?\| Thank you!\! You have no idea how much I appreciate it.\aub
+
+hey_aub_28:
+  faceset: SOJ_AUBREY
+  faceindex: 22
+  text: But,\. uh.\..\..\. Do you think we can do this elsewhere?\aub
+
+hey_aub_29:
+  faceset: SOJ_AUBREY
+  faceindex: 20
+  text: I don’t know how good of an idea it is to do this outside.\..\..\.
+
+hey_aub_30:
+  faceset: SOJ_BASIL
+  faceindex: 37
+  text: Oh! Of course!\bas
+
+hey_aub_:
+  faceset: SOJ_BASIL
+  faceindex: 2
+  text: We can go to my room!\bas
+
+hey_aub_32:
+  faceset: SOJ_AUBREY
+  faceindex: 10
+  text: Good idea.\aub
+
+#fade into basils room
+#basil walks in, followed by aubrey
+#aubrey stands still for a moment, looking around\aub
+
+hey_aub_33:
+  faceset:  SOJ_AUBREY
+  faceindex: 3
+  text: So.\..\..\. This is your new room? It looks nice.\aub
+
+hey_aub_34:
+  faceset: SOJ_BASIL
+  faceindex: 0
+  text: Thanks. I moved rooms a few months ago.\bas
+
+hey_aub_35:
+  faceset: SOJ_BASIL
+  faceindex: 3
+  text: .\..\..\.You haven't really gone in here,\. have you?\bas
+
+hey_aub_36:
+  faceset: SOJ_AUBREY
+  faceindex: 13
+  text:  No.\..\..\.\! I think I hung out in your living room a bit,\. but I haven't been in here.\aub
+
+hey_aub_37:
+  faceset: SOJ_BASIL
+  faceindex: 14
+  text: .\..\..\.\bas
+
+hey_aub_38:
+  faceset: SOJ_AUBREY
+  faceindex: 19
+  text: A-\.Anyway,\. here’s what I want you to do.\aub
+
+#fadeout again to visual novel proper
+
+hey_aub_39:
+  faceset: SOJ_BASIL
+  faceindex: 0
+  text: So,\. I’m KEL,\. and you’re still you?\bas
+
+hey_aub_40:
+  faceset: SOJ_AUBREY
+  faceindex: 0
+  text: Yep.\aub
+
+hey_aub_41:
+  faceset: SOJ_BASIL
+  faceindex: 26
+  text: Also,\. do you just.\..\..\. carry around a basketball jersey?\bas
+
+hey_aub_42:
+  faceset: SOJ_AUBREY
+  faceindex: 21
+  text: Don't question it.\aub
+
+hey_aub_43:
+  faceset: SOJ_AUBREY
+  faceindex: 0
+  text: Are you ready?\| I’ll start.\aub
+
+hey_aub_44:
+  faceset: SOJ_AUBREY
+  faceindex: 2
+  text: Okay.\..\..\. *ahem*\aub
+
+hey_aub_45:
+  text: Ah,\. KEL.\| Good thing you came here./aub
+
+hey_aub_46choice1:
+  text: What’s up, AUBREY!
+
+hey_aub_47choice2:
+  text: What’d you call me for?
+
+#whats up
+
+hey_aub_48:
+  text: What’s up,\. AUBREY!\n<KEL?>
+
+hey_aub_49:
+  text: Whaddya need?\n<KEL?>
+
+#what call me for
+
+hey_aub_50:
+  text: H-\.Hey AUBREY.\..\..\.\n<KEL?>
+
+hey_aub_51:
+  text: Did you need me for something?\n<KEL?>
+
+#after
+
+hey_aub_52:
+  text: Yeah,\. I did.\aub
+
+hey_aub_53:
+  text: I.\..\..\. urgh.\..\..\.\aub
+
+hey_aub_54choice3:
+  text: Why so glum?
+
+hey_aub_55choice4:
+  text: What’s wrong?
+
+#why so glum
+
+hey_aub_56:
+  text: Why so glum,\. chum?\n<KEL?>
+
+hey_aub_57:
+  faceset: SOJ_AUBREY
+  faceindex: 3
+  text: .\..\..\.Don’t do that.\aub #interjection
+
+hey_aub_58:
+  faceset: SOJ_BASIL
+  faceindex: 25
+  text: Heheh,\. sorry.\..\..\.\bas
+
+hey_aub_59:
+  faceset: SOJ_AUBREY
+  faceindex: 17
+  text: C’mon,\. be serious!\aub
+#resume
+
+#What’s wrong?
+
+hey_aub_60:
+  text: What’s wrong?\| Cat got your tongue?\n<KEL?>
+
+#after either
+
+hey_aub_61:
+  text: No.\| It’s just that.\..\..\.\aub
+
+hey_aub_62:
+  text: I-\.I like you.\aub
+
+hey_aub_63choice5:
+  text: I like you too!
+#correct
+hey_aub_64choice6:
+  text: What do you mean?
+#wrong
+#i like you too
+
+hey_aub_65:
+  text: Aw!\| I like you too,\. AUBREY!\n<KEL?>
+
+hey_aub_66:
+  text: No!\| Not like that!\aub
+
+#what do you mean
+
+hey_aub_67:
+  text: What do you mean,\. AUBREY?\n<KEL?>
+
+# after both options
+hey_aub_68:
+  text: I-\.I mean that I like you more than that.\! As—\| as more than a friend.\aub
+
+# end vn segment
+hey_aub_69:
+  faceset: SOJ_BASIL
+  faceindex: 1
+  text: Hey,\. there you go!\! Just say it like that and you should be good!\bas
+
+hey_aub_70:
+  faceset: SOJ_AUBREY
+  faceindex: 18
+  text: You—\| you think so?\aub
+
+hey_aub_71:
+  faceset: SOJ_BASIL
+  faceindex: 2
+  text: Yeah!\! I'm sure KEL would feel the same!\bas
+
+# aubrey turns away
+hey_aub_72:
+  faceset: SOJ_AUBREY
+  faceindex: 13
+  text: I don’t know.\..\..\. He’s always been a good friend,\. but I don’t think he sees me that way.\..\..\.\aub
+
+hey_aub_73:
+  faceset: SOJ_BASIL
+  faceindex: 2
+  text: I—\bas # bros eye is twitching LMAOOOOOO
+
+hey_aub_74:
+  faceset: SOJ_BASIL
+  faceindex: 37
+  text: .\..\..\.\bas
+
+hey_aub_75:
+  faceset: SOJ_BASIL
+  faceindex: 36
+  text: There's.\..\..\| no.\..\..\| harm in trying?\bas
+
+hey_aub_76:
+  faceset: SOJ_BASIL
+  faceindex: 17
+  text: I mean.\..\..\| what's the worst that could happen.\..\..\.?\bas
+
+hey_aub_77:
+  faceset: SOJ_AUBREY
+  faceindex: 2
+  text: That's true.\aub
+
+hey_aub_78:
+  faceset: SOJ_AUBREY
+  faceindex: 10
+  text: Heh,\. I don't think KEL could take it badly...\aub
+
+hey_aub_79:
+  faceset: SOJ_AUBREY
+  faceindex: 18 # fond smile
+  text: Even if he didn't feel the same,\. he'd be so kind about it...\aub
+
+hey_aub_80:
+  faceset: SOJ_BASIL
+  faceindex: 13
+  text: Aww.\..\..\. You really like him,\. don't you?\bas
+
+# aubrey sweat emoji
+hey_aub_81:
+  faceset: SOJ_AUBREY
+  faceindex: 4
+  text: Sh–\.Shut up!\aub
+
+hey_aub_82:
+  faceset: SOJ_BASIL
+  faceindex: 25
+  text: It's cute!\bas
+
+hey_aub_83:
+  faceset: SOJ_AUBREY
+  faceindex: 5
+  text: I—\|I'm not cute,\. y-you're cute!\aub
+
+hey_aub_84:
+  faceset: SOJ_BASIL
+  faceindex: 43
+  text: How old are you,\. five?\bas
+
+# aubrey sweat bubble
+hey_aub_85:
+  faceset: SOJ_AUBREY
+  faceindex: 6
+  text: .\..\..\.\aub
+
+# long pause
+hey_aub_86:
+  faceset: SOJ_AUBREY
+  faceindex: 19
+  text: A-\.Anyway,\.\face[0] I had one more thing I wanted to ask you.\aub
+
+hey_aub_87:
+  faceset: SOJ_BASIL
+  faceindex: 0
+  text: Yeah?\bas
+
+hey_aub_88:
+  faceset: SOJ_AUBREY
+  faceindex: 13
+  text: Do you think you can find KEL?\! And ask him to meet me at the \c[11]HANGOUT SPOT\c[0]?\aub
+
+hey_aub_89:
+  faceset: SOJ_BASIL
+  faceindex: 39
+  text: .\..\..\.\bas#scared/shocked expression
+
+hey_aub_90:
+  faceset: SOJ_BASIL
+  faceindex: 16
+  text: Did you say the \c[11]HANGOUT SPOT\c[0]?\bas
+
+# kim starts banging on the door
+hey_aub_91:
+  faceset: SOJ_AUBREY
+  faceindex: 0
+  text: What is that?\aub
+
+# basil silence bubble
+hey_aub_92:
+  faceset: SOJ_BASIL
+  faceindex: 29
+  text: There's someone knocking on the door.\bas
+
+# aubrey sweat bubble
+hey_aub_93:
+  faceset: SOJ_AUBREY
+  faceindex: 3
+  text: I mean,\. I knew that.\aub
+
+# quiet door opening sound
+hey_aub_94:
+  text: \}Oh,\. hello!\| Can I help you?\pol
+
+hey_aub_95:
+  text: \}Is AUBREY there?\who
+
+# aubrey question bubble
+hey_aub_96:
+  faceset: SOJ_AUBREY
+  faceindex: 13
+  text: Is that KIM?\aub
+
+hey_aub_97: 
+  text: \}Yes,\. she's speaking with BASIL in his room—\| oh!\pol
+
+# footsteps getting progressively louder if possible
+# door opens
+# aubrey and basil both jump
+hey_aub_98:
+  text: \{\{\QUAKE[1]AUBREY!!\kim
+
+hey_aub_99:
+  text: \{WE HAVE A PROBLEM!!!\kim
+
+hey_aub_100:
+  faceset: SOJ_AUBREY
+  faceindex: 4
+  text: Why are you yelling?\aub
+
+hey_aub_101:
+  text: \{KEL'S WAITING FOR YOU AT THE \c[11]HANGOUT SPOT\c[0]\kim
+
+hey_aub_6:
+  faceset: SOJ_AUBREY
+  faceindex: 6
+  text: What?!\aub
+
+hey_aub_103:
+  faceset: SOJ_BASIL
+  faceindex: 15
+  text: I was about to tell you that.\..\..\.\bas
+
+hey_aub_104:
+  faceset: SOJ_BASIL
+  faceindex: 37
+  text: But we kinda got stuck on the whole.\..\..\. practice thing.\bas
+
+hey_aub_105:
+  faceset: SOJ_AUBREY
+  faceindex: 6
+  text: Crap!\aub
+
+hey_aub_106:
+  faceset: SOJ_AUBREY
+  faceindex: 21
+  text: Did he see the cake?\aub
+
+hey_aub_107:
+  faceset: SOJ_BASIL
+  faceindex: 7
+  text: You left a cake unattended in the middle of the woods??\bas
+
+hey_aub_108:
+  text: \}I mean.\..\..\. it's not unattended.\..\..\.\kim
+
+hey_aub_109:
+  faceset: SOJ_AUBREY
+  faceindex: 5
+  text: \quake[2]KIM!\aub
+
+hey_aub_110:
+  faceset: SOJ_BASIL
+  faceindex: 36
+  text: Well,\. I guess now is the best time to shoot your shot,\. right?\bas
+
+hey_aub_111:
+  faceset: SOJ_AUBREY
+  faceindex: 21#blush
+  text: .\..\..\.\aub
+
+hey_aub_112:
+  faceset: SOJ_AUBREY
+  faceindex: 20
+  text: I mean, I guess you’re right.\..\..\.\aub
+
+hey_aub_113:
+  faceset: SOJ_AUBREY
+  faceindex: 19
+  text: But oh man,\. how am I going to explain this...\aub
+
+hey_aub_114:
+  faceset: SOJ_BASIL
+  faceindex: 2
+  text: You got this!\! Confess your truth!\bas
+
+hey_aub_115:
+  faceset: SOJ_AUBREY
+  faceindex: 3
+  text: You're one to talk.\aub
+
+hey_aub_116:
+  faceset: SOJ_BASIL
+  faceindex: 7
+  text: Hey!\bas
+
+hey_aub_117:
+  faceset: SOJ_AUBREY
+  faceindex: 2
+  text: Sorry,\. sorry.\! I'm going.\!\face[0] Bye.\aub
+
+# aubrey pushes past kim and is gone
+# kim turns to basil
+hey_aub_118:
+  text: I got a question for you,\. nerd.\kim
+
+hey_aub_119:
+  faceset: SOJ_BASIL
+  faceindex: 29
+  text: What.\bas
+
+hey_aub_120:
+  text: Has KEL been dragging you around all day for the same reason AUBREY's been dragging me around?\kim
+
+hey_aub_121:
+  faceset: SOJ_BASIL
+  faceindex: 34
+  text: .\..\..\.\bas
+
+hey_aub_122:
+  faceset: SOJ_BASIL
+  faceindex: 29
+  text: Probably.\bas
+
+hey_aub_123:
+  text: Ugh...\! They're such idiots.\kim
+
+hey_aub_124:
+  faceset: SOJ_BASIL
+  faceindex: 34
+  text: .\|.\|.\|\bas
+
+hey_aub_125:
+  faceset: SOJ_BASIL
+  faceindex: 41
+  text: They really are.\bas
+
+# long pause
+hey_aub_126:
+  text: I—\| I'm gonna go.\kim
+
+hey_aub_127:
+  faceset: SOJ_BASIL
+  faceindex: 2
+  text: Bye!\bas
+
+# as kim leaves basils room
+hey_aub_128:
+  text: \}.\..\..\.\}What a bunch of weirdos...\^\kim
+
+# basil turns around
+# basil goes and collapses on his bed
+
+hey_aub_129:
+  text: \{\{\{\quake[2]AAAAAAAAAA\^\bas
+
+# abrupt cut to the hangout spot for confession time

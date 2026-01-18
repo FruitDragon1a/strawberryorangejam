@@ -480,8 +480,11 @@ RED_VELVET:
 CHOCOLATE:
   text: CHOCOLATE
 
-STRAWHBERRY:
+STRAWBERRY:
   text: STRAWBERRY
+
+MILK_CAKE:
+  text: MILK CAKE
 
 #vanilla
 
@@ -556,34 +559,58 @@ aub_27:
   faceindex: 30
   text: I mean,\. this is a hypothetical after all,\. right?\bas
 
-# the rest
+#milk cake
 
 aub_28:
+  faceset: SOJ_BASIL
+  faceindex: 30
+  text: What about milk cake? Seems like he'd like that.
+
+aub_29:
+  faceset: SOJ_AUBREY
+  faceindex: 30
+  text: Doesn't KEL hate milk? Why would getting him a milk cake be a good idea?
+
+aub_30:
+  faceset: SOJ_BASIL
+  faceindex: 30
+  text: Just making sure you knew enough about him to remember!
+
+aub_31:
+  faceset: SOJ_BASIL
+  faceindex: 30
+  text: .\..\..\.Just give me a flavor.
+
+#repeat choices
+
+# the rest
+
+aub_32:
   faceset: SOJ_AUBREY
   faceindex: 13
   text: Oh!\|\face[2] Yeah,\. of course it is.\! I was just wondering is all.\aub
 
-aub_29:
+aub_33:
   faceset: SOJ_BASIL
   faceindex: 42
   text: KEL will eat just about anything,\. so I'm sure he'd \sinv[1]love\sinv[0] a homemade cake!\bas #wavy text on love
 
-aub_30:
+aub_34:
   faceset: SOJ_AUBREY
   faceindex: 19
   text: I see.\..\..\.\aub
 
-aub_31:
+aub_35:
   faceset: SOJ_BASIL
   faceindex: 33
   text: Well,\. I better get going.\! You know KEL,\. after all!\bas
 
-aub_32:
+aub_36:
   faceset: SOJ_AUBREY
   faceindex: 0
   text: Ah, yes.\..\..\. See you around, BASIL.\aub
 
-aub_33:
+aub_37:
   faceset: SOJ_AUBREY
   faceindex: 1
   text: .\..\..\|Thank you.\aub
