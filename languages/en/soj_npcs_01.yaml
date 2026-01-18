@@ -72,3 +72,51 @@ captainspaceboy:
   faceset: SOJ_KEL
   faceindex: 3
   text: As tempting as it is,\. we probably shouldn't spend all our money on CAPTAIN SPACEBOY'S SPACE ADVENTURE.\kel
+
+jay_1:
+  name: JAY
+  text: Oh,\. hey,\. KEL.
+
+jay_2:
+  faceset: SOJ_KEL
+  faceindex: 2
+  text: Hey,\. JAY!\! \face[10]Why are you moping on this bench?\kel
+
+jay_3:
+  name: JAY
+  text: I'm not moping.\..\..\.
+
+# pause
+# jay silence bubble
+
+jay_4:
+  name: JAY
+  text: .\..\..\.Fine.\! PB's gone for the weekend to visit some family in the city.
+
+# kel exclamation bubble
+
+jay_5:
+  faceset: SOJ_KEL
+  faceindex: 12
+  text: Aw,\. you miss him!\! That's so sweet!\kel
+
+# jay sweat bubble
+
+# long pause
+jay_6:
+  faceset: SOJ_KEL
+  faceindex: 2
+  text: Well,\. we'll leave you to mope in peace.\! See ya,\. JAY!\kel
+
+jay_7:
+  name: JAY
+  text: See ya,\. KEL.
+
+
+jay_loop:
+  name: JAY
+  text: Wow,\. those kids are kind of ruining my moping time.
+
+jay_end:
+  name: JAY
+  text: Maybe I should play some basketball...

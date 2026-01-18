@@ -623,7 +623,12 @@ mavblock:
   name: THE MAVERICK
   text: Hey!\! You're not allowed there!
 
+
 # the maverick is on duty at the bakery counter
+mav_0:
+  name: THE MAVERICK
+  text: How can I help—\^
+
 mav_1:
   faceset: SOJ_KEL
   faceindex: 2
@@ -713,7 +718,7 @@ mav_17:
 
 mav_18:
   name: THE MAVERICK
-  text: .\|.\|.\|Wooooow.\! That sucks.
+  text: .\|.\|.\|\sinv[1]Wooooow.\sinv[0]\! That sucks.
 
 mav_19:
   name: THE MAVERICK

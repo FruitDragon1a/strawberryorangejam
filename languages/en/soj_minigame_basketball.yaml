@@ -368,7 +368,7 @@ after_10:
   text: JAY!\! What's up,\. man!\kel
 
 after_11:
-  text: Nothing much!\! Wanted to talk to you,\. got a minute?\n<JAY>
+  text: Wanted to talk to you,\. got a minute?\n<JAY>
 
 after_12:
   faceset: SOJ_KEL
