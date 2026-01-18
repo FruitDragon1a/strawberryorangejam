@@ -1,0 +1,166 @@
+questions:
+  - q: I know I'm not spelling this right.\! How do you spell \"retoric\"?
+    a1: Rhetorique
+    a2: Rhetoric
+    a3: Retoric
+    c: 2
+  - q: Oh how about this.\! In this sentence,\.<br>\fs[20]\"The author uses mostly anecdotes[*] this creates a weak pool of evidence.\"\fs[24]\!<br>What should I put in place of \"[*]\"?
+    a1: Semicolon
+    a2: Colon
+    a3: Comma
+    c: 1
+  - q: Ok I know I should know by now,\. but in this sentence,\.<br>\fs[20]\"A major weakness is that [*] failing to properly account for the audience.\"\!\fs[24]<br>Is is \"there\", \"they're\", or \"their\"?
+    a1: There
+    a2: They're
+    a3: Their
+    c: 2
+  - q: This is content question actually but,\. read this quote,\.<br>\fs[20]\"Based on a BMRF study, 'minimalistic' languages can communicate all concepts.\"\!\fs[24]<br>What kind of evidence is that?
+    a1: Testimonial
+    a2: Statistic
+    a3: Experiment
+    c: 3
+  - q: I don't even know why I expect you to know this but,\. what kind of article is \"the\"?
+    a1: Demonstrative
+    a2: Indefinite
+    a3: Definite
+    c: 3
+
+ask:
+  name: CRIS
+  text: \v[110]
+a1:
+  text: \v[111]
+a2:
+  text: \v[112]
+a3:
+  text: \v[113]
+
+right_1:
+  name: MINCY
+  text: Right!\! I don't know how I forgot that.
+
+right_2:
+  name: MINCY
+  text: Ok yeah that feels right.
+
+right_3:
+  name: CRIS
+  text: Ohhhhh,\. I think I'm getting it now.
+
+wrong_1:
+  name: MINCY
+  text: Really?\! I've never heard of that before.\..\..
+
+wrong_2:
+  name: CRIS
+  text: I might need to look into that later.\..\..
+
+wrong_3:
+  name: MINCY
+  text: We might want to poke some other people as well for this essay.\..\..
+
+#With Kel
+intro_0:
+  faceset: SOJ_KEL
+  faceindex: 12
+  name: KEL
+  text: Hey guys,\. what're you up to?
+
+intro_1:
+  name: CRIS
+  text: Oh!\! Hey KEL,\. and BASIL!\!<br>\}\}Wait this is actually great.
+
+intro_2:
+  faceset: SOJ_KEL
+  faceindex: 10
+  name: KEL
+  text: What?
+
+intro_3:
+  name: CRIS
+  text: Well.\..\..\! I've been working on an essay and MINCY been helping me with the content and stuff but—
+
+intro_4:
+  name: MINCY
+  text: I'm not the best with grammar and the like.\..\..
+
+intro_5:
+  name: CRIS
+  text: But I know BASIL is great with those,\. right?
+
+intro_6:
+  faceset: SOJ_BASIL
+  faceindex: 17
+  name: BASIL
+  text: O-\.oh uhhhhhhh.\..\..
+
+intro_7:
+  name: MINCY
+  text: Well you're better than us!\! So can you just give us a hand real quick?
+
+intro_8:
+  faceset: SOJ_BASIL
+  faceindex: 16
+  name: BASIL
+  text: .\..\..\face[37]Ok.
+
+intro_9:
+  name: CRIS
+  text: Thank you so much.
+
+#W/O Kel
+intro_nokel_0:
+  faceset: SOJ_BASIL
+  faceindex: 34
+  name: BASIL
+  text: Hey...\. What're you guys doing?
+
+intro_nokel_1:
+  name: CRIS
+  text: Oh!\! Hey BASIL!\!<br>\}\}Wait this is actually great.
+
+intro_nokel_2:
+  faceset: SOJ_BASIL
+  faceindex: 32
+  name: BASIL
+  text: What?
+
+intro_nokel_5:
+  name: CRIS
+  text: But you're pretty good with that stuff,\. right?
+
+outro_0:
+  name: CRIS
+  text: Ok I think that's all I wanted to ask.
+
+outro_1:
+  name: CRIS
+  text: Thank you so much for the help,\. really.\! Is there anything \eval<<$gameParty.size()>1?"you two":"you">> need?
+
+outro_2:
+  faceset: SOJ_KEL
+  faceindex: 3
+  name: KEL
+  text: Keep this under wraps but,\. \face[2]I've been getting myself ready to out AUBREY!\! I've been saving up money for it!
+
+outro_nokel_2:
+  faceset: SOJ_BASIL
+  faceindex: 15
+  name: BASIL
+  text: Well,\. I don't know if I should say this,\.\face[42] but KEL's been hyping himself up to ask AUBREY out.
+
+outro_3:
+  name: CRIS
+  text: Oh!\! Then here,\. take these ten dollars I have.\! Make sure to get her something sweet!
+
+outro_nokel_4:
+  faceset: SOJ_BASIL
+  faceindex: 41
+  name: BASIL
+  text: Heh heh.\! Will do,\. CRIS.
+
+outro_4:
+  faceset: SOJ_BASIL
+  faceindex: 41
+  name: BASIL
+  text: Heh heh.\! Will do!\! Thanks,\. CRIS!\! See you soon!
