@@ -1,0 +1,147 @@
+box_pullout:
+  text: You dig your hands in and pull out \c[4]\v[110]\c[0].
+
+box_place_fantasy:
+  text: Place \c[4]\v[110]\c[0] in the \"FANTASY\" box?
+
+box_place_sliceoflife:
+  text: Place \c[4]\v[110]\c[0] in the \"SLICE OF LIFE\" box?
+
+box_place_scifi:
+  text: Place \c[4]\v[110]\c[0] in the \"SCI-FI\" box?
+
+box_fantasy:
+  text: \"FANTASY\"
+
+box_sliceoflife:
+  text: \"SLICE OF LIFE\"
+
+box_scifi:
+  text: \"SCI-FI\"
+
+box_placed:
+  text: You put \c[4]\v[110]\c[0] in the box.
+
+fantasy_list: [
+  THE WITCHES & WIZARDS UNITED AGAINST EVIL,
+  KING ARTHUR & THE DRAGON OF FRUITS,
+  THE JOURNEY OF THE MUDDLED DRUID,
+  THE LONE WIZARD,
+  THE SERPENT'S SWORD,
+  GOBLINS O' GLORY,
+  THE SPROUT MOLE DESTINED FOR GREATNESS,
+  RAVEN'S HOME
+]
+
+sliceoflife_list: [
+  A DAY IN THE LIFE OF SWEETHEART,
+  THE POPPY & THE PEONY,
+  IN THE OFF SEASON,
+  SNOWED IN TOGETHER,
+  EMPTY-HEADED LIFE,
+  HAIR DYE ON A RAINY NIGHT
+]
+
+scifi_list: [
+  "ADVENTURES OF CAPT. SPACEBOY: VOLUME VII",
+  THE RESONANCE CASCADE,
+  SURGES FROM SPACE,
+  ZONE 12,
+  THE FINAL PLANET,
+  LOST IN DEEP SPACE
+]
+
+dontleave:
+  text: Probably shouldn't be leaving when you're helping.
+
+carry:
+  text: You're already carrying \c[4]\v[110]\c[0].
+
+intro_0:
+  name: SHOPKEEP
+  text: Ugh...\! Why don't they send this stuff in smaller batches instead of these huge shipments.\..\..
+
+intro_1:
+  faceset: SOJ_KEL
+  faceindex: 5
+  name: KEL
+  text: Hey man,\. everything okay there?
+
+intro_2:
+  name: SHOPKEEP
+  text: Oh!\! Hey KEL,\. oh and BASIL too.
+
+intro_3:
+  name: SHOPKEEP
+  text: Yeah everything was goin' good until they shipped me a mountain of comics again.\! I got through most of them,\. but I honestly just wanna be done with this by now.\..\..
+
+intro_4:
+  faceset: SOJ_KEL
+  faceindex: 12
+  name: KEL
+  text: Well if it's only a few chances are me and BASIL can put away the rest of them?
+
+intro_5:
+  name: SHOPKEEP
+  text: Oh yeah!\! Please,\. help yourself. Just toss each of the comics into the genre they're in.\! If you get most of them right I'll pass you some cash.
+
+intro_6:
+  faceset: SOJ_KEL
+  faceindex: 2
+  name: KEL
+  text: Sweet!\! Be done in no time!
+  
+intro_7:
+  name: SHOPKEEP
+  text: Thanks,\. man.\! And if you don't mind I'll be stepping outside for a minute.
+
+outro_0:
+  faceset: SOJ_BASIL
+  faceindex: 0
+  name: BASIL
+  text: Well that was every comic.\! We should probably go tell SHOPKEEP.
+
+outro_1:
+  faceset: SOJ_BASIL
+  faceindex: 14
+  name: BASIL
+  text: Nevermind.
+
+outro_2:
+  name: SHOPKEEP
+  text: Hey guys,\. I'm back.\! Feeling a bit calmer.
+
+outro_3:
+  faceset: SOJ_KEL
+  faceindex: 2
+  name: KEL
+  text: We put away all of the comics!
+
+outro_4:
+  name: SHOPKEEP
+  text: Oh shoot!\! Thanks guys,\. seriously.
+
+#12 correct
+outro_5:
+  name: SHOPKEEP
+  text: Wow y'all were spot on it seems.\! Here,\. fourty bucks.
+
+#8 correct
+outro_6:
+  name: SHOPKEEP
+  text: Eh a few slip-ups it looks like, but I can't complain.\! Have a twenty.
+
+#Any less
+outro_7:
+  name: SHOPKEEP
+  text: Hm.\! Pretty haphazardous,\. but it's still put away so it's cool.\! I have a spare ten dollars for the effort.
+
+outro_8:
+  faceset: SOJ_KEL
+  faceindex: 12
+  name: KEL
+  text: Thank you, SHOPKEEP!
+
+outro_9:
+  name: SHOPKEEP
+  text: Any time,\. KEL!
