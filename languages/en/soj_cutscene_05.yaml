@@ -501,7 +501,7 @@ hey_aub_100:
 hey_aub_101:
   text: \{KEL'S WAITING FOR YOU AT THE \c[11]HANGOUT SPOT\c[0]\kim
 
-hey_aub_6:
+hey_aub_102:
   faceset: SOJ_AUBREY
   faceindex: 6
   text: What?!\aub
