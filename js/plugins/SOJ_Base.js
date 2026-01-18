@@ -268,6 +268,7 @@ Scene_Menu.prototype.createCommandWindow = function() {
 };
 
 Scene_Menu.prototype.commandSave = function() {
+  SOJ.determineSaveData();
   SceneManager.push(Scene_OmoriFile);
   SceneManager._nextScene.setup(!$gameSwitches.value(2088), true);
 };
@@ -390,4 +391,26 @@ SOJ.textColor = Window_Base.prototype.textColor;
 Window_Base.prototype.textColor = function(n) {
 	if (n === 0) return "#fff";
 	return SOJ.textColor.call(this,n);
+};
+
+Game_Actor.prototype.faceSaveLoad = function() {
+  var actor = this.actor();
+  if (actor && actor.meta && actor.meta.BattleStatusFaceName) {
+    return actor.meta.BattleStatusFaceName.trim();
+  } else {
+    console.error("Actor doesn't have a save face.", actor);
+    return "01_OMORI_BATTLE";
+  };
+};
+
+SOJ.determineSaveData = function() {
+  $gameSystem._dummyFace = "03_FA_KEL_BATTLE";
+  $gameSystem._modSaveName = "SOJ SAVE FILE";
+  var chapter = "";
+  if ($gameSwitches.value(2084)) {
+    chapter = "SUNSET";
+  } else {
+    chapter = "MORNING";
+  };
+  $gameVariables.setValue(23,chapter);
 };

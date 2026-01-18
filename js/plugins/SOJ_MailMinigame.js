@@ -1,4 +1,4 @@
-SOJ = SOJ || {};
+var SOJ = SOJ || {};
 SOJ.MM = SOJ.MM || {};
 SOJ.MM.EH = LanguageManager.getTextData("soj_minigame_mailman","EligibleHouses")
 SOJ.MM.PickedHouses = []

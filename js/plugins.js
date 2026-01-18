@@ -198,10 +198,10 @@ var $plugins =
 {"name":"FWD_Eventpoints","status":true,"description":"v1.0.2 Add event points to audio files for event triggering.","parameters":{}},
 {"name":"Geo_MessageFaceChange","status":true,"description":"Adds a message command that allows to switch the facebox image midway through a message.","parameters":{}},
 {"name":"SOJ_SLPCompat","status":true,"description":"","parameters":{}},
-{"name":"SOJ_Base","status":true,"description":"v1.0","parameters":{}},
 {"name":"TRain_TextEval","status":true,"description":"Execute between text & Centering","parameters":{}},
 {"name":"SOJ_BasketballWindows","status":true,"description":"","parameters":{}},
 {"name":"SOJ_MailMinigame","status":true,"description":"","parameters":{}},
 {"name":"SOJ_GlobalData","status":true,"description":"","parameters":{}},
-{"name":"TRain_VNChoice","status":true,"description":"Visual Novel style choice for OMORI","parameters":{"width":"420","button_height":"52","spacing":"34","margin_top":"56","cursor_x":"48"}}
+{"name":"TRain_VNChoice","status":true,"description":"Visual Novel style choice for OMORI","parameters":{"width":"420","button_height":"52","spacing":"34","margin_top":"56","cursor_x":"48"}},
+{"name":"SOJ_Base","status":true,"description":"v1.0","parameters":{}}
 ];
