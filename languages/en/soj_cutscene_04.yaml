@@ -16,8 +16,8 @@ outfit_picker_1:
 
 outfit_picker_2:
   faceset: SOJ_KEL
-  faceindex: 6
-  text: What do you mean?\| Look at how clean it is!\! I just got it from the dryer!\kel
+  faceindex: 10
+  text: What do you mean?\| \face[5]Look at how clean it is!\! I just got it from the dryer!\kel
 
 outfit_picker_3:
   faceset: SOJ_BASIL
@@ -27,7 +27,7 @@ outfit_picker_3:
 outfit_picker_4:
   faceset: SOJ_BASIL
   faceindex: 0
-  text: Anyway, What should we do now? You've already made a \eval<<$gameParty.gold()>=180?'ton':$gameParty.gold()>=120?'lot':'decent amount'>> of money.\..\..\.\bas
+  text: Anyway, what should we do now? You've already made a \eval<<$gameParty.gold()>=180?'ton':$gameParty.gold()>=120?'lot':'decent amount'>> of money.\..\..\.\bas
 #reminder to do the caseeval stuff
 
 outfit_picker_5:
@@ -97,7 +97,7 @@ outfit_picker_13:
 outfit_picker_14:
   faceset: SOJ_KEL
   faceindex: 2 #outfit edit
-  text: \sinv[2]Voila!\sinv[0]\! How do I look?\kel
+  text: \sinv[2]Ta-da!\sinv[0]\! How do I look?\kel
 
 outfit_picker_15:
   faceset: SOJ_BASIL
@@ -121,7 +121,7 @@ outfit_picker_18:
 
 outfit_picker_19:
   faceset: SOJ_KEL
-  faceindex: 4
+  faceindex: 18
   text: Um.\..\..\. \face[0]no,\. actually!\! I have other colors too.\kel
 
 outfit_picker_20:
@@ -270,7 +270,7 @@ outfit_picker_42:
 
 outfit_picker_43:
   faceset: SOJ_KEL
-  faceindex: 6
+  faceindex: 0
   text: Still have the tie,\. though.\kel
 
 #60 frame wait
@@ -285,13 +285,13 @@ outfit_picker_44:
 outfit_picker_45:
   faceset: SOJ_BASIL
   faceindex: 32
-  text: HERO?\! What does he have to do with this?\bas
+  text: HERO?\! What do you mean?\bas
 
 
 outfit_picker_46:
   faceset: SOJ_KEL
   faceindex: 2
-  text: Me and HERO are like,\. the same size!\! He probably has his old clothes somewhere here!\kel
+  text: Me and HERO are,\. like,\. the same size!\! He probably has his old clothes somewhere here!\kel
 
 
 outfit_picker_47:
@@ -451,17 +451,17 @@ outfit_picker_76:
 
 outfit_picker_77:
   faceset: SOJ_BASIL
-  faceindex: 23
+  faceindex: 43
   text: .\..\..\.\bas
 
 outfit_picker_78:
   windowskin: Window_Radio
-  endexec: SOJ.printStupidText()
+  endexec: SOJ.printStupidText() # lol
   text: Phew!\| I thought I was in some weird parallel dimension!\her
 
 outfit_picker_79:
   windowskin: Window_Radio
-  text: So,\. it's this serious,\. huh.\..\..\.\her
+  text: So it's this serious,\. huh.\..\..\.\her
 
 outfit_picker_80:
   windowskin: Window_Radio
@@ -508,6 +508,11 @@ outfit_picker_87:
   text: You can look now!\kel
 
 #fade in to kel looking tuff af
+
+outfit_picker_87_1:
+  faceset: SOJ_KEL
+  faceindex: 0
+  text: How do I look?\kel
 
 outfit_picker_88:
   faceset: SOJ_BASIL
@@ -667,7 +672,7 @@ outfit_picker_116:
 outfit_picker_117:
   faceset: SOJ_KEL
   faceindex: 12
-  text: Well, now I know what to wear,\. I think all that's left is to.\..\..\.\kel
+  text: Well, now that I know what to wear,\. I think all that's left is to.\..\..\.\kel
 
 outfit_picker_118:
   faceset: SOJ_KEL
@@ -730,7 +735,7 @@ outfit_picker_129:
 outfit_picker_130:
   faceset: SOJ_BASIL
   faceindex: 0
-  text: Couldn't you just practice in the mirror?\bas
+  text: Can't you just practice in the mirror?\bas
 
 outfit_picker_131:
   faceset: SOJ_KEL
@@ -750,12 +755,12 @@ outfit_picker_133:
 outfit_picker_134:
   faceset: SOJ_BASIL
   faceindex: 14
-  text: .\..\..\.\face[15]I'll give you that.\bas
+  text: .\..\..\.I'll give you that.\bas
 
 outfit_picker_135:
   faceset: SOJ_KEL
   faceindex: 7
-  text: \sinv[2]Pleaseee?\kel
+  text: \sinv[1]Pleaseee?\kel
 
 outfit_picker_136:
   faceset: SOJ_BASIL
@@ -1070,7 +1075,7 @@ date_spot_3:
 
 date_spot_4:
   faceset: SOJ_KEL
-  faceindex: 3
+  faceindex: 1
   text: .\..\..\.\!<br>\sinv[1]Oh,\. BASIL,\. I just can't decide...\kel
 
 date_spot_5:
