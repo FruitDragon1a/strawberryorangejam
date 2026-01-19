@@ -200,7 +200,7 @@ gift_shop_spaceboy_1:
 
 gift_shop_spaceboy_2: 
   faceset: SOJ_BASIL
-  faceindex: 1
+  faceindex: 22
   text: Does she like SPACEBOY?\bas
 
 gift_shop_spaceboy_3: 
@@ -220,7 +220,7 @@ gift_shop_spaceboy_5:
 
 gift_shop_spaceboy_6: 
   faceset: SOJ_BASIL
-  faceindex: 1
+  faceindex: 42
   text: Yeah,\. she'd like the figurine then.\bas
 
 
@@ -363,7 +363,7 @@ gift_shop_end_8:
 gift_shop_end_9: 
   faceset: SOJ_KEL
   faceindex: 3
-  text: Yup...\kel
+  text: Yup.\..\..\.\kel
 
 gift_shop_end_10: 
   faceset: SOJ_KEL
@@ -962,12 +962,12 @@ mav_13:
 # the maverick silence bubble
 mav_14:
   name: THE MAVERICK
-  text: Also, you said it was fine as long as we kept it to chalk.
+  text: Also,\. you said it was fine as long as we kept it to chalk.
 
 mav_15:
   faceset: SOJ_KEL
   faceindex: 11
-  text: Yeah, and last week you guys wrote 'KEL SMELLS LIKE CHEESE' in rainbow letters and all caps,\. but my dad saw it before I could clean it.\kel
+  text: Yeah,\. and last week you guys wrote 'KEL SMELLS LIKE CHEESE' in rainbow letters and all caps,\. but my dad saw it before I could clean it.\kel
 
 mav_16:
   faceset: SOJ_KEL
@@ -977,7 +977,7 @@ mav_16:
 mav_17:
   faceset: SOJ_KEL
   faceindex: 9
-  text: Soo...\| you all owe me for putting me through that.\kel
+  text: Soo.\..\..\| you all owe me for putting me through that.\kel
 
 mav_18:
   name: THE MAVERICK

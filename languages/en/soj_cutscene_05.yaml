@@ -1,7 +1,7 @@
 #hey aubrey
 #right outside basils house
 #aubrey is talking to polly at the door
-
+  
 hey_aub_0:
   faceset: SOJ_AUBREY
   faceindex: 13
@@ -163,7 +163,7 @@ hey_aub_30:
   faceindex: 37
   text: Oh! Of course!\bas
 
-hey_aub_:
+hey_aub_31:
   faceset: SOJ_BASIL
   faceindex: 2
   text: We can go to my room!\bas
@@ -239,16 +239,20 @@ hey_aub_44:
   faceindex: 2
   text: Okay.\..\..\. *ahem*\aub
 
+#kenway simulator actually starts
+
 hey_aub_45:
   text: Ah,\. KEL.\| Good thing you came here./aub
 
 hey_aub_46choice1:
   text: What's up, AUBREY!
+#correct
 
 hey_aub_47choice2:
-  text: What'd you call me for?
+  text: W-What'd you call me for?
+#wrong
 
-#whats up
+#whats up (in character)
 
 hey_aub_48:
   text: What's up,\. AUBREY!\n<KEL?>
@@ -256,7 +260,7 @@ hey_aub_48:
 hey_aub_49:
   text: Whaddya need?\n<KEL?>
 
-#what call me for
+#what call me for (ooc)
 
 hey_aub_50:
   text: H-\.Hey AUBREY.\..\..\.\n<KEL?>
@@ -274,11 +278,13 @@ hey_aub_53:
 
 hey_aub_54choice3:
   text: Why so glum?
+#wrong
 
 hey_aub_55choice4:
   text: What's wrong?
+#correct
 
-#why so glum
+#why so glum (ooc)
 
 hey_aub_56:
   text: Why so glum,\. chum?\n<KEL?>
@@ -296,10 +302,9 @@ hey_aub_58:
 hey_aub_59:
   faceset: SOJ_AUBREY
   faceindex: 17
-  text: C'mon,\. be serious!\aub
-#resume
+  text: C'mon,\. be serious!\aub #resume
 
-#What's wrong?
+#What's wrong? (in character)
 
 hey_aub_60:
   text: What's wrong?\| Cat got your tongue?\n<KEL?>
@@ -315,10 +320,12 @@ hey_aub_62:
 hey_aub_63choice5:
   text: I like you too!
 #correct
+
 hey_aub_64choice6:
   text: What do you mean?
 #wrong
-#i like you too
+
+#i like you too (in character)
 
 hey_aub_65:
   text: Aw!\| I like you too,\. AUBREY!\n<KEL?>
@@ -326,7 +333,7 @@ hey_aub_65:
 hey_aub_66:
   text: No!\| Not like that!\aub
 
-#what do you mean
+#what do you mean (ooc)
 
 hey_aub_67:
   text: What do you mean,\. AUBREY?\n<KEL?>
@@ -443,7 +450,7 @@ hey_aub_88:
 hey_aub_89:
   faceset: SOJ_BASIL
   faceindex: 39
-  text: .\..\..\.\bas#scared/shocked expression
+  text: .\..\..\.\bas #scared/shocked expression
 
 hey_aub_90:
   faceset: SOJ_BASIL
@@ -482,7 +489,7 @@ hey_aub_96:
   text: Is that KIM?\aub
 
 hey_aub_97: 
-  text: \}Yes,\. she's speaking with BASIL in his room—\| oh!\pol
+  text: \}Yes,\. she's speaking with BASIL in his room—\. oh!\pol
 
 # footsteps getting progressively louder if possible
 # door opens
@@ -499,7 +506,7 @@ hey_aub_100:
   text: Why are you yelling?\aub
 
 hey_aub_101:
-  text: \{KEL'S WAITING FOR YOU AT THE \c[11]HANGOUT SPOT\c[0]\kim
+  text: \{KEL'S WAITING FOR YOU AT THE<br>\c[11]HANGOUT SPOT\c[0]!!\kim
 
 hey_aub_102:
   faceset: SOJ_AUBREY
@@ -532,7 +539,7 @@ hey_aub_107:
   text: You left a cake unattended in the middle of the woods??\bas
 
 hey_aub_108:
-  text: \}I mean.\..\..\. it's not unattended.\..\..\.\kim
+  text: I mean.\..\..\. it's not unattended.\..\..\.\kim
 
 hey_aub_109:
   faceset: SOJ_AUBREY
@@ -546,7 +553,7 @@ hey_aub_110:
 
 hey_aub_111:
   faceset: SOJ_AUBREY
-  faceindex: 21#blush
+  faceindex: 21 #blush
   text: .\..\..\.\aub
 
 hey_aub_112:
@@ -587,7 +594,7 @@ hey_aub_118:
 hey_aub_119:
   faceset: SOJ_BASIL
   faceindex: 29
-  text: What.\bas
+  text: What?\bas
 
 hey_aub_120:
   text: Has KEL been dragging you around all day for the same reason AUBREY's been dragging me around?\kim
@@ -608,7 +615,7 @@ hey_aub_123:
 hey_aub_124:
   faceset: SOJ_BASIL
   faceindex: 34
-  text: .\|.\|.\|\bas
+  text: .\|.\|.\|\^\bas
 
 hey_aub_125:
   faceset: SOJ_BASIL
@@ -626,7 +633,7 @@ hey_aub_127:
 
 # as kim leaves basils room
 hey_aub_128:
-  text: \}.\..\..\.\}What a bunch of weirdos...\^\kim
+  text: \}.\..\..\.\}What a bunch of weirdos.\..\..\|\^\kim
 
 # basil turns around
 # basil goes and collapses on his bed
@@ -635,3 +642,43 @@ hey_aub_129:
   text: \{\{\{\quake[2]AAAAAAAAAA\^\bas
 
 # abrupt cut to the hangout spot for confession time
+
+confession?_0:
+  text: Oh my gosh KEL you're here.\aub
+
+confession?_1:
+  text: Yes, and I wanted to tell you I love you.\kel
+
+confession?_2:
+  text: Oh my god that's crazy I was going to say the same thing.\aub
+
+confession?_3:
+  text: Woah, really?\kel
+
+confession?_4:
+  text: Yeah actually it's really nice to know you feel the same way.\aub
+
+confession?_5:
+  text: Also that cake was for you if you didn't know.\aub
+
+confession?_6:
+  text:  O damn I did not.\kel
+
+confession?_7:
+  text: Anyway I was gonna ask did you wanna go to a restaurant/hobbeez/ginos/whatever the hell the player picked with me?\kel
+
+confession?_8:
+  text: Oh wow yes I'd love to.\aub
+
+confession?_9:
+  text: Awesome.\kel
+
+confession?_10:
+  text: I love you KEL.\aub
+
+confession?_11:
+  text: I love you too AUBREY.\kel
+
+confession?_12:
+  text: NOW ROLL THE DAMN CREDITS!!!
+

@@ -408,3 +408,41 @@ streetblock3:
   faceset: SOJ_KEL
   faceindex: 5
   text: Where are you going?\! We gotta talk to the mailman!\kel
+
+gogetkelchump:
+  text: You should probably go meet KEL at the \c[11]PLAZA\c[0].
+
+hey_kel_0:
+  faceset: SOJ_BASIL
+  faceindex: 1
+  text: Hey,\. KEL!\bas
+
+hey_kel_1:
+  faceset: SOJ_KEL
+  faceindex: 0
+  text: Ah,\. BASIL!\! Good that you're here!\kel
+
+hey_kel_2:
+  faceset: SOJ_KEL  
+  faceindex: 2
+  text: The MAILMAN already left,\. but look at what he gave us!\kel
+
+hey_kel_3:
+  text: KEL hands you $20.
+
+hey_kel_4:
+  faceset: SOJ_BASIL
+  faceindex: 2
+  text: Wow!\. That's a lot!\bas
+
+hey_kel_5:
+  faceset: SOJ_KEL
+  faceindex: 1
+  text: I know, right?\kel
+
+hey_kel_6:
+  faceset: SOJ_KEL
+  faceindex: 12 
+  text: Let's keep going in case someone else needs help!\kel
+
+#kel joins your party again after a fade in

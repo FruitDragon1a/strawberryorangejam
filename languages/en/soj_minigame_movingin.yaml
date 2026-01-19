@@ -138,7 +138,7 @@ box_1:
   name: BASIL
   faceset: SOJ_BASIL
   faceindex: 17
-  text: \}\}Yeah...\! My arms are...\! totally not going to fall off...
+  text: \}\}Yeah.\..\..\.\! My arms are.\..\..\.\! totally not going to fall off.\..\..\.
 
 doorframe:
   text: You're not fitting through that.
@@ -147,7 +147,7 @@ closet_box_0:
   name: BASIL
   faceset: SOJ_BASIL
   faceindex: 39
-  text: \quake[1].\..\..
+  text: \quake[1].\..\..\.
 
 closet_box_1:
   name: KEL
@@ -186,13 +186,13 @@ outro_2:
 
 outro_3:
   name: MAYA'S DAD
-  text: Oh and of course,\. here's your twenty dollars.
+  text: Oh,\. and of course,\. here's your twenty dollars.
 
 outro_4:
   name: KEL
   faceset: SOJ_KEL
   faceindex: 12
-  text: Thanks MR...\|\face[18] wait what's your last name?
+  text: Thanks MR..\..\..\|\face[18] wait,\. what's your last name?
 
 outro_5:
   name: MAYA'S DAD
