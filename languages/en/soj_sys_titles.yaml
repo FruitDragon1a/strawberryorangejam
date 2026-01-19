@@ -1,9 +1,9 @@
 # Please read the plugin documentation for a more thorough explanation of everything!
 
 System:
-  TitleDataFileName: TITLEDATA # name of the file title is written to (use TITLEDATA for base game file). A file extension can be specified as well; e.g. mymod.title
-  DefaultScreenID: 0 # the default title (0 in base game)
-  AllIDS: 0, 444, 445, 446, 447, 448, 449 # list of all IDS defined in this plugin
+  TitleDataFileName: SOJ.title # name of the file title is written to (use TITLEDATA for base game file). A file extension can be specified as well; e.g. mymod.title
+  DefaultScreenID: OPEN # the default title (0 in base game)
+  AllIDS: OPEN, KELBREY # list of all IDS defined in this plugin
   VariableID: 444 # the variable that is automatically written to the title data file upon saving  
   AlwaysContinue: false # makes it so the player can access the 'CONTINUE' menu without any saves
 
@@ -150,3 +150,31 @@ Template:
     # 6 in front of weather particles
     # 7 in front of overlay layer 
     # 8 in front of title
+
+OPEN:
+  Character: 
+    image: SOJ_TITLE_BASIL
+    height: 480
+    width: 1920
+    framecount: 3
+    framerate: 20
+    pattern: [0, 1, 2] # [0, 1, 2, 1, etc...]
+    xoffset: 0
+    opacity: 100
+  BGM: 
+    name: event_birthday_memory
+    volume: 100
+
+KELBREY:
+  Character: 
+    image: SOJ_TITLE_KELBREY
+    height: 480
+    width: 640
+    framecount: 1
+    framerate: 20
+    pattern: [0] # [0, 1, 2, 1, etc...]
+    xoffset: 0
+    opacity: 100
+  BGM: 
+    name: fat_playground
+    volume: 100
