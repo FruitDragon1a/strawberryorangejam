@@ -1,3 +1,19 @@
+house_1:
+  faceset: SOJ_KEL
+  faceindex: 0
+  text: I'm going to go shower really quick.\kel
+
+house_2:
+  faceset: SOJ_KEL
+  faceindex: 2
+  text: You can wait in my room for me!\kel
+
+house_3:
+  faceset: SOJ_BASIL
+  faceindex: 14
+  text: Alright...\bas
+
+
 #What should Kel wear?
 #begins after rake minigame
 #basil in kels bedroom
