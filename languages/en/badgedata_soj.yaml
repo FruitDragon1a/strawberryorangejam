@@ -49,7 +49,7 @@ meta:
 badge_badfriend:
   name: Bad Friend
   description: Pick all the nonsense options when asked.
-  img: badges/badge_placeholder
+  img: badges/badge_badfriend
   locked_img: badge_locked
   locked_desc: Maybe they were wrong to trust you...
 
@@ -63,7 +63,7 @@ badge_breadwinner:
 badge_restaurant:
   name: Restaurant Badge
   description: Afford a meal for AUBREY at the restaurant.
-  img: badges/badge_placeholder
+  img: badges/badge_restaurantbadge
   locked_img: badge_locked
   locked_desc: Hard work pays off!
 
@@ -77,35 +77,35 @@ badge_afewdollarsshort:
 badge_comiccrush:
   name: Comic Crush
   description: Have a great time with AUBREY at HOBBEEZ.
-  img: badges/badge_placeholder
+  img: badges/badge_comiccrush
   locked_img: badge_locked
   locked_desc: THE ADVENTURES OF CAPT. SPACEBOY calls...
 
 badge_deliciouspizza:
   name: Delicious Pizza
   description: Have a great time with AUBREY at GINO's.
-  img: badges/badge_placeholder
+  img: badges/badge_deliciouspizza
   locked_img: badge_locked
   locked_desc: I'm craving pizza. 
 
 badge_nostalgia:
   name: Nostalgia
   description: Have a great time with AUBREY at the HANGOUT SPOT.
-  img: badges/badge_placeholder
+  img: badges/badge_nostalgia
   locked_img: badge_locked
   locked_desc: Just like old times...
 
 badge_heavyload:
   name: Heavy Load
   description: Help MAYA's parents with moving into their house.
-  img: badges/badge_placeholder
+  img: badges/badge_heavyload
   locked_img: badge_locked
   locked_desc: Don't drop it...
 
 badge_leavesallover:
   name: Leaves, All Over!
   description: Help the PREACHER and OLD BEARDY clean the GRAVEYARD.
-  img: badges/badge_placeholder
+  img: badges/badge_leavesallover
   locked_img: badge_locked
   locked_desc: It's the best we've got.
 
@@ -122,6 +122,13 @@ badge_helpinghand:
   img: badges/badge_placeholder
   locked_img: badge_locked
   locked_desc: School at its finest.
+
+badge_comicdistributor:
+  name: Comic Distributor
+  description: Organize SHOPKEEP's comics correctly.
+  img: badges/badge_comicdistributor
+  locked_img: badge_locked
+  locked_desc: "???"
 
 badge_futureprofession:
   name: Future Profession
@@ -144,24 +151,17 @@ badge_paidperformer:
   locked_img: badge_locked
   locked_desc: AAAAAAAAAAAA
 
-badge_:
-  name: 
-  description: 
-  img: badges/badge_placeholder
-  locked_img: badge_locked
-  locked_desc: 
-
 badge_flowstate:
   name: Flow State
   description: Score 32000 points in Basketball
-  img: badges/badge_placeholder
+  img: badges/badge_flowstate
   locked_img: badge_locked
   locked_desc: Hoop 4 life!!!!
 
 badge_aubreyeverywhere:
   name: Aubrey Everywhere
   description: Run into AUBREY in a variety of odd places.
-  img: badges/badge_placeholder
+  img: badges/badge_aubreyeverywhere
   locked_img: badge_locked
   locked_desc: Psst... BASIL...
 
@@ -189,7 +189,7 @@ badge_youwantsomeorangejoe:
 badge_theshiniestforehead:
   name: The Shiniest Forehead
   description: Ask HERO about the Shiniest Forehead competition.
-  img: badges/badge_placeholder
+  img: badges/badge_theshiniestforehead
   locked_img: badge_locked
   locked_desc: It sparkles...
 
