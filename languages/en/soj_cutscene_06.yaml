@@ -1,0 +1,212 @@
+# abrupt cut to the hangout spot for confession time
+
+#confess your truth
+#at the hangout spot
+#kel is already standing in front of the table
+#rustling sound as aubrey runs in
+
+confession_0:
+  faceset: SOJ_AUBREY
+  faceindex: 15
+  text: KEL!\aub
+
+#kel turns around, exclamation balloon
+
+confession_1:
+  faceset: SOJ_KEL
+  faceindex: 19
+  text: O-\.Oh!\! Hey AUBREY!\kel
+
+confession_2:
+  faceset: SOJ_KEL
+  faceindex: 16
+  text: I guess BASIL told you to come here?\kel
+
+confession_3:
+  faceset: SOJ_AUBREY
+  faceindex: 22
+  text: Yeah.\..\..\.\aub
+
+#kel silence bubble
+
+confession_4:
+  faceset: SOJ_KEL
+  faceindex: 13
+  text: .\..\..\.\kel
+
+confession_5:
+  faceset: SOJ_KEL
+  faceindex: 3
+  text: Heh,\. this is a bit awkward.\..\..\.\kel
+
+confession_6:
+  faceset: SOJ_KEL
+  faceindex: 18
+  text: I wanted to tell you something,\. but.\..\..\.\kel
+
+#kel faces towards the table
+
+confession_7:
+  faceset: SOJ_KEL
+  faceindex: 
+  text: It seems someone else had the same idea!\kel
+
+#kel turns back towards aubrey
+
+confession_8:
+  faceset: SOJ_KEL
+  faceindex: 7
+  text: Well,\. I don’t want to ruin the moment for whoever it is, so.\..\..\.\kel
+
+confession_9:
+  faceset: SOJ_KEL
+  faceindex: 6
+  text: Do you think you could come back tomor–\kel
+
+confession_10:
+  faceset: SOJ_AUBREY
+  faceindex: 19
+  text: No.\aub
+
+#kel question mark
+
+confession_11:
+  faceset: SOJ_KEL
+  faceindex: 10
+  text: What?\kel
+
+confession_12:
+  faceset: SOJ_AUBREY
+  faceindex: 13
+  text: KEL,\. that isn’t for someone else.\aub
+
+confession_13:
+  faceset: SOJ_KEL
+  faceindex: 4
+  text: W-\.What do you mean?\kel
+
+confession_14:
+  faceset: SOJ_AUBREY
+  faceindex: 21
+  text: I-\.It’s for you.\aub
+
+confession_15:
+  faceset: SOJ_AUBREY
+  faceindex: 22
+  text: F-\.From me.\aub
+
+confession_16:
+  faceset: SOJ_KEL
+  faceindex: 20
+  text: .\|.\|.\|Huh?\kel
+
+confession_17:
+  faceset: SOJ_AUBREY
+  faceindex: 21
+  text: I like you, KEL.\aub
+
+#aubrey sweat
+
+confession_18:
+  faceset: SOJ_AUBREY
+  faceindex: 16
+  text: Er– well.\..\..\.\aub
+
+confession_19:
+  faceset: SOJ_AUBREY
+  faceindex: 20 #insanely heavy blush
+  text: A-\.As more t-\.than a friend?\aub
+
+#decently long wait
+#kel silence bubble
+
+confession_20:
+  faceset: SOJ_KEL
+  faceindex: 15
+  text: .\..\..\.\kel
+
+confession_21:
+  faceset: SOJ_KEL
+  faceindex: 2
+  text: Phew!\kel
+
+#aubrey exclamation bubble
+
+confession_22:
+  faceset: SOJ_AUBREY
+  faceindex: 0
+  text: Huh?\aub
+
+confession_23:
+  faceset: SOJ_KEL
+  faceindex: 3
+  text: Thanks,\. AUBREY!\! You sure saved me the trouble!\kel
+
+confession_24:
+  faceset: SOJ_AUBREY
+  faceindex: 5
+  text: W-\.What do you mean.\..\..\.\aub
+
+#aubrey silence bubble as she turns away
+#surprised expression
+
+confession_25:
+  faceset: SOJ_AUBREY
+  faceindex: 22
+  text: .\..\..\.Is that why you were here before I told BASIL?\aub
+
+confession_26:
+  faceset: SOJ_AUBREY
+  faceindex: 15
+  text: Wait,\. is that why BASIL came to me!?\aub
+
+confession_27:
+  faceset: SOJ_KEL
+  faceindex: 1
+  text: Heh.\. Pretty coincidental,\. huh?\kel
+
+confession_28:
+  faceset: SOJ_AUBREY
+  faceindex: 17
+  text: No kidding.\..\..\.\aub
+
+confession_29:
+  faceset: SOJ_KEL
+  faceindex: 12
+  text: Well,\. this wasn’t at all how I expected this to go.\kel
+
+confession_30:
+  faceset: SOJ_AUBREY
+  faceindex: 2
+  text: Yeah.\..\..\.\aub
+
+confession_31:
+  faceset: SOJ_AUBREY
+  faceindex: 13
+  text: I guess it’s out of the way now, though, so.\..\..\.\aub
+
+confession_32:
+  faceset: SOJ_AUBREY
+  faceindex: 10
+  text: Do you wanna try the cake?\aub
+
+confession_33:
+  faceset: SOJ_KEL
+  faceindex: 2
+  text: Of course I do!\kel
+
+#fade to black
+
+confession_34:
+  text: Sorry there was more cutscene but we're kinda short on time
+
+confession_35:
+  text: We'll definitely update this sometime after voting is over\
+
+confession_36:
+  text: Hopefully you enjoyed it though
+
+confession_37:
+  text: ok sorry for bugging you heres the credits with an awesome song
+
+#go to credits
