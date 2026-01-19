@@ -495,10 +495,10 @@ hey_aub_97:
 # door opens
 # aubrey and basil both jump
 hey_aub_98:
-  text: \{\{\QUAKE[1]AUBREY!!\kim
+  text: \com[2]\{\{\QUAKE[1]AUBREY!!\kim
 
 hey_aub_99:
-  text: \{WE HAVE A PROBLEM!!!\kim
+  text: \com[2]\{WE HAVE A PROBLEM!!!\kim
 
 hey_aub_100:
   faceset: SOJ_AUBREY
@@ -506,7 +506,7 @@ hey_aub_100:
   text: Why are you yelling?\aub
 
 hey_aub_101:
-  text: \{KEL'S WAITING FOR YOU AT THE<br>\c[11]HANGOUT SPOT\c[0]!!\kim
+  text: \com[2]\{KEL'S WAITING FOR YOU AT THE<br>\c[11]HANGOUT SPOT\c[0]!!\kim
 
 hey_aub_102:
   faceset: SOJ_AUBREY
