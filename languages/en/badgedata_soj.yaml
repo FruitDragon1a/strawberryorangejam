@@ -20,7 +20,7 @@
 #   full_progress_colorstop_2: ending color for gradient of a fully completed collection of badges ("#FFFF88" by default)
 
 meta:
-  name: "EXAMPLE//mod"
+  name: "STRAWBERRY ORANGE JAM"
   color: "#FF0000"
   badge_toast_border: 'badge_toast_border_soj'
   badge_toast_corner: top-right
@@ -123,12 +123,12 @@ badge_helpinghand:
   locked_img: badge_locked
   locked_desc: School at its finest.
 
-badge_comicdistributor:
-  name: Comic Distributor
-  description: Organize SHOPKEEP's comics correctly.
-  img: badges/badge_comicdistributor
-  locked_img: badge_locked
-  locked_desc: "???"
+# badge_comicdistributor:
+#   name: Comic Distributor
+#   description: Organize SHOPKEEP's comics correctly.
+#   img: badges/badge_comicdistributor
+#   locked_img: badge_locked
+#   locked_desc: "???"
 
 badge_futureprofession:
   name: Future Profession
@@ -158,19 +158,19 @@ badge_flowstate:
   locked_img: badge_locked
   locked_desc: Hoop 4 life!!!!
 
-badge_aubreyeverywhere:
-  name: Aubrey Everywhere
-  description: Run into AUBREY in a variety of odd places.
-  img: badges/badge_aubreyeverywhere
-  locked_img: badge_locked
-  locked_desc: Psst... BASIL...
+# badge_aubreyeverywhere:
+#  name: Aubrey Everywhere
+#  description: Run into AUBREY in a variety of odd places.
+#  img: badges/badge_aubreyeverywhere
+#  locked_img: badge_locked
+#  locked_desc: Psst... BASIL...
 
-badge_badactor:
-  name: Bad Actor
-  description: Act as yourself the entire time... lame...
-  img: badges/badge_badactor
-  locked_img: badge_locked
-  locked_desc: Maybe you just don't have it in you...
+# badge_badactor:
+#   name: Bad Actor
+#   description: Act as yourself the entire time... lame...
+#   img: badges/badge_badactor
+#   locked_img: badge_locked
+#   locked_desc: Maybe you just don't have it in you...
 
 badge_whatdoyouwant:
   name: What do you want?
@@ -186,13 +186,13 @@ badge_youwantsomeorangejoe:
   locked_img: badge_locked
   locked_desc: You'd be good in a movie!
 
-badge_theshiniestforehead:
-  name: The Shiniest Forehead
-  description: Ask HERO about the Shiniest Forehead competition.
-  img: badges/badge_theshiniestforehead
-  locked_img: badge_locked
-  locked_desc: It sparkles...
-  secret: true
+# badge_theshiniestforehead:
+#   name: The Shiniest Forehead
+#   description: Ask HERO about the Shiniest Forehead competition.
+#   img: badges/badge_theshiniestforehead
+#   locked_img: badge_locked
+#   locked_desc: It sparkles...
+#   secret: true
 
 # badge_:
 #   name: 
