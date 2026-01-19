@@ -23,7 +23,7 @@ intro_2:
 intro_3:
   faceset: SOJ_POLLY
   faceindex: 0
-  text: Of course.\! \face[4]And let me know if you need a ride.\! \face[18]I’ve got nothing else to do today, haha.\pol
+  text: Of course.\! \face[4]And let me know if you need a ride.\! \face[18]I've got nothing else to do today, haha.\pol
 
 intro_4:
   faceset: SOJ_BASIL

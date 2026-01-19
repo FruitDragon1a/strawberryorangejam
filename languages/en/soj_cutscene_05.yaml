@@ -53,7 +53,7 @@ hey_aub_8:
 hey_aub_9:
   faceset: SOJ_POLLY
   faceindex: 0
-  text: Of course! I’ll be in here if you need me.\pol
+  text: Of course! I'll be in here if you need me.\pol
 
 hey_aub_10:
   faceset: SOJ_BASIL
@@ -111,12 +111,12 @@ hey_aub_19:
 hey_aub_20:
   faceset: SOJ_AUBREY
   faceindex: 13
-  text: .\..\..\.Sorry.\! I know that’s a bit outlandish.\| I j-just thought,\. since you know him really well,\. and you already know I want to ask him out...\| but\| I-I’ll think of someth–\.\^\aub
+  text: .\..\..\.Sorry.\! I know that's a bit outlandish.\| I j-just thought,\. since you know him really well,\. and you already know I want to ask him out...\| but\| I-I'll think of someth–\.\^\aub
 
 hey_aub_21:
   faceset: SOJ_BASIL
   faceindex: 14
-  text: No, no!\| I-It’s just that this sounds very.\..\..\.\face[15] familiar.\bas
+  text: No, no!\| I-It's just that this sounds very.\..\..\.\face[15] familiar.\bas
 
 hey_aub_22:
   faceset: SOJ_AUBREY
@@ -156,7 +156,7 @@ hey_aub_28:
 hey_aub_29:
   faceset: SOJ_AUBREY
   faceindex: 20
-  text: I don’t know how good of an idea it is to do this outside.\..\..\.
+  text: I don't know how good of an idea it is to do this outside.\..\..\.
 
 hey_aub_30:
   faceset: SOJ_BASIL
@@ -205,14 +205,14 @@ hey_aub_37:
 hey_aub_38:
   faceset: SOJ_AUBREY
   faceindex: 19
-  text: A-\.Anyway,\. here’s what I want you to do.\aub
+  text: A-\.Anyway,\. here's what I want you to do.\aub
 
 #fadeout again to visual novel proper
 
 hey_aub_39:
   faceset: SOJ_BASIL
   faceindex: 0
-  text: So,\. I’m KEL,\. and you’re still you?\bas
+  text: So,\. I'm KEL,\. and you're still you?\bas
 
 hey_aub_40:
   faceset: SOJ_AUBREY
@@ -232,7 +232,7 @@ hey_aub_42:
 hey_aub_43:
   faceset: SOJ_AUBREY
   faceindex: 0
-  text: Are you ready?\| I’ll start.\aub
+  text: Are you ready?\| I'll start.\aub
 
 hey_aub_44:
   faceset: SOJ_AUBREY
@@ -243,15 +243,15 @@ hey_aub_45:
   text: Ah,\. KEL.\| Good thing you came here./aub
 
 hey_aub_46choice1:
-  text: What’s up, AUBREY!
+  text: What's up, AUBREY!
 
 hey_aub_47choice2:
-  text: What’d you call me for?
+  text: What'd you call me for?
 
 #whats up
 
 hey_aub_48:
-  text: What’s up,\. AUBREY!\n<KEL?>
+  text: What's up,\. AUBREY!\n<KEL?>
 
 hey_aub_49:
   text: Whaddya need?\n<KEL?>
@@ -276,7 +276,7 @@ hey_aub_54choice3:
   text: Why so glum?
 
 hey_aub_55choice4:
-  text: What’s wrong?
+  text: What's wrong?
 
 #why so glum
 
@@ -286,7 +286,7 @@ hey_aub_56:
 hey_aub_57:
   faceset: SOJ_AUBREY
   faceindex: 3
-  text: .\..\..\.Don’t do that.\aub #interjection
+  text: .\..\..\.Don't do that.\aub #interjection
 
 hey_aub_58:
   faceset: SOJ_BASIL
@@ -296,18 +296,18 @@ hey_aub_58:
 hey_aub_59:
   faceset: SOJ_AUBREY
   faceindex: 17
-  text: C’mon,\. be serious!\aub
+  text: C'mon,\. be serious!\aub
 #resume
 
-#What’s wrong?
+#What's wrong?
 
 hey_aub_60:
-  text: What’s wrong?\| Cat got your tongue?\n<KEL?>
+  text: What's wrong?\| Cat got your tongue?\n<KEL?>
 
 #after either
 
 hey_aub_61:
-  text: No.\| It’s just that.\..\..\.\aub
+  text: No.\| It's just that.\..\..\.\aub
 
 hey_aub_62:
   text: I-\.I like you.\aub
@@ -355,7 +355,7 @@ hey_aub_71:
 hey_aub_72:
   faceset: SOJ_AUBREY
   faceindex: 13
-  text: I don’t know.\..\..\. He’s always been a good friend,\. but I don’t think he sees me that way.\..\..\.\aub
+  text: I don't know.\..\..\. He's always been a good friend,\. but I don't think he sees me that way.\..\..\.\aub
 
 hey_aub_73:
   faceset: SOJ_BASIL
@@ -552,7 +552,7 @@ hey_aub_111:
 hey_aub_112:
   faceset: SOJ_AUBREY
   faceindex: 20
-  text: I mean, I guess you’re right.\..\..\.\aub
+  text: I mean, I guess you're right.\..\..\.\aub
 
 hey_aub_113:
   faceset: SOJ_AUBREY
