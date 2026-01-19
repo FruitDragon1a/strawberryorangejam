@@ -176,5 +176,5 @@ KELBREY:
     xoffset: 0
     opacity: 100
   BGM: 
-    name: fat_playground
+    name: soj_title_end
     volume: 100
