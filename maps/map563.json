@@ -167,6 +167,17 @@
          "id":31,
          "name":"Tile Layer 13",
          "opacity":1,
+         "properties":[
+                {
+                 "name":"priority",
+                 "type":"string",
+                 "value":"5"
+                }, 
+                {
+                 "name":"zIndex",
+                 "type":"string",
+                 "value":"1"
+                }],
          "type":"tilelayer",
          "visible":true,
          "width":90,
@@ -328,6 +339,17 @@
          "id":32,
          "name":"GROUND- III",
          "opacity":1,
+         "properties":[
+                {
+                 "name":"priority",
+                 "type":"string",
+                 "value":"5"
+                }, 
+                {
+                 "name":"zIndex",
+                 "type":"string",
+                 "value":"1"
+                }],
          "type":"tilelayer",
          "visible":true,
          "width":90,
@@ -661,6 +683,17 @@
          "id":29,
          "name":"TREES BELOW",
          "opacity":1,
+         "properties":[
+                {
+                 "name":"priority",
+                 "type":"string",
+                 "value":"5"
+                }, 
+                {
+                 "name":"zIndex",
+                 "type":"string",
+                 "value":"1"
+                }],
          "type":"tilelayer",
          "visible":true,
          "width":90,
@@ -736,6 +769,17 @@
          "id":22,
          "name":"GROUND - VI",
          "opacity":1,
+         "properties":[
+                {
+                 "name":"priority",
+                 "type":"string",
+                 "value":"5"
+                }, 
+                {
+                 "name":"zIndex",
+                 "type":"string",
+                 "value":"1"
+                }],
          "type":"tilelayer",
          "visible":true,
          "width":90,
@@ -811,6 +855,17 @@
          "id":23,
          "name":"GROUND - VII",
          "opacity":1,
+         "properties":[
+                {
+                 "name":"priority",
+                 "type":"string",
+                 "value":"5"
+                }, 
+                {
+                 "name":"zIndex",
+                 "type":"string",
+                 "value":"1"
+                }],
          "type":"tilelayer",
          "visible":true,
          "width":90,
@@ -886,6 +941,17 @@
          "id":24,
          "name":"SAC - I",
          "opacity":1,
+         "properties":[
+                {
+                 "name":"priority",
+                 "type":"string",
+                 "value":"5"
+                }, 
+                {
+                 "name":"zIndex",
+                 "type":"string",
+                 "value":"1"
+                }],
          "type":"tilelayer",
          "visible":true,
          "width":90,
@@ -1477,6 +1543,17 @@
          "id":30,
          "name":"TREES ABOVE",
          "opacity":1,
+         "properties":[
+                {
+                 "name":"priority",
+                 "type":"string",
+                 "value":"2"
+                }, 
+                {
+                 "name":"zIndex",
+                 "type":"string",
+                 "value":"5"
+                }],
          "type":"tilelayer",
          "visible":true,
          "width":90,
