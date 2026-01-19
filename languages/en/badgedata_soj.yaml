@@ -53,12 +53,12 @@ badge_badfriend:
   locked_img: badge_locked
   locked_desc: Maybe they were wrong to trust you...
 
-badge_breadwinner:
-  name: Breadwinner
-  description: Complete all minigames.
-  img: badges/badge_placeholder
-  locked_img: badge_locked
-  locked_desc: What a hard worker!
+# badge_breadwinner:
+#   name: Breadwinner
+#   description: Complete all minigames.
+#   img: badges/badge_breadwinner
+#   locked_img: badge_locked
+#   locked_desc: What a hard worker!
 
 badge_restaurant:
   name: Restaurant Badge
@@ -70,7 +70,7 @@ badge_restaurant:
 badge_afewdollarsshort:
   name: A Few Dollars Short
   description: Make it to the restaurant... but run out of money to buy food with.
-  img: badges/badge_placeholder
+  img: badges/badge_afewdollarsshort
   locked_img: badge_locked
   locked_desc: ...Maybe not today.
 
@@ -112,14 +112,14 @@ badge_leavesallover:
 badge_rakingmachine:
   name: Raking Machine
   description: Clean every single fallen leaf from the GRAVEYARD.
-  img: badges/badge_placeholder
+  img: badges/badge_rakingmachine
   locked_img: badge_locked
   locked_desc: Speedrunning chores...
 
 badge_helpinghand:
   name: Helping Hand
   description: Help CRIS and MINCY with their homework.
-  img: badges/badge_placeholder
+  img: badges/badge_helpinghand
   locked_img: badge_locked
   locked_desc: School at its finest.
 
@@ -133,21 +133,21 @@ badge_comicdistributor:
 badge_futureprofession:
   name: Future Profession
   description: Mail every package to the right person.
-  img: badges/badge_placeholder
+  img: badges/badge_futureprofession
   locked_img: badge_locked
   locked_desc: Who needs wheels when you got feet?!
 
 badge_notfutureprofession:
   name: Not Future Profession
   description: Mail every package to the wrong person.
-  img: badges/badge_placeholder
+  img: badges/badge_notfutureprofession
   locked_img: badge_locked
   locked_desc: At least you have one less career option...
 
 badge_paidperformer:
   name: Paid Performer
   description: Help JOY'S DAD distract the kids.
-  img: badges/badge_placeholder
+  img: badges/badge_paidperformer
   locked_img: badge_locked
   locked_desc: AAAAAAAAAAAA
 
@@ -168,21 +168,21 @@ badge_aubreyeverywhere:
 badge_badactor:
   name: Bad Actor
   description: Act as yourself the entire time... lame...
-  img: badges/badge_placeholder
+  img: badges/badge_badactor
   locked_img: badge_locked
   locked_desc: Maybe you just don't have it in you...
 
 badge_whatdoyouwant:
   name: What do you want?
   description: Stay in character as AUBREY the entire time
-  img: badges/badge_placeholder
+  img: badges/badge_whatdoyouwant
   locked_img: badge_locked
   locked_desc: You'd be good in a movie!
 
 badge_youwantsomeorangejoe:
   name: You want some Orange Joe?
   description: Stay in character as KEL the entire time
-  img: badges/badge_placeholder
+  img: badges/badge_youwantsomeorangejoe
   locked_img: badge_locked
   locked_desc: You'd be good in a movie!
 
