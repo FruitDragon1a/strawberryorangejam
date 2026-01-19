@@ -30,18 +30,172 @@ meta:
   full_progress_colorstop_2: "#FFFF88"
 
 
-badge_1:
-  name: Example Badge
-  description: Very Examply very cool. For debug purposes,\nthis badge is considered always unlocked.
+# badge_1:
+#   name: Example Badge
+#   description: Very Examply very cool. For debug purposes,\nthis badge is considered always unlocked.
   # img: 'toast2' # must be in img/system (or atlassed into img/system)
   # locked_img: 'locked_badge' # will be locked_badge by default, but can be customized or left out
-badge_2:
-  name: Another example
-  description: Even better than badge_1!
-  img: 'omori_release_energy'
-  locked_img: 'transition-1'
-  locked_desc: '? ! ?'
-badge_3:
-  name: Example the third
-  description: For debug purposes, this badge has a 50% chance to be unlocked.
-  img: 'blackletter_bg'
+# badge_2:
+#   name: Another example
+#   description: Even better than badge_1!
+#   img: 'omori_release_energy'
+#   locked_img: 'transition-1'
+#   locked_desc: '? ! ?'
+# badge_3:
+#   name: Example the third
+#   description: For debug purposes, this badge has a 50% chance to be unlocked.
+#   img: 'blackletter_bg'
+
+badge_badfriend:
+  name: Bad Friend
+  description: Pick all the nonsense options when asked.
+  img: badges/badge_placeholder
+  locked_img: badge_locked
+  locked_desc: Maybe they were wrong to trust you...
+
+badge_breadwinner:
+  name: Breadwinner
+  description: Complete all minigames.
+  img: badges/badge_placeholder
+  locked_img: badge_locked
+  locked_desc: What a hard worker!
+
+badge_restaurant:
+  name: Restaurant Badge
+  description: Afford a meal for AUBREY at the restaurant.
+  img: badges/badge_placeholder
+  locked_img: badge_locked
+  locked_desc: Hard work pays off!
+
+badge_afewdollarsshort:
+  name: A Few Dollars Short
+  description: Make it to the restaurant... but run out of money to buy food with.
+  img: badges/badge_placeholder
+  locked_img: badge_locked
+  locked_desc: ...Maybe not today.
+
+badge_comiccrush:
+  name: Comic Crush
+  description: Have a great time with AUBREY at HOBBEEZ.
+  img: badges/badge_placeholder
+  locked_img: badge_locked
+  locked_desc: THE ADVENTURES OF CAPT. SPACEBOY calls...
+
+badge_deliciouspizza:
+  name: Delicious Pizza
+  description: Have a great time with AUBREY at GINO's.
+  img: badges/badge_placeholder
+  locked_img: badge_locked
+  locked_desc: I'm craving pizza. 
+
+badge_nostalgia:
+  name: Nostalgia
+  description: Have a great time with AUBREY at the HANGOUT SPOT.
+  img: badges/badge_placeholder
+  locked_img: badge_locked
+  locked_desc: Just like old times...
+
+badge_heavyload:
+  name: Heavy Load
+  description: Help MAYA's parents with moving into their house.
+  img: badges/badge_placeholder
+  locked_img: badge_locked
+  locked_desc: Don't drop it...
+
+badge_leavesallover:
+  name: Leaves, All Over!
+  description: Help the PREACHER and OLD BEARDY clean the GRAVEYARD.
+  img: badges/badge_placeholder
+  locked_img: badge_locked
+  locked_desc: It's the best we've got.
+
+badge_rakingmachine:
+  name: Raking Machine
+  description: Clean every single fallen leaf from the GRAVEYARD.
+  img: badges/badge_placeholder
+  locked_img: badge_locked
+  locked_desc: Speedrunning chores...
+
+badge_helpinghand:
+  name: Helping Hand
+  description: Help CRIS and MINCY with their homework.
+  img: badges/badge_placeholder
+  locked_img: badge_locked
+  locked_desc: School at its finest.
+
+badge_futureprofession:
+  name: Future Profession
+  description: Mail every package to the right person.
+  img: badges/badge_placeholder
+  locked_img: badge_locked
+  locked_desc: Who needs wheels when you got feet?!
+
+badge_notfutureprofession:
+  name: Not Future Profession
+  description: Mail every package to the wrong person.
+  img: badges/badge_placeholder
+  locked_img: badge_locked
+  locked_desc: At least you have one less career option...
+
+badge_paidperformer:
+  name: Paid Performer
+  description: Help JOY'S DAD distract the kids.
+  img: badges/badge_placeholder
+  locked_img: badge_locked
+  locked_desc: AAAAAAAAAAAA
+
+badge_:
+  name: 
+  description: 
+  img: badges/badge_placeholder
+  locked_img: badge_locked
+  locked_desc: 
+
+badge_flowstate:
+  name: Flow State
+  description: Score 32000 points in Basketball
+  img: badges/badge_placeholder
+  locked_img: badge_locked
+  locked_desc: Hoop 4 life!!!!
+
+badge_aubreyeverywhere:
+  name: Aubrey Everywhere
+  description: Run into AUBREY in a variety of odd places.
+  img: badges/badge_placeholder
+  locked_img: badge_locked
+  locked_desc: Psst... BASIL...
+
+badge_badactor:
+  name: Bad Actor
+  description: Act as yourself the entire time... lame...
+  img: badges/badge_placeholder
+  locked_img: badge_locked
+  locked_desc: Maybe you just don't have it in you...
+
+badge_whatdoyouwant:
+  name: What do you want?
+  description: Stay in character as AUBREY the entire time
+  img: badges/badge_placeholder
+  locked_img: badge_locked
+  locked_desc: You'd be good in a movie!
+
+badge_youwantsomeorangejoe:
+  name: You want some Orange Joe?
+  description: Stay in character as KEL the entire time
+  img: badges/badge_placeholder
+  locked_img: badge_locked
+  locked_desc: You'd be good in a movie!
+
+badge_theshiniestforehead:
+  name: The Shiniest Forehead
+  description: Ask HERO about the Shiniest Forehead competition.
+  img: badges/badge_placeholder
+  locked_img: badge_locked
+  locked_desc: It sparkles...
+
+# badge_:
+#   name: 
+#  description: 
+#   img: badges/badge_placeholder
+#   locked_img: badge_locked
+#   locked_desc: 
