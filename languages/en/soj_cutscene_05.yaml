@@ -245,7 +245,7 @@ hey_aub_45:
   macro: VN
   name: AUBREY
   openexec: SOJ.vnFrame(-1,-1,true)
-  text: Ah,\. KEL.\| Good thing you came here.
+  text: Ah,\. KEL.\| Good thing you came<br>here.
 
 hey_aub_46choice1:
   text: What's up, AUBREY!
@@ -687,43 +687,3 @@ hey_aub_129:
   text: \{\{\{\quake[2]AAAAAAAAAA\^\bas
 
 # abrupt cut to the hangout spot for confession time
-
-confession?_0:
-  text: Oh my gosh KEL you're here.\aub
-
-confession?_1:
-  text: Yes, and I wanted to tell you I love you.\kel
-
-confession?_2:
-  text: Oh my god that's crazy I was going to say the same thing.\aub
-
-confession?_3:
-  text: Woah, really?\kel
-
-confession?_4:
-  text: Yeah actually it's really nice to know you feel the same way.\aub
-
-confession?_5:
-  text: Also that cake was for you if you didn't know.\aub
-
-confession?_6:
-  text:  O damn I did not.\kel
-
-confession?_7:
-  text: Anyway I was gonna ask did you wanna go to a restaurant/hobbeez/ginos/whatever the hell the player picked with me?\kel
-
-confession?_8:
-  text: Oh wow yes I'd love to.\aub
-
-confession?_9:
-  text: Awesome.\kel
-
-confession?_10:
-  text: I love you KEL.\aub
-
-confession?_11:
-  text: I love you too AUBREY.\kel
-
-confession?_12:
-  text: NOW ROLL THE DAMN CREDITS!!!
-
