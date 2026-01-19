@@ -192,6 +192,7 @@ badge_theshiniestforehead:
   img: badges/badge_theshiniestforehead
   locked_img: badge_locked
   locked_desc: It sparkles...
+  secret: true
 
 # badge_:
 #   name: 
