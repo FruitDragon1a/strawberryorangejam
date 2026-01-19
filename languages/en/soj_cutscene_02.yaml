@@ -421,7 +421,7 @@ aub_4:
 aub_5:
   faceset: SOJ_BASIL
   faceindex: 36
-  text: Y\.-Yeah,\. you go on ahead!\| I just need to do something really quick!\bas
+  text: Y\.-Yeah,\. you go on ahead!\! I just need to do something really quick!\bas
 
 aub_6:
   faceset: SOJ_KEL
@@ -454,12 +454,12 @@ aub_10:
 aub_11:
   faceset: SOJ_AUBREY
   faceindex: 22
-  text: Uh,\. hypothetically speaking,\. if someone were to want to bake a cake for KEL— \.just a hypothetical, by the way— \|what flavor would he like the best?\aub
+  text: Uh,\| hypothetically speaking,\. if someone were to want to bake a cake for KEL— \|just a hypothetical, by the way— \|what flavor would he like the best?\aub
 
 aub_12:
   faceset: SOJ_BASIL
   faceindex: 44
-  text: Well—\|\^\bas
+  text: Well—\.\^\bas
 
 aub_13:
   faceset: SOJ_AUBREY
@@ -564,22 +564,22 @@ aub_27:
 aub_28:
   faceset: SOJ_BASIL
   faceindex: 30
-  text: What about milk cake? Seems like he'd like that.
+  text: What about milk cake? Seems like he'd like that.\bas
 
 aub_29:
   faceset: SOJ_AUBREY
   faceindex: 3
-  text: Doesn't KEL hate milk?\! Why would getting him a milk cake be a good idea?
+  text: Doesn't KEL hate milk?\! Why would getting him a milk cake be a good idea?\aub
 
 aub_30:
   faceset: SOJ_BASIL
   faceindex: 10
-  text: Just making sure you knew enough about him to remember!
+  text: Just making sure you knew enough about him to remember!\bas
 
 aub_31:
-  faceset: SOJ_BASIL
+  faceset: SOJ_AUBREY
   faceindex: 2
-  text: .\..\..\.\face[0]Just give me a flavor.
+  text: .\..\..\.\face[0]Just give me a flavor.\aub
 
 #repeat choices
 
