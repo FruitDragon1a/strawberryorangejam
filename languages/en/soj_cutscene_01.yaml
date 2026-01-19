@@ -276,12 +276,12 @@ gift_shop_jacket_2:
 gift_shop_jacket_3: 
   faceset: SOJ_KEL
   faceindex: 2
-  text: I think AUBREY would like this jacket,\. what about you?\kel
+  text: I really think AUBREY would like this jacket.\kel
 
 gift_shop_jacket_4: 
   faceset: SOJ_KEL
   faceindex: 1
-  text: \sinv[1]She would look so cool in it!\kel
+  text: \sinv[1]She would look so cool in it...\kel
 
 gift_shop_jacket_5: 
   faceset: SOJ_BASIL
@@ -315,12 +315,12 @@ gift_shop_end_1:
 gift_shop_end_2: 
   faceset: SOJ_KEL
   faceindex: 0
-  text: You think?\kel
+  text: Yeah.\kel
 
 gift_shop_end_3: 
   faceset: SOJ_BASIL
   faceindex: 42
-  text: Which one of these do you want to get for AUBREY?\bas
+  text: So,\. which one of these do you want to get for AUBREY?\bas
 
 gift_shop_end_4: 
   faceset: SOJ_KEL
@@ -353,7 +353,7 @@ spaceboy:
 gift_shop_end_7: 
   faceset: SOJ_KEL
   faceindex: 2
-  text: \v[1001] is exactly what I was thinking!\kel
+  text: The \c[4]\v[1001]\c[0] is exactly what I was thinking!\kel
 
 gift_shop_end_8: 
   faceset: SOJ_BASIL
