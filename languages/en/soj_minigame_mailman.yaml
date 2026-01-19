@@ -183,7 +183,7 @@ mail_start_4:
 mail_start_5:
   faceset: SOJ_KEL
   faceindex: 12
-  text: A lot of these others are for the outer streets of \c[4]FARAWAY\c[0],\| so I think I can take my bike and deliver those while you focus on the streets near us.\kel
+  text: A lot of these others are for the outer streets of \c[11]FARAWAY\c[0],\| so I think I can take my bike and deliver those while you focus on the streets near us.\kel
 
 mail_start_6:
   faceset: SOJ_KEL

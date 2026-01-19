@@ -292,49 +292,49 @@ gift_shop_jacket_5:
 
 
 gift_shop_necklace_1: 
-  faceset: 
-  faceindex: 
+  faceset: SOJ_KEL
+  faceindex: 1
   text: Woah,\. this necklace is so pretty!\kel
 
 gift_shop_necklace_2: 
-  faceset: 
-  faceindex: 
+  faceset: SOJ_KEL
+  faceindex: 0
   text: I have got to get this for AUBREY!\kel
 
 gift_shop_necklace_3: 
-  faceset: 
-  faceindex: 
+  faceset: SOJ_BASIL
+  faceindex: 2
   text: I'm sure she'd like it a lot!\bas
 
 
 gift_shop_end_1: 
-  faceset: 
-  faceindex: 
+  faceset: SOJ_BASIL
+  faceindex: 1
   text: I think we've explored this store enough by now.\bas
 
 gift_shop_end_2: 
-  faceset: 
-  faceindex: 
+  faceset: SOJ_KEL
+  faceindex: 0
   text: You think?\kel
 
 gift_shop_end_3: 
-  faceset: 
-  faceindex: 
+  faceset: SOJ_BASIL
+  faceindex: 42
   text: Which one of these do you want to get for AUBREY?\bas
 
 gift_shop_end_4: 
-  faceset: 
-  faceindex: 
+  faceset: SOJ_KEL
+  faceindex: 6
   text: Uh...\kel
 
 gift_shop_end_5: 
-  faceset: 
-  faceindex: 
+  faceset: SOJ_KEL
+  faceindex: 5
   text: What do you think?\! If you were me, which one would you get for AUBREY?\kel
 
 gift_shop_end_6: 
-  faceset: 
-  faceindex: 
+  faceset: SOJ_BASIL
+  faceindex: 32
   text: Hmm...\bas
 
 necklace: 
@@ -351,55 +351,56 @@ spaceboy:
   text: SPACEBOY FIGURINE
 
 gift_shop_end_7: 
-  faceset: 
-  faceindex: 
+  faceset: SOJ_KEL
+  faceindex: 2
   text: \v[1001] is exactly what I was thinking!\kel
 
 gift_shop_end_8: 
-  faceset: 
-  faceindex: 
+  faceset: SOJ_BASIL
+  faceindex: 27
   text: Was it?\! That's a coincidence.\bas
 
 gift_shop_end_9: 
-  faceset: 
-  faceindex: 
+  faceset: SOJ_KEL
+  faceindex: 3
   text: Yup...\kel
 
 gift_shop_end_10: 
-  faceset: 
-  faceindex: 
+  faceset: SOJ_KEL
+  faceindex: 0
   text: I'll come back here later to pick the gift up!\kel
 
 gift_shop_end_11: 
-  faceset: 
-  faceindex: 
+  faceset: SOJ_KEL
+  faceindex: 3
   text: Gotta grab the money for it,\. heh.\kel
 
 # basil silence bubble
 gift_shop_end_12: 
-  faceset: 
-  faceindex: 
+  faceset: SOJ_BASIL
+  faceindex: 32
   text: Do you.\|.\|.\| have the money for it?\bas
 
+# kel sweat bubble
 gift_shop_end_13: 
-  faceset: 
+  faceset: SOJ_KEL
   faceindex: 4
   text: Ah.\| Um.\| About that.\kel
 
 gift_shop_end_14: 
-  faceset: 
+  faceset: SOJ_KEL
   faceindex: 3
   text: I...\| don't.\| I need to get the money somehow...\kel
 
 # basil silence bubble
 # long pause
 gift_shop_end_15: 
-  faceset: 
-  faceindex: 3
+  faceset: SOJ_KEL
+  faceindex: 7
   text: But,\. uh,\. let's go home first.\kel
 
 gift_shop_end_16: 
-  faceset: 
+  faceset: SOJ_BASIL
   faceindex: 3
   text: Okay.\bas
 
