@@ -242,7 +242,10 @@ hey_aub_44:
 #kenway simulator actually starts
 
 hey_aub_45:
-  text: Ah,\. KEL.\| Good thing you came here./aub
+  macro: VN
+  name: AUBREY
+  openexec: SOJ.vnFrame(-1,-1,true)
+  text: Ah,\. KEL.\| Good thing you came here.
 
 hey_aub_46choice1:
   text: What's up, AUBREY!
@@ -255,26 +258,44 @@ hey_aub_47choice2:
 #whats up (in character)
 
 hey_aub_48:
-  text: What's up,\. AUBREY!\n<KEL?>
+  macro: VN
+  name: KEL?
+  openexec: SOJ.vnFrame(-1,1,true)
+  text: What's up,\. AUBREY!
 
 hey_aub_49:
-  text: Whaddya need?\n<KEL?>
+  macro: VN
+  name: KEL?
+  openexec: SOJ.vnFrame(-1,1,true)
+  text: Whaddya need?
 
 #what call me for (ooc)
 
 hey_aub_50:
-  text: H-\.Hey AUBREY.\..\..\.\n<KEL?>
+  macro: VN
+  name: KEL?
+  openexec: SOJ.vnFrame(-1,4,true)
+  text: H-\.Hey AUBREY.\..\..\.
 
 hey_aub_51:
-  text: Did you need me for something?\n<KEL?>
+  macro: VN
+  name: KEL?
+  openexec: SOJ.vnFrame(-1,4,true)
+  text: Did you need me for something?
 
 #after
 
 hey_aub_52:
-  text: Yeah,\. I did.\aub
+  macro: VN
+  name: AUBREY
+  openexec: SOJ.vnFrame(0,-1,true)
+  text: Yeah,\. I did.
 
 hey_aub_53:
-  text: I.\..\..\. urgh.\..\..\.\aub
+  macro: VN
+  name: AUBREY
+  openexec: SOJ.vnFrame(1,-1,true)
+  text: I.\..\..\. urgh.\..\..\.
 
 hey_aub_54choice3:
   text: Why so glum?
@@ -287,7 +308,10 @@ hey_aub_55choice4:
 #why so glum (ooc)
 
 hey_aub_56:
-  text: Why so glum,\. chum?\n<KEL?>
+  macro: VN
+  name: KEL?
+  openexec: SOJ.vnFrame(-1,5,true)
+  text: Why so glum,\. chum?
 
 hey_aub_57:
   faceset: SOJ_AUBREY
@@ -307,15 +331,24 @@ hey_aub_59:
 #What's wrong? (in character)
 
 hey_aub_60:
-  text: What's wrong?\| Cat got your tongue?\n<KEL?>
+  macro: VN
+  name: KEL?
+  openexec: SOJ.vnFrame(-1,5,true)
+  text: What's wrong?\| Cat got your tongue?
 
 #after either
 
 hey_aub_61:
-  text: No.\| It's just that.\..\..\.\aub
+  macro: VN
+  name: AUBREY
+  openexec: SOJ.vnFrame(1,-1,true)
+  text: No.\| It's just that.\..\..\.
 
 hey_aub_62:
-  text: I-\.I like you.\aub
+  macro: VN
+  name: AUBREY
+  openexec: SOJ.vnFrame(2,-1,true)
+  text: I-\.I like you.
 
 hey_aub_63choice5:
   text: I like you too!
@@ -328,18 +361,30 @@ hey_aub_64choice6:
 #i like you too (in character)
 
 hey_aub_65:
-  text: Aw!\| I like you too,\. AUBREY!\n<KEL?>
+  macro: VN
+  name: KEL?
+  openexec: SOJ.vnFrame(2,-1,true)
+  text: Aw!\| I like you too,\. AUBREY!
 
 hey_aub_66:
-  text: No!\| Not like that!\aub
+  macro: VN
+  name: AUBREY
+  openexec: SOJ.vnFrame(0,-1,true)
+  text: No!\| Not like that!
 
 #what do you mean (ooc)
 
 hey_aub_67:
-  text: What do you mean,\. AUBREY?\n<KEL?>
+  macro: VN
+  name: KEL?
+  openexec: SOJ.vnFrame(-1,2,true)
+  text: What do you mean,\. AUBREY?
 
 # after both options
 hey_aub_68:
+  macro: VN
+  name: AUBREY
+  openexec: SOJ.vnFrame(3,-1,true)
   text: I-\.I mean that I like you more than that.\! As—\| as more than a friend.\aub
 
 # end vn segment
