@@ -129,7 +129,7 @@ intro_22:
 intro_23:
   faceset: SOJ_KEL
   faceindex: 1
-  text: Of course!\!\face[2] You have a good eye for everything, BASIL!<br><br><br>\quake[1]\face[14]Also I suck at gift giving...\! I almost gave HERO medicine when he came back from college...\kel
+  text: Of course!\!\face[2] You have a good eye for everything, BASIL!<br><br><br>\quake[2]\face[14]Also I suck at gift giving...\! I almost gave HERO medicine when he came back from college...\kel
 
 intro_24:
   faceset: SOJ_BASIL
@@ -138,8 +138,270 @@ intro_24:
 
 #They leave to the gift shop
 
-gift_shop_0:
-  text: NOT WRITTEN YET
+# kel walks in, followed by basil
+gift_shop_intro_1:
+  faceset: SOJ_KEL
+  faceindex: 2
+  text: Here we are!\kel
+
+gift_shop_intro_2: 
+  faceset: SOJ_KEL
+  faceindex: 0
+  text: Welcome to \c[11]POPULAR SUBJECT\c[0]!\kel
+
+# basil question mark
+gift_shop_intro_3: 
+  faceset: SOJ_BASIL
+  faceindex: 26
+  text: What kind of name is 'POPULAR SUBJECT'?\bas
+
+gift_shop_intro_4: 
+  faceset: SOJ_KEL
+  faceindex: 5
+  text: I don't know.\! I think this is a chain store that just opened here.\kel
+
+gift_shop_intro_5: 
+  faceset: SOJ_BASIL
+  faceindex: 41
+  text: Makes sense,\. I guess.\bas
+
+# kel jumps
+gift_shop_intro_6: 
+  faceset: SOJ_KEL
+  faceindex: 1
+  text: Doesn't this place feel perfect for AUBREY,\. though?\kel
+
+gift_shop_intro_7: 
+  faceset: SOJ_BASIL
+  faceindex: 10
+  text: This store does match AUBREY's aesthetic.\bas
+
+gift_shop_intro_8: 
+  faceset: SOJ_KEL
+  faceindex: 0
+  text: Right?\kel
+
+gift_shop_intro_9: 
+  faceset: SOJ_BASIL
+  faceindex: 42
+  text: Anyway,\. what were the gifts you wanted to look at?\bas
+
+gift_shop_intro_10: 
+  faceset: SOJ_KEL
+  faceindex: 2
+  text: Let's take a look around!\kel
+
+# sparklies show up
+
+gift_shop_spaceboy_1: 
+  faceset: SOJ_KEL
+  faceindex: 5
+  text: Think AUBREY would like this SPACEBOY figurine?\kel
+
+gift_shop_spaceboy_2: 
+  faceset: SOJ_BASIL
+  faceindex: 1
+  text: Does she like SPACEBOY?\bas
+
+gift_shop_spaceboy_3: 
+  faceset: SOJ_KEL
+  faceindex: 0
+  text: Yeah,\. she loves it!\! I think she still has a SPACEBOY poster in her room.\kel
+
+gift_shop_spaceboy_4: 
+  faceset: SOJ_KEL
+  faceindex: 1
+  text: She's so perfect...\kel
+
+gift_shop_spaceboy_5: 
+  faceset: SOJ_BASIL
+  faceindex: 43
+  text: Pfft...\bas
+
+gift_shop_spaceboy_6: 
+  faceset: SOJ_BASIL
+  faceindex: 1
+  text: Yeah,\. she'd like the figurine then.\bas
+
+
+
+gift_shop_headband_1: 
+  faceset: SOJ_KEL
+  faceindex: 5
+  text: What do you think about this headband?\! It looks just like AUBREY's!\kel
+
+# basil sweat balloon
+gift_shop_headband_2: 
+  faceset: SOJ_BASIL
+  faceindex: 15
+  text: I think that would be a really bad idea.\bas
+
+gift_shop_headband_3: 
+  faceset: SOJ_BASIL
+  faceindex: 3
+  text: I'm pretty sure that headband was MARI's.\! I remember her wearing it whenever we gardened.\bas
+
+# kel silence balloon
+gift_shop_headband_4: 
+  faceset: SOJ_KEL
+  faceindex: 7
+  text: Oh.\! You're right.\! Not an option.\kel
+
+
+
+
+
+gift_shop_bunny_1: 
+  faceset: SOJ_KEL
+  faceindex: 1
+  text: \sinv[1]This bunny is so cute!\sinv[0]\! <br>I bet AUBREY would love it!\kel
+
+gift_shop_bunny_2: 
+  faceset: SOJ_BASIL
+  faceindex: 1
+  text: She definitely would.\bas
+
+
+
+gift_shop_jacket_1: 
+  faceset: SOJ_KEL
+  faceindex: 5
+  text: Woah,\. this jacket is really cool!\kel
+
+gift_shop_jacket_2: 
+  faceset: SOJ_BASIl
+  faceindex: 10
+  text: Yeah!\bas
+
+gift_shop_jacket_3: 
+  faceset: SOJ_KEL
+  faceindex: 2
+  text: I think AUBREY would like this jacket,\. what about you?\kel
+
+gift_shop_jacket_4: 
+  faceset: SOJ_KEL
+  faceindex: 1
+  text: \sinv[1]She would look so cool in it!\kel
+
+gift_shop_jacket_5: 
+  faceset: SOJ_BASIL
+  faceindex: 1
+  text: I think it would be a good option,\. yeah.\bas
+
+
+
+
+gift_shop_necklace_1: 
+  faceset: 
+  faceindex: 
+  text: Woah,\. this necklace is so pretty!\kel
+
+gift_shop_necklace_2: 
+  faceset: 
+  faceindex: 
+  text: I have got to get this for AUBREY!\kel
+
+gift_shop_necklace_3: 
+  faceset: 
+  faceindex: 
+  text: I'm sure she'd like it a lot!\bas
+
+
+gift_shop_end_1: 
+  faceset: 
+  faceindex: 
+  text: I think we've explored this store enough by now.\bas
+
+gift_shop_end_2: 
+  faceset: 
+  faceindex: 
+  text: You think?\kel
+
+gift_shop_end_3: 
+  faceset: 
+  faceindex: 
+  text: Which one of these do you want to get for AUBREY?\bas
+
+gift_shop_end_4: 
+  faceset: 
+  faceindex: 
+  text: Uh...\kel
+
+gift_shop_end_5: 
+  faceset: 
+  faceindex: 
+  text: What do you think?\! If you were me, which one would you get for AUBREY?\kel
+
+gift_shop_end_6: 
+  faceset: 
+  faceindex: 
+  text: Hmm...\bas
+
+necklace: 
+  text: NECKLACE
+
+bunny: 
+  text: BUNNY PLUSHIE
+
+# the headband is too touchy for even basil to jokingly suggest
+jacket: 
+  text: COOL JACKET
+
+spaceboy:
+  text: SPACEBOY FIGURINE
+
+gift_shop_end_7: 
+  faceset: 
+  faceindex: 
+  text: \v[1001] is exactly what I was thinking!\kel
+
+gift_shop_end_8: 
+  faceset: 
+  faceindex: 
+  text: Was it?\! That's a coincidence.\bas
+
+gift_shop_end_9: 
+  faceset: 
+  faceindex: 
+  text: Yup...\kel
+
+gift_shop_end_10: 
+  faceset: 
+  faceindex: 
+  text: I'll come back here later to pick the gift up!\kel
+
+gift_shop_end_11: 
+  faceset: 
+  faceindex: 
+  text: Gotta grab the money for it,\. heh.\kel
+
+# basil silence bubble
+gift_shop_end_12: 
+  faceset: 
+  faceindex: 
+  text: Do you.\|.\|.\| have the money for it?\bas
+
+gift_shop_end_13: 
+  faceset: 
+  faceindex: 4
+  text: Ah.\| Um.\| About that.\kel
+
+gift_shop_end_14: 
+  faceset: 
+  faceindex: 3
+  text: I...\| don't.\| I need to get the money somehow...\kel
+
+# basil silence bubble
+# long pause
+gift_shop_end_15: 
+  faceset: 
+  faceindex: 3
+  text: But,\. uh,\. let's go home first.\kel
+
+gift_shop_end_16: 
+  faceset: 
+  faceindex: 3
+  text: Okay.\bas
 
 # we need money
 
@@ -156,7 +418,7 @@ Money_1:
 Money_2:
   faceset: SOJ_KEL
   faceindex: 5
-  text: You're right!\! When I hung out with SUNNY, there were a bunch of people that needed help.\! A lot of them even paid him!\kel
+  text: You're right!\! When I hung out with SUNNY, there were a bunch of people that needed help.\! A lot of them even paid \caseEval{ImageManager.isGirlmoriActive()?her:him}!\kel
 
 Money_3:
   faceset: SOJ_BASIL
