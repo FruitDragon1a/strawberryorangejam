@@ -1,2 +1,293 @@
 picnic:
   text: An empty picnic basket.
+
+#Kel house
+kel_building_blocks:
+  faceset: SOJ_KEL
+  faceindex: 12
+  name: KEL
+  text: SALLY's building blocks!\! She's getting so fast at stacking them!
+
+kel_photo_0:
+  faceset: SOJ_BASIL
+  faceindex: 41
+  name: BASIL
+  text: I don't think I've ever seen you look so formal!\!\face[24] You hardly even look like KEL.
+
+kel_photo_1:
+  faceset: SOJ_KEL
+  faceindex: 3
+  name: KEL
+  text: Heh...\. I guess so. That day was kind of chaotic.
+
+kel_shelf_sport:
+  text: Guidebooks on sports like fishing and golf.
+
+kel_shelf_classic_fic_0:
+  text: Classic fiction books.\! Maybe you should be asking KEL if you can borrow his family's books more often.
+
+#if seen mystery novel
+kel_shelf_classic_fic_1:
+  text: Classic fiction books.\! Maybe KEL's dad will let you borrow these too.
+
+kel_shelf_yearbook:
+  text: Old yearbooks.\! GRANDMA never liked paying the exorbitant prices for them,\. so you looked at your friends' copies instead.
+
+kel_shelf_random:
+  text: Disorganized books from dozens of genres.
+
+kel_shelf_mystery_0:
+  faceset: SOJ_BASIL
+  faceindex: 28
+  name: BASIL
+  text: Oh my.\..\..
+
+#turn to kel
+kel_shelf_mystery_1:
+  faceset: SOJ_BASIL
+  faceindex: 21
+  name: BASIL
+  text: This is the largest assortment of mystery novels I've ever seen in a person's house!\!\face[33]Please can I read some of them sometime?
+
+kel_shelf_mystery_2:
+  faceset: SOJ_KEL
+  faceindex: 3
+  name: KEL
+  text: Uh,\. yeah!\! They're my DAD's books,\. and I'm sure he'll let you borrow some!
+
+kel_shelf_mystery_3:
+  faceset: SOJ_BASIL
+  faceindex: 13
+  name: BASIL
+  text: \sinv[1]Thank you!\sinv[0]
+
+kel_shelf_mystery_loop:
+  text: Very cool mystery novels.
+
+kel_shelf_nonfiction:
+  text: Nonfiction,\. self-help,\. and biographies.\! You recognize some of these titles from a list your therapist recommended you read.
+
+kel_shelf_videos:
+  text: Magazines,\. DVDs,\. and VHS tapes.\! You've never really watched any of the movies here.
+
+kel_shelf_cookbooks_0:
+  faceset: SOJ_BASIL
+  faceindex: 34
+  name: BASIL
+  text: That’s a lot of cookbooks.
+
+kel_shelf_cookbooks_1:
+  faceset: SOJ_KEL
+  faceindex: 2
+  name: KEL
+  text: HERO knows how to cook a lot of these dishes!\!\face[1] Man.\..\..\! I miss HERO's cooking...
+
+kel_shelf_cookbooks_2:
+  name: KEL'S MOM
+  text: \com[2]What?!\! Tu MAMÁ’s cooking isn’t enough for you anymore?
+
+kel_shelf_cookbooks_3:
+  faceset: SOJ_KEL
+  faceindex: 14
+  name: KEL
+  text: Sorry, MAMÁ...
+
+kel_shelf_cookbooks_loop:
+  text: So many cookbooks...
+
+kel_shelf_shoe_rack:
+  text: Shoe rack.
+
+kel_shelf_coat_hanger:
+  text: Coat hanger.
+
+kel_shelf_sofa:
+  text: A cozy-looking sofa.
+
+kel_dog_bowl:
+  text: HECTOR’s dog bowls.
+
+kel_dog_toy:
+  text: A ripped-up stuffed toy.
+
+kel_dog_bed_0:
+  text: A dog bed that's too small for HECTOR.
+
+kel_dog_bed_1:
+  faceset: SOJ_KEL
+  faceindex: 0
+  name: KEL
+  text: When I was super young,\. me and HECTOR would fight for the bed!
+  
+#                      .::::....                                                                   
+#                  :+#+-......:-=*#*:                                           . .                
+#                :#+.              .#-                                   .=#%%#*+=-*%+.            
+#               =#:                 .%=                                -#-.          .+*:          
+#              =*.                   :#.                             .**.              .+#.        
+#             :#.                     *:                            .*+                  =#.       
+#             -*        .====:: :=:.  *:                           .*+                   .*=       
+#             =+         -##=:  -+=.  +:                           +*.:.   .              ++       
+#             *-         -=+:   -*+. .#.                          .#=%**- =@+=           .*-       
+#             *=                     ++                           .*..-:  .-=.           -*        
+#             +=                    :%:                           .*=                    +=        
+#             :#:                  .*-                             :#.         .        -#.        
+#              :#+    .=+++###%%%%=-*                               =%+========+*      :%:         
+#              .+#.   ....-+++++. .*+.                               *+---==-:.       .*=          
+#             :#-          .---.    :#+.                             -#.              ++           
+#            -%:                      =*.                           =*.               .**.         
+#           :#:                        -#:                         +#.                  -#:        
+#           *=                          :#.                       -*.                    :#:       
+#          -#.                           ++                      :#:                      :%:      
+#          ++                            .%-                    .#=                        :#.     
+#          +=                             ++                    -#.                         =*     
+#          ++                             :*.                   ==                          .#:    
+#          ++                             :*.                   =-                          .#:    
+#          -*.                            .*.                   =-                          .#:    
+#          :#.                             +-                   =-                          .#:    
+
+kel_dog_bed_2:
+  faceset: SOJ_BASIL
+  faceindex: 32
+  name: BASIL
+  text: .\|\face[14].\|\face[15].\|\face[33]Thanks for sharing?
+
+kel_dog_bed_loop:
+  text: A dog bed that's too small for HECTOR.\..\..\| and KEL.
+
+kel_vintage_lamp:
+  text: A vintage lamp that looks like it’s from before even GRANDMA was born.
+
+kel_fake_fern:
+  text: A fern plant that’s obviously fake;\! it doesn’t even look like an actual fern.
+
+kel_fake_plant:
+  text: Some kind of fake plant that doesn’t resemble any flower you can think of.
+
+kel_phone:
+  text: A phone.\! GRANDMA never liked these.
+
+kel_fireplace:
+  text: A warm fireplace.
+
+kel_grandfather_clock_0:
+  faceset: SOJ_BASIL
+  faceindex: 32
+  name: BASIL
+  text: Does this clock work?\! The pendulum isn’t swinging.
+
+kel_grandfather_clock_1:
+  faceset: SOJ_KEL
+  faceindex: 3
+  name: KEL
+  text: Oh yeah,\.\face[0] DAD turned it off because the chimes would scare SALLY.
+
+kel_grandfather_clock_2:
+  faceset: SOJ_KEL
+  faceindex: 8
+  name: KEL
+  text: Then he lost the key for it.\..\..\! So I guess we can’t fix it.
+
+kel_grandfather_clock_loop:
+  text: A grandfather clock.\! It doesn’t work anymore.
+
+kel_action_figures:
+  text: A shelf full of action figures.
+
+#if spaceboy figurine is the gift
+kel_action_figures_0:
+  faceset: SOJ_BASIL
+  faceindex: 17
+  name: BASIL
+  text: One,\. two,\. three,\. four.\..\..\! I can’t even count how many SPACEBOY action figures are on this shelf.
+
+kel_action_figures_1:
+  faceset: SOJ_BASIL
+  faceindex: 41
+  name: BASIL
+  text: Couldn’t you give AUBREY some of these?
+
+#kel sweat balloon
+
+kel_action_figures_2:
+  faceset: SOJ_KEL
+  faceindex: 3
+  name: KEL
+  text: I mean.\..\..\! It means more if I buy it for her,\. right?\! Y'know,\. not just a hand-me-down.
+
+kel_action_figures_3:
+  faceset: SOJ_BASIL
+  faceindex: 26
+  name: BASIL
+  text: .\..\..\.?
+
+kel_action_figures_4:
+  faceset: SOJ_KEL
+  faceindex: 18
+  name: KEL
+  text: \}Also I’m kind of attached to my figures.\..\..
+
+kel_action_figures_loop:
+  text: A shelf full of action figure that will only belong to KEL.
+
+kel_trophy_spelling:
+  text: One of HERO’s shiny trophies.\! This one is for a spelling bee.
+
+kel_trophy_geography:
+  text: One of HERO’s shiny trophies.\! This one is for a geography bee.
+
+kel_trophy_hot_dog:
+  text: One of HERO’s shiny trophies.\! This one is for a hot dog eating competition.
+
+kel_trophy_forehead:
+  text: One of HERO’s shiny trophies.\! This one is for a shiniest forehead competition.
+
+kel_trophy_forehead_0:
+  faceset: SOJ_BASIL
+  faceindex: 17
+  name: BASIL
+  text: Wait what?\! Shiny forehead?
+
+kel_trophy_forehead_1:
+  faceset: SOJ_KEL
+  faceindex: 10
+  name: KEL
+  text: Wait?
+
+kel_trophy_forehead_2:
+  faceset: SOJ_BASIL
+  faceindex: 1
+  name: BASIL
+  text: This trophy is for the shiniest forehead competition.\! That’s a thing??
+
+kel_trophy_forehead_3:
+  faceset: SOJ_KEL
+  faceindex: 10
+  name: KEL
+  text: \com[2]\quake[1]WHAT???\quake[0]
+
+kel_trophy_forehead_4:
+  faceset: SOJ_KEL
+  faceindex: 0
+  name: KEL
+  text: I need to ask HERO about this.
+
+kel_trophy_essay:
+  text: One of HERO’s shiny trophies.\! This one is for an essay writing competition.
+
+kel_desk_hero:
+  text: HERO's desk.\! Somehow immaculate.
+
+kel_desk_kel:
+  text: KEL's desk.\! Somehow collecting dust.
+
+kel_bed_hero:
+  text: HERO’s bed,\. neat and orderly.
+
+kel_bed_kel:
+  text: KEL’s bed,\. messy and disorganized.
+
+kel_console:
+  text: A well-loved game console.
+
+kel_medal_hot_dog:
+  text: A medal for participating in a hot dog eating contest.
