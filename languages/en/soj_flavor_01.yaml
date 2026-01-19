@@ -74,7 +74,7 @@ kel_shelf_cookbooks_0:
   faceset: SOJ_BASIL
   faceindex: 34
   name: BASIL
-  text: That’s a lot of cookbooks.
+  text: That's a lot of cookbooks.
 
 kel_shelf_cookbooks_1:
   faceset: SOJ_KEL
@@ -82,10 +82,14 @@ kel_shelf_cookbooks_1:
   name: KEL
   text: HERO knows how to cook a lot of these dishes!\!\face[1] Man.\..\..\! I miss HERO's cooking...
 
+# if before basketball minigame/kel's mom is in the kitchen
+# if after basketball minigame it is left at that, because kels mom
+# is now in her room with sally
 kel_shelf_cookbooks_2:
   name: KEL'S MOM
-  text: \com[2]What?!\! Tu MAMÁ’s cooking isn’t enough for you anymore?
+  text: \com[2]What?!\! Tu MAMÁ's cooking isn't enough for you anymore?
 
+# kel turns toward the kitchen whatever direction that is
 kel_shelf_cookbooks_3:
   faceset: SOJ_KEL
   faceindex: 14
@@ -105,7 +109,7 @@ kel_shelf_sofa:
   text: A cozy-looking sofa.
 
 kel_dog_bowl:
-  text: HECTOR’s dog bowls.
+  text: HECTOR's dog bowls.
 
 kel_dog_toy:
   text: A ripped-up stuffed toy.
@@ -155,13 +159,13 @@ kel_dog_bed_loop:
   text: A dog bed that's too small for HECTOR.\..\..\| and KEL.
 
 kel_vintage_lamp:
-  text: A vintage lamp that looks like it’s from before even GRANDMA was born.
+  text: A vintage lamp that looks like it's from before even GRANDMA was born.
 
 kel_fake_fern:
-  text: A fern plant that’s obviously fake;\! it doesn’t even look like an actual fern.
+  text: A fern plant that's obviously fake;\! it doesn't even look like an actual fern.
 
 kel_fake_plant:
-  text: Some kind of fake plant that doesn’t resemble any flower you can think of.
+  text: Some kind of fake plant that doesn't resemble any flower you can think of.
 
 kel_phone:
   text: A phone.\! GRANDMA never liked these.
@@ -173,7 +177,7 @@ kel_grandfather_clock_0:
   faceset: SOJ_BASIL
   faceindex: 32
   name: BASIL
-  text: Does this clock work?\! The pendulum isn’t swinging.
+  text: Does this clock work?\! The pendulum isn't swinging.
 
 kel_grandfather_clock_1:
   faceset: SOJ_KEL
@@ -185,10 +189,10 @@ kel_grandfather_clock_2:
   faceset: SOJ_KEL
   faceindex: 8
   name: KEL
-  text: Then he lost the key for it.\..\..\! So I guess we can’t fix it.
+  text: Then he lost the key for it.\..\..\! So I guess we can't fix it.
 
 kel_grandfather_clock_loop:
-  text: A grandfather clock.\! It doesn’t work anymore.
+  text: A grandfather clock.\! It doesn't work anymore.
 
 kel_action_figures:
   text: A shelf full of action figures.
@@ -198,13 +202,13 @@ kel_action_figures_0:
   faceset: SOJ_BASIL
   faceindex: 17
   name: BASIL
-  text: One,\. two,\. three,\. four.\..\..\! I can’t even count how many SPACEBOY action figures are on this shelf.
+  text: One,\. two,\. three,\. four.\..\..\! I can't even count how many SPACEBOY action figures are on this shelf.
 
 kel_action_figures_1:
   faceset: SOJ_BASIL
   faceindex: 41
   name: BASIL
-  text: Couldn’t you give AUBREY some of these?
+  text: Couldn't you give AUBREY some of these?
 
 #kel sweat balloon
 
@@ -224,22 +228,22 @@ kel_action_figures_4:
   faceset: SOJ_KEL
   faceindex: 18
   name: KEL
-  text: \}Also I’m kind of attached to my figures.\..\..
+  text: \}Also I'm kind of attached to my figures.\..\..
 
 kel_action_figures_loop:
   text: A shelf full of action figure that will only belong to KEL.
 
 kel_trophy_spelling:
-  text: One of HERO’s shiny trophies.\! This one is for a spelling bee.
+  text: One of HERO's shiny trophies.\! This one is for a spelling bee.
 
 kel_trophy_geography:
-  text: One of HERO’s shiny trophies.\! This one is for a geography bee.
+  text: One of HERO's shiny trophies.\! This one is for a geography bee.
 
 kel_trophy_hot_dog:
-  text: One of HERO’s shiny trophies.\! This one is for a hot dog eating competition.
+  text: One of HERO's shiny trophies.\! This one is for a hot dog eating competition.
 
 kel_trophy_forehead:
-  text: One of HERO’s shiny trophies.\! This one is for a shiniest forehead competition.
+  text: One of HERO's shiny trophies.\! This one is for a shiniest forehead competition.
 
 kel_trophy_forehead_0:
   faceset: SOJ_BASIL
@@ -251,13 +255,13 @@ kel_trophy_forehead_1:
   faceset: SOJ_KEL
   faceindex: 10
   name: KEL
-  text: Wait?
+  text: What?
 
 kel_trophy_forehead_2:
   faceset: SOJ_BASIL
   faceindex: 1
   name: BASIL
-  text: This trophy is for the shiniest forehead competition.\! That’s a thing??
+  text: This trophy is for the shiniest forehead competition.\! That's a thing??
 
 kel_trophy_forehead_3:
   faceset: SOJ_KEL
@@ -272,7 +276,7 @@ kel_trophy_forehead_4:
   text: I need to ask HERO about this.
 
 kel_trophy_essay:
-  text: One of HERO’s shiny trophies.\! This one is for an essay writing competition.
+  text: One of HERO's shiny trophies.\! This one is for an essay writing competition.
 
 kel_desk_hero:
   text: HERO's desk.\! Somehow immaculate.
@@ -281,10 +285,10 @@ kel_desk_kel:
   text: KEL's desk.\! Somehow collecting dust.
 
 kel_bed_hero:
-  text: HERO’s bed,\. neat and orderly.
+  text: HERO's bed,\. neat and orderly.
 
 kel_bed_kel:
-  text: KEL’s bed,\. messy and disorganized.
+  text: KEL's bed,\. messy and disorganized.
 
 kel_console:
   text: A well-loved game console.
