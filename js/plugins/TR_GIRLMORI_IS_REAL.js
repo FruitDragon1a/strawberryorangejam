@@ -8,7 +8,7 @@ Imported.TR_GIRLMORI_IS_REAL = true;
 
 var TR = TR || {};
 TR.GIR = TR.GIR || {};
-TR.GIR.version = 3.1;
+TR.GIR.version = 4.0;
 
 /*: 
  * @plugindesc v3.1 Plugin to detect if Girlmori is present and adjust images with sunny's name to account for this.
@@ -103,7 +103,7 @@ ImageManager.isGirlmoriActive = function() {
 	} else if (TR.PlaytestActive && $gameTemp.isPlaytest()) {
 		return true;
 	} else if (!$gameTemp.isPlaytest()) {
-		if ($modLoader.knownMods.has('girlmori') || $modLoader.knownMods.has('girlmori_delta') || ($modLoader.deniedMods.has('girlmori') && TR.GIR.DeniedActive) || ($modLoader.deniedMods.has('girlmori_delta') && TR.GIR.DeniedActive)) {
+		if (($modLoader.knownMods && ($modLoader.knownMods.has('girlmori') || $modLoader.knownMods.has('girlmori_delta')))) {
 			return true
 		} else {
 			return false;

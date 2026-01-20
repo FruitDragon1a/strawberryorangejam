@@ -121,7 +121,7 @@ SceneManager.initGraphics = function() {
     Graphics.initialize(this._screenWidth, this._screenHeight, type);
     Graphics.boxWidth = this._boxWidth;
     Graphics.boxHeight = this._boxHeight;
-    Graphics.setLoadingImage(`img/system/Loading_SOJ.png`);
+    Graphics.setLoadingImage(`img/system/Loading_SOJ.jpg`);
     if (Utils.isOptionValid('showfps')) {
         Graphics.showFps();
     }
