@@ -122,7 +122,7 @@ om_check_orangejoe_3:
 om_leave:
   faceset: SOJ_KEL
   faceindex: 10
-  text: Where are you going?\! \face[0]We still gotta find the perfect snack for AUBREY?\kel
+  text: Where are you going?\! \face[0]We still gotta find the perfect snack for AUBREY!\kel
 
 # after all sparklies have been found
 # basil turns to kel

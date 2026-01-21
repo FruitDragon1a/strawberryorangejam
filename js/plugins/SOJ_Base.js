@@ -420,6 +420,6 @@ SOJ.unlockBadge = function(id,sound=true, silent=false) {
     DGT.UnlockBadgeSilent("soj",id);
   } else {
     if (!DGT.isBadgeUnlocked("soj", id) && sound) {AudioManager.playSe({name: "GEN_shine", volume: 50, pitch: 100});};
-    DGT.unlockBadge("soj",id);
+    DGT.UnlockBadge("soj",id);
   };
 };

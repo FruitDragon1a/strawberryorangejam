@@ -207,3 +207,6 @@ outro_6:
 outro_7:
   name: MR. SHARMA
   text: Same to you.
+
+goaway:
+  text: You'd rather not disturb them while they unpack.
