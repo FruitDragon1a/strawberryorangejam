@@ -873,7 +873,7 @@ visual_novel_12:
 visual_novel_13:
   macro: VN
   name: KEL
-  openexec: SOJ.vnFrame(4,-1,true)
+  openexec: SOJ.vnFrame(1,-1,true)
   text: Uh.\..\..\.
  
 visual_novel_14:
@@ -940,7 +940,7 @@ visual_novel_24:
 visual_novel_25:
   macro: VN
   name: KEL
-  openexec: SOJ.vnFrame(6,-1,true)
+  openexec: SOJ.vnFrame(2,-1,true)
   text: If you wanted to go on a date with me!
 
 visual_novel_26_choice:
@@ -960,7 +960,6 @@ visual_novel_28:
 visual_novel_29:
   macro: VN
   name: KEL
-  openexec: SOJ.vnFrame(7,-1,true)
   text: I-\.I like you,\. AUBREY!\| And I really want to know if you wanted to go with me to.\..\..\.
 
 # what the hell
@@ -982,7 +981,7 @@ visual_novel_31:
 visual_novel_32:
   macro: VN
   name: KEL
-  openexec: SOJ.vnFrame(7,-1,true)
+  openexec: SOJ.vnFrame(1,-1,true)
   text: No, I'm serious!\| I.\..\..\. I like you, AUBREY. As— as more than a friend.
 
 visual_novel_33:
@@ -994,7 +993,6 @@ visual_novel_33:
 visual_novel_34:
   macro: VN
   name: KEL
-  openexec: SOJ.vnFrame(4,-1,true)
   text: A-\.And I was wondering if you wanted to go to the.\..\..\. uh.\..\..\.
 
 # visual novel background disappears as we go back to kels bedroom

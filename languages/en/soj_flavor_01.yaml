@@ -295,3 +295,6 @@ kel_console:
 
 kel_medal_hot_dog:
   text: A medal for participating in a hot dog eating contest.
+
+also:
+  text: (You can also save in the MENU.)

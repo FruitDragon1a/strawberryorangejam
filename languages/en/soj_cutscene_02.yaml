@@ -78,7 +78,7 @@ om_check_chocolate_1:
 om_check_chocolate_2:
   faceset: SOJ_KEL
   faceindex: 2
-  text: She'd like \c[3]CHOCOLATE,\c[0]\. I bet.\kel
+  text: She'd like \c[3]CHOCOLATE\c[0],\. I bet.\kel
 
 # watermelon
 om_check_watermelon_1:
@@ -349,7 +349,7 @@ fp_mailman_8:
 fp_mailman_9:
   faceset: SOJ_KEL
   faceindex: 2
-  text: What if we delivered those for you?\! While you try and get your car working.\kel
+  text: What if we delivered those for you?\! While you try and get your truck working.\kel
 
 fp_mailman_10:
   text: You'd really do that for me?\n<MAILMAN>
@@ -369,7 +369,7 @@ fp_mailman_14:
   text: You got \c[4]LETTERS\c[0].
 
 fp_mailman_15:
-  text: Come back when they're delivered,\. and it'll probably be enough time for my car to get up and running.\n<MAILMAN>
+  text: Come back when they're delivered,\. and it'll probably be enough time for my truck to get up and running.\n<MAILMAN>
 
 fp_mailman_16:
   faceset: SOJ_KEL

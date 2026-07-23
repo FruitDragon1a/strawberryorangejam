@@ -479,7 +479,7 @@ house_room_11:
 house_room_12:
   faceset: SOJ_BASIL
   faceindex: 32
-  text: A \c[4]WHITE EGRET ORCHID\c[0].\! \"My thoughts will follow you into your dreams.\"\bas
+  text: A \c[4]WHITE EGRET ORCHID\c[0].\!<br>"My thoughts will follow you into your dreams.\"\bas
 
 house_room_13:
   faceset: SOJ_BASIL
