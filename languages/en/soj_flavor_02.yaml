@@ -1,0 +1,113 @@
+# ALL SHOPS FLAVOR TEXT GOES IN THIS FILE 
+# ONLY SHOP FLAVOR TEXT!!!!!
+# =====================================================================================
+
+
+hob_comics:
+  text: Dusty shelves stuffed with comics.
+
+hob_comics2:
+  text: Dust-free shelves stuffed with comics.
+
+hob_shelf:
+  text: A nicely organized shelf of magazines and children's books.
+
+hob_poster1:
+  text: A poster for a popular game that came out a while ago.
+
+hob_poster2:
+  faceset: SOJ_KEL
+  faceindex: 5
+  text: Hey, I know that one!\! Did you ever play it, BASIL?\! I liked it when I played it at JAY's house.\kel
+
+hob_poster3:
+  faceset: SOJ_BASIL
+  faceindex: 14
+  text: Uh,\. I can't say I have.\bas
+
+hob_otherposter1:
+  text: A poster for less popular game that came out a while ago.
+
+hob_otherposter2:
+  faceset: SOJ_KEL
+  faceindex: 6
+  text: That one was okay...\! I didn't really like it.\kel
+
+hob_otherposter3:
+  faceset: SOJ_BASIL
+  faceindex: 32
+  text: Huh.\! It's a nice poster, at least.\bas
+
+hob_otherposter4:
+  faceset: SOJ_KEL
+  faceindex: 5
+  text: I know some people that liked the game, but it wasn't really my cup of tea.\kel
+
+hob_poster4:
+  faceset: SOJ_KEL
+  faceindex: 8
+  text: Aw, man.\kel
+
+hob_jackson1:
+  faceset: SOJ_KEL
+  faceindex: 2
+  text: The monster in that poster looks so realistic!\kel
+
+hob_jackson2:
+  faceset: SOJ_BASIL
+  faceindex: 3
+  text: And really scary.\bas
+
+hob_jackson3:
+  faceset: SOJ_KEL
+  faceindex: 3
+  text: SUNNY didn't seem to think so when we came here.\! He was standing here staring at it for like ten minutes!\kel
+
+hob_jackson4:
+  text: A really scary poster.
+
+hob_figurines:
+  text: A shelf of organized figurines.
+
+hob_dvds:
+  text: Neat rows of DVDs.
+
+hob_table:
+  text: A table that's been scrubbed clean.
+
+hob_console1:
+  text: A video game console hooked up to a TV.
+
+hob_console2:
+  faceset: SOJ_KEL
+  faceindex: 2
+  text: I have one just like this!\kel
+
+hob_gacha1:
+  faceset: SOJ_KEL
+  faceindex: 3
+  text: As tempting as the CAPSULE MACHINE is,\. maybe we should save our money.\kel
+
+hob_gacha2:
+  faceset: SOJ_KEL
+  faceindex: 0
+  text: Wow, I can't believe I'm the one saying to save money!\! It feels so weird.\kel
+
+
+hob_newconsole1:
+  text: A shiny new game console, freshly cleaned and polished.
+
+hob_newconsole2:
+  faceset: SOJ_KEL
+  faceindex: 1
+  text: \sinv[1]I want one just like this...\kel
+
+hob_candies:
+  text: Small, shiny candies.
+
+
+cashregister:
+  text: A cash register.
+
+vendingmachine:
+  text: A vending machine.
