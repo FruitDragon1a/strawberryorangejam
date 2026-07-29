@@ -29,8 +29,7 @@ fantasy_list: [
   THE LONE WIZARD,
   THE SERPENT'S SWORD,
   GOBLINS O' GLORY,
-  THE SPROUT MOLE DESTINED FOR GREATNESS,
-  RAVEN'S HOME
+  THE SPROUT MOLE DESTINED FOR GREATNESS
 ]
 
 sliceoflife_list: [
@@ -51,97 +50,170 @@ scifi_list: [
   LOST IN DEEP SPACE
 ]
 
+entry_block:
+  text: You shouldn't enter while there's an inspection going on.
+
 dontleave:
-  text: Probably shouldn't be leaving when you're helping.
+  text: You shouldn't leave while you're helping the SHOPKEEP.
 
 carry:
   text: You're already carrying \c[4]\v[110]\c[0].
 
+# Pedro is walking from the box on the table to one of the boxes on the cd table
 intro_0:
   name: SHOPKEEP
-  text: Ugh...\! Why don't they send this stuff in smaller batches instead of these huge shipments.\..\..
+  text: \}Where should this comic go...
 
 intro_1:
   faceset: SOJ_KEL
-  faceindex: 5
-  name: KEL
-  text: Hey man,\. everything okay there?
+  faceindex: 2
+  text: Hey, SHOPKEEP!\! What's up?\kel
 
+# turns to them, exclamation bubble
 intro_2:
-  name: SHOPKEEP
-  text: Oh!\! Hey KEL,\. oh and BASIL too.
+  text: Oh!\! KEL! BASIL! How've you two been?\n<SHOPKEEP>
 
 intro_3:
-  name: SHOPKEEP
-  text: Yeah everything was goin' good until they shipped me a mountain of comics again.\! I got through most of them,\. but I honestly just wanna be done with this by now.\..\..
+  text: Wait a second. What are you doing here?\! I put the 'CLOSED' sign outside for a reason!\n<SHOPKEEP>
 
 intro_4:
   faceset: SOJ_KEL
-  faceindex: 12
-  name: KEL
-  text: Well if it's only a few chances are me and BASIL can put away the rest of them?
+  faceindex: 3
+  text: Oh, oops.\! We didn't see it.\kel
 
 intro_5:
-  name: SHOPKEEP
-  text: Oh yeah!\! Please,\. help yourself. Just toss each of the comics into the genre they're in.\! If you get most of them right I'll pass you some cash.
+  faceset: SOJ_BASIL
+  faceindex: 3
+  text: You look worried...\| Is something wrong?\bas
 
 intro_6:
+  text: Ahaha, everything's fine!\! It's just...\| the HOBBEEZ chain inspector is showing up in about twenty minutes and I'm not done cleaning the shop.\n<SHOPKEEP>
+
+intro_7:
+  text: It'll be fine, though!\! Just gotta finish sorting these old comics...\| then take out the trash...\| then dust the shelves...\| then sort the back room...\n<SHOPKEEP>
+
+# pedro sweat bubble
+intro_8:
+  faceset: SOJ_KEL
+  faceindex: 4
+  text: Oh wow, that's a lot!\kel
+
+intro_9:
+  faceset: SOJ_KEL
+  faceindex: 10
+  text: Are you sure you can finish all that in twenty minutes?\kel
+
+intro_10:
+  text: I don't have a choice, so...\| yeah?\n<SHOPKEEP>
+
+intro_11:
+  faceset: SOJ_BASIL
+  faceindex: 3
+  text: ...\bas
+
+intro_12:
+  faceset: SOJ_KEL
+  faceindex: 5
+  text: Hey, wait, what if BASIL and I help you?\kel
+
+intro_13:
+  text: ...What?\n<SHOPKEEP>
+
+intro_14:
   faceset: SOJ_KEL
   faceindex: 2
-  name: KEL
-  text: Sweet!\! Be done in no time!
-  
-intro_7:
-  name: SHOPKEEP
-  text: Thanks,\. man.\! And if you don't mind I'll be stepping outside for a minute.
+  text: I can totally dust shelves! And BASIL can sort comics, so that'll leave you with the trash and the back room!\kel
+
+intro_15:
+  text: Oh wow, you'd do that? Thank you!\n<SHOPKEEP>
+
+intro_16:
+  text: I can't let you do it for free, though.\| I'll pay you!\n<SHOPKEEP>
+
+intro_17:
+  faceset: SOJ_KEL
+  faceindex: 3
+  text: Wow, really?\! Thanks!\kel
+
+intro_18:
+  text: No, thank you!\n<SHOPKEEP>
+
+# start minigame
+
+
+
+
+# end minigame
+# kel walks over to basil
 
 outro_0:
-  faceset: SOJ_BASIL
-  faceindex: 0
-  name: BASIL
-  text: Well that was every comic.\! We should probably go tell SHOPKEEP.
+  faceset: SOJ_KEL
+  faceindex: 2
+  text: I just finished!\kel
 
 outro_1:
   faceset: SOJ_BASIL
-  faceindex: 14
-  name: BASIL
-  text: Nevermind.
+  faceindex: 22
+  text: Me too.\bas
 
 outro_2:
-  name: SHOPKEEP
-  text: Hey guys,\. I'm back.\! Feeling a bit calmer.
-
-outro_3:
   faceset: SOJ_KEL
   faceindex: 2
-  name: KEL
-  text: We put away all of the comics!
+  text: Wow, perfect timing!\kel
+
+# pedro returns from the back room
+outro_3:
+  text: Oh, you both are done?\! Thank you so much!\n<SHOPKEEP>
 
 outro_4:
-  name: SHOPKEEP
-  text: Oh shoot!\! Thanks guys,\. seriously.
+  text: Let me take a look at your work...\n<SHOPKEEP>
 
-#12 correct
+# fade out
+# wait a bit
+# fade in
+
 outro_5:
-  name: SHOPKEEP
-  text: Wow y'all were spot on it seems.\! Here,\. fourty bucks.
+  text: KEL, you really have a talent for dusting shelves.\! Nice job!\n<SHOPKEEP>
 
-#8 correct
 outro_6:
-  name: SHOPKEEP
-  text: Eh a few slip-ups it looks like, but I can't complain.\! Have a twenty.
+  faceset: SOJ_KEL
+  faceindex: 2
+  text: Thanks!\kel
 
 #Any less
 outro_7:
-  name: SHOPKEEP
-  text: Hm.\! Pretty haphazardous,\. but it's still put away so it's cool.\! I have a spare ten dollars for the effort.
+  text: As for you, BASIL...\n<SHOPKEEP>
 
+# if 12 correct/perfect accuracy, prize $40
 outro_8:
-  faceset: SOJ_KEL
-  faceindex: 12
-  name: KEL
-  text: Thank you, SHOPKEEP!
+  text: Wow, you were spot on!\! Not a single comic is out of place.\n<SHOPKEEP>
 
+# if 7-11 correct
 outro_9:
-  name: SHOPKEEP
-  text: Any time,\. KEL!
+  text: There's a few I would have sorted differently, but nice job!\n<SHOPKEEP>
+
+# if 6 or less correct
+outro_10:
+  text: Hmm...\| Well, you tried.\! I appreciate it anyway.\n<SHOPKEEP>
+
+outro_11:
+  text: Here's $\v[112] for both of your help!\! Don't spend it all in one place!\n<SHOPKEEP>
+
+outro_12:
+  faceset: SOJ_KEL
+  faceindex: 2
+  text: Thanks, SHOPKEEP!\kel
+
+outro_13:
+  faceset: SOJ_BASIL
+  faceindex: 1
+  text: Yeah, thanks.\bas
+
+outro_14:
+  text: No problem!\! You two should probably head out.\! The inspector will be here any minute.\n<SHOPKEEP>
+
+outro_15:
+  faceset: SOJ_KEL
+  faceindex: 0
+  text: Alright!\! See ya!\kel
+# the two leave the store
