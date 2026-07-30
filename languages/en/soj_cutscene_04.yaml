@@ -496,8 +496,45 @@ outfit_picker_83:
   windowskin: Window_Radio
   text: No problem!\! Good luck!\her
 
+forehead_alt_1:
+  faceset: SOJ_KEL
+  faceindex: 5
+  text: Oh, wait!\! I just remembered!\kel
+
+forehead_alt_2:
+  faceset: SOJ_KEL
+  faceindex: 2
+  text: BASIL and I were hanging out in our room earlier today and he noticed something on one of your trophies.\kel
+
+forehead_alt_3:
+  faceset: SOJ_KEL
+  faceindex: 10
+  text: What's a 'shiniest forehead' competition?\kel
+
+forehead_alt_4:
+  windowskin: Window_Radio
+  text: \quake[1].\|.\|.\quake[0]\! Uh...\! I j-just remembered I have somewhere to be!\| Talk to you later!\her
+
+forehead_alt_5:
+  faceset: SOJ_KEL
+  faceindex: 4
+  text: Wait, bro—\| Did he hang up?\kel
+
+# shiniest forehead badge awarded
+
+forehead_alt_6:
+  faceset: SOJ_BASIL
+  faceindex: 14
+  text: Maybe he's embarrassed?\bas
+
+forehead_alt_7:
+  faceset: SOJ_KEL
+  faceindex: 3
+  text: Maybe...\| Well, he's not the only one.\! At least that call was still useful!\kel
+
 #phone hangs up
 
+# dont say this if forehead
 outfit_picker_84:
   faceset: SOJ_KEL
   faceindex: 3

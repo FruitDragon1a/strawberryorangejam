@@ -186,13 +186,12 @@ badge_youwantsomeorangejoe:
   locked_img: badge_locked
   locked_desc: You'd be good in a movie!
 
-# badge_theshiniestforehead:
-#   name: The Shiniest Forehead
-#   description: Ask HERO about the Shiniest Forehead competition.
-#   img: badges/badge_theshiniestforehead
-#   locked_img: badge_locked
-#   locked_desc: It sparkles...
-#   secret: true
+badge_theshiniestforehead:
+  name: The Shiniest Forehead
+  description: Ask HERO about the Shiniest Forehead competition.
+  img: badges/badge_theshiniestforehead
+  locked_img: badge_locked
+  locked_desc: It sparkles...
 
 # badge_:
 #   name: 

@@ -47,7 +47,7 @@ kel_shelf_mystery_1:
   faceset: SOJ_BASIL
   faceindex: 21
   name: BASIL
-  text: This is the largest assortment of mystery novels I've ever seen in a person's house!\!\face[33]Please can I read some of them sometime?
+  text: This is the largest assortment of mystery novels I've ever seen in a person's house!\! \face[33]Please can I read some of them sometime?
 
 kel_shelf_mystery_2:
   faceset: SOJ_KEL
@@ -69,6 +69,23 @@ kel_shelf_nonfiction:
 
 kel_shelf_videos:
   text: Magazines,\. DVDs,\. and VHS tapes.\! You've never really watched any of the movies here.
+
+kel_shelf_comics_1:
+  faceset: SOJ_BASIL
+  faceindex: 32
+  text: Are those comic books?\! But the shelf is labeled 'newspapers'...\bas
+
+kel_shelf_comics_2:
+  faceset: SOJ_KEL
+  faceindex: 3
+  text: Hehe, so that's where those went!\kel
+
+kel_shelf_comics_loop:
+  text: Clearly KEL isn't the best at putting his comics back where they're meant to go.
+
+kel_shelf_magazine:
+  text: Random magazines and publications that you've never heard of before.
+
 
 kel_shelf_cookbooks_0:
   faceset: SOJ_BASIL
@@ -99,13 +116,13 @@ kel_shelf_cookbooks_3:
 kel_shelf_cookbooks_loop:
   text: So many cookbooks...
 
-kel_shelf_shoe_rack:
+kel_shoe_rack:
   text: Shoe rack.
 
-kel_shelf_coat_hanger:
+kel_coat_hanger:
   text: Coat hanger.
 
-kel_shelf_sofa:
+kel_sofa:
   text: A cozy-looking sofa.
 
 kel_dog_bowl:
@@ -165,7 +182,10 @@ kel_fake_fern:
   text: A fern plant that's obviously fake;\! it doesn't even look like an actual fern.
 
 kel_fake_plant:
-  text: Some kind of fake plant that doesn't resemble any flower you can think of.
+  text: Some kind of fake plant that doesn't resemble any that you can think of.
+
+kel_bamboo:
+  text: A surprisingly real potted bamboo.
 
 kel_phone:
   text: A phone.\! GRANDMA never liked these.
@@ -183,7 +203,7 @@ kel_grandfather_clock_1:
   faceset: SOJ_KEL
   faceindex: 3
   name: KEL
-  text: Oh yeah,\.\face[0] DAD turned it off because the chimes would scare SALLY.
+  text: Oh yeah!\!\face[0] DAD turned it off because the chimes would scare SALLY.
 
 kel_grandfather_clock_2:
   faceset: SOJ_KEL
@@ -245,6 +265,9 @@ kel_trophy_hot_dog:
 kel_trophy_forehead:
   text: One of HERO's shiny trophies.\! This one is for a shiniest forehead competition.
 
+kel_trophy_forehead_loop:
+  text: One of HERO's shiny trophies.\! This one is for a shiniest forehead competition.<br><br>Now that you're looking more closely, it's obvious that HERO had tried to hide the name of the competition from view.
+
 kel_trophy_forehead_0:
   faceset: SOJ_BASIL
   faceindex: 17
@@ -296,5 +319,51 @@ kel_console:
 kel_medal_hot_dog:
   text: A medal for participating in a hot dog eating contest.
 
+kel_alarm_clock:
+  text: An alarm clock that looks like it hasn't been used in ages.
+
+kel_wardrobe:
+  text: KEL's wardrobe.
+
+kel_wardrobe2:
+  text: KEL's parents' wardrobe.
+
+kel_kitchen: 
+  text: Kitchen supplies.
+
+kel_microwave: 
+  text: A microwave.
+
+kel_fridge: 
+  text: A fridge lovingly covered in magnets.
+
+kel_ofrenda: 
+  text: Photos of KEL's relatives, each frame polished and the marigolds freshly-picked.
+
+kel_books: 
+  text: Books about grilling.
+
+kel_vanity:
+  text: A vanity covered with half-finished makeup products.
+
+kel_shelf_bathroom:
+  text: A messy shelf full of toothbrushes and lotions.
+
+kel_bed_parents:
+  text: KEL's parents' bed.
+
+kel_toy:
+  text: A toy that hasn't been ripped in half yet.
+
 also:
   text: (You can also save in the MENU.)
+
+toilet:
+  text: A toilet.
+
+mirror:
+  text: A mirror.
+
+bathtub: 
+  text: A bathtub.
+
