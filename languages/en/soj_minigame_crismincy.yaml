@@ -1,29 +1,36 @@
+# huge thanks to SnowyCopper you're the best
+
 questions:
-  - q: I know I'm not spelling this right.\! How do you spell \"retoric\"?
-    a1: Rhetorique
-    a2: Rhetoric
-    a3: Retoric
+  - q: What is the name of the process that the cells in a plant use to divide and make copies of themselves?
+    a1: Meiosis
+    a2: Mitosis
+    a3: Photosynthesis
     c: 2
-  - q: Oh how about this.\! In this sentence,\.<br>\fs[20]\"The author uses mostly anecdotes[*] this creates a weak pool of evidence.\"\fs[24]\!<br>What should I put in place of \"[*]\"?
-    a1: Semicolon
-    a2: Colon
-    a3: Comma
+  - q: What importance does photosynthesis have to the carbon cycle?
+    a1: Photosynthesis isn't relevant to the carbon cycle
+    a2: It takes in carbon dioxide and releases nitrogen
+    a3: It takes in carbon dioxide and releases oxygen
+    c: 3
+  - q: Which cell organelle stores and protects chromosomes?
+    a1: Nucleolus
+    a2: Endoplasmic Reticulum
+    a3: Nucleus
+    c: 3
+  - q: How does a prokaryotic cell differ from a eukaryotic cell?
+    a1: It has less organelles and structure
+    a2: It has more organelles and structure
+    a3: They are two different names for the same thing
     c: 1
-  - q: Ok I know I should know by now,\. but in this sentence,\.<br>\fs[20]\"A major weakness is that [*] failing to properly account for the audience.\"\!\fs[24]<br>Is is \"there\", \"they're\", or \"their\"?
-    a1: There
-    a2: They're
-    a3: Their
+  - q: How does a plant absorb energy from the sun?
+    a1: It uses a process called lumicaption
+    a2: It creates a pigment called chlorophyll
+    a3: It secretes a chemical called photosynthol
     c: 2
-  - q: This is content question actually but,\. read this quote,\.<br>\fs[20]\"Based on a BMRF study, 'minimalistic' languages can communicate all concepts.\"\!\fs[24]<br>What kind of evidence is that?
-    a1: Testimonial
-    a2: Statistic
-    a3: Experiment
-    c: 3
-  - q: I don't even know why I expect you to know this but,\. what kind of article is \"the\"?
-    a1: Demonstrative
-    a2: Indefinite
-    a3: Definite
-    c: 3
+  - q: What is a Punnet Square used to predict?
+    a1: The probability of genes being passed to offspring
+    a2: The likelihood of a parent having offspring
+    a3: The chance of an offspring surviving to adulthood
+    c: 1
 
 ask:
   name: CRIS
@@ -37,19 +44,19 @@ a3:
 
 right_1:
   name: MINCY
-  text: Right!\! I don't know how I forgot that.
+  text: Oh!\! That makes a lot more sense.
 
 right_2:
-  name: MINCY
-  text: Ok yeah that feels right.
+  name: CRIS
+  text: I remember now!\! Thanks!
 
 right_3:
-  name: CRIS
-  text: Ohhhhh,\. I think I'm getting it now.
+  name: MINCY
+  text: I'm starting to understand this worksheet now!
 
 wrong_1:
   name: MINCY
-  text: Really?\! I've never heard of that before.\..\..
+  text: Huh, really?\! That's not what I would have thought.
 
 wrong_2:
   name: CRIS
@@ -57,7 +64,313 @@ wrong_2:
 
 wrong_3:
   name: MINCY
-  text: We might want to poke some other people as well for this essay.\..\..
+  text: Huh...\| I could have sworn that other one was the answer...
+
+
+
+
+# Mincy is standing outside Cris's house
+start_1:
+  text: Oh!\! Hi, KEL! Hi, BASIL!\! It's been a bit!\n<MINCY>
+
+start_2:
+  faceset: SOJ_KEL
+  faceindex: 2
+  text: Hi, MINCY!\! Yeah, we gotta hang out more!\! I wanna see more of your drawings.\kel
+
+start_3:
+  text: Hehe, thanks!\! I'll be sure to show you some next time.\n<MINCY>
+
+start_4:
+  faceset: SOJ_BASIL
+  faceindex: 14
+  text: You don't have your sketchbook?\bas
+
+start_5:
+  text: Not this time.\! I'm waiting for CRIS to answer the door so we can study together.\! She told me that she'd be a minute, so I'm just standing around.\n<MINCY>
+
+start_6:
+  text: If I brought my sketchbook, it would have been way too easy to get distracted!\n<MINCY>
+
+start_7:
+  text: Biology is so boring...\n<MINCY>
+
+start_8:
+  faceset: SOJ_KEL
+  faceindex: 7
+  text: You can say that again.\kel
+
+start_9:
+  faceset: SOJ_BASIL
+  faceindex: 0
+  text: I don't know...\! I think biology is kind of interesting.\bas
+
+# kel and mincy both turn to stare at basil, silence bubble
+start_10:
+  text: Are you any good at it?\n<MINCY>
+
+start_11:
+  faceset: SOJ_BASIL
+  faceindex: 37
+  text: Uh... yeah?\! The intro-level class is just memorization.\bas
+
+# mincy exclamation bubble
+start_12:
+  text: BASIL!!\! Oh my gosh!!\! Please help me and CRIS finish our homework!\n<MINCY>
+
+start_13:
+  faceset: SOJ_BASIL
+  faceindex: 27
+  text: What??\bas
+
+start_14:
+  faceset: SOJ_KEL
+  faceindex: 0
+  text: Yeah, BASIL!\! Help them out!\kel
+
+# basil turns to kel
+start_15:
+  faceset: SOJ_BASIL
+  faceindex: 7
+  text: You've already been dragging me around all day to help you out!\bas
+
+start_16:
+  text: Please??\n<MINCY>
+
+# basil turns back to mincy
+# basil silence bubble
+start_17:
+  faceset: SOJ_BASIL
+  faceindex: 15
+  text: ...Fine...\bas
+
+start_18:
+  text: Thank you so much!!\n<MINCY>
+
+# cris opens the door
+start_19:
+  text: Sorry about the wait—\| oh!\! Hi, KEL! Hi, BASIL!\n<CRIS>
+
+# mincy turns to cris
+start_20:
+  text: Guess what!\! I just found us a tutor!\n<MINCY>
+
+start_21:
+  text: Oh!\! Is it BASIL?\n<CRIS>
+
+start_22:
+  faceset: SOJ_BASIL
+  faceindex: 32
+  text: Yeah...\bas
+
+start_23:
+  text: Wow, thank you so much!\! Follow me inside, guys.\n<CRIS>
+# she walks inside and then the rest also go inside
+
+
+
+quiz_1:
+  text: So here's the worksheet we were assigned.\n<MINCY>
+
+quiz_2:
+  text: What do you think?\! Can you help us with this?\n<CRIS>
+
+quiz_3:
+  faceset: SOJ_BASIL
+  faceindex: 10
+  text: Uh, yeah, sure.\! I know these questions.\bas
+
+quiz_4:
+  text: Thanks so much, BASIL!\n<CRIS>
+
+quiz_5:
+  text: Here goes...\n<MINCY>
+
+# first question of the minigame
+# after it's asked, kel hops up and begins walking around the room
+# second question of the minigame
+# kel stops in front of the fish
+
+quiz_6:
+  faceset: SOJ_KEL
+  faceindex: 2
+  text: Hey, CRIS, your fish are so cool!\! What are they named?\kel
+
+quiz_7:
+  text: Oh! Um... BUBBLES and BLOWFISH.\n<CRIS>
+
+quiz_8:
+  text: I know they're both goldfish...\| I was ten when I named them...\n<CRIS>
+
+quiz_9:
+  text: Aw, that's kind of cute.\n<MINCY>
+
+quiz_10:
+  text: Thanks, hehe...\| Anyway, back on topic.\! Only one question left!\n<CRIS>
+
+# third question
+quiz_11:
+  text: And we're done!\n<MINCY>
+
+# fade to cleanup
+
+
+finish_1:
+  text: Thank you so much for all the help!\n<CRIS>
+
+finish_2:
+  text: You two can hang around until MINCY and I are done, then we can all go do something together?\n<CRIS>
+
+finish_3:
+  faceset: SOJ_KEL
+  faceindex: 1
+  text: Sorry, but we can't take you up on that!\! BASIL and I have plans.\kel
+
+finish_4:
+  text: Oh?\! What are you guys up to?\n<MINCY>
+
+finish_5:
+  faceset: SOJ_KEL
+  faceindex: 4
+  text: Uh...\! Well, you see...\! We're going to...\! Um...\kel
+
+# kel sweat bubble
+# wait
+# basil silence bubble
+# wait
+finish_6:
+  faceset: SOJ_BASIL
+  faceindex: 0
+  text: KEL's gonna ask AUBREY out.\bas
+
+finish_7:
+  faceset: SOJ_KEL
+  faceindex: 3
+  text: Sigh...\| Thanks, BASIL.\kel
+
+finish_8:
+  text: It's about time!\n<CRIS>
+
+finish_9:
+  text: You guys have liked each other for so long that we were starting to lose hope.\n<MINCY>
+
+finish_10:
+  faceset: SOJ_KEL
+  faceindex: 20
+  text: MINCY!\kel
+
+finish_11:
+  text: What?\n<MINCY>
+
+# basil turns to look at kel
+finish_12:
+  faceset: SOJ_BASIL
+  faceindex: 30
+  text: She's not wrong.\bas
+
+finish_13:
+  faceset: SOJ_KEL
+  faceindex: 14
+  text: Anyway, we've been doing odd jobs all day so I can get money to take her on a date.\kel
+
+# basil turns back to cris
+finish_14:
+  text: Oh!\! Here, take this $10 bill.\! Take her somewhere nice!\n<CRIS>
+
+finish_15:
+  faceset: SOJ_KEL
+  faceindex: 2
+  text: Oh, wow, thank you!\kel
+
+finish_16:
+  text: Thanks for helping with our homework, BASIL!\n<CRIS>
+
+finish_17:
+  text: And good luck asking AUBREY out!\n<MINCY>
+
+
+cris_loop:
+  text: Thanks again for helping us, BASIL!\! And good luck to you, KEL!\n<CRIS>
+
+mincy_loop:
+  text: See you guys around!\! Next time I'll be sure to bring my sketchbook.\n<MINCY>
+
+mincy_loop2:
+  faceset: SOJ_KEL
+  faceindex: 2
+  text: Heck yeah!\kel
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 #With Kel
 intro_0:
