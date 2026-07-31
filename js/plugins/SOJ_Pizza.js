@@ -1,0 +1,30 @@
+var SOJ = SOJ || {};
+
+SOJ.P = SOJ.P || {};
+//SOJ.P.EH = LanguageManager.getTextData("soj_minigame_mailman","EligibleHouses")
+
+SOJ.P.correctOrder = [];
+SOJ.P.writtenOrder = [];
+
+Game_Interpreter.prototype.newOrder = function() {
+    SOJ.P.correctOrder = ["thin crust","classic","mozzarella","basil","tomato","pepperoni","ricotta"];
+    SOJ.P.writtenOrder = []
+    return;
+}
+
+Game_Interpreter.prototype.writeDown = function(thing) {
+    if (!SOJ.P.writtenOrder.contains(thing)) {SOJ.P.writtenOrder.push(thing)}
+}
+
+Game_Interpreter.prototype.checkOrderAccuracy = function() {
+    arr1 = SOJ.P.writtenOrder; arr2 = SOJ.P.correctOrder
+    console.log(arr1)
+    correctorder = true
+    if (arr1.length != arr2.length) {correctorder = false}
+    if (correctorder) {
+        for (var i = 0; i < arr1.length; i++) {
+            if (!arr1.includes(arr2[i])) {correctorder = false}
+        }
+    }
+    $gameVariables.setValue(1977, correctorder)
+}

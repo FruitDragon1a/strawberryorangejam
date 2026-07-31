@@ -203,5 +203,7 @@ var $plugins =
 {"name":"SOJ_MailMinigame","status":true,"description":"","parameters":{}},
 {"name":"SOJ_GlobalData","status":true,"description":"","parameters":{}},
 {"name":"TRain_VNChoice","status":true,"description":"Visual Novel style choice for OMORI","parameters":{"width":"420","button_height":"52","spacing":"34","margin_top":"56","cursor_x":"48"}},
-{"name":"SOJ_Base","status":true,"description":"v1.0","parameters":{}}
+{"name":"SRD_PictureChoices","status":false,"description":"Allows players to have the ability to select from a collection of pictures.","parameters":{"Min Scale":"1","Max Scale":"1.5","Scaling Speed":"0.04","Confirm Speed":"0.2","Close Speed":"0.4"}},
+{"name":"SOJ_Base","status":true,"description":"v1.0","parameters":{}},
+{"name":"SOJ_Pizza","status":true,"description":"","parameters":{}}
 ];

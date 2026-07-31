@@ -6,7 +6,7 @@
 //-----------------------------------------------------------------------------
 var yin_GameInterpreter_setupChoicesJukebox = Game_Interpreter.prototype.setupChoices;
 Game_Interpreter.prototype.setupChoices = function (params) {
-    if ($gameSystem._jukeboxList) console.log($gameSystem._jukeboxList.filter(function(x) { console.log(x, params[0][0]); return params[0][0] == x}));
+    //if ($gameSystem._jukeboxList) console.log($gameSystem._jukeboxList.filter(function(x) { console.log(x, params[0][0]); return params[0][0] == x}));
     if (params[0][0] === "JukeboxList" || ($gameSystem._jukeboxList && $gameSystem._jukeboxList.contains(params[0][0]))) {
         params[0] = [];
         params[0] = params[0].concat($gameSystem._jukeboxList);

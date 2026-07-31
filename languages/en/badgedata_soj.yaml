@@ -104,7 +104,7 @@ badge_heavyload:
 
 badge_leavesallover:
   name: Leaves, All Over!
-  description: Help the PREACHER and OLD BEARDY clean the GRAVEYARD.
+  description: Help the PREACHER and OLD BEARDY clean \nthe GRAVEYARD.
   img: badges/badge_leavesallover
   locked_img: badge_locked
   locked_desc: It's the best we've got.
@@ -153,7 +153,7 @@ badge_paidperformer:
 
 badge_flowstate:
   name: Flow State
-  description: Score 32000 points in Basketball
+  description: Score 32000 points in Basketball.
   img: badges/badge_flowstate
   locked_img: badge_locked
   locked_desc: Hoop 4 life!!!!
@@ -174,21 +174,21 @@ badge_flowstate:
 
 badge_whatdoyouwant:
   name: What do you want?
-  description: Stay in character as AUBREY the entire time
+  description: Stay in character as AUBREY the entire time.
   img: badges/badge_whatdoyouwant
   locked_img: badge_locked
   locked_desc: You'd be good in a movie!
 
 badge_youwantsomeorangejoe:
   name: You want some Orange Joe?
-  description: Stay in character as KEL the entire time
+  description: Stay in character as KEL the entire time.
   img: badges/badge_youwantsomeorangejoe
   locked_img: badge_locked
   locked_desc: You'd be good in a movie!
 
 badge_theshiniestforehead:
   name: The Shiniest Forehead
-  description: Ask HERO about the Shiniest Forehead competition.
+  description: Ask HERO about the Shiniest Forehead \ncompetition.
   img: badges/badge_theshiniestforehead
   locked_img: badge_locked
   locked_desc: It sparkles...
