@@ -1,0 +1,231 @@
+OrderAnswers: # TRANSLATORS: YOU SHOULD NOT CHANGE THIS SECTION
+  gino: |
+    [["thin crust","pesto","mozzarella","olives","ricotta","mushrooms"],
+    ["thin crust","alfredo","mozzarella","spinach","pineapple","mushrooms","pepperoni"],
+    ["thick crust","pesto","mozzarella","ricotta","pepperoni","mushrooms","chicken"]]
+  sarahmom: |
+    [["thin crust","classic","plant-based","olives","bell peppers","onions","basil","pineapple"],
+    ["thick crust","classic","no cheese","onions","basil","spinach","tomato"],
+    ["thick crust","classic","plant-based","onions","olives","tomato","bell peppers","spinach"]]
+  keldad: |
+    [["thick crust","classic","mozzarella","ricotta","pepperoni","sausage","chicken"],
+    ["thick crust","classic","cheddar blend","olives","pepperoni","mushrooms","onions"],
+    ["thin crust","pesto","mozzarella","ricotta","tomato","sausage","pepperoni","pineapple"]]
+  crisdad: |
+    [["thick crust","classic","mozzarella","pepperoni"],
+    ["thick crust","classic","mozzarella","basil","tomato","fresh mozzarella"],
+    ["thick crust","classic","mozzarella","pepperoni","sausage","bell peppers","onions","mushrooms"]]
+  vance1: |
+    [["thick crust","classic","mozzarella","pepperoni","sausage","bell peppers","onions","mushrooms","pineapple","olives","tomato"],
+    ["thick crust","classic","mozzarella","olives","bell peppers","basil","pepperoni","sausage","chicken","fresh mozzarella","pineapple"],
+    ["thick crust","classic","mozzarella","onions","spinach","mushrooms","sausage","tomato","basil","pineapple","pepperoni"]]
+  vance2: |
+    [["thin crust","alfredo","no cheese","tomato","onions","ricotta","pepperoni","basil","mushrooms","sausage"],
+    ["thin crust","pesto","cheddar blend","basil","mushrooms","ricotta","pepperoni","onions","bell peppers","olives"],
+    ["thick crust","pesto","mozzarella","pineapple","basil","bell peppers","pepperoni","onions","mushrooms","chicken"]]
+  billy: |
+    [["thin crust","classic","no cheese","pepperoni","spinach"],
+    ["thick crust","pesto","plant-based","pineapple","mushrooms","onions","bell peppers"],
+    ["thin crust","alfredo","cheddar blend","spinach","tomato","basil","mushrooms","fresh mozzarella"]]
+
+OrderDialogue: 
+  gino: ["gino_order_1","gino_order_2","gino_order_3"]
+  sarahmom: ["sarahmom_order_1","sarahmom_order_2","sarahmom_order_3"]
+  keldad: ["keldad_order_1","keldad_order_2","keldad_order_3"]
+  crisdad: ["crisdad_order_1","crisdad_order_2","crisdad_order_3"]
+  vance1: ["vance1_order_1","vance1_order_2","vance1_order_3"]
+  vance2: ["vance2_order_1","vance2_order_2","vance2_order_3"]
+  billy: ["billy_order_1","billy_order_2","billy_order_3"]
+
+
+# TRANSLATORS: YOU CAN START TRANSLATING THIS SECTION AND BELOW
+
+gino_order_1:
+  text: \n<GINO>Can I get a thin-crust pizza with pesto sauce, mozzarella cheese, olives, ricotta, and mushrooms?
+
+gino_order_2:
+  text: \n<GINO>Can I get a thin-crust pizza with alfredo sauce?\! I also want mozzarella, spinach, pineapples, and mushrooms.\! Oh, and pepperoni!
+
+gino_order_3:
+  text: \n<GINO>Can I have a thick-crust pizza?\! I want pesto sauce and mozarella cheese, with ricotta, pepperoni, mushrooms, and chicken topping it.
+
+
+
+sarahmom_order_1:
+  text: \n<SARAH'S MOM>Can I have a thin-crust pizza with the classic tomato sauce and plant-based cheese?\! I also want olives, bell peppers, and pineapple.\! Oh, and maybe onions as well.\! And some basil leaves as finishing touch.\! Thanks!
+
+sarahmom_order_2:
+  text: \n<SARAH'S MOM>Can I have a thick-crust pizza with the classic tomato sauce and no cheese?\! I also want onions and tomato slices.\! Oh, and maybe some spinach as well.\! And some basil leaves as finishing touch.\! Thanks!
+
+sarahmom_order_3:
+  text: \n<SARAH'S MOM>Can I have a thick-crust pizza with the classic tomato sauce and plant-based cheese?\! I also want olives, bell peppers, and spinach.\! Oh, and maybe onions as well.\! And some tomato slices as finishing touch.\! Thanks!
+
+
+
+keldad_order_1:
+  text: \n<KEL'S DAD>Alright, champ!\! Can I get a thick-crust pizza?\! Make it a classic, with mozzarella.\! And I want pepperoni, sausage, and chicken...\! Hm...\! I'll also take some ricotta on top.
+
+keldad_order_2:
+  text: \n<KEL'S DAD>Alright, champ!\! Can I get a thick-crust pizza?\! Make it a classic, with a cheddar blend.\! And I want pepperoni, olives, and onions...\! Hm...\! I'll add some mushrooms to my order.
+
+keldad_order_3:
+  text: \n<KEL'S DAD>Alright, champ!\! Can I get a thin-crust pizza?\! Make it a pesto, with mozzarella.\! And I want pepperoni, sausage, and tomato slices...\! Hm...\! I'll also take some pineapple on top.\! And some ricotta.
+
+
+
+crisdad_order_1:
+  text: \n<CRIS'S DAD>Can I get a classic pepperoni pizza?\! Make it with a thick crust.\! And of course, the cheese is mozzarella.
+
+crisdad_order_2:
+  text: \n<CRIS'S DAD>Hm... I'm feeling a margherita today.\! Thick crust, with mozzarella cheese, classic sauce, fresh mozzarella, basil, and diced tomato.
+
+crisdad_order_3:
+  text: \n<CRIS'S DAD>Gimme a thick-crust classic with mozzarella cheese, pepperoni, sausage, and bell peppers.\! Oh, and onions and mushrooms.
+
+
+
+vance1_order_1:
+  text: \n<VANCE>Sorry, this order's kinda big. \!<br><br>I want a thick-crust pizza with classic sauce and mozzarella cheese. \!<br><br>And for toppings... I'll have pepperoni, sausages, bell peppers, onion slices, mushrooms, pineapple, olives, and tomato slices. \!<br><br>I hope you got all that.
+
+vance1_order_2:
+  text: \n<VANCE>Sorry, this order's kinda big. I want a thick-crust pizza with classic sauce and mozzarella cheese. And for toppings... I'll have olives, bell peppers, basil leaves, pepperoni, chicken, pineapple, sausages, and fresh mozzarella. \!<br><br>I hope you got all that.
+
+vance1_order_3:
+  text: \n<VANCE>Sorry, this order's kinda big. \!<br><br>I want a thick-crust pizza with classic sauce and mozzarella cheese. \!<br><br>And for toppings... I'll have onion slices, spinach leaves, mushrooms, sausages, tomato slices, basil leaves, pineapple, and... some pepperoni. \!<br><br>I hope you got all that.
+
+
+
+vance2_order_1:
+  text: \n<VANCE>Now time for MAV's weird pizza...\! I'll get a thin-crust cheeseless with alfredo sauce... ricotta cheese... tomato slices... ugh, what does this note even say? Pepperoni? And onions... and basil... mushrooms... and sausage. God, MAV needs better handwriting.
+
+vance2_order_2:
+  text: \n<VANCE>Now time for MAV's weird pizza...\! I'll get a thin-crust pizza with pesto sauce and cheddar blend... basil leaves... mushrooms... peppercorn? What the— oh! MAV meant pepperoni. He also wants ricotta, onion slices... bell peppers... and I really hope this says 'olives'. God, MAV needs better handwriting.
+
+vance2_order_3:
+  text: \n<VANCE>Now time for MAV's weird pizza...\! I'll get a thick-crust pizza with pesto sauce and mozzarella cheese. Also chicken, mushrooms, onions... peppercorn? What the— oh! Mav meant pepperoni. He also wants basil... pineapple... and, um... I hope this says bell pepper. God, MAV needs better handwriting.
+
+
+
+billy_order_1:
+  text: \n<BILLY>Um...\! Can I have a thick-crust—\| No I want a thin-crust pizza with mozzarella...\| actually cheddar blend...\| no actually I want a pizza with no cheese...\! maybe with pesto?\| No, alfredo...\| Actually, maybe just classic...\! Hmm, and olives... No. I hate olives!\! Maybe bell— Oh! Spinach!\! And artichokes? Wait you don't have artichokes. How about sausage? No, pepperoni! Okay, done.
+
+billy_order_2:
+  text: \n<BILLY>Hm... Maybe a thin-crust— No! Thick crust! With mozzarella... hmmm... do I like mozzarella? I forgot... Gosh, I haven't gone to eat pizza in a while... Mozzarella comes from milk, right? Oh! Maybe plant-based cheese then. I don't want milk right now. And onions... or maybe bell peppers... gosh I hate making decisions... I feel sick... can't believe MOM made me order the pizza... okay, I'll take both... and maybe some pineapples... and artichokes... wait, you don't have artichokes... maybe mushrooms instead, then. Oh I forgot to mention the sauce... I'll have a classic tomato sauce... hmm... actually... maybe a pesto... Alright... I'm pretty happy with that order.
+
+billy_order_3:
+  text: \n<BILLY>Hm... is it possible to get no crust?\! Not really feeling the crust right now... ah, well, thin crust works, I guess...\! I'll have a pesto sauce, with mozzarella cheese... maybe some spinach and onions... actually, not feeling the onions... not feeling the sauce either, maybe i'll get an alfredo instead... with cheddar blend instead of mozzarella? Maybe some tomato slices too... and onions... wait I already said I'm not feeling them... ugh why couldn't MOM order the pizzas... she knows I hate making decisions... hmm... some fresh mozzarella, maybe... you can get that on top of the pizza, right? and some basil and olives... no wait, replace 'olives' with 'mushrooms'... alright, I'm done.
+
+
+
+
+
+whatcrust:
+  text: What crust did the customer order?
+
+whatsauce:
+  text: What sauce did the customer order?
+
+whatcheese:
+  text: What cheese did the customer order?
+
+whattoppings:
+  text: What toppings did the customer order?
+
+
+
+
+
+
+
+thincrust:
+  text: THIN CRUST
+
+thickcrust:
+  text: THICK CRUST
+# thin crust
+# thick crust
+
+classic:
+  text: CLASSIC
+
+pesto:
+  text: PESTO
+
+alfredo:
+  text: ALFREDO
+# classic
+# pesto
+# alfredo
+
+
+mozzarella:
+  text: MOZZARELLA
+
+plantbased:
+  text: PLANT-BASED
+
+cheddarblend:
+  text: CHEDDAR BLEND
+
+nocheese:
+  text: NO CHEESE
+# mozzarella
+# plant-based
+# cheddar blend
+# no cheese
+
+
+olives: 
+  text: OLIVES 
+
+bellpeppers:
+  text: BELL PEPPERS
+
+spinach: 
+  text: SPINACH
+
+tomatoslices:
+  text: TOMATO SLICES
+
+onions:
+  text: ONIONS
+
+ricotta:
+  text: RICOTTA
+
+pineapple: 
+  text: PINEAPPLE
+
+pepperoni:
+  text: PEPPERONI
+
+basil:
+  text: BASIL
+
+mushrooms:
+  text: MUSHROOMS
+
+sausage: 
+  text: SAUSAGE
+
+chicken: 
+  text: CHICKEN
+
+freshmozzarella:
+  text: FRESH MOZZARELLA
+
+nomore:
+  text: NO MORE TOPPINGS
+# olives
+# bell peppers
+# spinach
+# tomato slices
+# onions
+# ricotta
+# pineapple
+# pepperoni
+# basil
+# mushrooms
+# sausage
+# chicken
+# fresh mozzarella

@@ -1,15 +1,19 @@
 var SOJ = SOJ || {};
 
 SOJ.P = SOJ.P || {};
-//SOJ.P.EH = LanguageManager.getTextData("soj_minigame_mailman","EligibleHouses")
+SOJ.P.OrderDialogue = LanguageManager.getTextData("soj_minigame_pizza","OrderDialogue")
+SOJ.P.OrderAnswers = LanguageManager.getTextData("soj_minigame_pizza","OrderAnswers")
 
 SOJ.P.correctOrder = [];
 SOJ.P.writtenOrder = [];
 
-Game_Interpreter.prototype.newOrder = function() {
-    SOJ.P.correctOrder = ["thin crust","classic","mozzarella","basil","tomato","pepperoni","ricotta"];
+Game_Interpreter.prototype.newOrder = function(name) {
+    customer = eval(SOJ.P.OrderAnswers[name])
+    orderNumber = Math.randomInt(3)
+    SOJ.P.correctOrder = customer[orderNumber]
     SOJ.P.writtenOrder = []
-    return;
+    this.pluginCommand('ShowMessage', [`soj_minigame_pizza.${SOJ.P.OrderDialogue[name][orderNumber]}`, '3']);
+    //return SOJ.P.OrderDialogue[name][orderNumber];
 }
 
 Game_Interpreter.prototype.writeDown = function(thing) {
