@@ -1,13 +1,13 @@
 //=============================================================================
-// ★ FD_YamlTitleScreen ★                                        1.0.0
+// ★ FD_YamlTitleScreen ★                                        1.0.1
 //=============================================================================
 /*:
- * @plugindesc v1.0.0 An easy title screen with a lot of variability.
+ * @plugindesc v1.0.1 An easy title screen with a lot of variability.
  * @author FruitDragon
- * @version 1.0.0
+ * @version 1.0.1
  * 
  * @help
- * ★ FD_YamlTitleScreen ★                                        1.0.0
+ * ★ FD_YamlTitleScreen ★                                        1.0.1
  * --------------------------------------------------------------------------
  * This plugin completely overwrites the base Omori Title Screen plugin.
  * It is compatible with Badges and other plugins that edit the button 
@@ -161,6 +161,9 @@
  * v1.0.0
  * Initial release
  * 
+ * v1.0.1
+ * Fixes a bug causing the Title layer to not animate.
+ * 
  * --------------------------------------------------------------------------
  * 
  * @param titleCodeFile
@@ -301,7 +304,7 @@ Scene_OmoriTitleScreen.prototype.initFrameAnimations = function() {
         this._omoriSprite._index = index
         index += 1
     }
-    if (World.CustomTitle && World.CustomTitle.image) {
+    if (World.Title && World.Title.image) {
         this._frameAnimations.push({sprite: this._customTitle, rect: new Rectangle(0, 0, this._customTitle.width/this._customTitle._framecount, this._customTitle.height), frames: this._customTitle._pattern, frameIndex: 0, delayCount:  0, delay: this._customTitle._framerate, active: true})
         this._customTitle._index = index
         index += 1
@@ -517,17 +520,17 @@ Scene_OmoriTitleScreen.prototype.createWeatherLayer = function() {
 
   if (!World.Weather || !World.Weather.type || !["leaves","rain","shine","storm","embers","snow"].contains(World.Weather.type)) {
     
-    //console.log("fail")
+    console.log("fail")
     return;
   }
   if (FD.WeatherExtension) {
     args = [`${World.Weather.type}`]
-    //console.log(Aries.P003_WCT.LeafImageList)
+    console.log(Aries.P003_WCT.LeafImageList)
     image = World.Weather.image
     if (image) {
       list = image.split(",").map((x) => x.trim())
       args = args.concat(list)
-      //console.log(args)
+      console.log(args)
     this._weather.handleSetList(args);
     } 
   }
@@ -692,7 +695,7 @@ Scene_OmoriTitleScreen.prototype.update = function() {
   if (this._omoriSprite) {
     this._omoriSprite.width = this._omoriSprite._width/this._omoriSprite._framecount
   }
-  //console.log(this._omoriSprite.width)
+  console.log(this._omoriSprite.width)
   if (this._scrollinglayer) {
     this._scrollinglayer.origin.x += this._scrollx;
     this._scrollinglayer.origin.y += this._scrolly;
